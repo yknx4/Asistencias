@@ -1,0 +1,72 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Asistencias_wpf" mc:Ignorable="d" x:Class="Asistencias_wpf.MainWindow"
+        Title="Kurabu" Height="208.866" Width="348.989" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" Loaded="Window_Loaded_1">
+    <Window.Resources>
+        <CollectionViewSource x:Key="asistenteViewSource" d:DesignSource="{d:DesignInstance {x:Type local:Asistente}, CreateList=True}"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <TabControl HorizontalAlignment="Left" Height="Auto" Margin="0,0,0,0" VerticalAlignment="Top" Width="Auto" Grid.Row="0">
+            <TabItem Header="Asistencia">
+
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto"/>
+                    </Grid.ColumnDefinitions>
+                    <Button x:Name="btnAsist" Content="Asistencia"  Grid.Column="2" Height="Auto"  HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="btnAnadirAsis"/>
+                    <TextBox x:Name="txtCuenta"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap" Text="Numero de Cuenta" MinWidth="200"  VerticalAlignment="Top" Width="Auto" TextChanged="txtCuenta_TextChanged" GotFocus="onFocus" KeyUp="onEnter"/>
+                    <Label Content="Numero de Cuenta"  Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Registro">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto"/>
+                        <ColumnDefinition Width="*"/>
+                        <!-- <ColumnDefinition Width="Auto"></ColumnDefinition>-->
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Nombre"  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+                    <TextBox x:Name="txtNombre" Grid.Row="0"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap"  MinWidth="200"  VerticalAlignment="Top" Width="Auto" KeyUp="onEnterR" />
+                    <TextBox x:Name="txtCuentaR" Grid.Row="1"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap"  MinWidth="200"  VerticalAlignment="Top" Width="Auto" PreviewTextInput="textBoxValue_PreviewTextInput" DataObject.Pasting="textBoxValue_Pasting"  KeyUp="onEnterR" />
+                    <Label Content="Numero de Cuenta"  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+
+
+                    <TextBox x:Name="txtPlantel" Grid.Row="2"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap"  MinWidth="200"  VerticalAlignment="Top" Width="Auto" KeyUp="onEnterR" />
+                    <Button x:Name="btnRegistrar" Content="Registro"  Grid.Column="1" Grid.Row="3" Height="Auto"  HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="Registrar_Click" />
+                    <Label Content="Plantel"  Grid.Row="2" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+                </Grid>
+            </TabItem>
+            <TabItem Header="Lista">
+                <Grid Background="#FFE5E5E5" Width="auto" Height="auto" DataContext="{StaticResource asistenteViewSource}">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <!-- <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>-->
+                    </Grid.RowDefinitions>
+                    <Button x:Name="btnAcreditados" Content="Generar"  Grid.Row="0" Height="Auto"  HorizontalAlignment="Center" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="acreditadosClk"/>
+                    <DataGrid x:Name="gdAsistencias" Grid.Row="1" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Grid.RowSpan="2" CanUserReorderColumns="False" AutoGenerateColumns="True" ItemsSource="{Binding Asistentes}" Visibility="Hidden"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+        <Label x:Name="lblEstado" Grid.Row="1" Content="" HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" />
+
+    </Grid>
+</Window>
