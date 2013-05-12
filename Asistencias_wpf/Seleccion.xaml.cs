@@ -24,11 +24,11 @@ namespace Asistencias_wpf
         {
         SqlCeConnection conn = new SqlCeConnection(@"Data Source=|DataDirectory|\Alumnos.sdf");
         DataTable Clubes = new DataTable();
-       // List<Club> Clubs = new List<Club>(); 
-        
+        // List<Club> Clubs = new List<Club>(); 
+
         public Seleccion()
             {
-           
+
             InitializeComponent();
             AlIniciar();
             DespuesDeCargar();
@@ -38,23 +38,27 @@ namespace Asistencias_wpf
             {
             foreach (DataRow Row in Clubes.Rows)
                 {
-                    int id = (int)Row["id"];
-                    string nombre = Row["nombre"].ToString();
-                    int asistencias = (int)Row["asisForAssist"];
-                    int parciales = (int)Row["parciales"];
-                    Club tmp = new Club(){
-                        Id=id,Nombre=nombre,AsistenciasParaParcial=asistencias,Parciales=parciales
-                    };
-                    cmbClub.Items.Add(tmp);
+                int id = (int)Row["id"];
+                string nombre = Row["nombre"].ToString();
+                int asistencias = (int)Row["asisForAssist"];
+                int parciales = (int)Row["parciales"];
+                Club tmp = new Club()
+                {
+                    Id = id,
+                    Nombre = nombre,
+                    AsistenciasParaParcial = asistencias,
+                    Parciales = parciales
+                };
+                cmbClub.Items.Add(tmp);
                 }
             cmbClub.SelectedIndex = 0;
-           // cmbParcial.SelectedIndex = Settings.Default.UltimaParcial;
+            // cmbParcial.SelectedIndex = Settings.Default.UltimaParcial;
             }
 
         private void AlIniciar()
             {
             SqlCeDataAdapter adap = new SqlCeDataAdapter("SELECT Clubes.* FROM Clubes", conn);
-            
+
             //the adapter will open and close the connection for you.
             adap.Fill(Clubes);
             }
@@ -66,14 +70,14 @@ namespace Asistencias_wpf
             ComboBox comboClub = (ComboBox)sender;
 
             Club seleccionado = (Club)comboClub.SelectedItem;
-            for (int i = 0; i < seleccionado.Parciales;i++ )
+            for (int i = 0; i < seleccionado.Parciales; i++)
                 {
-                cmbParcial.Items.Add(i+1);
+                cmbParcial.Items.Add(i + 1);
                 }
             cmbParcial.SelectedIndex = Settings.Default.UltimaParcial;
             }
 
-       
+
 
         private void guardarParcial(object sender, System.ComponentModel.CancelEventArgs e)
             {
@@ -83,10 +87,12 @@ namespace Asistencias_wpf
 
         private void clickEntrar(object sender, RoutedEventArgs e)
             {
-
+            MainWindow main = new MainWindow((Club)cmbClub.SelectedItem, (cmbParcial.SelectedIndex + 1), this);
+            main.Show();
+            this.Hide();
             }
 
-        
-       
+
+
         }
     }
