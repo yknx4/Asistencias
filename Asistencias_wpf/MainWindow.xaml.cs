@@ -30,9 +30,12 @@ namespace Asistencias_wpf
         private string parcial = ConfigurationManager.AppSettings["parcial"];
         List<Asistente> asistentes;
         List<Asistente> acreditados;
-        public MainWindow()
+        int parcialN;
+        Club seleccionado;
+        public MainWindow(Club seleccionado,int parcial)
         {
-
+        this.parcialN = parcial;
+        this.seleccionado = seleccionado;
             InitializeComponent();
             generarLista();
             lblEstado.Content = "Cargados " + asistentes.Count + " alumnos.";
