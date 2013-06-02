@@ -2,7 +2,7 @@
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Asistencias_wpf" mc:Ignorable="d" x:Class="Asistencias_wpf.MainWindow"
-        Title="Kurabu" Height="208.866" Width="348.989" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" Loaded="Window_Loaded_1" Closed="alCerrar" Icon="icon.ico">
+        Title="Club" Height="208.866" Width="348.989" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" Loaded="Window_Loaded_1" Closed="alCerrar" Icon="icon.ico">
     <Window.Resources>
         <CollectionViewSource x:Key="asistenteViewSource" d:DesignSource="{d:DesignInstance {x:Type local:Asistente}, CreateList=True}"/>
     </Window.Resources>
@@ -62,7 +62,15 @@
                         <!-- <RowDefinition Height="*"></RowDefinition>
                         <RowDefinition Height="*"></RowDefinition>-->
                     </Grid.RowDefinitions>
-                    <Button x:Name="btnAcreditados" Content="Generar"  Grid.Row="0" Height="Auto"  HorizontalAlignment="Center" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="acreditadosClk"/>
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition></ColumnDefinition>
+                            <ColumnDefinition></ColumnDefinition>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnAcreditados" Content="Generar"  Grid.Column="0"  Height="Auto"  HorizontalAlignment="Center" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="acreditadosClk"/>
+                        <CheckBox x:Name="chkTodos" Grid.Column="1" HorizontalAlignment="Center" Margin="2,2,2,2" VerticalAlignment="Top" Content="Todos"></CheckBox>
+                    </Grid>
+                    
                     <DataGrid x:Name="gdAsistencias" Grid.Row="1" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Grid.RowSpan="2" CanUserReorderColumns="False" AutoGenerateColumns="True" ItemsSource="{Binding Asistentes}" Visibility="Hidden"/>
                 </Grid>
             </TabItem>

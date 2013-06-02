@@ -83,10 +83,15 @@ namespace Asistencias_wpf
 
         private void generarAcreditados()
             {
+            bool overrideable=false;
+            if (chkTodos.HasContent)
+            {
+            overrideable = (bool)chkTodos.IsChecked;
+            }
             acreditados = new List<Asistente>();
             foreach (Asistente Alumno in asistentes)
                 {
-                if (Alumno.asistencias >= seleccionado.AsistenciasParaParcial) acreditados.Add(Alumno);
+                if ((Alumno.asistencias >= seleccionado.AsistenciasParaParcial) || overrideable) acreditados.Add(Alumno);
                 }
             }
         private void btnAnadirAsis(object sender, RoutedEventArgs e)
