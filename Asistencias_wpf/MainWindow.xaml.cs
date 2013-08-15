@@ -74,6 +74,7 @@ namespace Asistencias_wpf
 
         }
 
+<<<<<<< HEAD
         private Asistente buscarAsistente(int NumeroCuenta)
         {
             //ANADIR CODIGO!!!!
@@ -82,6 +83,23 @@ namespace Asistencias_wpf
         private void anadirAsistencia()
         {
             Asistente ResultHolder;
+=======
+        private void generarAcreditados()
+            {
+            bool overrideable=false;
+            if (chkTodos.HasContent)
+            {
+            overrideable = (bool)chkTodos.IsChecked;
+            }
+            acreditados = new List<Asistente>();
+            foreach (Asistente Alumno in asistentes)
+                {
+                if ((Alumno.asistencias >= seleccionado.AsistenciasParaParcial) || overrideable) acreditados.Add(Alumno);
+                }
+            }
+        private void btnAnadirAsis(object sender, RoutedEventArgs e)
+            {
+>>>>>>> 1e72b7a8d1f04feb5340f3a92d8d7626347078c3
             if (txtCuenta.Text == "")
             {
                 txtCuenta.Focus();
