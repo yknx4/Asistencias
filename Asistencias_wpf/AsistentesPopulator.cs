@@ -76,7 +76,7 @@ namespace Asistencias_wpf
 
 
         }
-        private void cuentaModificada(object sender, PropertyChangedEventArgs e)
+        public void cuentaModificada(object sender, PropertyChangedEventArgs e)
         {/*
             //UPDATE Alumnos SET Nombre = N'Jorge Figueroa Perez' WHERE (Alumnos.NumeroCuenta = 20094894)//
             Asistente source = (Asistente)sender;
