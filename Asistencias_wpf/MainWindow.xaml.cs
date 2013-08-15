@@ -74,49 +74,46 @@ namespace Asistencias_wpf
 
         }
 
-<<<<<<< HEAD
         private Asistente buscarAsistente(int NumeroCuenta)
         {
             //ANADIR CODIGO!!!!
+            Asistente _result = asistentes.Find(delegate(Asistente bq)
+            {
+                return bq.numeroCuenta == NumeroCuenta;
+            });
+            return _result;
+        }
+        private Asistente buscarAsistente(string NumeroCuenta)
+        {
+            int noCuenta=0;
+            //ANADIR CODIGO!!!!
+            try
+            {
+                noCuenta = Convert.ToInt32(NumeroCuenta);
+            }
+            catch (System.FormatException)
+            {
+                return null;
+            }
+            Asistente _result = asistentes.Find(delegate(Asistente bq)
+            {
+                return bq.numeroCuenta == noCuenta;
+            });
+            return _result;
         }
 
         private void anadirAsistencia()
         {
             Asistente ResultHolder;
-=======
-        private void generarAcreditados()
-            {
-            bool overrideable=false;
-            if (chkTodos.HasContent)
-            {
-            overrideable = (bool)chkTodos.IsChecked;
-            }
-            acreditados = new List<Asistente>();
-            foreach (Asistente Alumno in asistentes)
-                {
-                if ((Alumno.asistencias >= seleccionado.AsistenciasParaParcial) || overrideable) acreditados.Add(Alumno);
-                }
-            }
-        private void btnAnadirAsis(object sender, RoutedEventArgs e)
-            {
->>>>>>> 1e72b7a8d1f04feb5340f3a92d8d7626347078c3
+
             if (txtCuenta.Text == "")
             {
                 txtCuenta.Focus();
+                return;
             }
-            int tmpCuenta;
-            try
-            {
-                tmpCuenta = Convert.ToInt32(txtCuenta.Text);
-            }
-            catch (System.FormatException)
-            {
-                tmpCuenta = 123456789;
-            }
-            ResultHolder = asistentes.Find(delegate(Asistente bq)
-            {
-                return bq.numeroCuenta == tmpCuenta;
-            });
+           // int tmpCuenta;
+            
+            ResultHolder = buscarAsistente(txtCuenta.Text);
             if (ResultHolder != null)
             {
                 asistenteManager.setAsistente(ResultHolder);
@@ -254,7 +251,7 @@ namespace Asistencias_wpf
 
         private void txtCuenta_TextChanged(object sender, TextChangedEventArgs e)
         {
-
+            
 
         }
 
