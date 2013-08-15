@@ -13,12 +13,12 @@ namespace Asistencias_wpf
     {
     public class Asistente : INotifyPropertyChanged
         {
-        public Asistente(SqlCeConnection conn)
+       /* public Asistente(SqlCeConnection conn)
             {
             conexion = conn;
-            }
-        public static SqlCeConnection conexion;
-        public int _cuentaEstatica;
+            }*/
+       // public static SqlCeConnection conexion;
+        private int _cuentaEstatica;
         private string _nombre;
         private int _numeroCuenta;
         private string _plantel;
@@ -66,11 +66,11 @@ namespace Asistencias_wpf
             }
 
         public int modificaciones = 0;
-        static public bool exists(string cuenta)
-            {
-            return File.Exists("Accounts/" + cuenta + ".config");
-            }
-        public bool anadirAsistencia(int club, int parcial)
+        private void resetCuenta()
+        {
+            _cuentaEstatica = _numeroCuenta;
+        }
+       /* public bool anadirAsistencia(int club, int parcial)
             {
 
             conexion.Open();
@@ -98,7 +98,7 @@ namespace Asistencias_wpf
             conexion.Close();
             asistencias++;
             return true;
-            }
+            }*/
 
         #region INotifyPropertyChanged Members
 
@@ -119,7 +119,7 @@ namespace Asistencias_wpf
 
         #endregion
 
-        public bool AddToDB()
+        /*public bool AddToDB()
             {
             conexion.Open();
             SqlCeCommand cmd = new SqlCeCommand("INSERT INTO Alumnos(NumeroCuenta, Nombre, Plantel)VALUES(@cuenta, @nombre, @plantel)", conexion);
@@ -145,8 +145,8 @@ namespace Asistencias_wpf
             conexion.Close();
             return true;
 
-            }
-        public bool saveData(string Modifier)
+            }*/
+      /*  public bool saveData(string Modifier)
             {
             SqlCeCommand cmd;
             
@@ -159,7 +159,7 @@ namespace Asistencias_wpf
                     cmd.Parameters.AddWithValue("@nombre", nombre);
                     break;
                 case "Cuenta":
-                    /*UPDATE Alumnos SET NumeroCuenta = 123456 WHERE (Alumnos.Nombre = N'valoranterior')*/
+                    
                     cmd = new SqlCeCommand("UPDATE Alumnos SET NumeroCuenta = @cuenta WHERE (Alumnos.Nombre = N'@nombre')", conexion);
                     cmd.Parameters.AddWithValue("@cuenta", numeroCuenta);
                     cmd.Parameters.AddWithValue("@nombre", nombre);
@@ -194,7 +194,7 @@ namespace Asistencias_wpf
             conexion.Close();
             return true;
 
-            }
+            }*/
         }
 
     }

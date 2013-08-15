@@ -82,6 +82,8 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>AlumnosDataSet1.xsd</DependentUpon>
     </Compile>
+    <Compile Include="AsistenteDBManager.cs" />
+    <Compile Include="AsistentesPopulator.cs" />
     <Compile Include="Club.cs" />
     <Compile Include="Seleccion.xaml.cs">
       <DependentUpon>Seleccion.xaml</DependentUpon>
