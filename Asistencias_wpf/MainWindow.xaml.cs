@@ -31,19 +31,21 @@ namespace Asistencias_wpf
         DataTable Alumnos = new DataTable();
         List<Asistente> asistentes;
         static SqlCeConnection conn = new SqlCeConnection(@"Data Source=|DataDirectory|\Alumnos.sdf");
+        AsistentesPopulator populator;
         //private string parcial = ConfigurationManager.AppSettings["parcial"];
         int parcial;
        // private Asistente ResultHolder;
-        Club seleccionado;
+        Club clubSeleccionado;
         Window Sender;
         AsistenteDBManager asistenteManager= new AsistenteDBManager(conn);
         public MainWindow(Club seleccionado, int parcial, Window Sender)
         {
             this.Sender = Sender;
             this.parcial = parcial;
-            this.seleccionado = seleccionado;
+            this.clubSeleccionado = seleccionado;
+            populator = new AsistentesPopulator(conn,parcial,seleccionado);
             InitializeComponent();
-            generarLista();
+            asistentes = populator.Asistentes;
             lblEstado.Content = "Cargados " + asistentes.Count + " alumnos.";
             
             this.Title = seleccionado.Nombre;
@@ -52,7 +54,7 @@ namespace Asistencias_wpf
 
         private void acreditadosClk(object sender, RoutedEventArgs e)
         {
-            generarAcreditados();
+            acreditados = populator.Acreditados;
             DataContext = new MainWindowViewModel(acreditados);
             //gdAsistencias.AutoGenerateColumns = true;
             gdAsistencias.ItemsSource = acreditados;
@@ -67,6 +69,17 @@ namespace Asistencias_wpf
         }
 
         private void btnAnadirAsis(object sender, RoutedEventArgs e)
+        {
+            anadirAsistencia();
+
+        }
+
+        private Asistente buscarAsistente(int NumeroCuenta)
+        {
+            //ANADIR CODIGO!!!!
+        }
+
+        private void anadirAsistencia()
         {
             Asistente ResultHolder;
             if (txtCuenta.Text == "")
@@ -89,7 +102,7 @@ namespace Asistencias_wpf
             if (ResultHolder != null)
             {
                 asistenteManager.setAsistente(ResultHolder);
-                if (asistenteManager.anadirAsistencia(seleccionado.Id, parcial))
+                if (asistenteManager.anadirAsistencia(clubSeleccionado.Id, parcial))
                 {
                     lblEstado.Content = ResultHolder.nombre + " tiene " + ResultHolder.asistencias + " asistencias.";
                     txtCuenta.Text = "";
@@ -105,92 +118,16 @@ namespace Asistencias_wpf
             {
                 lblEstado.Content = "Esa cuenta no existe.";
             }
-
         }
+        
 
-        private void cuentaModificada(object sender, PropertyChangedEventArgs e)
-        {/*
-            //UPDATE Alumnos SET Nombre = N'Jorge Figueroa Perez' WHERE (Alumnos.NumeroCuenta = 20094894)//
-            Asistente source = (Asistente)sender;
-            switch (e.PropertyName)
-                {
-                case "Nombre":
-                    if (source.saveData(e.PropertyName))
-                        {
-                        lblEstado.Content = "Nombre de " + source.nombre + " modificado.";
-                        }
-                    else lblEstado.Content = "Error al modificar " + source.nombre + ".";
-
-                    break;
-                case "Cuenta":
-                    if (source.numeroCuenta.ToString().Length != 8)
-                        {
-                        lblEstado.Content = "Cuenta Incorrecta, " + source.nombre + " no se modifico.";
-                        }
-                    else
-                        {
-                        if (source.saveData(e.PropertyName))
-                            {
-                            lblEstado.Content = "Cuenta de " + source.nombre + " modificada.";
-                            }
-                        else lblEstado.Content = "Error al modificar " + source.numeroCuenta + ".";
-                        generarLista();
-                        }
-                    break;
-                case "Plantel":
-                    if (source.saveData(e.PropertyName))
-                        {
-                        lblEstado.Content = "Plantel de " + source.nombre + " Modificado.";
-                        }else lblEstado.Content = "Plantel de " + source.nombre + " no modificado.";
-                    break;
-                
-                }*/
-        }
-
-        private void generarAcreditados()
-        {
-            acreditados = new List<Asistente>();
-            foreach (Asistente Alumno in asistentes)
-            {
-                if (Alumno.asistencias >= seleccionado.AsistenciasParaParcial) acreditados.Add(Alumno);
-            }
-        }
-
-        private void generarLista()
-        {
-            asistentes = new List<Asistente>();
-            SqlCeDataAdapter adap = new SqlCeDataAdapter("SELECT Alumnos.* FROM Alumnos", conn);
-            adap.Fill(Alumnos);
-            foreach (DataRow Row in Alumnos.Rows)
-            {
-                // this.Title = Row["NumeroCuenta"].ToString();
-                int accountValue = Convert.ToInt32(Row["NumeroCuenta"].ToString());
-                string nmb = Row["Nombre"].ToString();
-                string ptl = Row["Plantel"].ToString();
-                DataTable Asistencias = new DataTable();
-                SqlCeDataAdapter asist = new SqlCeDataAdapter("SELECT Asistencias.* FROM Asistencias WHERE (idClub = " + seleccionado.Id + ") AND (idAlumno = " + accountValue + ") AND (parcial = " + parcial + ")", conn);
-                asist.Fill(Asistencias);
-                Asistente actual = new Asistente()
-                {
-                    nombre = nmb,
-                    numeroCuenta = accountValue,
-                    plantel = ptl,
-                    asistencias = Asistencias.Rows.Count,
-
-
-                };
-                actual.PropertyChanged += cuentaModificada;
-                asistentes.Add(actual);
-            }
-
-           
-        }
+       
         private void onEnter(object sender, KeyEventArgs e)
         {
             if (e.Key != System.Windows.Input.Key.Enter) return;
             // your event handler here
             e.Handled = true;
-            btnAnadirAsis(btnAsist, new RoutedEventArgs());
+            anadirAsistencia();
         }
 
         private void onEnterR(object sender, KeyEventArgs e)
@@ -198,7 +135,7 @@ namespace Asistencias_wpf
             if (e.Key != System.Windows.Input.Key.Enter) return;
             // your event handler here
             e.Handled = true;
-            Registrar_Click(btnRegistrar, new RoutedEventArgs());
+            registrarAsistente();
         }
 
         private void onFocus(object sender, RoutedEventArgs e)
@@ -210,7 +147,7 @@ namespace Asistencias_wpf
             }
         }
 
-        private void Registrar_Click(object sender, RoutedEventArgs e)
+        private void registrarAsistente()
         {
             if (txtCuentaR.Text == "" || txtCuentaR.Text.Length != 8)
             {
@@ -237,10 +174,10 @@ namespace Asistencias_wpf
                 numeroCuenta = Convert.ToInt32(txtCuentaR.Text),
                 plantel = txtPlantel.Text,
                 asistencias = 0,
-             
+
 
             };
-            actual.PropertyChanged += cuentaModificada;
+            // actual.PropertyChanged += cuentaModificada;
             asistenteManager.setAsistente(actual);
 
             if (asistenteManager.AddToDB())
@@ -256,6 +193,12 @@ namespace Asistencias_wpf
                 lblEstado.Content = "Error registrando " + nombre + ".";
             }
             asistenteManager.Clear();
+
+        }
+
+        private void Registrar_Click(object sender, RoutedEventArgs e)
+        {
+            registrarAsistente();
 
         }
 
@@ -293,6 +236,7 @@ namespace Asistencias_wpf
 
         private void txtCuenta_TextChanged(object sender, TextChangedEventArgs e)
         {
+
 
         }
 

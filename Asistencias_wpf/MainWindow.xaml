@@ -20,14 +20,24 @@
                         <RowDefinition Height="*"/>
 
                     </Grid.RowDefinitions>
-                    <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
-                        <ColumnDefinition Width="Auto"/>
-                    </Grid.ColumnDefinitions>
-                    <Button x:Name="btnAsist" Content="Asistencia"  Grid.Column="2" Height="Auto"  HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="btnAnadirAsis"/>
-                    <TextBox x:Name="txtCuenta"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap" Text="Numero de Cuenta" MinWidth="200"  VerticalAlignment="Top" Width="Auto" TextChanged="txtCuenta_TextChanged" GotFocus="onFocus" KeyUp="onEnter"/>
-                    <Label Content="Numero de Cuenta"  Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+                    <Grid Background="#FFE5E5E5" Grid.Row="0">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="*"/>
+
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="*"/>
+                            <ColumnDefinition Width="Auto"/>
+                        </Grid.ColumnDefinitions>
+                        <Button x:Name="btnAsist" Content="Asistencia"  Grid.Column="2" Height="Auto"  HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="btnAnadirAsis"/>
+                        <TextBox x:Name="txtCuenta"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap" Text="Numero de Cuenta" MinWidth="200"  VerticalAlignment="Top" Width="Auto" TextChanged="txtCuenta_TextChanged" GotFocus="onFocus" KeyUp="onEnter"/>
+                        <Label Content="Número de Cuenta"  Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" />
+                    </Grid>
+                    <DataGrid x:Name="gdAsistenciasPorAlumno" Grid.Row="1" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Grid.RowSpan="2" CanUserReorderColumns="False" AutoGenerateColumns="True" Visibility="Visible">
+                       
+                    </DataGrid>
                 </Grid>
             </TabItem>
             <TabItem Header="Registro">
