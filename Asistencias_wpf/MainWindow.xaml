@@ -35,9 +35,7 @@
                         <TextBox x:Name="txtCuenta"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap" Text="Numero de Cuenta" MinWidth="200"  VerticalAlignment="Top" Width="Auto" TextChanged="txtCuenta_TextChanged" GotFocus="onFocus" KeyUp="onEnter"/>
                         <Label Content="Número de Cuenta"  Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" />
                     </Grid>
-                    <DataGrid x:Name="gdAsistenciasPorAlumno" Grid.Row="1" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Grid.RowSpan="2" CanUserReorderColumns="False" AutoGenerateColumns="True" Visibility="Visible">
-                       
-                    </DataGrid>
+                    <DataGrid x:Name="gdAsistenciasPorAlumno" Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" Grid.RowSpan="2" CanUserReorderColumns="False" Visibility="Hidden" AutoGenerateColumns="True" IsEnabled="False"/>
                 </Grid>
             </TabItem>
             <TabItem Header="Registro">

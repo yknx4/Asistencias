@@ -35,8 +35,8 @@ namespace Asistencias_wpf
             cmd.Parameters.AddWithValue("@club", club);
             cmd.Parameters.AddWithValue("@cuenta", Holder.numeroCuenta);
             cmd.Parameters.AddWithValue("@parcial", parcial);
-            cmd.Parameters.AddWithValue("@date", DateTime.Now.ToString());
-            MessageBox.Show(DateTime.Now.ToString());
+            cmd.Parameters.AddWithValue("@date", DateTime.Now);
+            //MessageBox.Show(DateTime.Now.Ticks);
             try
             {
                 cmd.ExecuteNonQuery();
@@ -54,7 +54,12 @@ namespace Asistencias_wpf
                 return false;
             }
             conexion.Close();
-            Holder.asistencias++;
+            //Holder.asistencias++;
+            Holder.Asistencias.Add(new Asistencia()
+            {
+                Date = DateTime.Now,
+                Parcial=parcial,
+            });
             return true;
         }
         public bool AddToDB()

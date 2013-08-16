@@ -251,8 +251,20 @@ namespace Asistencias_wpf
 
         private void txtCuenta_TextChanged(object sender, TextChangedEventArgs e)
         {
-            
-
+            string noCuenta = ((TextBox)sender).Text;
+            Asistente busquedaAsist = buscarAsistente(noCuenta);
+            //if (lblEstado != null) lblEstado.Content = "";
+            if (busquedaAsist != null)
+            {
+                lblEstado.Content = busquedaAsist.nombre;
+                gdAsistenciasPorAlumno.ItemsSource = busquedaAsist.Asistencias;
+                gdAsistenciasPorAlumno.Visibility = Visibility.Visible;
+            }
+            else
+            {
+                if (gdAsistenciasPorAlumno != null) {  gdAsistenciasPorAlumno.Visibility = Visibility.Hidden;
+                gdAsistenciasPorAlumno.ItemsSource = null;}
+            }
         }
 
 
