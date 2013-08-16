@@ -22,7 +22,7 @@ namespace Asistencias_wpf
         private string _nombre;
         private int _numeroCuenta;
         private string _plantel;
-        private int _asistencias;
+        //private int _asistencias;
         public List<Asistencia> Asistencias = new List<Asistencia>();
         public string nombre
             {
@@ -60,9 +60,7 @@ namespace Asistencias_wpf
             get { return Asistencias.Count; }
             set
                 {
-               // _asistencias = value;
-               // NotifyPropertyChanged("Asistencias");
-             //   modificaciones++;
+                    throw new NotImplementedException();
                 }
             }
 

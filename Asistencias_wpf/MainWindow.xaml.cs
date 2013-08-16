@@ -256,15 +256,17 @@ namespace Asistencias_wpf
             //if (lblEstado != null) lblEstado.Content = "";
             if (busquedaAsist != null)
             {
-                lblEstado.Content = busquedaAsist.nombre;
-                gdAsistenciasPorAlumno.ItemsSource = busquedaAsist.Asistencias;
-                gdAsistenciasPorAlumno.Visibility = Visibility.Visible;
+                lblEstado.Content = busquedaAsist.nombre + " tiene " + busquedaAsist.asistencias + " asistencias.";
             }
             else
             {
-                if (gdAsistenciasPorAlumno != null) {  gdAsistenciasPorAlumno.Visibility = Visibility.Hidden;
-                gdAsistenciasPorAlumno.ItemsSource = null;}
+                if (PopupLookup != null)
+                {
+                    PopupLookup.IsOpen = false;
+                }
+                
             }
+            
         }
 
 
@@ -274,6 +276,35 @@ namespace Asistencias_wpf
             // System.Windows.Data.CollectionViewSource asistenteViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("asistenteViewSource")));
             // Load data by setting the CollectionViewSource.Source property:
             // asistenteViewSource.Source = [generic data source]
+        }
+
+        private void btnLookupClick(object sender, RoutedEventArgs e)
+        {          
+            string noCuenta = txtCuenta.Text;
+            Asistente busquedaAsist = buscarAsistente(noCuenta);
+            //if (lblEstado != null) lblEstado.Content = "";
+            if (busquedaAsist != null)
+            {
+                //lblEstado.Content = busquedaAsist.nombre;
+                gdAsistenciasPorAlumno.ItemsSource = busquedaAsist.Asistencias;
+                
+                PopupLookup.IsOpen = true;
+            }
+            else
+            {
+                if (gdAsistenciasPorAlumno != null)
+                {
+                    
+                    gdAsistenciasPorAlumno.ItemsSource = null;
+                }
+            }
+        }
+
+       
+
+        private void PopupLostFocus(object sender, MouseEventArgs e)
+        {
+            PopupLookup.IsOpen = false;
         }
     }
 }
