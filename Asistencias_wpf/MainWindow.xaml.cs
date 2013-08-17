@@ -13,21 +13,20 @@ namespace Asistencias_wpf
     /// </summary>
     public partial class MainWindow : Window
     {
+        private static bool cellHasBeenSelected = false;
+        private static SqlCeConnection conn = new SqlCeConnection(@"Data Source=|DataDirectory|\Alumnos.sdf");
         private List<Asistente> acreditados;
         private DataTable Alumnos = new DataTable();
+        private AsistenteDBManager asistenteManager = new AsistenteDBManager(conn);
         private List<Asistente> asistentes;
-        private static SqlCeConnection conn = new SqlCeConnection(@"Data Source=|DataDirectory|\Alumnos.sdf");
-        private AsistentesPopulator populator;
+        // private Asistente ResultHolder;
+        private Club clubSeleccionado;
 
         //private string parcial = ConfigurationManager.AppSettings["parcial"];
         private int parcial;
 
-        // private Asistente ResultHolder;
-        private Club clubSeleccionado;
-
+        private AsistentesPopulator populator;
         private Window Sender;
-        private AsistenteDBManager asistenteManager = new AsistenteDBManager(conn);
-
         public MainWindow(Club seleccionado, int parcial, Window Sender)
         {
             this.Sender = Sender;
@@ -61,41 +60,6 @@ namespace Asistencias_wpf
         private void alCerrar(object sender, EventArgs e)
         {
             Sender.Show();
-        }
-
-        private void btnAnadirAsis(object sender, RoutedEventArgs e)
-        {
-            anadirAsistencia();
-        }
-
-        private Asistente buscarAsistente(int NumeroCuenta)
-        {
-            //ANADIR CODIGO!!!!
-            Asistente _result = asistentes.Find(delegate(Asistente bq)
-            {
-                return bq.numeroCuenta == NumeroCuenta;
-            });
-            return _result;
-        }
-
-        private Asistente buscarAsistente(string NumeroCuenta)
-        {
-            int noCuenta = 0;
-
-            //ANADIR CODIGO!!!!
-            try
-            {
-                noCuenta = Convert.ToInt32(NumeroCuenta);
-            }
-            catch (System.FormatException)
-            {
-                return null;
-            }
-            Asistente _result = asistentes.Find(delegate(Asistente bq)
-            {
-                return bq.numeroCuenta == noCuenta;
-            });
-            return _result;
         }
 
         private void anadirAsistencia()
@@ -132,6 +96,81 @@ namespace Asistencias_wpf
             }
         }
 
+        private void btnAnadirAsis(object sender, RoutedEventArgs e)
+        {
+            anadirAsistencia();
+        }
+
+        private void btnLookupClick(object sender, RoutedEventArgs e)
+        {
+            string noCuenta = txtCuenta.Text;
+            PopupAsistenciasPersonal(noCuenta);
+        }
+
+        private Asistente buscarAsistente(int NumeroCuenta)
+        {
+            //ANADIR CODIGO!!!!
+            Asistente _result = asistentes.Find(delegate(Asistente bq)
+            {
+                return bq.numeroCuenta == NumeroCuenta;
+            });
+            return _result;
+        }
+
+        private Asistente buscarAsistente(string NumeroCuenta)
+        {
+            int noCuenta = 0;
+
+            //ANADIR CODIGO!!!!
+            try
+            {
+                noCuenta = Convert.ToInt32(NumeroCuenta);
+            }
+            catch (System.FormatException)
+            {
+                return null;
+            }
+            Asistente _result = asistentes.Find(delegate(Asistente bq)
+            {
+                return bq.numeroCuenta == noCuenta;
+            });
+            return _result;
+        }
+        private void generatingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
+        {
+            switch (e.PropertyName)
+            {
+                case "Asistencias":
+                    e.Cancel = true;
+                    break;
+
+                case "nombre":
+                    e.Column.Header = "Nombre";
+                    break;
+
+                case "numeroCuenta":
+                    e.Column.Header = @"Número de Cuenta";
+                    break;
+
+                case "plantel":
+                    e.Column.Header = "Plantel";
+                    break;
+
+                case "asistencias":
+                    e.Column.Header = "Asistencias";
+                    e.Column.IsReadOnly = true;
+                    break;
+
+                default:
+                    break;
+            }
+        }
+
+        private void lostFocusInRow(object sender, RoutedEventArgs e)
+        {
+            PopupLookup.IsOpen = false;
+        }
+
         private void onEnter(object sender, KeyEventArgs e)
         {
             if (e.Key != System.Windows.Input.Key.Enter) return;
@@ -157,6 +196,38 @@ namespace Asistencias_wpf
             {
                 Sender.Text = "";
             }
+        }
+
+        private void PopupAsistenciasPersonal(string noCuenta)
+        {
+            PopupLookup.IsOpen = false;
+            Asistente busquedaAsist = buscarAsistente(noCuenta);
+
+            //if (lblEstado != null) lblEstado.Content = "";
+            if (busquedaAsist != null)
+            {
+                //lblEstado.Content = busquedaAsist.nombre;
+                gdAsistenciasPorAlumno.ItemsSource = busquedaAsist.Asistencias;
+
+                PopupLookup.IsOpen = true;
+            }
+            else
+            {
+                if (gdAsistenciasPorAlumno != null)
+                {
+                    gdAsistenciasPorAlumno.ItemsSource = null;
+                }
+            }
+        }
+
+        private void PopupLostFocus(object sender, MouseEventArgs e)
+        {
+            PopupLookup.IsOpen = false;
+        }
+
+        private void Registrar_Click(object sender, RoutedEventArgs e)
+        {
+            registrarAsistente();
         }
 
         private void registrarAsistente()
@@ -185,7 +256,7 @@ namespace Asistencias_wpf
                 nombre = txtNombre.Text,
                 numeroCuenta = Convert.ToInt32(txtCuentaR.Text),
                 plantel = txtPlantel.Text,
-                asistencias = 0,
+                
             };
             actual.PropertyChanged += populator.cuentaModificada;
             asistenteManager.setAsistente(actual);
@@ -204,10 +275,21 @@ namespace Asistencias_wpf
             }
             asistenteManager.Clear();
         }
-
-        private void Registrar_Click(object sender, RoutedEventArgs e)
+        private void selectedCellsChange(object sender, SelectedCellsChangedEventArgs e)
         {
-            registrarAsistente();
+            PopupLookup.IsOpen = false;
+
+            //MessageBox.Show(e.AddedCells.Count.ToString() + " - " + e.RemovedCells.Count.ToString());
+            Asistente selectedAsistente;
+            string noCuenta;
+            if ((e.AddedCells.Count == 4 && e.RemovedCells.Count != 0) || !cellHasBeenSelected)
+            {
+                selectedAsistente = (Asistente)e.AddedCells[0].Item;
+                noCuenta = selectedAsistente.numeroCuenta.ToString();
+                cellHasBeenSelected = true;
+            }
+            else return;
+            if (selectedAsistente.asistencias > 0) PopupAsistenciasPersonal(noCuenta);
         }
 
         private Boolean TextBoxTextAllowed(String Text2)
@@ -258,93 +340,6 @@ namespace Asistencias_wpf
             // System.Windows.Data.CollectionViewSource asistenteViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("asistenteViewSource")));
             // Load data by setting the CollectionViewSource.Source property:
             // asistenteViewSource.Source = [generic data source]
-        }
-
-        private void PopupAsistenciasPersonal(string noCuenta)
-        {
-            PopupLookup.IsOpen = false;
-            Asistente busquedaAsist = buscarAsistente(noCuenta);
-
-            //if (lblEstado != null) lblEstado.Content = "";
-            if (busquedaAsist != null)
-            {
-                //lblEstado.Content = busquedaAsist.nombre;
-                gdAsistenciasPorAlumno.ItemsSource = busquedaAsist.Asistencias;
-
-                PopupLookup.IsOpen = true;
-            }
-            else
-            {
-                if (gdAsistenciasPorAlumno != null)
-                {
-                    gdAsistenciasPorAlumno.ItemsSource = null;
-                }
-            }
-        }
-
-        private void btnLookupClick(object sender, RoutedEventArgs e)
-        {
-            string noCuenta = txtCuenta.Text;
-            PopupAsistenciasPersonal(noCuenta);
-        }
-
-        private void PopupLostFocus(object sender, MouseEventArgs e)
-        {
-            PopupLookup.IsOpen = false;
-        }
-
-        private void generatingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
-        {
-            switch (e.PropertyName)
-            {
-                case "Asistencias":
-                    e.Cancel = true;
-                    break;
-
-                case "nombre":
-                    e.Column.Header = "Nombre";
-                    break;
-
-                case "numeroCuenta":
-                    e.Column.Header = @"Número de Cuenta";
-                    break;
-
-                case "plantel":
-                    e.Column.Header = "Plantel";
-                    break;
-
-                case "asistencias":
-                    e.Column.Header = "Asistencias";
-                    e.Column.IsReadOnly = true;
-                    break;
-
-                default:
-                    break;
-            }
-        }
-
-        private static bool cellHasBeenSelected = false;
-
-        private void selectedCellsChange(object sender, SelectedCellsChangedEventArgs e)
-        {
-            PopupLookup.IsOpen = false;
-
-            //MessageBox.Show(e.AddedCells.Count.ToString() + " - " + e.RemovedCells.Count.ToString());
-            Asistente selectedAsistente;
-            string noCuenta;
-            if ((e.AddedCells.Count == 4 && e.RemovedCells.Count != 0) || !cellHasBeenSelected)
-            {
-                selectedAsistente = (Asistente)e.AddedCells[0].Item;
-                noCuenta = selectedAsistente.numeroCuenta.ToString();
-                cellHasBeenSelected = true;
-            }
-            else return;
-            if (selectedAsistente.asistencias > 0) PopupAsistenciasPersonal(noCuenta);
-        }
-
-        private void lostFocusInRow(object sender, RoutedEventArgs e)
-        {
-            PopupLookup.IsOpen = false;
         }
     }
 }

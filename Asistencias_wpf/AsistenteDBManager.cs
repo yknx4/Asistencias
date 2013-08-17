@@ -1,4 +1,5 @@
 ﻿using System;
+using System.ComponentModel;
 using System.Data.SqlServerCe;
 using System.Windows;
 
@@ -6,6 +7,11 @@ namespace Asistencias_wpf
 {
     internal class AsistenteDBManager
     {
+        public enum ValoresModificables
+        {
+            Nombre, NumeroCuenta, Plantel
+        }
+
         public AsistenteDBManager(SqlCeConnection conexion)
         {
             this.conexion = conexion;
@@ -68,6 +74,59 @@ namespace Asistencias_wpf
             return true;
         }
 
+        public bool modificarDato(ValoresModificables modificar)
+        {
+            //UPDATE Alumnos SET Nombre = N'Jorge Figueroa Perez' WHERE (Alumnos.NumeroCuenta = 20094894)//
+            if (!Active()) return false;
+            int numeroCuentaQuery=0;
+            string valorAModificarQuery="";
+            string valorNuevoQuery = "";
+            switch (modificar)
+            {
+                case ValoresModificables.Nombre:
+                    numeroCuentaQuery = Holder.numeroCuenta;
+                    valorAModificarQuery="Nombre";
+                    valorNuevoQuery = Holder.nombre;
+                    break;
+                case ValoresModificables.NumeroCuenta:
+                    numeroCuentaQuery = Holder.CuentaOriginal();
+                    valorAModificarQuery="NumeroCuenta";
+                    valorNuevoQuery = Holder.numeroCuenta.ToString();
+                    break;
+                case ValoresModificables.Plantel:
+                    numeroCuentaQuery = Holder.numeroCuenta;
+                    valorAModificarQuery="Plantel";
+                    valorNuevoQuery = Holder.plantel;
+                    break;
+                default:
+                    throw new NotImplementedException();
+            }
+            conexion.Open();
+
+            SqlCeCommand cmd = new SqlCeCommand("UPDATE Alumnos SET "+valorAModificarQuery+" = N'"+valorNuevoQuery+"' WHERE (Alumnos.NumeroCuenta = "+numeroCuentaQuery.ToString()+")", conexion);
+          
+            try
+            {
+                cmd.ExecuteNonQuery();
+                MessageBox.Show(modificar.ToString() + " modificado por " + valorNuevoQuery + ".");
+            }
+            catch (System.InvalidOperationException ex)
+            {
+                MessageBoxResult mes = MessageBox.Show("Query: "+cmd.CommandText+" - "+ex.ToString());
+                conexion.Close();
+                return false;
+            }
+            catch (SqlCeException ex)
+            {
+                MessageBoxResult mes = MessageBox.Show("Query: " + cmd.CommandText + " - " + ex.ToString());
+                conexion.Close();
+                return false;
+            }
+            conexion.Close();
+            return true;
+        }
+        
+
         public bool AddToDB()
         {
             if (!Active()) return false;
@@ -94,6 +153,25 @@ namespace Asistencias_wpf
             }
             conexion.Close();
             return true;
+        }
+        public void cuentaModificada(object sender, PropertyChangedEventArgs e)
+        {
+            Holder = (Asistente)sender;
+            switch (e.PropertyName)
+                {
+                case "Nombre":
+                        modificarDato(ValoresModificables.Nombre);
+                    break;
+
+                case "Cuenta":
+                    modificarDato(ValoresModificables.NumeroCuenta);
+                    break;
+
+                case "Plantel":
+                    modificarDato(ValoresModificables.Plantel);
+                    break;
+                }
+            Clear();
         }
     }
 }

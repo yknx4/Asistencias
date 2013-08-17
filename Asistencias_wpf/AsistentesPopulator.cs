@@ -16,6 +16,10 @@ namespace Asistencias_wpf
         private SqlCeConnection conn;
         private AsistenteDBManager asistenteDB;
         private int parcial;
+        public void cuentaModificada(object sender, PropertyChangedEventArgs e)
+        {
+            asistenteDB.cuentaModificada(sender, e);
+        }
 
         public AsistentesPopulator(SqlCeConnection conn, int parcial, Club seleccionado)
         {
@@ -96,47 +100,6 @@ namespace Asistencias_wpf
             }
         }
 
-        public void cuentaModificada(object sender, PropertyChangedEventArgs e)
-        {
-            MessageBox.Show(e.PropertyName + " Modificado");
-            /*
-
-            //UPDATE Alumnos SET Nombre = N'Jorge Figueroa Perez' WHERE (Alumnos.NumeroCuenta = 20094894)//
-            Asistente source = (Asistente)sender;
-            switch (e.PropertyName)
-                {
-                case "Nombre":
-                    if (source.saveData(e.PropertyName))
-                        {
-                        lblEstado.Content = "Nombre de " + source.nombre + " modificado.";
-                        }
-                    else lblEstado.Content = "Error al modificar " + source.nombre + ".";
-
-                    break;
-
-                case "Cuenta":
-                    if (source.numeroCuenta.ToString().Length != 8)
-                        {
-                        lblEstado.Content = "Cuenta Incorrecta, " + source.nombre + " no se modifico.";
-                        }
-                    else
-                        {
-                        if (source.saveData(e.PropertyName))
-                            {
-                            lblEstado.Content = "Cuenta de " + source.nombre + " modificada.";
-                            }
-                        else lblEstado.Content = "Error al modificar " + source.numeroCuenta + ".";
-                        generarLista();
-                        }
-                    break;
-
-                case "Plantel":
-                    if (source.saveData(e.PropertyName))
-                        {
-                        lblEstado.Content = "Plantel de " + source.nombre + " Modificado.";
-                        }else lblEstado.Content = "Plantel de " + source.nombre + " no modificado.";
-                    break;
-                }*/
-        }
+       
     }
 }
