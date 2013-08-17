@@ -79,5 +79,12 @@ namespace Asistencias_wpf
             main.Show();
             this.Hide();
         }
+
+        private void clickClubes(object sender, RoutedEventArgs e)
+        {
+            RegistroClub ventanaRegistro = new RegistroClub(this);
+            ventanaRegistro.Show();
+            this.Hide();
+        }
     }
 }

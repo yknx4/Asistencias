@@ -1,4 +1,7 @@
-﻿namespace Asistencias_wpf
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+namespace Asistencias_wpf
 {
     public class Club
     {
@@ -10,7 +13,11 @@
         public string Nombre
         {
             get { return _nombre; }
-            set { _nombre = value; }
+            set
+            {
+                NotifyPropertyChanged("Nombre");
+                _nombre = value;
+            }
         }
 
         public int Id
@@ -22,18 +29,43 @@
         public int AsistenciasParaParcial
         {
             get { return _asistencias; }
-            set { _asistencias = value; }
+            set
+            {
+                NotifyPropertyChanged("Asistencias Necesarias");
+                _asistencias = value;
+            }
         }
 
         public int Parciales
         {
             get { return _parciales; }
-            set { _parciales = value; }
+            set
+            {
+                NotifyPropertyChanged("Parciales");
+                _parciales = value;
+            }
         }
 
         public override string ToString()
         {
             return Nombre;
         }
+        #region INotifyPropertyChanged Members
+
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        #endregion INotifyPropertyChanged Members
+
+        #region Private Helpers
+
+        private void NotifyPropertyChanged(string propertyName)
+        {
+            if (PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(propertyName));
+            }
+        }
+
+        #endregion Private Helpers
     }
 }

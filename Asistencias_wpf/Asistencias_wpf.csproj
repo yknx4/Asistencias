@@ -81,6 +81,10 @@
     <Compile Include="AsistenteDBManager.cs" />
     <Compile Include="AsistentesPopulator.cs" />
     <Compile Include="Club.cs" />
+    <Compile Include="ClubDBManager.cs" />
+    <Compile Include="RegistroClub.xaml.cs">
+      <DependentUpon>RegistroClub.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Seleccion.xaml.cs">
       <DependentUpon>Seleccion.xaml</DependentUpon>
     </Compile>
@@ -102,6 +106,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="RegistroClub.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Seleccion.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
