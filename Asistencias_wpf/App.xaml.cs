@@ -1,11 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data;
-using System.Linq;
-using System.Threading.Tasks;
+﻿using Asistencias_wpf.Properties;
 using System.Windows;
-using Asistencias_wpf.Properties;
 
 namespace Asistencias_wpf
 {
@@ -15,8 +9,8 @@ namespace Asistencias_wpf
     public partial class App : Application
     {
         private void alSalir(object sender, ExitEventArgs e)
-            {
+        {
             Settings.Default.Save();
-            }
+        }
     }
 }

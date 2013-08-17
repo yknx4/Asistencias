@@ -77,11 +77,6 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="AlumnosDataSet1.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>AlumnosDataSet1.xsd</DependentUpon>
-    </Compile>
     <Compile Include="Asistencia.cs" />
     <Compile Include="AsistenteDBManager.cs" />
     <Compile Include="AsistentesPopulator.cs" />
@@ -144,17 +139,6 @@
     </None>
     <None Include="AlumnosDataSet.xss">
       <DependentUpon>AlumnosDataSet.xsd</DependentUpon>
-    </None>
-    <None Include="AlumnosDataSet1.xsc">
-      <DependentUpon>AlumnosDataSet1.xsd</DependentUpon>
-    </None>
-    <None Include="AlumnosDataSet1.xsd">
-      <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>AlumnosDataSet1.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </None>
-    <None Include="AlumnosDataSet1.xss">
-      <DependentUpon>AlumnosDataSet1.xsd</DependentUpon>
     </None>
     <None Include="Properties\DataSources\Asistente.datasource" />
     <None Include="Properties\Settings.settings">

@@ -9,17 +9,17 @@
         </Grid.RowDefinitions>
 
         <Grid Grid.Row="0" Margin="5,5,5,5">
-        <Grid.RowDefinitions>
-            <RowDefinition Height="auto"></RowDefinition>
-            <RowDefinition Height="auto"></RowDefinition>
-        </Grid.RowDefinitions>
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition MinWidth="200"></ColumnDefinition>
-        </Grid.ColumnDefinitions>
-        <Label Content="Club:" Grid.Row="0" Grid.Column="0"></Label>
-        <Label Content="Parcial:" Grid.Row="1" Grid.Column="0"></Label>
-        <ComboBox x:Name="cmbClub"  Grid.Row="0" Grid.Column="1" SelectionChanged="llenarParcial"></ComboBox>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="auto"></RowDefinition>
+                <RowDefinition Height="auto"></RowDefinition>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition MinWidth="200"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Label Content="Club:" Grid.Row="0" Grid.Column="0"></Label>
+            <Label Content="Parcial:" Grid.Row="1" Grid.Column="0"></Label>
+            <ComboBox x:Name="cmbClub"  Grid.Row="0" Grid.Column="1" SelectionChanged="llenarParcial"></ComboBox>
             <ComboBox x:Name="cmbParcial" Grid.Row="1" Grid.Column="1" SelectedIndex="0" ></ComboBox>
         </Grid>
         <Button Grid.Row="1" Content="Entrar" Margin="5,5,5,5" Click="clickEntrar"></Button>

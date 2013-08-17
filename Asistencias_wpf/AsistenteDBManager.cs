@@ -1,32 +1,35 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Data.SqlServerCe;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 
 namespace Asistencias_wpf
 {
-    class AsistenteDBManager
+    internal class AsistenteDBManager
     {
-        public AsistenteDBManager(SqlCeConnection conexion) {
+        public AsistenteDBManager(SqlCeConnection conexion)
+        {
             this.conexion = conexion;
         }
+
         private SqlCeConnection conexion;
-        Asistente Holder;
+        private Asistente Holder;
+
         public void setAsistente(Asistente Input)
         {
             Holder = Input;
         }
+
         public void Clear()
         {
             Holder = null;
         }
-        private bool Active(){
-            if(Holder==null)return false;
+
+        private bool Active()
+        {
+            if (Holder == null) return false;
             return true;
         }
+
         public bool anadirAsistencia(int club, int parcial)
         {
             if (!Active()) return false;
@@ -36,6 +39,7 @@ namespace Asistencias_wpf
             cmd.Parameters.AddWithValue("@cuenta", Holder.numeroCuenta);
             cmd.Parameters.AddWithValue("@parcial", parcial);
             cmd.Parameters.AddWithValue("@date", DateTime.Now);
+
             //MessageBox.Show(DateTime.Now.Ticks);
             try
             {
@@ -54,14 +58,16 @@ namespace Asistencias_wpf
                 return false;
             }
             conexion.Close();
+
             //Holder.asistencias++;
             Holder.Asistencias.Add(new Asistencia()
             {
                 Date = DateTime.Now,
-                Parcial=parcial,
+                Parcial = parcial,
             });
             return true;
         }
+
         public bool AddToDB()
         {
             if (!Active()) return false;
@@ -88,8 +94,6 @@ namespace Asistencias_wpf
             }
             conexion.Close();
             return true;
-
         }
-
     }
 }

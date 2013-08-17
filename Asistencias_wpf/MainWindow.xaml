@@ -4,60 +4,56 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Asistencias_wpf" mc:Ignorable="d" x:Class="Asistencias_wpf.MainWindow"
         Title="Club" Height="208.866" Width="348.989" ResizeMode="CanMinimize" SizeToContent="WidthAndHeight" Loaded="Window_Loaded_1" Closed="alCerrar" Icon="icon.ico">
     <Window.Resources>
-        <CollectionViewSource x:Key="asistenteViewSource" d:DesignSource="{d:DesignInstance {x:Type local:Asistente}, CreateList=True}"/>
+        <CollectionViewSource x:Key="asistenteViewSource" d:DesignSource="{d:DesignInstance {x:Type local:Asistente}, CreateList=True}" />
     </Window.Resources>
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="*"/>
-            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <TabControl HorizontalAlignment="Left" Height="Auto" Margin="0,0,0,0" VerticalAlignment="Top" Width="Auto" Grid.Row="0">
             <TabItem Header="Asistencia">
 
                 <Grid Background="#FFE5E5E5">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
                     <Grid Background="#FFE5E5E5" Grid.Row="0">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="*"/>
-                            <RowDefinition Height="*"/>
-
+                            <RowDefinition Height="*" />
+                            <RowDefinition Height="*" />
                         </Grid.RowDefinitions>
                         <Grid.ColumnDefinitions>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="*"/>
-                            <ColumnDefinition Width="Auto"/>
-                            <ColumnDefinition Width="Auto"/>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="*" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
                         </Grid.ColumnDefinitions>
-                        <TextBox x:Name="txtCuenta"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap" Text="Numero de Cuenta" MinWidth="200"  VerticalAlignment="Top" Width="Auto" TextChanged="txtCuenta_TextChanged" GotFocus="onFocus" KeyUp="onEnter"/>
-                        <Button x:Name="btnAsist" Content="Asistencia"  Grid.Column="2" Height="Auto"  HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="btnAnadirAsis"/>
-                        <Button x:Name="btnLookup" Content="L"  Grid.Column="3" Height="Auto"  HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="btnLookupClick" />                        
+                        <TextBox x:Name="txtCuenta"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap" Text="Numero de Cuenta" MinWidth="200"  VerticalAlignment="Top" Width="Auto" TextChanged="txtCuenta_TextChanged" GotFocus="onFocus" KeyUp="onEnter" />
+                        <Button x:Name="btnAsist" Content="Asistencia"  Grid.Column="2" Height="Auto"  HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="btnAnadirAsis" />
+                        <Button x:Name="btnLookup" Content="L"  Grid.Column="3" Height="Auto"  HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="btnLookupClick" />
                         <Label Content="Número de Cuenta"  Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" />
                     </Grid>
-                    
                 </Grid>
             </TabItem>
             <TabItem Header="Registro">
                 <Grid Background="#FFE5E5E5">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
-                        <ColumnDefinition Width="Auto"/>
-                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition Width="*" />
                         <!-- <ColumnDefinition Width="Auto"></ColumnDefinition>-->
                     </Grid.ColumnDefinitions>
                     <Label Content="Nombre"  Grid.Row="0" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" />
                     <TextBox x:Name="txtNombre" Grid.Row="0"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap"  MinWidth="200"  VerticalAlignment="Top" Width="Auto" KeyUp="onEnterR" />
                     <TextBox x:Name="txtCuentaR" Grid.Row="1"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap"  MinWidth="200"  VerticalAlignment="Top" Width="Auto" PreviewTextInput="textBoxValue_PreviewTextInput" DataObject.Pasting="textBoxValue_Pasting"  KeyUp="onEnterR" />
                     <Label Content="Numero de Cuenta"  Grid.Row="1" Grid.Column="0" HorizontalAlignment="Left"  VerticalAlignment="Top" />
-
 
                     <TextBox x:Name="txtPlantel" Grid.Row="2"  Grid.Column="1" HorizontalAlignment="Left" Height="Auto" Margin="2,2,2,2" TextWrapping="Wrap"  MinWidth="200"  VerticalAlignment="Top" Width="Auto" KeyUp="onEnterR" />
                     <Button x:Name="btnRegistrar" Content="Registro"  Grid.Column="1" Grid.Row="3" Height="Auto"  HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="Registrar_Click" />
@@ -67,8 +63,8 @@
             <TabItem Header="Lista">
                 <Grid Background="#FFE5E5E5" Width="auto" Height="auto" DataContext="{StaticResource asistenteViewSource}">
                     <Grid.RowDefinitions>
-                        <RowDefinition Height="*"/>
-                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*" />
+                        <RowDefinition Height="*" />
                         <!-- <RowDefinition Height="*"></RowDefinition>
                         <RowDefinition Height="*"></RowDefinition>-->
                     </Grid.RowDefinitions>
@@ -77,18 +73,19 @@
                             <ColumnDefinition></ColumnDefinition>
                             <ColumnDefinition></ColumnDefinition>
                         </Grid.ColumnDefinitions>
-                        <Button x:Name="btnAcreditados" Content="Generar"  Grid.Column="0"  Height="Auto"  HorizontalAlignment="Center" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="acreditadosClk"/>
-                        <CheckBox x:Name="chkTodos" Grid.Column="1" HorizontalAlignment="Center" Margin="2,2,2,2" VerticalAlignment="Top" Content="Todos"></CheckBox>
+                        <Button x:Name="btnAcreditados" Content="Generar"  Grid.Column="0"  Height="Auto"  HorizontalAlignment="Center" Margin="2,2,2,2" VerticalAlignment="Top" Width="Auto" Click="acreditadosClk" />
+                        <StackPanel Grid.Column="1" Orientation="Horizontal" Margin="2,2,2,2">
+                            <CheckBox x:Name="chkTodos"  HorizontalAlignment="Center"  VerticalAlignment="Center" Content="Todos"></CheckBox>
+                        </StackPanel>
                     </Grid>
-                    
-                    <DataGrid x:Name="gdAsistencias" Grid.Row="1" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Grid.RowSpan="2" CanUserReorderColumns="False" AutoGenerateColumns="True" ItemsSource="{Binding Asistentes}" Visibility="Hidden"/>
+
+                    <DataGrid x:Name="gdAsistencias" Grid.Row="1" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Grid.RowSpan="2" CanUserReorderColumns="False" AutoGenerateColumns="True" ItemsSource="{Binding Asistentes}" Visibility="Hidden" AutoGeneratingColumn="generatingColumn" SelectedCellsChanged="selectedCellsChange" CanUserAddRows="False" CanUserDeleteRows="False" LostFocus="lostFocusInRow" />
                 </Grid>
             </TabItem>
         </TabControl>
         <Label x:Name="lblEstado" Grid.Row="1" Content="" HorizontalAlignment="Left" Margin="2,2,2,2" VerticalAlignment="Top" />
         <Popup Name="PopupLookup" Placement="Right" IsEnabled="True" IsOpen="False" Grid.RowSpan="2"  MouseLeave="PopupLostFocus">
-            <DataGrid x:Name="gdAsistenciasPorAlumno" Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" Grid.RowSpan="2" CanUserReorderColumns="False" Visibility="Visible" AutoGenerateColumns="True" IsEnabled="False"/>
+            <DataGrid x:Name="gdAsistenciasPorAlumno" Grid.Row="1" HorizontalAlignment="Center" Margin="0,0,0,0" VerticalAlignment="Top" Grid.RowSpan="2" CanUserReorderColumns="False" Visibility="Visible" AutoGenerateColumns="True" IsEnabled="False" />
         </Popup>
     </Grid>
-    
 </Window>
