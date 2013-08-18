@@ -1,7 +1,7 @@
 ﻿<Window x:Class="Asistencias_wpf.RegistroClub"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Registro de Club" Height="200" Width="400" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize">
+        Title="Registro de Club" Height="200" Width="400" SizeToContent="WidthAndHeight" ResizeMode="CanMinimize" Closed="alCerrar">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"></RowDefinition>

@@ -22,9 +22,14 @@ namespace Asistencias_wpf
             AlIniciar();
             DespuesDeCargar();
         }
+        public void Refresh() {
+            AlIniciar();
+            DespuesDeCargar();
+        }
 
         private void DespuesDeCargar()
         {
+            //cmbClub.Items.Clear();
             foreach (DataRow Row in Clubes.Rows)
             {
                 int id = (int)Row["id"];
@@ -48,13 +53,14 @@ namespace Asistencias_wpf
         private void AlIniciar()
         {
             SqlCeDataAdapter adap = new SqlCeDataAdapter("SELECT Clubes.* FROM Clubes", conn);
-
+            //Clubes.Clear();
             //the adapter will open and close the connection for you.
             adap.Fill(Clubes);
         }
 
         private void llenarParcial(object sender, SelectionChangedEventArgs e)
         {
+            
             cmbParcial.SelectedIndex = 0;
             cmbParcial.Items.Clear();
             ComboBox comboClub = (ComboBox)sender;
