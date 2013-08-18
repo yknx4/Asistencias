@@ -42,6 +42,8 @@ namespace Asistencias_wpf
 
         private void acreditadosClk(object sender, RoutedEventArgs e)
         {
+            populator.generarLista();
+            populator.generarAcreditados();
             acreditados = populator.Acreditados;
             if (chkTodos.IsChecked != null && (bool)chkTodos.IsChecked == true)
             {
@@ -82,6 +84,7 @@ namespace Asistencias_wpf
                 {
                     lblEstado.Content = ResultHolder.nombre + " tiene " + ResultHolder.asistencias + " asistencias.";
                     txtCuenta.Text = "";
+                    
                 }
                 else
                 {
@@ -94,6 +97,7 @@ namespace Asistencias_wpf
             {
                 lblEstado.Content = "Esa cuenta no existe.";
             }
+            
         }
 
         private void btnAnadirAsis(object sender, RoutedEventArgs e)

@@ -76,10 +76,10 @@ namespace Asistencias_wpf
                 txtNombre.Focus();
                 return;
             }
-            Sender.cmbClub.Items.Add(registrarClub());
-            this.Hide();
-            //Sender.Refresh();
-            
+            registrarClub();
+            this.Close();
+            Sender.Refresh();
+            Sender.enableEntrar();
             Sender.Show();
         }
 

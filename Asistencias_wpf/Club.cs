@@ -15,8 +15,9 @@ namespace Asistencias_wpf
             get { return _nombre; }
             set
             {
-                NotifyPropertyChanged("Nombre");
+                
                 _nombre = value;
+                NotifyPropertyChanged("Nombre");
             }
         }
 
@@ -31,8 +32,8 @@ namespace Asistencias_wpf
             get { return _asistencias; }
             set
             {
-                NotifyPropertyChanged("Asistencias Necesarias");
                 _asistencias = value;
+                NotifyPropertyChanged("Asistencias Necesarias");
             }
         }
 
@@ -41,8 +42,8 @@ namespace Asistencias_wpf
             get { return _parciales; }
             set
             {
-                NotifyPropertyChanged("Parciales");
                 _parciales = value;
+                NotifyPropertyChanged("Parciales");
             }
         }
 

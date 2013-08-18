@@ -25,11 +25,13 @@ namespace Asistencias_wpf
         public void Refresh() {
             AlIniciar();
             DespuesDeCargar();
+            llenarParcial(cmbClub,null);
         }
 
         private void DespuesDeCargar()
         {
-            //cmbClub.Items.Clear();
+            cmbClub.SelectedIndex = -1;
+            cmbClub.Items.Clear();
             foreach (DataRow Row in Clubes.Rows)
             {
                 int id = (int)Row["id"];
@@ -42,7 +44,7 @@ namespace Asistencias_wpf
                     Nombre = nombre,
                     AsistenciasParaParcial = asistencias,
                     Parciales = parciales
-                };
+                };              
                 cmbClub.Items.Add(tmp);
             }
             cmbClub.SelectedIndex = 0;
@@ -53,7 +55,7 @@ namespace Asistencias_wpf
         private void AlIniciar()
         {
             SqlCeDataAdapter adap = new SqlCeDataAdapter("SELECT Clubes.* FROM Clubes", conn);
-            //Clubes.Clear();
+            Clubes.Clear();
             //the adapter will open and close the connection for you.
             adap.Fill(Clubes);
         }
@@ -66,6 +68,7 @@ namespace Asistencias_wpf
             ComboBox comboClub = (ComboBox)sender;
 
             Club seleccionado = (Club)comboClub.SelectedItem;
+            if (seleccionado == null) return;
             for (int i = 0; i < seleccionado.Parciales; i++)
             {
                 cmbParcial.Items.Add(i + 1);
@@ -81,15 +84,34 @@ namespace Asistencias_wpf
 
         private void clickEntrar(object sender, RoutedEventArgs e)
         {
+            if (cmbClub.Items.Count==0)
+            {
+                ((Button)sender).IsEnabled = false;
+                return;
+            }
+            if (cmbParcial.SelectedIndex<=-1)
+            {
+                cmbParcial.SelectedIndex = 0;
+            }
             MainWindow main = new MainWindow((Club)cmbClub.SelectedItem, (cmbParcial.SelectedIndex + 1), this);
             main.Show();
             this.Hide();
         }
-
+        public void enableEntrar()
+        {
+            btnEntrar.IsEnabled = true;
+        }
         private void clickClubes(object sender, RoutedEventArgs e)
         {
             RegistroClub ventanaRegistro = new RegistroClub(this);
             ventanaRegistro.Show();
+            this.Hide();
+        }
+
+        private void clickEdit(object sender, RoutedEventArgs e)
+        {
+            ModificarClub ventanaModificar = new ModificarClub(this, (Club)cmbClub.SelectedItem);
+            ventanaModificar.Show();
             this.Hide();
         }
     }

@@ -101,6 +101,36 @@ namespace Asistencias_wpf
             try
             {
                 cmd.ExecuteNonQuery();
+                
+            }
+            catch (System.InvalidOperationException ex)
+            {
+                MessageBoxResult mes = MessageBox.Show(ex.ToString());
+                conexion.Close();
+                return false;
+            }
+            catch (SqlCeException ex)
+            {
+                MessageBoxResult mes = MessageBox.Show(ex.ToString());
+                conexion.Close();
+                return false;
+            }
+            conexion.Close();
+            return true;
+        }
+        public bool RemoveFromDB()
+        {
+            if (!Active()) return false;
+            conexion.Open();
+            SqlCeCommand deleteClub = new SqlCeCommand("DELETE FROM Clubes WHERE id = @id", conexion);
+            deleteClub.Parameters.AddWithValue("@id", Holder.Id);
+            SqlCeCommand deleteAssist = new SqlCeCommand("DELETE FROM Asistencias WHERE idClub = @id", conexion);
+            deleteAssist.Parameters.AddWithValue("@id", Holder.Id);
+            try
+            {
+                deleteClub.ExecuteNonQuery();
+                int asistenciasEliminadas=deleteAssist.ExecuteNonQuery();
+                MessageBox.Show(Holder.Nombre + " eliminado.\nEliminadas "+asistenciasEliminadas.ToString()+" asistencias.");
             }
             catch (System.InvalidOperationException ex)
             {

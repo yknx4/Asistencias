@@ -54,6 +54,7 @@ namespace Asistencias_wpf
 
         public void generarLista()
         {
+            Alumnos.Clear();
             _asistentes = new List<Asistente>();
             SqlCeDataAdapter adap = new SqlCeDataAdapter("SELECT Alumnos.* FROM Alumnos", conn);
             adap.Fill(Alumnos);
