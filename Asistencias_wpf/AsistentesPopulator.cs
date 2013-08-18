@@ -12,7 +12,7 @@ namespace Asistencias_wpf
         private List<Asistente> _acreditados;
         private List<Asistente> _asistentes;
         private DataTable Alumnos = new DataTable();
-        private Club seleccionado;
+        private Club clubSeleccionado;
         private SqlCeConnection conn;
         private AsistenteDBManager asistenteDB;
         private int parcial;
@@ -25,7 +25,7 @@ namespace Asistencias_wpf
         {
             this.conn = conn;
             this.parcial = parcial;
-            this.seleccionado = seleccionado;
+            this.clubSeleccionado = seleccionado;
             asistenteDB = new AsistenteDBManager(conn);
             generarLista();
             generarAcreditados();
@@ -48,7 +48,7 @@ namespace Asistencias_wpf
             _acreditados = new List<Asistente>();
             foreach (Asistente Alumno in _asistentes)
             {
-                if (Alumno.asistencias >= seleccionado.AsistenciasParaParcial) _acreditados.Add(Alumno);
+                if (Alumno.asistencias >= clubSeleccionado.AsistenciasParaParcial) _acreditados.Add(Alumno);
             }
         }
 
@@ -64,7 +64,7 @@ namespace Asistencias_wpf
                 string nmb = Row["Nombre"].ToString();
                 string ptl = Row["Plantel"].ToString();
                 DataTable Asistencias = new DataTable();
-                SqlCeDataAdapter asist = new SqlCeDataAdapter("SELECT Asistencias.* FROM Asistencias WHERE (idClub = " + seleccionado.Id + ") AND (idAlumno = " + accountValue + ") AND (parcial = " + parcial + ")", conn);
+                SqlCeDataAdapter asist = new SqlCeDataAdapter("SELECT Asistencias.* FROM Asistencias WHERE (idClub = " + clubSeleccionado.Id + ") AND (idAlumno = " + accountValue + ") AND (parcial = " + parcial + ")", conn);
                 asist.Fill(Asistencias);
                 List<Asistencia> Asistencia = new List<Asistencia>();
                 foreach (DataRow aRow in Asistencias.Rows)
