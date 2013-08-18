@@ -86,7 +86,7 @@ namespace Asistencias_wpf
                 case ValoresModificables.Nombre:
                     numeroCuentaQuery = Holder.numeroCuenta;
                     valorAModificarQuery = "Nombre";
-                    valorNuevoQuery = Holder.nombre;
+                    valorNuevoQuery = Holder.Nombre;
                     break;
 
                 case ValoresModificables.NumeroCuenta:
@@ -135,7 +135,7 @@ namespace Asistencias_wpf
             conexion.Open();
             SqlCeCommand cmd = new SqlCeCommand("INSERT INTO Alumnos(NumeroCuenta, Nombre, Plantel)VALUES(@cuenta, @nombre, @plantel)", conexion);
             cmd.Parameters.AddWithValue("@cuenta", Holder.numeroCuenta);
-            cmd.Parameters.AddWithValue("@nombre", Holder.nombre);
+            cmd.Parameters.AddWithValue("@nombre", Holder.Nombre);
             cmd.Parameters.AddWithValue("@plantel", Holder.plantel);
             try
             {

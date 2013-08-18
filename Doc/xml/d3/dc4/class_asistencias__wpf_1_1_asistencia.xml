@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d3/dc4/class_asistencias__wpf_1_1_asistencia" kind="class" prot="public">
+    <compoundname>Asistencias_wpf::Asistencia</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d3/dc4/class_asistencias__wpf_1_1_asistencia_1af356237cdb7d3557d9a0829b9081ad09" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime Asistencias_wpf.Asistencia.Date</definition>
+        <argsstring></argsstring>
+        <name>Date</name>
+        <briefdescription>
+<para>Gets or sets the date. </para>        </briefdescription>
+        <detaileddescription>
+<para>The date. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistencia.cs" line="18" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistencia.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d3/dc4/class_asistencias__wpf_1_1_asistencia_1a96e386adc754b6dff8756e27ba0fdbf8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Asistencia.Parcial</definition>
+        <argsstring></argsstring>
+        <name>Parcial</name>
+        <briefdescription>
+<para>Gets or sets the parcial. </para>        </briefdescription>
+        <detaileddescription>
+<para>The parcial. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistencia.cs" line="26" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistencia.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Clase de <ref refid="d3/dc4/class_asistencias__wpf_1_1_asistencia" kindref="compound">Asistencia</ref> </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistencia.cs" line="9" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistencia.cs" bodystart="8" bodyend="27"/>
+    <listofallmembers>
+      <member refid="d3/dc4/class_asistencias__wpf_1_1_asistencia_1af356237cdb7d3557d9a0829b9081ad09" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Asistencia</scope><name>Date</name></member>
+      <member refid="d3/dc4/class_asistencias__wpf_1_1_asistencia_1a96e386adc754b6dff8756e27ba0fdbf8" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Asistencia</scope><name>Parcial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

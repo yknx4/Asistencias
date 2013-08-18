@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_1de0acb3c16eb1f18529d3dfe335857c" kind="dir">
+    <compoundname>ImportarCuentas_wpf/obj/Release</compoundname>
+    <innerfile refid="d3/d86/_importar_cuentas__wpf_2obj_2_release_2_app_8g_8cs">App.g.cs</innerfile>
+    <innerfile refid="db/d31/_importar_cuentas__wpf_2obj_2_release_2_app_8g_8i_8cs">App.g.i.cs</innerfile>
+    <innerfile refid="db/dc5/_importar_cuentas__wpf_2obj_2_release_2_main_window_8g_8cs">MainWindow.g.cs</innerfile>
+    <innerfile refid="de/d2f/_importar_cuentas__wpf_2obj_2_release_2_main_window_8g_8i_8cs">MainWindow.g.i.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/obj/Release/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="db/d45/class_asistencias__wpf_1_1_main_window_view_model" kind="class" prot="public">
+    <compoundname>Asistencias_wpf::MainWindowViewModel</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="db/d45/class_asistencias__wpf_1_1_main_window_view_model_1ab8d721f36e3d86b111758057af886e77" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICollectionView</type>
+        <definition>ICollectionView Asistencias_wpf.MainWindowViewModel.Asistentes</definition>
+        <argsstring></argsstring>
+        <name>Asistentes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindowViewModel.cs" line="9" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindowViewModel.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="db/d45/class_asistencias__wpf_1_1_main_window_view_model_1aec6a0f07ee6c7eb5d90b112f6216792b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Asistencias_wpf.MainWindowViewModel.MainWindowViewModel</definition>
+        <argsstring>(List&lt; Asistente &gt; inputData)</argsstring>
+        <name>MainWindowViewModel</name>
+        <param>
+          <type>List&lt; <ref refid="d8/dfa/class_asistencias__wpf_1_1_asistente" kindref="compound">Asistente</ref> &gt;</type>
+          <declname>inputData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindowViewModel.cs" line="13" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindowViewModel.cs" bodystart="13" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindowViewModel.cs" line="8" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindowViewModel.cs" bodystart="7" bodyend="22"/>
+    <listofallmembers>
+      <member refid="db/d45/class_asistencias__wpf_1_1_main_window_view_model_1ab8d721f36e3d86b111758057af886e77" prot="public" virt="non-virtual"><scope>Asistencias_wpf::MainWindowViewModel</scope><name>Asistentes</name></member>
+      <member refid="db/d45/class_asistencias__wpf_1_1_main_window_view_model_1aec6a0f07ee6c7eb5d90b112f6216792b" prot="public" virt="non-virtual"><scope>Asistencias_wpf::MainWindowViewModel</scope><name>MainWindowViewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d0/de4/namespacematrix" kind="namespace">
+    <compoundname>matrix</compoundname>
+    <innerclass refid="da/d16/classmatrix_1_1_program" prot="public">matrix::Program</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="6" column="1"/>
+  </compounddef>
+</doxygen>

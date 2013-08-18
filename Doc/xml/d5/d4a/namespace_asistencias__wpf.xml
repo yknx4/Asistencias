@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d5/d4a/namespace_asistencias__wpf" kind="namespace">
+    <compoundname>Asistencias_wpf</compoundname>
+    <innerclass refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set" prot="public">Asistencias_wpf::AlumnosDataSet</innerclass>
+    <innerclass refid="da/d53/class_asistencias__wpf_1_1_app" prot="public">Asistencias_wpf::App</innerclass>
+    <innerclass refid="d3/dc4/class_asistencias__wpf_1_1_asistencia" prot="public">Asistencias_wpf::Asistencia</innerclass>
+    <innerclass refid="d8/dfa/class_asistencias__wpf_1_1_asistente" prot="public">Asistencias_wpf::Asistente</innerclass>
+    <innerclass refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager" prot="package">Asistencias_wpf::AsistenteDBManager</innerclass>
+    <innerclass refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator" prot="package">Asistencias_wpf::AsistentesPopulator</innerclass>
+    <innerclass refid="d1/d3b/class_asistencias__wpf_1_1_club" prot="public">Asistencias_wpf::Club</innerclass>
+    <innerclass refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager" prot="package">Asistencias_wpf::ClubDBManager</innerclass>
+    <innerclass refid="d6/d1a/class_asistencias__wpf_1_1_main_window" prot="public">Asistencias_wpf::MainWindow</innerclass>
+    <innerclass refid="db/d45/class_asistencias__wpf_1_1_main_window_view_model" prot="public">Asistencias_wpf::MainWindowViewModel</innerclass>
+    <innerclass refid="d6/da6/class_asistencias__wpf_1_1_modificar_club" prot="public">Asistencias_wpf::ModificarClub</innerclass>
+    <innerclass refid="db/d38/class_asistencias__wpf_1_1_registro_club" prot="public">Asistencias_wpf::RegistroClub</innerclass>
+    <innerclass refid="d3/d56/class_asistencias__wpf_1_1_seleccion" prot="public">Asistencias_wpf::Seleccion</innerclass>
+    <innernamespace refid="da/dbb/namespace_asistencias__wpf_1_1_properties">Asistencias_wpf::Properties</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="13" column="1"/>
+  </compounddef>
+</doxygen>

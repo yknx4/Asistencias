@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d0/d5d/namespace_general__cuentas" kind="namespace">
+    <compoundname>General_cuentas</compoundname>
+    <innerclass refid="d8/dbe/class_general__cuentas_1_1_program" prot="public">General_cuentas::Program</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/General cuentas/Program.cs" line="9" column="1"/>
+  </compounddef>
+</doxygen>

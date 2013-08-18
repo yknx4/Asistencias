@@ -1,0 +1,249 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d8/dfa/class_asistencias__wpf_1_1_asistente" kind="class" prot="public">
+    <compoundname>Asistencias_wpf::Asistente</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">INotifyPropertyChanged</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1aafb8d9bcc27f0e6d1b5b7a24bfc84893" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Asistente._cuentaAnterior</definition>
+        <argsstring></argsstring>
+        <name>_cuentaAnterior</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="12" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a0550570e3668c5b155fda7b5ca5a4484" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Asistencias_wpf.Asistente._nombre</definition>
+        <argsstring></argsstring>
+        <name>_nombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="13" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a7575bb2865cc410870a063630527e992" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Asistente._numeroCuenta</definition>
+        <argsstring></argsstring>
+        <name>_numeroCuenta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="14" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a8b6ed5864317a033ade72dfa8b9dc0f9" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Asistencias_wpf.Asistente._plantel</definition>
+        <argsstring></argsstring>
+        <name>_plantel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="15" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a4496f6ac3f13327513b2d54b7e8c9de8" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="d3/dc4/class_asistencias__wpf_1_1_asistencia" kindref="compound">Asistencia</ref> &gt;</type>
+        <definition>List&lt;Asistencia&gt; Asistencias_wpf.Asistente._asistencias</definition>
+        <argsstring></argsstring>
+        <name>_asistencias</name>
+        <initializer>= new List&lt;<ref refid="d3/dc4/class_asistencias__wpf_1_1_asistencia" kindref="compound">Asistencia</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="16" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a7f5283d025ade6827ef7504f111bc1c7" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="d3/dc4/class_asistencias__wpf_1_1_asistencia" kindref="compound">Asistencia</ref> &gt;</type>
+        <definition>List&lt;Asistencia&gt; Asistencias_wpf.Asistente.Asistencias</definition>
+        <argsstring></argsstring>
+        <name>Asistencias</name>
+        <briefdescription>
+<para>Gets or sets the attendances of the attendant. </para>        </briefdescription>
+        <detaileddescription>
+<para>The asistencias. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="29" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a321714ee92e497c61236fedca32912cb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Asistencias_wpf.Asistente.Nombre</definition>
+        <argsstring></argsstring>
+        <name>Nombre</name>
+        <briefdescription>
+<para>Gets or sets the Name. </para>        </briefdescription>
+        <detaileddescription>
+<para>The Name. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="47" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a6d2aa009497445d62699e3c9d402ca78" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Asistente.numeroCuenta</definition>
+        <argsstring></argsstring>
+        <name>numeroCuenta</name>
+        <briefdescription>
+<para>Gets or sets the ID. </para>        </briefdescription>
+        <detaileddescription>
+<para>The ID. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="63" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a4346dd7e16f0e8ef5de301d5e2b0439b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Asistencias_wpf.Asistente.plantel</definition>
+        <argsstring></argsstring>
+        <name>plantel</name>
+        <briefdescription>
+<para>Gets or sets the campus. </para>        </briefdescription>
+        <detaileddescription>
+<para>The campus. </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="80" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a3457b6737f1c9a57b1e19d27c10405c9" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Asistente.asistencias</definition>
+        <argsstring></argsstring>
+        <name>asistencias</name>
+        <briefdescription>
+<para>Gets or sets the number of attendances. </para>        </briefdescription>
+        <detaileddescription>
+<para>The Attendances list count. </para><para><parameterlist kind="exception"><parameteritem>
+<parameternamelist>
+<parametername>System.NotImplementedException</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>When trying to set attendance number</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="97" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a1d1bb982d69d545e282360e1d0b57472" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler Asistencias_wpf.Asistente.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+<para>Occurs when a property value changes. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="111" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="111" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a0b2aea45dc518be02f9f506176993342" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Asistente.CuentaOriginal</definition>
+        <argsstring>()</argsstring>
+        <name>CuentaOriginal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="18" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d8/dfa/class_asistencias__wpf_1_1_asistente_1a068f2f3fa2becbec4444bda3575c89f9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Asistente.NotifyPropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>NotifyPropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+<para>Notifies the property changed. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>propertyName</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>Name of the property.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="121" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="121" bodyend="127"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Class about an attendant </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="20">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="19">
+        <label>Asistencias_wpf.Asistente</label>
+        <link refid="d8/dfa/class_asistencias__wpf_1_1_asistente"/>
+        <childnode refid="20" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="22">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="21">
+        <label>Asistencias_wpf.Asistente</label>
+        <link refid="d8/dfa/class_asistencias__wpf_1_1_asistente"/>
+        <childnode refid="22" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" line="11" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Asistente.cs" bodystart="10" bodyend="130"/>
+    <listofallmembers>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a4496f6ac3f13327513b2d54b7e8c9de8" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>_asistencias</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1aafb8d9bcc27f0e6d1b5b7a24bfc84893" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>_cuentaAnterior</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a0550570e3668c5b155fda7b5ca5a4484" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>_nombre</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a7575bb2865cc410870a063630527e992" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>_numeroCuenta</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a8b6ed5864317a033ade72dfa8b9dc0f9" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>_plantel</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a3457b6737f1c9a57b1e19d27c10405c9" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>asistencias</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a7f5283d025ade6827ef7504f111bc1c7" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>Asistencias</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a0b2aea45dc518be02f9f506176993342" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>CuentaOriginal</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a321714ee92e497c61236fedca32912cb" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>Nombre</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a068f2f3fa2becbec4444bda3575c89f9" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>NotifyPropertyChanged</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a6d2aa009497445d62699e3c9d402ca78" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>numeroCuenta</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a4346dd7e16f0e8ef5de301d5e2b0439b" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>plantel</name></member>
+      <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a1d1bb982d69d545e282360e1d0b57472" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Asistente</scope><name>PropertyChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

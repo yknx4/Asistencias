@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d9/d22/class_importar_cuentas_1_1_program" kind="class" prot="public">
+    <compoundname>ImportarCuentas::Program</compoundname>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="d9/d22/class_importar_cuentas_1_1_program_1a5c0c8997114f06171f544c86722937b4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ImportarCuentas.Program.Main</definition>
+        <argsstring>(string[] args)</argsstring>
+        <name>Main</name>
+        <param>
+          <type>string[]</type>
+          <declname>args</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas/Program.cs" line="10" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas/Program.cs" bodystart="10" bodyend="12"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas/Program.cs" line="9" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas/Program.cs" bodystart="8" bodyend="13"/>
+    <listofallmembers>
+      <member refid="d9/d22/class_importar_cuentas_1_1_program_1a5c0c8997114f06171f544c86722937b4" prot="private" virt="non-virtual"><scope>ImportarCuentas::Program</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

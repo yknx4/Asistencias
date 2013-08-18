@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d5/db0/class_importar_cuentas__wpf_1_1_app" kind="class" prot="public">
+    <compoundname>ImportarCuentas_wpf::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d5/db0/class_importar_cuentas__wpf_1_1_app_1aa642a2e8d05481d9253fab1fce13287c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImportarCuentas_wpf.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/obj/Release/App.g.cs" line="47" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/obj/Release/App.g.cs" bodystart="47" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/db0/class_importar_cuentas__wpf_1_1_app_1aa642a2e8d05481d9253fab1fce13287c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void ImportarCuentas_wpf.App.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/obj/Release/App.g.i.cs" line="47" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/obj/Release/App.g.i.cs" bodystart="47" bodyend="54"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d5/db0/class_importar_cuentas__wpf_1_1_app_1aebdfe0f105305f342d26114c3d589db0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ImportarCuentas_wpf.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/obj/Release/App.g.cs" line="62" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/obj/Release/App.g.cs" bodystart="62" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="d5/db0/class_importar_cuentas__wpf_1_1_app_1aebdfe0f105305f342d26114c3d589db0" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void ImportarCuentas_wpf.App.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+<para>Application Entry Point. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/obj/Release/App.g.i.cs" line="62" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/obj/Release/App.g.i.cs" bodystart="62" bodyend="66"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for App.xaml </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="d5/db0/class_importar_cuentas__wpf_1_1_app" kindref="compound">App</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="6">
+        <label>System::Windows::Application</label>
+      </node>
+      <node id="7">
+        <label>Application</label>
+      </node>
+      <node id="5">
+        <label>ImportarCuentas_wpf.App</label>
+        <link refid="d5/db0/class_importar_cuentas__wpf_1_1_app"/>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="6" relation="public-inheritance">
+        </childnode>
+        <childnode refid="7" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="9">
+        <label>System::Windows::Application</label>
+      </node>
+      <node id="10">
+        <label>Application</label>
+      </node>
+      <node id="8">
+        <label>ImportarCuentas_wpf.App</label>
+        <link refid="d5/db0/class_importar_cuentas__wpf_1_1_app"/>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="9" relation="public-inheritance">
+        </childnode>
+        <childnode refid="10" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/App.xaml.cs" line="14" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas_wpf/App.xaml.cs" bodystart="13" bodyend="15"/>
+    <listofallmembers>
+      <member refid="d5/db0/class_importar_cuentas__wpf_1_1_app_1aa642a2e8d05481d9253fab1fce13287c" prot="public" virt="non-virtual"><scope>ImportarCuentas_wpf::App</scope><name>InitializeComponent</name></member>
+      <member refid="d5/db0/class_importar_cuentas__wpf_1_1_app_1aa642a2e8d05481d9253fab1fce13287c" prot="public" virt="non-virtual"><scope>ImportarCuentas_wpf::App</scope><name>InitializeComponent</name></member>
+      <member refid="d5/db0/class_importar_cuentas__wpf_1_1_app_1aebdfe0f105305f342d26114c3d589db0" prot="public" virt="non-virtual"><scope>ImportarCuentas_wpf::App</scope><name>Main</name></member>
+      <member refid="d5/db0/class_importar_cuentas__wpf_1_1_app_1aebdfe0f105305f342d26114c3d589db0" prot="public" virt="non-virtual"><scope>ImportarCuentas_wpf::App</scope><name>Main</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

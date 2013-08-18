@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_27471f88bebbf6c0172f46da3a121664" kind="dir">
+    <compoundname>Asistencias_wpf</compoundname>
+    <innerdir refid="dir_9c464575e662058b5ef9fa505ba04364">Asistencias_wpf/obj</innerdir>
+    <innerdir refid="dir_8d0671f83e1a7241a7750efe726e6a22">Asistencias_wpf/Properties</innerdir>
+    <innerfile refid="d9/d9d/_alumnos_data_set_8_designer_8cs">AlumnosDataSet.Designer.cs</innerfile>
+    <innerfile refid="db/ddf/_asistencias__wpf_2_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="db/db3/_asistencia_8cs">Asistencia.cs</innerfile>
+    <innerfile refid="dd/d9d/_asistente_8cs">Asistente.cs</innerfile>
+    <innerfile refid="d9/d3a/_asistente_d_b_manager_8cs">AsistenteDBManager.cs</innerfile>
+    <innerfile refid="d5/d82/_asistentes_populator_8cs">AsistentesPopulator.cs</innerfile>
+    <innerfile refid="db/d97/_club_8cs">Club.cs</innerfile>
+    <innerfile refid="d0/d77/_club_d_b_manager_8cs">ClubDBManager.cs</innerfile>
+    <innerfile refid="db/d9d/_asistencias__wpf_2_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <innerfile refid="d5/dce/_main_window_view_model_8cs">MainWindowViewModel.cs</innerfile>
+    <innerfile refid="d6/d90/_modificar_club_8xaml_8cs">ModificarClub.xaml.cs</innerfile>
+    <innerfile refid="d3/dbe/_registro_club_8xaml_8cs">RegistroClub.xaml.cs</innerfile>
+    <innerfile refid="d2/d94/_seleccion_8xaml_8cs">Seleccion.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/"/>
+  </compounddef>
+</doxygen>

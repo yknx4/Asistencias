@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_109f68d84cef4a133396a0be144fa9b1" kind="dir">
+    <compoundname>matrix</compoundname>
+    <innerdir refid="dir_d8991ee71dd2cc25b6f3dcca4d70dd43">matrix/obj</innerdir>
+    <innerdir refid="dir_26f56494b0e89bd24373cff4f99315e1">matrix/Properties</innerdir>
+    <innerfile refid="d1/d30/matrix_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/"/>
+  </compounddef>
+</doxygen>

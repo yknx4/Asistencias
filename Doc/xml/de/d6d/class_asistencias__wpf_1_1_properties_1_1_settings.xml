@@ -1,0 +1,100 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings" kind="class" prot="package">
+    <compoundname>Asistencias_wpf::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1aa4bd314d77e181189954ca60be029aff" prot="private" static="yes" mutable="no">
+        <type><ref refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Asistencias_wpf.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Settings.Designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1adda8dc133197e0813e029711e37bb30f" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Asistencias_wpf.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1a91e7c9a0cab95ea486d06d98a5152432" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Asistencias_wpf.Properties.Settings.AlumnosConnectionString</definition>
+        <argsstring></argsstring>
+        <name>AlumnosConnectionString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Settings.Designer.cs" line="30" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Settings.Designer.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1a836e31c2aacc9782289d0594f392267a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Properties.Settings.UltimaParcial</definition>
+        <argsstring></argsstring>
+        <name>UltimaParcial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Settings.Designer.cs" line="39" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Settings.Designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="123">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="122">
+        <label>Asistencias_wpf.Properties.Settings</label>
+        <link refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings"/>
+        <childnode refid="123" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="125">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="124">
+        <label>Asistencias_wpf.Properties.Settings</label>
+        <link refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings"/>
+        <childnode refid="125" relation="public-inheritance">
+        </childnode>
+        <childnode refid="124" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Settings.Designer.cs" line="16" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Settings.Designer.cs" bodystart="16" bodyend="47"/>
+    <listofallmembers>
+      <member refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1a91e7c9a0cab95ea486d06d98a5152432" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Properties::Settings</scope><name>AlumnosConnectionString</name></member>
+      <member refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1adda8dc133197e0813e029711e37bb30f" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Properties::Settings</scope><name>Default</name></member>
+      <member refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1aa4bd314d77e181189954ca60be029aff" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Properties::Settings</scope><name>defaultInstance</name></member>
+      <member refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1a836e31c2aacc9782289d0594f392267a" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Properties::Settings</scope><name>UltimaParcial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

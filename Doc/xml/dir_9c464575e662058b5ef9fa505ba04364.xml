@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_9c464575e662058b5ef9fa505ba04364" kind="dir">
+    <compoundname>Asistencias_wpf/obj</compoundname>
+    <innerdir refid="dir_72fc90951456f71ead8f501a73261362">Asistencias_wpf/obj/Debug</innerdir>
+    <innerdir refid="dir_cd8bc5ba588722c3d3b320d6e35c7ed0">Asistencias_wpf/obj/Release</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/"/>
+  </compounddef>
+</doxygen>

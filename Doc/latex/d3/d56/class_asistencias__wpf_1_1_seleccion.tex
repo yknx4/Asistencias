@@ -1,0 +1,574 @@
+\hypertarget{class_asistencias__wpf_1_1_seleccion}{\section{Asistencias\-\_\-wpf.\-Seleccion Class Reference}
+\label{class_asistencias__wpf_1_1_seleccion}\index{Asistencias\-\_\-wpf.\-Seleccion@{Asistencias\-\_\-wpf.\-Seleccion}}
+}
+
+
+\hyperlink{class_asistencias__wpf_1_1_seleccion}{Seleccion}  
+
+
+Inheritance diagram for Asistencias\-\_\-wpf.\-Seleccion\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.309942cm]{d3/d56/class_asistencias__wpf_1_1_seleccion}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_a62d8d645f31e081d2ed47c3e7032d62d}{Initialize\-Component} ()
+\begin{DoxyCompactList}\small\item\em Initialize\-Component \end{DoxyCompactList}\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_a62d8d645f31e081d2ed47c3e7032d62d}{Initialize\-Component} ()
+\begin{DoxyCompactList}\small\item\em Initialize\-Component \end{DoxyCompactList}\item 
+\hyperlink{class_asistencias__wpf_1_1_seleccion_a3886470baefe83a5d79efa21fb6fb998}{Seleccion} ()
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_ae40bbc95f8da07c171f7020538b02fb7}{Refresh} ()
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_a99b62e3ca34abcb65cd30635e90462f8}{enable\-Entrar} ()
+\end{DoxyCompactItemize}
+\subsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+System.\-Windows.\-Controls.\-Combo\-Box \hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmb\-Club}
+\item 
+System.\-Windows.\-Controls.\-Combo\-Box \hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmb\-Parcial}
+\item 
+System.\-Windows.\-Controls.\-Button \hyperlink{class_asistencias__wpf_1_1_seleccion_a7c5e0a561a721c40c2173b532d0995cf}{btn\-Entrar}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \\*
+System.\-Windows.\-Markup.\-I\-Component\-Connector. \hyperlink{class_asistencias__wpf_1_1_seleccion_a41988115d1df1455f23592e43778f392}{Connect} (int connection\-Id, object target)
+\item 
+void \\*
+System.\-Windows.\-Markup.\-I\-Component\-Connector. \hyperlink{class_asistencias__wpf_1_1_seleccion_a41988115d1df1455f23592e43778f392}{Connect} (int connection\-Id, object target)
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_a849c0611846aae842c51b04d41226dad}{Despues\-De\-Cargar} ()
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_af3f1fb5d6a19a54b3f9af080a5415bf8}{Al\-Iniciar} ()
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_a202ae9606e4234345de3f89402572d0b}{llenar\-Parcial} (object sender, Selection\-Changed\-Event\-Args e)
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_a7033e092b4bf1872958ed29087a33b63}{guardar\-Parcial} (object sender, System.\-Component\-Model.\-Cancel\-Event\-Args e)
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_ab8e85da35b7eb9e11d124c20d1ca63d0}{click\-Entrar} (object sender, Routed\-Event\-Args e)
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_aba5ac4fad507a4b3a9279b081d20601b}{click\-Clubes} (object sender, Routed\-Event\-Args e)
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_seleccion_a965e20ba0b78a34e30ea161446864cf2}{click\-Edit} (object sender, Routed\-Event\-Args e)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_asistencias__wpf_1_1_seleccion_a6ae4d9df3b32fa06ca84cb541dc05e7b}{\-\_\-content\-Loaded}
+\item 
+Sql\-Ce\-Connection \hyperlink{class_asistencias__wpf_1_1_seleccion_abc8dc6733d50dc047da06e22ec543633}{conn} = new Sql\-Ce\-Connection(@\char`\"{}Data Source=$|$Data\-Directory$|$\textbackslash{}Alumnos.\-sdf\char`\"{})
+\item 
+Data\-Table \hyperlink{class_asistencias__wpf_1_1_seleccion_a3b40e4f06a7c3351ed5f1e8d30cd6ae8}{Clubes} = new Data\-Table()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{class_asistencias__wpf_1_1_seleccion}{Seleccion} 
+
+Interaction logic for Seleccion.\-xaml 
+
+Definition at line 40 of file Seleccion.\-g.\-cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a3886470baefe83a5d79efa21fb6fb998}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!Seleccion@{Seleccion}}
+\index{Seleccion@{Seleccion}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{Seleccion}]{\setlength{\rightskip}{0pt plus 5cm}Asistencias\-\_\-wpf.\-Seleccion.\-Seleccion (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_seleccion_a3886470baefe83a5d79efa21fb6fb998}
+
+
+Definition at line 19 of file Seleccion.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+20         \{
+21             \hyperlink{class_asistencias__wpf_1_1_seleccion_a62d8d645f31e081d2ed47c3e7032d62d}{InitializeComponent}();
+22             \hyperlink{class_asistencias__wpf_1_1_seleccion_af3f1fb5d6a19a54b3f9af080a5415bf8}{AlIniciar}();
+23             \hyperlink{class_asistencias__wpf_1_1_seleccion_a849c0611846aae842c51b04d41226dad}{DespuesDeCargar}();
+24         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_af3f1fb5d6a19a54b3f9af080a5415bf8}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!Al\-Iniciar@{Al\-Iniciar}}
+\index{Al\-Iniciar@{Al\-Iniciar}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{Al\-Iniciar}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-Al\-Iniciar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_af3f1fb5d6a19a54b3f9af080a5415bf8}
+
+
+Definition at line 57 of file Seleccion.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+58         \{
+59             SqlCeDataAdapter adap = \textcolor{keyword}{new} SqlCeDataAdapter(\textcolor{stringliteral}{"SELECT Clubes.* FROM Clubes"}, 
+      \hyperlink{class_asistencias__wpf_1_1_seleccion_abc8dc6733d50dc047da06e22ec543633}{conn});
+60             \hyperlink{class_asistencias__wpf_1_1_seleccion_a3b40e4f06a7c3351ed5f1e8d30cd6ae8}{Clubes}.Clear();
+61 
+62             \textcolor{comment}{//the adapter will open and close the connection for you.}
+63             adap.Fill(\hyperlink{class_asistencias__wpf_1_1_seleccion_a3b40e4f06a7c3351ed5f1e8d30cd6ae8}{Clubes});
+64         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_aba5ac4fad507a4b3a9279b081d20601b}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!click\-Clubes@{click\-Clubes}}
+\index{click\-Clubes@{click\-Clubes}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{click\-Clubes}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-click\-Clubes (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Routed\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_aba5ac4fad507a4b3a9279b081d20601b}
+
+
+Definition at line 108 of file Seleccion.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+109         \{
+110             RegistroClub ventanaRegistro = \textcolor{keyword}{new} RegistroClub(\textcolor{keyword}{this});
+111             ventanaRegistro.Show();
+112             this.Hide();
+113         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a965e20ba0b78a34e30ea161446864cf2}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!click\-Edit@{click\-Edit}}
+\index{click\-Edit@{click\-Edit}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{click\-Edit}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-click\-Edit (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Routed\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_a965e20ba0b78a34e30ea161446864cf2}
+
+
+Definition at line 115 of file Seleccion.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+116         \{
+117             ModificarClub ventanaModificar = \textcolor{keyword}{new} ModificarClub(\textcolor{keyword}{this}, (Club)
+      \hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.SelectedItem);
+118             ventanaModificar.Show();
+119             this.Hide();
+120         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_ab8e85da35b7eb9e11d124c20d1ca63d0}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!click\-Entrar@{click\-Entrar}}
+\index{click\-Entrar@{click\-Entrar}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{click\-Entrar}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-click\-Entrar (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Routed\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_ab8e85da35b7eb9e11d124c20d1ca63d0}
+
+
+Definition at line 87 of file Seleccion.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+88         \{
+89             \textcolor{keywordflow}{if} (\hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.Items.Count == 0)
+90             \{
+91                 ((Button)sender).IsEnabled = \textcolor{keyword}{false};
+92                 \textcolor{keywordflow}{return};
+93             \}
+94             \textcolor{keywordflow}{if} (\hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmbParcial}.SelectedIndex <= -1)
+95             \{
+96                 \hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmbParcial}.SelectedIndex = 0;
+97             \}
+98             MainWindow main = \textcolor{keyword}{new} MainWindow((Club)\hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.SelectedItem, (
+      \hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmbParcial}.SelectedIndex + 1), \textcolor{keyword}{this});
+99             main.Show();
+100             this.Hide();
+101         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a41988115d1df1455f23592e43778f392}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!Connect@{Connect}}
+\index{Connect@{Connect}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{Connect}]{\setlength{\rightskip}{0pt plus 5cm}void System.\-Windows.\-Markup.\-I\-Component\-Connector. Asistencias\-\_\-wpf.\-Seleccion.\-Connect (
+\begin{DoxyParamCaption}
+\item[{int}]{connection\-Id, }
+\item[{object}]{target}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_a41988115d1df1455f23592e43778f392}
+
+
+Definition at line 93 of file Seleccion.\-g.\-i.\-cs.
+
+
+\begin{DoxyCode}
+93                                                                                                 \{
+94             \textcolor{keywordflow}{switch} (connectionId)
+95             \{
+96             \textcolor{keywordflow}{case} 1:
+97             
+98 \textcolor{preprocessor}{            #line 4 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+99 \textcolor{preprocessor}{}            ((Asistencias\_wpf.Seleccion)(target)).Closing += \textcolor{keyword}{new} System.ComponentModel.CancelEventHandler(\textcolor{keyword}{
+      this}.guardarParcial);
+100             
+101 \textcolor{preprocessor}{            #line default}
+102 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+103 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+104             \textcolor{keywordflow}{case} 2:
+105             this.\hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub} = ((System.Windows.Controls.ComboBox)(target));
+106             
+107 \textcolor{preprocessor}{            #line 22 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+108 \textcolor{preprocessor}{}            this.\hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.SelectionChanged += \textcolor{keyword}{new} System.Windows.Controls.
+      SelectionChangedEventHandler(this.\hyperlink{class_asistencias__wpf_1_1_seleccion_a202ae9606e4234345de3f89402572d0b}{llenarParcial});
+109             
+110 \textcolor{preprocessor}{            #line default}
+111 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+112 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+113             \textcolor{keywordflow}{case} 3:
+114             this.\hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmbParcial} = ((System.Windows.Controls.ComboBox)(target));
+115             \textcolor{keywordflow}{return};
+116             \textcolor{keywordflow}{case} 4:
+117             this.\hyperlink{class_asistencias__wpf_1_1_seleccion_a7c5e0a561a721c40c2173b532d0995cf}{btnEntrar} = ((System.Windows.Controls.Button)(target));
+118             
+119 \textcolor{preprocessor}{            #line 27 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+120 \textcolor{preprocessor}{}            this.\hyperlink{class_asistencias__wpf_1_1_seleccion_a7c5e0a561a721c40c2173b532d0995cf}{btnEntrar}.Click += \textcolor{keyword}{new} System.Windows.RoutedEventHandler(this.
+      \hyperlink{class_asistencias__wpf_1_1_seleccion_ab8e85da35b7eb9e11d124c20d1ca63d0}{clickEntrar});
+121             
+122 \textcolor{preprocessor}{            #line default}
+123 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+124 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+125             \textcolor{keywordflow}{case} 5:
+126             
+127 \textcolor{preprocessor}{            #line 29 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+128 \textcolor{preprocessor}{}            ((System.Windows.Controls.Button)(target)).Click += \textcolor{keyword}{new} System.Windows.RoutedEventHandler(\textcolor{keyword}{this}.
+      clickClubes);
+129             
+130 \textcolor{preprocessor}{            #line default}
+131 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+132 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+133             \textcolor{keywordflow}{case} 6:
+134             
+135 \textcolor{preprocessor}{            #line 30 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+136 \textcolor{preprocessor}{}            ((System.Windows.Controls.Button)(target)).Click += \textcolor{keyword}{new} System.Windows.RoutedEventHandler(\textcolor{keyword}{this}.
+      clickEdit);
+137             
+138 \textcolor{preprocessor}{            #line default}
+139 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+140 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+141             \}
+142             this.\hyperlink{class_asistencias__wpf_1_1_seleccion_a6ae4d9df3b32fa06ca84cb541dc05e7b}{\_contentLoaded} = \textcolor{keyword}{true};
+143         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a41988115d1df1455f23592e43778f392}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!Connect@{Connect}}
+\index{Connect@{Connect}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{Connect}]{\setlength{\rightskip}{0pt plus 5cm}void System.\-Windows.\-Markup.\-I\-Component\-Connector. Asistencias\-\_\-wpf.\-Seleccion.\-Connect (
+\begin{DoxyParamCaption}
+\item[{int}]{connection\-Id, }
+\item[{object}]{target}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_a41988115d1df1455f23592e43778f392}
+
+
+Definition at line 93 of file Seleccion.\-g.\-cs.
+
+
+\begin{DoxyCode}
+93                                                                                                 \{
+94             \textcolor{keywordflow}{switch} (connectionId)
+95             \{
+96             \textcolor{keywordflow}{case} 1:
+97             
+98 \textcolor{preprocessor}{            #line 4 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+99 \textcolor{preprocessor}{}            ((Asistencias\_wpf.Seleccion)(target)).Closing += \textcolor{keyword}{new} System.ComponentModel.CancelEventHandler(\textcolor{keyword}{
+      this}.guardarParcial);
+100             
+101 \textcolor{preprocessor}{            #line default}
+102 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+103 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+104             \textcolor{keywordflow}{case} 2:
+105             this.\hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub} = ((System.Windows.Controls.ComboBox)(target));
+106             
+107 \textcolor{preprocessor}{            #line 22 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+108 \textcolor{preprocessor}{}            this.\hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.SelectionChanged += \textcolor{keyword}{new} System.Windows.Controls.
+      SelectionChangedEventHandler(this.\hyperlink{class_asistencias__wpf_1_1_seleccion_a202ae9606e4234345de3f89402572d0b}{llenarParcial});
+109             
+110 \textcolor{preprocessor}{            #line default}
+111 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+112 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+113             \textcolor{keywordflow}{case} 3:
+114             this.\hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmbParcial} = ((System.Windows.Controls.ComboBox)(target));
+115             \textcolor{keywordflow}{return};
+116             \textcolor{keywordflow}{case} 4:
+117             this.\hyperlink{class_asistencias__wpf_1_1_seleccion_a7c5e0a561a721c40c2173b532d0995cf}{btnEntrar} = ((System.Windows.Controls.Button)(target));
+118             
+119 \textcolor{preprocessor}{            #line 27 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+120 \textcolor{preprocessor}{}            this.\hyperlink{class_asistencias__wpf_1_1_seleccion_a7c5e0a561a721c40c2173b532d0995cf}{btnEntrar}.Click += \textcolor{keyword}{new} System.Windows.RoutedEventHandler(this.
+      \hyperlink{class_asistencias__wpf_1_1_seleccion_ab8e85da35b7eb9e11d124c20d1ca63d0}{clickEntrar});
+121             
+122 \textcolor{preprocessor}{            #line default}
+123 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+124 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+125             \textcolor{keywordflow}{case} 5:
+126             
+127 \textcolor{preprocessor}{            #line 29 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+128 \textcolor{preprocessor}{}            ((System.Windows.Controls.Button)(target)).Click += \textcolor{keyword}{new} System.Windows.RoutedEventHandler(\textcolor{keyword}{this}.
+      clickClubes);
+129             
+130 \textcolor{preprocessor}{            #line default}
+131 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+132 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+133             \textcolor{keywordflow}{case} 6:
+134             
+135 \textcolor{preprocessor}{            #line 30 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+136 \textcolor{preprocessor}{}            ((System.Windows.Controls.Button)(target)).Click += \textcolor{keyword}{new} System.Windows.RoutedEventHandler(\textcolor{keyword}{this}.
+      clickEdit);
+137             
+138 \textcolor{preprocessor}{            #line default}
+139 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+140 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+141             \}
+142             this.\hyperlink{class_asistencias__wpf_1_1_seleccion_a6ae4d9df3b32fa06ca84cb541dc05e7b}{\_contentLoaded} = \textcolor{keyword}{true};
+143         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a849c0611846aae842c51b04d41226dad}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!Despues\-De\-Cargar@{Despues\-De\-Cargar}}
+\index{Despues\-De\-Cargar@{Despues\-De\-Cargar}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{Despues\-De\-Cargar}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-Despues\-De\-Cargar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_a849c0611846aae842c51b04d41226dad}
+
+
+Definition at line 33 of file Seleccion.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+34         \{
+35             \hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.SelectedIndex = -1;
+36             \hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.Items.Clear();
+37             \textcolor{keywordflow}{foreach} (DataRow Row \textcolor{keywordflow}{in} \hyperlink{class_asistencias__wpf_1_1_seleccion_a3b40e4f06a7c3351ed5f1e8d30cd6ae8}{Clubes}.Rows)
+38             \{
+39                 \textcolor{keywordtype}{int} \textcolor{keywordtype}{id} = (int)Row[\textcolor{stringliteral}{"id"}];
+40                 \textcolor{keywordtype}{string} nombre = Row[\textcolor{stringliteral}{"nombre"}].ToString();
+41                 \textcolor{keywordtype}{int} asistencias = (int)Row[\textcolor{stringliteral}{"asisForAssist"}];
+42                 \textcolor{keywordtype}{int} parciales = (int)Row[\textcolor{stringliteral}{"parciales"}];
+43                 Club tmp = \textcolor{keyword}{new} Club()
+44                 \{
+45                     Id = id,
+46                     Nombre = nombre,
+47                     AsistenciasParaParcial = asistencias,
+48                     Parciales = parciales
+49                 \};
+50                 \hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.Items.Add(tmp);
+51             \}
+52             \hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.SelectedIndex = 0;
+53 
+54             \textcolor{comment}{// cmbParcial.SelectedIndex = Settings.Default.UltimaParcial;}
+55         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a99b62e3ca34abcb65cd30635e90462f8}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!enable\-Entrar@{enable\-Entrar}}
+\index{enable\-Entrar@{enable\-Entrar}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{enable\-Entrar}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-enable\-Entrar (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_seleccion_a99b62e3ca34abcb65cd30635e90462f8}
+
+
+Definition at line 103 of file Seleccion.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+104         \{
+105             \hyperlink{class_asistencias__wpf_1_1_seleccion_a7c5e0a561a721c40c2173b532d0995cf}{btnEntrar}.IsEnabled = \textcolor{keyword}{true};
+106         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a7033e092b4bf1872958ed29087a33b63}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!guardar\-Parcial@{guardar\-Parcial}}
+\index{guardar\-Parcial@{guardar\-Parcial}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{guardar\-Parcial}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-guardar\-Parcial (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{System.\-Component\-Model.\-Cancel\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_a7033e092b4bf1872958ed29087a33b63}
+
+
+Definition at line 81 of file Seleccion.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+82         \{
+83             \hyperlink{class_asistencias__wpf_1_1_properties_1_1_settings}{Settings}.\hyperlink{class_asistencias__wpf_1_1_properties_1_1_settings_adda8dc133197e0813e029711e37bb30f}{Default}.\hyperlink{class_asistencias__wpf_1_1_properties_1_1_settings_a836e31c2aacc9782289d0594f392267a}{UltimaParcial} = 
+      \hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmbParcial}.SelectedIndex;
+84             \hyperlink{class_asistencias__wpf_1_1_properties_1_1_settings}{Settings}.\hyperlink{class_asistencias__wpf_1_1_properties_1_1_settings_adda8dc133197e0813e029711e37bb30f}{Default}.Save();
+85         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a62d8d645f31e081d2ed47c3e7032d62d}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!Initialize\-Component@{Initialize\-Component}}
+\index{Initialize\-Component@{Initialize\-Component}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{Initialize\-Component}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-Initialize\-Component (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_seleccion_a62d8d645f31e081d2ed47c3e7032d62d}
+
+
+Initialize\-Component 
+
+
+
+Definition at line 73 of file Seleccion.\-g.\-cs.
+
+
+\begin{DoxyCode}
+73                                           \{
+74             \textcolor{keywordflow}{if} (\hyperlink{class_asistencias__wpf_1_1_seleccion_a6ae4d9df3b32fa06ca84cb541dc05e7b}{\_contentLoaded}) \{
+75                 \textcolor{keywordflow}{return};
+76             \}
+77             \hyperlink{class_asistencias__wpf_1_1_seleccion_a6ae4d9df3b32fa06ca84cb541dc05e7b}{\_contentLoaded} = \textcolor{keyword}{true};
+78             System.Uri resourceLocater = \textcolor{keyword}{new} System.Uri(\textcolor{stringliteral}{"/Asistencias\_wpf;component/seleccion.xaml"}, System
+      .UriKind.Relative);
+79             
+80 \textcolor{preprocessor}{            #line 1 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+81 \textcolor{preprocessor}{}            System.Windows.Application.LoadComponent(\textcolor{keyword}{this}, resourceLocater);
+82             
+83 \textcolor{preprocessor}{            #line default}
+84 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+85 \textcolor{preprocessor}{}        \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a62d8d645f31e081d2ed47c3e7032d62d}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!Initialize\-Component@{Initialize\-Component}}
+\index{Initialize\-Component@{Initialize\-Component}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{Initialize\-Component}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-Initialize\-Component (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_seleccion_a62d8d645f31e081d2ed47c3e7032d62d}
+
+
+Initialize\-Component 
+
+
+
+Definition at line 73 of file Seleccion.\-g.\-i.\-cs.
+
+
+\begin{DoxyCode}
+73                                           \{
+74             \textcolor{keywordflow}{if} (\hyperlink{class_asistencias__wpf_1_1_seleccion_a6ae4d9df3b32fa06ca84cb541dc05e7b}{\_contentLoaded}) \{
+75                 \textcolor{keywordflow}{return};
+76             \}
+77             \hyperlink{class_asistencias__wpf_1_1_seleccion_a6ae4d9df3b32fa06ca84cb541dc05e7b}{\_contentLoaded} = \textcolor{keyword}{true};
+78             System.Uri resourceLocater = \textcolor{keyword}{new} System.Uri(\textcolor{stringliteral}{"/Asistencias\_wpf;component/seleccion.xaml"}, System
+      .UriKind.Relative);
+79             
+80 \textcolor{preprocessor}{            #line 1 "..\(\backslash\)..\(\backslash\)Seleccion.xaml"}
+81 \textcolor{preprocessor}{}            System.Windows.Application.LoadComponent(\textcolor{keyword}{this}, resourceLocater);
+82             
+83 \textcolor{preprocessor}{            #line default}
+84 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+85 \textcolor{preprocessor}{}        \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a202ae9606e4234345de3f89402572d0b}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!llenar\-Parcial@{llenar\-Parcial}}
+\index{llenar\-Parcial@{llenar\-Parcial}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{llenar\-Parcial}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-llenar\-Parcial (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Selection\-Changed\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_a202ae9606e4234345de3f89402572d0b}
+
+
+Definition at line 66 of file Seleccion.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+67         \{
+68             \hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmbParcial}.SelectedIndex = 0;
+69             \hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmbParcial}.Items.Clear();
+70             ComboBox comboClub = (ComboBox)sender;
+71 
+72             Club seleccionado = (Club)comboClub.SelectedItem;
+73             if (seleccionado == null) \textcolor{keywordflow}{return};
+74             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < seleccionado.Parciales; i++)
+75             \{
+76                 \hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmbParcial}.Items.Add(i + 1);
+77             \}
+78             \hyperlink{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{cmbParcial}.SelectedIndex = \hyperlink{class_asistencias__wpf_1_1_properties_1_1_settings}{Settings}.\hyperlink{class_asistencias__wpf_1_1_properties_1_1_settings_adda8dc133197e0813e029711e37bb30f}{Default}.
+      \hyperlink{class_asistencias__wpf_1_1_properties_1_1_settings_a836e31c2aacc9782289d0594f392267a}{UltimaParcial};
+79         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_ae40bbc95f8da07c171f7020538b02fb7}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!Refresh@{Refresh}}
+\index{Refresh@{Refresh}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{Refresh}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Seleccion.\-Refresh (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_seleccion_ae40bbc95f8da07c171f7020538b02fb7}
+
+
+Definition at line 26 of file Seleccion.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+27         \{
+28             \hyperlink{class_asistencias__wpf_1_1_seleccion_af3f1fb5d6a19a54b3f9af080a5415bf8}{AlIniciar}();
+29             \hyperlink{class_asistencias__wpf_1_1_seleccion_a849c0611846aae842c51b04d41226dad}{DespuesDeCargar}();
+30             \hyperlink{class_asistencias__wpf_1_1_seleccion_a202ae9606e4234345de3f89402572d0b}{llenarParcial}(\hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}, null);
+31         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a6ae4d9df3b32fa06ca84cb541dc05e7b}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!\-\_\-content\-Loaded@{\-\_\-content\-Loaded}}
+\index{\-\_\-content\-Loaded@{\-\_\-content\-Loaded}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{\-\_\-content\-Loaded}]{\setlength{\rightskip}{0pt plus 5cm}bool Asistencias\-\_\-wpf.\-Seleccion.\-\_\-content\-Loaded\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_a6ae4d9df3b32fa06ca84cb541dc05e7b}
+
+
+Definition at line 66 of file Seleccion.\-g.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a7c5e0a561a721c40c2173b532d0995cf}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!btn\-Entrar@{btn\-Entrar}}
+\index{btn\-Entrar@{btn\-Entrar}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{btn\-Entrar}]{\setlength{\rightskip}{0pt plus 5cm}System Windows Controls Button Asistencias\-\_\-wpf.\-Seleccion.\-btn\-Entrar\hspace{0.3cm}{\ttfamily [package]}}}\label{class_asistencias__wpf_1_1_seleccion_a7c5e0a561a721c40c2173b532d0995cf}
+
+
+Definition at line 61 of file Seleccion.\-g.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a3b40e4f06a7c3351ed5f1e8d30cd6ae8}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!Clubes@{Clubes}}
+\index{Clubes@{Clubes}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{Clubes}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Table Asistencias\-\_\-wpf.\-Seleccion.\-Clubes = new Data\-Table()\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_a3b40e4f06a7c3351ed5f1e8d30cd6ae8}
+
+
+Definition at line 15 of file Seleccion.\-xaml.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!cmb\-Club@{cmb\-Club}}
+\index{cmb\-Club@{cmb\-Club}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{cmb\-Club}]{\setlength{\rightskip}{0pt plus 5cm}System Windows Controls Combo\-Box Asistencias\-\_\-wpf.\-Seleccion.\-cmb\-Club\hspace{0.3cm}{\ttfamily [package]}}}\label{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}
+
+
+Definition at line 45 of file Seleccion.\-g.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!cmb\-Parcial@{cmb\-Parcial}}
+\index{cmb\-Parcial@{cmb\-Parcial}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{cmb\-Parcial}]{\setlength{\rightskip}{0pt plus 5cm}System Windows Controls Combo\-Box Asistencias\-\_\-wpf.\-Seleccion.\-cmb\-Parcial\hspace{0.3cm}{\ttfamily [package]}}}\label{class_asistencias__wpf_1_1_seleccion_a24db3199864aca68b55959ae7477bb3b}
+
+
+Definition at line 53 of file Seleccion.\-g.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_seleccion_abc8dc6733d50dc047da06e22ec543633}{\index{Asistencias\-\_\-wpf\-::\-Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}!conn@{conn}}
+\index{conn@{conn}!Asistencias_wpf::Seleccion@{Asistencias\-\_\-wpf\-::\-Seleccion}}
+\subsubsection[{conn}]{\setlength{\rightskip}{0pt plus 5cm}Sql\-Ce\-Connection Asistencias\-\_\-wpf.\-Seleccion.\-conn = new Sql\-Ce\-Connection(@\char`\"{}Data Source=$|$Data\-Directory$|$\textbackslash{}Alumnos.\-sdf\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_seleccion_abc8dc6733d50dc047da06e22ec543633}
+
+
+Definition at line 14 of file Seleccion.\-xaml.\-cs.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Asistencias\-\_\-wpf/obj/\-Release/\hyperlink{_seleccion_8g_8cs}{Seleccion.\-g.\-cs}\item 
+Asistencias\-\_\-wpf/obj/\-Release/\hyperlink{_seleccion_8g_8i_8cs}{Seleccion.\-g.\-i.\-cs}\item 
+Asistencias\-\_\-wpf/\hyperlink{_seleccion_8xaml_8cs}{Seleccion.\-xaml.\-cs}\end{DoxyCompactItemize}

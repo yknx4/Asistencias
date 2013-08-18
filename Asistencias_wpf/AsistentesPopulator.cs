@@ -89,7 +89,7 @@ namespace Asistencias_wpf
                 }
                 Asistente actual = new Asistente()
                 {
-                    nombre = nmb,
+                    Nombre = nmb,
                     numeroCuenta = accountValue,
                     plantel = ptl,
 

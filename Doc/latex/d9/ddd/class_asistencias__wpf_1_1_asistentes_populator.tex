@@ -1,0 +1,253 @@
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator}{\section{Asistencias\-\_\-wpf.\-Asistentes\-Populator Class Reference}
+\label{class_asistencias__wpf_1_1_asistentes_populator}\index{Asistencias\-\_\-wpf.\-Asistentes\-Populator@{Asistencias\-\_\-wpf.\-Asistentes\-Populator}}
+}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_ae0fd583251f55be398fff227885728e2}{cuenta\-Modificada} (object sender, Property\-Changed\-Event\-Args e)
+\item 
+\hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a1171590ee1726952f8a8336bcfe7d8d3}{Asistentes\-Populator} (Sql\-Ce\-Connection \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_aea7e955756112dc99c093514621320c7}{conn}, int \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_abe2a5ad9e46aa901e8c8e9bbf03ef653}{parcial}, \hyperlink{class_asistencias__wpf_1_1_club}{Club} seleccionado)
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_aadfe2dae3e3628d7d14dd3613ae5039b}{generar\-Acreditados} ()
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a93286c806b0d3ebe3ea65ec5c4b5fd8b}{generar\-Lista} ()
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \hyperlink{class_asistencias__wpf_1_1_asistente}{Asistente} $>$ \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_aabced42abbc527d1a0426c3772546eca}{Asistentes}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\item 
+List$<$ \hyperlink{class_asistencias__wpf_1_1_asistente}{Asistente} $>$ \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a5db01c3b8b78cd44c75180c2450db2c5}{Acreditados}\hspace{0.3cm}{\ttfamily  \mbox{[}get, set\mbox{]}}
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+List$<$ \hyperlink{class_asistencias__wpf_1_1_asistente}{Asistente} $>$ \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_acb5b7e513ea3e1df015d7fedaa5c2624}{\-\_\-acreditados}
+\item 
+List$<$ \hyperlink{class_asistencias__wpf_1_1_asistente}{Asistente} $>$ \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a84a4c12da1ef4556f1cfefbea12902b8}{\-\_\-asistentes}
+\item 
+Data\-Table \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a5be02a2b0beb32f0c8b2aef488303359}{Alumnos} = new Data\-Table()
+\item 
+\hyperlink{class_asistencias__wpf_1_1_club}{Club} \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a33a9f65088b3243c8473180e80e322d9}{club\-Seleccionado}
+\item 
+Sql\-Ce\-Connection \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_aea7e955756112dc99c093514621320c7}{conn}
+\item 
+\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager}{Asistente\-D\-B\-Manager} \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_ab64596c710fa43f2a8391a4a3f662031}{asistente\-D\-B}
+\item 
+int \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_abe2a5ad9e46aa901e8c8e9bbf03ef653}{parcial}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 9 of file Asistentes\-Populator.\-cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_a1171590ee1726952f8a8336bcfe7d8d3}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!Asistentes\-Populator@{Asistentes\-Populator}}
+\index{Asistentes\-Populator@{Asistentes\-Populator}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{Asistentes\-Populator}]{\setlength{\rightskip}{0pt plus 5cm}Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-Asistentes\-Populator (
+\begin{DoxyParamCaption}
+\item[{Sql\-Ce\-Connection}]{conn, }
+\item[{int}]{parcial, }
+\item[{{\bf Club}}]{seleccionado}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistentes_populator_a1171590ee1726952f8a8336bcfe7d8d3}
+
+
+Definition at line 24 of file Asistentes\-Populator.\-cs.
+
+
+\begin{DoxyCode}
+25         \{
+26             this.\hyperlink{class_asistencias__wpf_1_1_asistentes_populator_aea7e955756112dc99c093514621320c7}{conn} = \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_aea7e955756112dc99c093514621320c7}{conn};
+27             this.\hyperlink{class_asistencias__wpf_1_1_asistentes_populator_abe2a5ad9e46aa901e8c8e9bbf03ef653}{parcial} = \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_abe2a5ad9e46aa901e8c8e9bbf03ef653}{parcial};
+28             this.\hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a33a9f65088b3243c8473180e80e322d9}{clubSeleccionado} = seleccionado;
+29             \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_ab64596c710fa43f2a8391a4a3f662031}{asistenteDB} = \textcolor{keyword}{new} AsistenteDBManager(\hyperlink{class_asistencias__wpf_1_1_asistentes_populator_aea7e955756112dc99c093514621320c7}{conn});
+30             \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a93286c806b0d3ebe3ea65ec5c4b5fd8b}{generarLista}();
+31             \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_aadfe2dae3e3628d7d14dd3613ae5039b}{generarAcreditados}();
+32         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_ae0fd583251f55be398fff227885728e2}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!cuenta\-Modificada@{cuenta\-Modificada}}
+\index{cuenta\-Modificada@{cuenta\-Modificada}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{cuenta\-Modificada}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-cuenta\-Modificada (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Property\-Changed\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistentes_populator_ae0fd583251f55be398fff227885728e2}
+
+
+Definition at line 19 of file Asistentes\-Populator.\-cs.
+
+
+\begin{DoxyCode}
+20         \{
+21             \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_ab64596c710fa43f2a8391a4a3f662031}{asistenteDB}.\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aaa8e1dc62ddda84ff70cc4477feef0c6}{cuentaModificada}(sender, e);
+22         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_aadfe2dae3e3628d7d14dd3613ae5039b}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!generar\-Acreditados@{generar\-Acreditados}}
+\index{generar\-Acreditados@{generar\-Acreditados}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{generar\-Acreditados}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-generar\-Acreditados (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistentes_populator_aadfe2dae3e3628d7d14dd3613ae5039b}
+
+
+Definition at line 46 of file Asistentes\-Populator.\-cs.
+
+
+\begin{DoxyCode}
+47         \{
+48             \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_acb5b7e513ea3e1df015d7fedaa5c2624}{\_acreditados} = \textcolor{keyword}{new} List<Asistente>();
+49             \textcolor{keywordflow}{foreach} (Asistente Alumno \textcolor{keywordflow}{in} \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a84a4c12da1ef4556f1cfefbea12902b8}{\_asistentes})
+50             \{
+51                 \textcolor{keywordflow}{if} (Alumno.asistencias >= \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a33a9f65088b3243c8473180e80e322d9}{clubSeleccionado}.
+      \hyperlink{class_asistencias__wpf_1_1_club_a1855a7a63b6465ef490871f93d385a69}{AsistenciasParaParcial}) \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_acb5b7e513ea3e1df015d7fedaa5c2624}{\_acreditados}.Add(Alumno);
+52             \}
+53         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_a93286c806b0d3ebe3ea65ec5c4b5fd8b}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!generar\-Lista@{generar\-Lista}}
+\index{generar\-Lista@{generar\-Lista}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{generar\-Lista}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-generar\-Lista (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistentes_populator_a93286c806b0d3ebe3ea65ec5c4b5fd8b}
+
+
+Definition at line 55 of file Asistentes\-Populator.\-cs.
+
+
+\begin{DoxyCode}
+56         \{
+57             \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a5be02a2b0beb32f0c8b2aef488303359}{Alumnos}.Clear();
+58             \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a84a4c12da1ef4556f1cfefbea12902b8}{\_asistentes} = \textcolor{keyword}{new} List<Asistente>();
+59             SqlCeDataAdapter adap = \textcolor{keyword}{new} SqlCeDataAdapter(\textcolor{stringliteral}{"SELECT Alumnos.* FROM Alumnos"}, 
+      \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_aea7e955756112dc99c093514621320c7}{conn});
+60             adap.Fill(\hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a5be02a2b0beb32f0c8b2aef488303359}{Alumnos});
+61             \textcolor{keywordflow}{foreach} (DataRow Row \textcolor{keywordflow}{in} \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a5be02a2b0beb32f0c8b2aef488303359}{Alumnos}.Rows)
+62             \{
+63                 \textcolor{comment}{// this.Title = Row["NumeroCuenta"].ToString();}
+64                 \textcolor{keywordtype}{int} accountValue = Convert.ToInt32(Row[\textcolor{stringliteral}{"NumeroCuenta"}].ToString());
+65                 \textcolor{keywordtype}{string} nmb = Row[\textcolor{stringliteral}{"Nombre"}].ToString();
+66                 \textcolor{keywordtype}{string} ptl = Row[\textcolor{stringliteral}{"Plantel"}].ToString();
+67                 DataTable Asistencias = \textcolor{keyword}{new} DataTable();
+68                 SqlCeDataAdapter asist = \textcolor{keyword}{new} SqlCeDataAdapter(\textcolor{stringliteral}{"SELECT Asistencias.* FROM Asistencias WHERE
+       (idClub = "} + \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a33a9f65088b3243c8473180e80e322d9}{clubSeleccionado}.\hyperlink{class_asistencias__wpf_1_1_club_a25ec9c585f6874004dc690ea2641ab0d}{Id} + \textcolor{stringliteral}{") AND (idAlumno = "} + accountValue + \textcolor{stringliteral}{") AND (parcial
+       = "} + \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_abe2a5ad9e46aa901e8c8e9bbf03ef653}{parcial} + \textcolor{stringliteral}{")"}, \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_aea7e955756112dc99c093514621320c7}{conn});
+69                 asist.Fill(Asistencias);
+70                 List<Asistencia> Asistencia = \textcolor{keyword}{new} List<Asistencia>();
+71                 \textcolor{keywordflow}{foreach} (DataRow aRow \textcolor{keywordflow}{in} Asistencias.Rows)
+72                 \{
+73                     DateTime tmpDate;
+74                     \textcolor{keywordflow}{try}
+75                     \{
+76                         tmpDate = Convert.ToDateTime(aRow[\textcolor{stringliteral}{"date"}]);
+77                     \}
+78                     \textcolor{keywordflow}{catch} (System.InvalidCastException)
+79                     \{
+80                         tmpDate = \textcolor{keyword}{new} DateTime(0);
+81                     \}
+82                     Asistencia tmpAsistencia = \textcolor{keyword}{new} Asistencia()
+83                     \{
+84                         \textcolor{comment}{//ID = Convert.ToInt32(aRow["id"].ToString()),}
+85                         Date = tmpDate,
+86                         Parcial = \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_abe2a5ad9e46aa901e8c8e9bbf03ef653}{parcial},
+87                     \};
+88                     Asistencia.Add(tmpAsistencia);
+89                 \}
+90                 Asistente actual = \textcolor{keyword}{new} Asistente()
+91                 \{
+92                     Nombre = nmb,
+93                     numeroCuenta = accountValue,
+94                     plantel = ptl,
+95 
+96                     \textcolor{comment}{// asistencias = Asistencia.Count,}
+97                     Asistencias = Asistencia,
+98                 \};
+99                 actual.PropertyChanged += \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_ae0fd583251f55be398fff227885728e2}{cuentaModificada};
+100                 \hyperlink{class_asistencias__wpf_1_1_asistentes_populator_a84a4c12da1ef4556f1cfefbea12902b8}{\_asistentes}.Add(actual);
+101             \}
+102         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_acb5b7e513ea3e1df015d7fedaa5c2624}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!\-\_\-acreditados@{\-\_\-acreditados}}
+\index{\-\_\-acreditados@{\-\_\-acreditados}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{\-\_\-acreditados}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Asistente}$>$ Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-\_\-acreditados\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_asistentes_populator_acb5b7e513ea3e1df015d7fedaa5c2624}
+
+
+Definition at line 11 of file Asistentes\-Populator.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_a84a4c12da1ef4556f1cfefbea12902b8}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!\-\_\-asistentes@{\-\_\-asistentes}}
+\index{\-\_\-asistentes@{\-\_\-asistentes}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{\-\_\-asistentes}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Asistente}$>$ Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-\_\-asistentes\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_asistentes_populator_a84a4c12da1ef4556f1cfefbea12902b8}
+
+
+Definition at line 12 of file Asistentes\-Populator.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_a5be02a2b0beb32f0c8b2aef488303359}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!Alumnos@{Alumnos}}
+\index{Alumnos@{Alumnos}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{Alumnos}]{\setlength{\rightskip}{0pt plus 5cm}Data\-Table Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-Alumnos = new Data\-Table()\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_asistentes_populator_a5be02a2b0beb32f0c8b2aef488303359}
+
+
+Definition at line 13 of file Asistentes\-Populator.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_ab64596c710fa43f2a8391a4a3f662031}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!asistente\-D\-B@{asistente\-D\-B}}
+\index{asistente\-D\-B@{asistente\-D\-B}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{asistente\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Asistente\-D\-B\-Manager} Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-asistente\-D\-B\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_asistentes_populator_ab64596c710fa43f2a8391a4a3f662031}
+
+
+Definition at line 16 of file Asistentes\-Populator.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_a33a9f65088b3243c8473180e80e322d9}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!club\-Seleccionado@{club\-Seleccionado}}
+\index{club\-Seleccionado@{club\-Seleccionado}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{club\-Seleccionado}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Club} Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-club\-Seleccionado\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_asistentes_populator_a33a9f65088b3243c8473180e80e322d9}
+
+
+Definition at line 14 of file Asistentes\-Populator.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_aea7e955756112dc99c093514621320c7}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!conn@{conn}}
+\index{conn@{conn}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{conn}]{\setlength{\rightskip}{0pt plus 5cm}Sql\-Ce\-Connection Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-conn\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_asistentes_populator_aea7e955756112dc99c093514621320c7}
+
+
+Definition at line 15 of file Asistentes\-Populator.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_abe2a5ad9e46aa901e8c8e9bbf03ef653}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!parcial@{parcial}}
+\index{parcial@{parcial}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{parcial}]{\setlength{\rightskip}{0pt plus 5cm}int Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-parcial\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_asistentes_populator_abe2a5ad9e46aa901e8c8e9bbf03ef653}
+
+
+Definition at line 17 of file Asistentes\-Populator.\-cs.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_a5db01c3b8b78cd44c75180c2450db2c5}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!Acreditados@{Acreditados}}
+\index{Acreditados@{Acreditados}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{Acreditados}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Asistente}$>$ Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-Acreditados\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_asistencias__wpf_1_1_asistentes_populator_a5db01c3b8b78cd44c75180c2450db2c5}
+
+
+Definition at line 41 of file Asistentes\-Populator.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_asistentes_populator_aabced42abbc527d1a0426c3772546eca}{\index{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}!Asistentes@{Asistentes}}
+\index{Asistentes@{Asistentes}!Asistencias_wpf::AsistentesPopulator@{Asistencias\-\_\-wpf\-::\-Asistentes\-Populator}}
+\subsubsection[{Asistentes}]{\setlength{\rightskip}{0pt plus 5cm}List$<${\bf Asistente}$>$ Asistencias\-\_\-wpf.\-Asistentes\-Populator.\-Asistentes\hspace{0.3cm}{\ttfamily [get]}, {\ttfamily [set]}}}\label{class_asistencias__wpf_1_1_asistentes_populator_aabced42abbc527d1a0426c3772546eca}
+
+
+Definition at line 35 of file Asistentes\-Populator.\-cs.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Asistencias\-\_\-wpf/\hyperlink{_asistentes_populator_8cs}{Asistentes\-Populator.\-cs}\end{DoxyCompactItemize}

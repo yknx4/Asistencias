@@ -84,7 +84,7 @@ namespace Asistencias_wpf
                 asistenteManager.setAsistente(ResultHolder);
                 if (asistenteManager.anadirAsistencia(clubSeleccionado.Id, parcial))
                 {
-                    lblEstado.Content = ResultHolder.nombre + " tiene " + ResultHolder.asistencias + " asistencias.";
+                    lblEstado.Content = ResultHolder.Nombre + " tiene " + ResultHolder.asistencias + " asistencias.";
                     txtCuenta.Text = "";
                 }
                 else
@@ -258,7 +258,7 @@ namespace Asistencias_wpf
 
             Asistente actual = new Asistente()
             {
-                nombre = txtNombre.Text,
+                Nombre = txtNombre.Text,
                 numeroCuenta = Convert.ToInt32(txtCuentaR.Text),
                 plantel = txtPlantel.Text,
             };
@@ -329,7 +329,7 @@ namespace Asistencias_wpf
             //if (lblEstado != null) lblEstado.Content = "";
             if (busquedaAsist != null)
             {
-                lblEstado.Content = busquedaAsist.nombre + " tiene " + busquedaAsist.asistencias + " asistencias.";
+                lblEstado.Content = busquedaAsist.Nombre + " tiene " + busquedaAsist.asistencias + " asistencias.";
             }
             else
             {

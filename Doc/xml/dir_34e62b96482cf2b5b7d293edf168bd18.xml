@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_34e62b96482cf2b5b7d293edf168bd18" kind="dir">
+    <compoundname>General cuentas/obj</compoundname>
+    <innerdir refid="dir_22648e650681dad6f90660658607d08e">General cuentas/obj/Debug</innerdir>
+    <innerdir refid="dir_674e2cb3c8cd6db26dbae89a993d0dd1">General cuentas/obj/Release</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/General cuentas/obj/"/>
+  </compounddef>
+</doxygen>

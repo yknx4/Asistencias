@@ -1,0 +1,633 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.4">
+  <compound refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set" kind="class"><name>Asistencias_wpf::AlumnosDataSet</name>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4e2747d090ad9f5a7cb90cc711d427eb" kind="variable"><name>_schemaSerializationMode</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1ac9d0957f5b0991168a77c1f48fb92941" kind="property"><name>SchemaSerializationMode</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1aa4ac49198eb7a8cd5730501fd92eaa0c" kind="property"><name>Tables</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a0d4c947f0546161fe211244d255abcf8" kind="property"><name>Relations</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a2d47f7c2a65b0ef4a5f1d70feb28751c" kind="function"><name>AlumnosDataSet</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a8e965005fd3afa7c757feee5bce7361b" kind="function"><name>Clone</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a8bb8ae3fc931cfd440b5829936be96da" kind="function"><name>AlumnosDataSet</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1aa54e430ba6cc29d1987e2aa2af9ae492" kind="function"><name>InitializeDerivedDataSet</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a7148e32c99b4bfa5fda209817ea3d5bc" kind="function"><name>ShouldSerializeTables</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a75d5276738807f69e3147ba9abbce54d" kind="function"><name>ShouldSerializeRelations</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4dc0ff2efb9ba6bd71bd254fcd1e7ce9" kind="function"><name>ReadXmlSerializable</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1adf60c84a546a7842987434eecdda8607" kind="function"><name>GetSchemaSerializable</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4cd12c7d20f4d68d13a2845029bb7831" kind="function"><name>InitVars</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4cefcbf11867b322bfa98ed9deddb8da" kind="function"><name>InitVars</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a5b202656a9682929a0e3fe9bda2b6901" kind="function"><name>InitClass</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a9d5e54c2f591f426d9cef8f1b11dbfdb" kind="function"><name>SchemaChanged</name></member>
+    <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a11d8464b2c094ddc6d16345c8b38f1dd" kind="function"><name>GetTypedDataSetSchema</name></member>
+  </compound>
+  <compound refid="d5/db0/class_importar_cuentas__wpf_1_1_app" kind="class"><name>ImportarCuentas_wpf::App</name>
+    <member refid="d5/db0/class_importar_cuentas__wpf_1_1_app_1aa642a2e8d05481d9253fab1fce13287c" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d5/db0/class_importar_cuentas__wpf_1_1_app_1aa642a2e8d05481d9253fab1fce13287c" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d5/db0/class_importar_cuentas__wpf_1_1_app_1aebdfe0f105305f342d26114c3d589db0" kind="function"><name>Main</name></member>
+    <member refid="d5/db0/class_importar_cuentas__wpf_1_1_app_1aebdfe0f105305f342d26114c3d589db0" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="da/d53/class_asistencias__wpf_1_1_app" kind="class"><name>Asistencias_wpf::App</name>
+    <member refid="da/d53/class_asistencias__wpf_1_1_app_1a38df2651cd7e06a163ff534934e18a28" kind="function"><name>alSalir</name></member>
+    <member refid="da/d53/class_asistencias__wpf_1_1_app_1a4b956655a7d184cd7528fae0982fd447" kind="function"><name>InitializeComponent</name></member>
+    <member refid="da/d53/class_asistencias__wpf_1_1_app_1a4b956655a7d184cd7528fae0982fd447" kind="function"><name>InitializeComponent</name></member>
+    <member refid="da/d53/class_asistencias__wpf_1_1_app_1a4b956655a7d184cd7528fae0982fd447" kind="function"><name>InitializeComponent</name></member>
+    <member refid="da/d53/class_asistencias__wpf_1_1_app_1a4b956655a7d184cd7528fae0982fd447" kind="function"><name>InitializeComponent</name></member>
+    <member refid="da/d53/class_asistencias__wpf_1_1_app_1a6cab517d2df0e043c510a16e63b4f1ef" kind="function"><name>Main</name></member>
+    <member refid="da/d53/class_asistencias__wpf_1_1_app_1a6cab517d2df0e043c510a16e63b4f1ef" kind="function"><name>Main</name></member>
+    <member refid="da/d53/class_asistencias__wpf_1_1_app_1a6cab517d2df0e043c510a16e63b4f1ef" kind="function"><name>Main</name></member>
+    <member refid="da/d53/class_asistencias__wpf_1_1_app_1a6cab517d2df0e043c510a16e63b4f1ef" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="d3/dc4/class_asistencias__wpf_1_1_asistencia" kind="class"><name>Asistencias_wpf::Asistencia</name>
+    <member refid="d3/dc4/class_asistencias__wpf_1_1_asistencia_1af356237cdb7d3557d9a0829b9081ad09" kind="property"><name>Date</name></member>
+    <member refid="d3/dc4/class_asistencias__wpf_1_1_asistencia_1a96e386adc754b6dff8756e27ba0fdbf8" kind="property"><name>Parcial</name></member>
+  </compound>
+  <compound refid="d8/dfa/class_asistencias__wpf_1_1_asistente" kind="class"><name>Asistencias_wpf::Asistente</name>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1aafb8d9bcc27f0e6d1b5b7a24bfc84893" kind="variable"><name>_cuentaAnterior</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a0550570e3668c5b155fda7b5ca5a4484" kind="variable"><name>_nombre</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a7575bb2865cc410870a063630527e992" kind="variable"><name>_numeroCuenta</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a8b6ed5864317a033ade72dfa8b9dc0f9" kind="variable"><name>_plantel</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a4496f6ac3f13327513b2d54b7e8c9de8" kind="variable"><name>_asistencias</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a7f5283d025ade6827ef7504f111bc1c7" kind="property"><name>Asistencias</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a321714ee92e497c61236fedca32912cb" kind="property"><name>Nombre</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a6d2aa009497445d62699e3c9d402ca78" kind="property"><name>numeroCuenta</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a4346dd7e16f0e8ef5de301d5e2b0439b" kind="property"><name>plantel</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a3457b6737f1c9a57b1e19d27c10405c9" kind="property"><name>asistencias</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a1d1bb982d69d545e282360e1d0b57472" kind="event"><name>PropertyChanged</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a0b2aea45dc518be02f9f506176993342" kind="function"><name>CuentaOriginal</name></member>
+    <member refid="d8/dfa/class_asistencias__wpf_1_1_asistente_1a068f2f3fa2becbec4444bda3575c89f9" kind="function"><name>NotifyPropertyChanged</name></member>
+  </compound>
+  <compound refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager" kind="class"><name>Asistencias_wpf::AsistenteDBManager</name>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1aeae46a91b8b2adb28f456244aacfb8f0" kind="enum"><name>ValoresModificables</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1aeae46a91b8b2adb28f456244aacfb8f0a4777bbaaa0aebe104606b77947d0e22d" kind="enumvalue"><name>Nombre</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1aeae46a91b8b2adb28f456244aacfb8f0a7f670e8edeb7d1abac3f5695d74bb804" kind="enumvalue"><name>NumeroCuenta</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1aeae46a91b8b2adb28f456244aacfb8f0a6e2cce6dad590a2367ae0285df2141a5" kind="enumvalue"><name>Plantel</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1a4ed268d53c358adfb5ca0185439bd6cf" kind="variable"><name>conexion</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1a4f73db2d92f913ccc8862126717968cd" kind="variable"><name>Holder</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1ac124c7e7f72b7eddbd4054da0d9169ad" kind="function"><name>AsistenteDBManager</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1a695b53193eabec4814e2a09a4811dba9" kind="function"><name>setAsistente</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1a1dc90dc3e9b1f2b0d5ac6997b23006d6" kind="function"><name>Clear</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1a77d4dfd2794fde1c3ddc45e80ebf9a82" kind="function"><name>anadirAsistencia</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1a94c6e11567ec422e62c275ed6d2cacab" kind="function"><name>modificarDato</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1a10556de1877fa8a45228425bd35ff83c" kind="function"><name>AddToDB</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1aaa8e1dc62ddda84ff70cc4477feef0c6" kind="function"><name>cuentaModificada</name></member>
+    <member refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager_1ae48d582f5f9db4788e0f5f7c1bfe9b6e" kind="function"><name>Active</name></member>
+  </compound>
+  <compound refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator" kind="class"><name>Asistencias_wpf::AsistentesPopulator</name>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1acb5b7e513ea3e1df015d7fedaa5c2624" kind="variable"><name>_acreditados</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a84a4c12da1ef4556f1cfefbea12902b8" kind="variable"><name>_asistentes</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a5be02a2b0beb32f0c8b2aef488303359" kind="variable"><name>Alumnos</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a33a9f65088b3243c8473180e80e322d9" kind="variable"><name>clubSeleccionado</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1aea7e955756112dc99c093514621320c7" kind="variable"><name>conn</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1ab64596c710fa43f2a8391a4a3f662031" kind="variable"><name>asistenteDB</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1abe2a5ad9e46aa901e8c8e9bbf03ef653" kind="variable"><name>parcial</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1aabced42abbc527d1a0426c3772546eca" kind="property"><name>Asistentes</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a5db01c3b8b78cd44c75180c2450db2c5" kind="property"><name>Acreditados</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1ae0fd583251f55be398fff227885728e2" kind="function"><name>cuentaModificada</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a1171590ee1726952f8a8336bcfe7d8d3" kind="function"><name>AsistentesPopulator</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1aadfe2dae3e3628d7d14dd3613ae5039b" kind="function"><name>generarAcreditados</name></member>
+    <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a93286c806b0d3ebe3ea65ec5c4b5fd8b" kind="function"><name>generarLista</name></member>
+  </compound>
+  <compound refid="d1/d3b/class_asistencias__wpf_1_1_club" kind="class"><name>Asistencias_wpf::Club</name>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a12f1784ec3bc13922c64b7d19f894fbc" kind="variable"><name>_nombre</name></member>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a7a5d6696bfce9d5eabd77f0f8df0e0a1" kind="variable"><name>_id</name></member>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a4dbf43c3426cad21933fe32bb3bb4945" kind="variable"><name>_asistencias</name></member>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a10d18182664961ad5d6c63fe363abe07" kind="variable"><name>_parciales</name></member>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a0da21bbffe8ac3d877a51c03899bf8c2" kind="property"><name>Nombre</name></member>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a25ec9c585f6874004dc690ea2641ab0d" kind="property"><name>Id</name></member>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a1855a7a63b6465ef490871f93d385a69" kind="property"><name>AsistenciasParaParcial</name></member>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a9f825c0495aa564e915d0f1a9e082186" kind="property"><name>Parciales</name></member>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a1980fc9a90add0431cbf22f8a000cbf9" kind="event"><name>PropertyChanged</name></member>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1aa94008b53cde5a248b0149566e527ac0" kind="function"><name>ToString</name></member>
+    <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1ada28fd62b53b97acbe638c27f1a87f38" kind="function"><name>NotifyPropertyChanged</name></member>
+  </compound>
+  <compound refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager" kind="class"><name>Asistencias_wpf::ClubDBManager</name>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1ae652da6f39c8eba7b4a94503cadffed3" kind="enum"><name>ValoresModificables</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1ae652da6f39c8eba7b4a94503cadffed3a4777bbaaa0aebe104606b77947d0e22d" kind="enumvalue"><name>Nombre</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1ae652da6f39c8eba7b4a94503cadffed3a8a664c0cc74036f4754b43ee0e7fcb65" kind="enumvalue"><name>AsistenciasParaAcreditar</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1ae652da6f39c8eba7b4a94503cadffed3a0aa43ef473f73c164749e8c55fcdfbba" kind="enumvalue"><name>Parciales</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1a61a2cc885a203121fabe30817fc97b76" kind="variable"><name>conexion</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1ab1863b4e35d108dd383a66ae76f8f0a8" kind="variable"><name>Holder</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1a85668efa7acd109d5b2b77e7b537d045" kind="function"><name>ClubDBManager</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1ad8f732dac6e7e24f8aca1db7ba30f889" kind="function"><name>setClub</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1aa88b7e814902986495da9c8a10e757a4" kind="function"><name>Clear</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1a41a477a787519e172ca6ed35cc59b70d" kind="function"><name>modificarDato</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1a9af31ceb61def7fcb99e9bc6ba7ba76f" kind="function"><name>AddToDB</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1a43bdb85e75c657608eb07d815cfb7c5e" kind="function"><name>RemoveFromDB</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1aca2513219d61f9701e1ac3aedf57c131" kind="function"><name>clubModificado</name></member>
+    <member refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager_1a8d30f338a090ebf66923be98db072831" kind="function"><name>Active</name></member>
+  </compound>
+  <compound refid="d4/d09/class_asistencias_1_1_form1" kind="class"><name>Asistencias::Form1</name>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1a75926fd98b2db879031455a6b37b99b0" kind="variable"><name>components</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1aa2b7468a7886a62abbe1c4212612ce62" kind="variable"><name>tabControl1</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1aa913fe8ba5b1cbb7255a471048604b41" kind="variable"><name>tabAsistencia</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1a4bfe2b423d729b373421b11381d9b716" kind="variable"><name>lblEstado</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1aa7f1dcbcd72919dd060d78f59b5e45be" kind="variable"><name>button1</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1a9fda919b5655da27bd4911945292e3a9" kind="variable"><name>label1</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1ab4dccefe2780aacefa91410f1c99e97a" kind="variable"><name>txtCuenta</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1a66b088d224d89e584af2d7109e749aab" kind="variable"><name>tabRegistro</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1a395d9c6aed727e23e05060f436961e07" kind="function"><name>Form1</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1af10b95ddc92aac894e00c5b5889a0296" kind="function"><name>textBox1_TextChanged</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1a07d3c806a872b060ee9262a361029085" kind="function"><name>button1_Click</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1a0789ba8c94bdbf7bebe8d5ac7021bffb" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d4/d09/class_asistencias_1_1_form1_1a9971aacdba72bfabb56ad897f7647234" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window" kind="class"><name>ImportarCuentas_wpf::MainWindow</name>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1ac1846e4ecd501ff338ad87a7c7bcb254" kind="variable"><name>dialog</name></member>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1a8ed2f7c907bc1c8faf75d8deb555d137" kind="variable"><name>conn</name></member>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1a17d2ae4fd8ca55fcbe57fef1133d360a" kind="variable"><name>cuentas</name></member>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1a369b619d35d8f1d9ab8d57aa262f9111" kind="variable"><name>Cuentas</name></member>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1a5548a0e1f3adfe66ff77765ca2907d56" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1ab4bb322653a84bb50c765e85a2a0bb5c" kind="function"><name>MainWindow</name></member>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1ae7d900b7eadb6ce31ebd8072cabe87f3" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1ae7d900b7eadb6ce31ebd8072cabe87f3" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1a47d57c9710448d4a830aac55d5ece340" kind="function"><name>seleccionarArchivos</name></member>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1a498ef0b3a1e4ad07b7966ca87cf1aa4f" kind="function"><name>Connect</name></member>
+    <member refid="d0/df3/class_importar_cuentas__wpf_1_1_main_window_1a498ef0b3a1e4ad07b7966ca87cf1aa4f" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="d6/d1a/class_asistencias__wpf_1_1_main_window" kind="class"><name>Asistencias_wpf::MainWindow</name>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ade98915e9943a63d9b723da6e1f50ec7" kind="variable"><name>cellHasBeenSelected</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a475e7650f0bbc7b9b2851de2ccdb1af1" kind="variable"><name>conn</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6bee34bf669bcc522d01affb6bfe1bae" kind="variable"><name>acreditados</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ac267271cbb547ec9c8b72482ff481894" kind="variable"><name>Alumnos</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a0b088adb7d4ae4110408a09fbdbfaa18" kind="variable"><name>asistenteManager</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a9460d841a29658f63dd55788a1f3e3dd" kind="variable"><name>asistentes</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae8ae45fcbef622a8a77ff2a2839850d8" kind="variable"><name>clubSeleccionado</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ac8fa133c53bfc0374475a1efb34409c9" kind="variable"><name>parcial</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a89b2a643d361e6926255fc1a1906b022" kind="variable"><name>populator</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a4e35f0ebc45164d603bcc80544bc2bc1" kind="variable"><name>Sender</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae44c6b71b9c471b3dc9ab07e778e5781" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a65c34d321ad5d831ae14e80205d153b8" kind="variable"><name>btnAsist</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a52e76fc15be974c00138b13ab7e19b44" kind="variable"><name>txtCuenta</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1acd918b065d257146f683ff317be832a6" kind="variable"><name>txtNombre</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a4ce5343faaf6dc02bc33f5da846cd4db" kind="variable"><name>txtCuentaR</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a20520a2029311127a68cc320e5a1aed4" kind="variable"><name>txtPlantel</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a37ce519d4dc242993a180c9ec48581f6" kind="variable"><name>btnRegistrar</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a225a06fc8dd74f56e03caad3b7eaf6ab" kind="variable"><name>lblEstado</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a06d0d015783f1332649608fd2a84d459" kind="variable"><name>btnLookup</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a926b718586c2787f19ddaa4001911d1b" kind="variable"><name>btnAcreditados</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1adcd4add51c03081da4c3c0cc80125b45" kind="variable"><name>chkTodos</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a813953ed3cd32fbaea64c551ae2728c9" kind="variable"><name>gdAsistencias</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ab76400422a21298f8055dd60e6d922c7" kind="variable"><name>PopupLookup</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae0a45b8720275659efc30b621e482e40" kind="variable"><name>gdAsistenciasPorAlumno</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a773508c45ca6432097868c52f9cc53a4" kind="function"><name>MainWindow</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a5ef0449f967aa4a8f873a0be96d81e16" kind="function"><name>acreditadosClk</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ab5f019117c860bd68f349a2d33313962" kind="function"><name>alCerrar</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a2b8b0e43fb4aebf353e6aa490115924e" kind="function"><name>anadirAsistencia</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae82807e4848c98f05418df82f3da7159" kind="function"><name>btnAnadirAsis</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a0e869f220f887ff19bf34d09aee597c1" kind="function"><name>btnLookupClick</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af6dad6f9bfb02c1d33e0e3d73d142894" kind="function"><name>buscarAsistente</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a734f2fd5e3c402074d663248ebba510c" kind="function"><name>buscarAsistente</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a2a8d8e5780af57c07558431272ee4988" kind="function"><name>generatingColumn</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae1c324b160c3fabd96c9a98b3b1dfa5e" kind="function"><name>lostFocusInRow</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af5e3f09d78ecb240a880e737454e1246" kind="function"><name>onEnter</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a021f286d29f89afb7e646c8a02fdcb4b" kind="function"><name>onEnterR</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1acb5ec5ec33907eb146447f12fcd18d94" kind="function"><name>onFocus</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a954a70b05258236009e15040f31dda99" kind="function"><name>PopupAsistenciasPersonal</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1aa9cd4d1d96ff7ee36e352a6e2f307d44" kind="function"><name>PopupLostFocus</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae4a25f0239f778a1a8ace8d4535c42e5" kind="function"><name>Registrar_Click</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a4b76113e8d64c467e17d08c1bac15914" kind="function"><name>registrarAsistente</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae6a7656d280061fc7434874730ee8f34" kind="function"><name>selectedCellsChange</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a34ecfd31ba03c828ca880d850c91d2ab" kind="function"><name>TextBoxTextAllowed</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a80a6d326d7e11f707d02225a6efc21d6" kind="function"><name>textBoxValue_Pasting</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a952d704cbea0440a9215abf74fe0ab17" kind="function"><name>textBoxValue_PreviewTextInput</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af16b10485e73a8cc0c7cef9d26983798" kind="function"><name>txtCuenta_TextChanged</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1aebfda635006d9b11238405a7db87048b" kind="function"><name>Window_Loaded_1</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" kind="function"><name>Connect</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" kind="function"><name>Connect</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" kind="function"><name>Connect</name></member>
+    <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="db/d45/class_asistencias__wpf_1_1_main_window_view_model" kind="class"><name>Asistencias_wpf::MainWindowViewModel</name>
+    <member refid="db/d45/class_asistencias__wpf_1_1_main_window_view_model_1ab8d721f36e3d86b111758057af886e77" kind="property"><name>Asistentes</name></member>
+    <member refid="db/d45/class_asistencias__wpf_1_1_main_window_view_model_1aec6a0f07ee6c7eb5d90b112f6216792b" kind="function"><name>MainWindowViewModel</name></member>
+  </compound>
+  <compound refid="d6/da6/class_asistencias__wpf_1_1_modificar_club" kind="class"><name>Asistencias_wpf::ModificarClub</name>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a17c1749aa4cdc0bc9697d3a9ebc14b1a" kind="variable"><name>Sender</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ad6c958505273f46077a11519363ddbe4" kind="variable"><name>conn</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a23406da77e2686429033309d5f2432c7" kind="variable"><name>clubManager</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ad8a6d484077e99675c010a8d3a98de61" kind="variable"><name>selected</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a1a23f498d37b0f95f283e2b650e396ba" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1aefec4cf6adde6b83050acc590661f212" kind="variable"><name>txtNombre</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a10b87622ef3fad840bb25827b45b6fc6" kind="variable"><name>sldAssist</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a8333d2f10cd950124c2de671a73fd288" kind="variable"><name>sldParciales</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a2b2c3976252b8870397a47d96673c856" kind="variable"><name>placeholder</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ac5bdd9fd539f35d3f2e5fbd928913db5" kind="variable"><name>lblAsist</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a898ac5359d41d715dbfb86b46a84a39f" kind="variable"><name>lblParciales</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a3b773638e7caf4f49a50abc6d9464020" kind="function"><name>ModificarClub</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a50a572eb21cc3d7cf74116bb3ac1535a" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a50a572eb21cc3d7cf74116bb3ac1535a" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a62e46dfa2c839600b567b62bd582dca2" kind="function"><name>alCerrar</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a16e4ed6700460777f30a494ee9eb0680" kind="function"><name>sliderChange</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a6dfe0e9c1334d6b3b0a885ff2138119a" kind="function"><name>clickEdit</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ac2e5f560752b2b1a6dc4e75cfecc5c04" kind="function"><name>clickEliminar</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1aad81df21e8ab11bf3c3f588d9913076a" kind="function"><name>Connect</name></member>
+    <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1aad81df21e8ab11bf3c3f588d9913076a" kind="function"><name>Connect</name></member>
+  </compound>
+  <compound refid="da/d16/classmatrix_1_1_program" kind="class"><name>matrix::Program</name>
+    <member refid="da/d16/classmatrix_1_1_program_1a7ebfe2b7ace6afb02108a7d38abb6f1b" kind="variable"><name>Counter</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1a0920a8f72e5a9fcf1cc1bfcab61a2c31" kind="variable"><name>rand</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1a6c872786668501a3f17cddb985c7ade0" kind="variable"><name>Interval</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1a33abdd7b74a13e027d920fddb65cce35" kind="variable"><name>FullFlow</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1a48b4255583a63007038c6c61bd50672b" kind="variable"><name>Blacking</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1ab208e57b1469c5728605ac04b0eae86c" kind="variable"><name>NormalColor</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1ae5ddcc0d3f98613073560fa4e3d66f5b" kind="variable"><name>GlowColor</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1a20f58f721e0c5cdf3b4f519bb7ef872a" kind="variable"><name>FancyColor</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1a4261f7dfcf193d03c22afd544ac71010" kind="variable"><name>TextInput</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1ae4f0df2b9f302e657820ea236f831664" kind="property"><name>AsciiCharacter</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1aa45e7cdc65635c198fc584aa87c8475b" kind="function"><name>Main</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1a01bf0ffc74243e0f4379994d5105093a" kind="function"><name>UpdateAllColumns</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1a69074a2933e93bcd5bec11255ad05cfe" kind="function"><name>Initialize</name></member>
+    <member refid="da/d16/classmatrix_1_1_program_1ae800bb3943994a4c6d5595fcb01370c5" kind="function"><name>inScreenYPosition</name></member>
+  </compound>
+  <compound refid="d8/dbe/class_general__cuentas_1_1_program" kind="class"><name>General_cuentas::Program</name>
+    <member refid="d8/dbe/class_general__cuentas_1_1_program_1a0af8127c156f60c5b3dcaf870b8a3e95" kind="variable"><name>streamReader1</name></member>
+    <member refid="d8/dbe/class_general__cuentas_1_1_program_1ae5b014ec3c416ce64f622ba554226c7d" kind="variable"><name>streamReader2</name></member>
+    <member refid="d8/dbe/class_general__cuentas_1_1_program_1a558196b9a618e6a6fb5ac25915910e96" kind="variable"><name>streamReader3</name></member>
+    <member refid="d8/dbe/class_general__cuentas_1_1_program_1a65de6462670c43847c79d750fe64b817" kind="function"><name>Main</name></member>
+    <member refid="d8/dbe/class_general__cuentas_1_1_program_1a1ca37b8c6158c753bb77f8ecfa694c00" kind="function"><name>Generate</name></member>
+  </compound>
+  <compound refid="d8/d2f/class_asistencias_1_1_program" kind="class"><name>Asistencias::Program</name>
+    <member refid="d8/d2f/class_asistencias_1_1_program_1a982763f934c4b9a3faf2a49c5682054c" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="d9/d22/class_importar_cuentas_1_1_program" kind="class"><name>ImportarCuentas::Program</name>
+    <member refid="d9/d22/class_importar_cuentas_1_1_program_1a5c0c8997114f06171f544c86722937b4" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="db/d38/class_asistencias__wpf_1_1_registro_club" kind="class"><name>Asistencias_wpf::RegistroClub</name>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a9acb8f17b99701c92a5afec34b18ea0b" kind="variable"><name>txtNombre</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a3488b5171d3eb821ec59219ca8d4fbf6" kind="variable"><name>sldAssist</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1aff736140d07e1db41578a56e774b437c" kind="variable"><name>sldParciales</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a07b0246ff810b1657973443172007999" kind="variable"><name>placeholder</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a974cf03e0b78ba0f297e64b0143ff51c" kind="variable"><name>lblAsist</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1af0b4a33c9ec145c096e5827435a5e58c" kind="variable"><name>lblParciales</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a6b831e3384ba2a005329c188788173a0" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1ac048d137bde3fd429180c98f34d784eb" kind="variable"><name>Sender</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1aa77e1bfb5b4bbe468f86ddd6264fad53" kind="variable"><name>conn</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a33dbab4a0d0290fb0bac27adfed8b978" kind="variable"><name>clubManager</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a2b67cb1abca561248996e7024a682cf9" kind="function"><name>InitializeComponent</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a2b67cb1abca561248996e7024a682cf9" kind="function"><name>InitializeComponent</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1aec16d19fce703aecff6bc10b81157ab5" kind="function"><name>RegistroClub</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a26b16e7527259d768b9f9f5766fd7947" kind="function"><name>Connect</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a26b16e7527259d768b9f9f5766fd7947" kind="function"><name>Connect</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a816608f95455c6bbb51d47d9e90eb71d" kind="function"><name>alCerrar</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1aa5c649a2b0870008205c3172101f2657" kind="function"><name>sliderChange</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a7d8e2c0dee7f4f439b0953bf4dbb4358" kind="function"><name>registrarClub</name></member>
+    <member refid="db/d38/class_asistencias__wpf_1_1_registro_club_1a672b4e93570e543d13d7c3020a216606" kind="function"><name>clickRegistro</name></member>
+  </compound>
+  <compound refid="d7/de6/class_asistencias__wpf_1_1_properties_1_1_resources" kind="class"><name>Asistencias_wpf::Properties::Resources</name>
+    <member refid="d7/de6/class_asistencias__wpf_1_1_properties_1_1_resources_1a759c6e3731960744ed37593dbf13f22c" kind="variable"><name>resourceMan</name></member>
+    <member refid="d7/de6/class_asistencias__wpf_1_1_properties_1_1_resources_1acafe43323281384386537aa0bca0c108" kind="variable"><name>resourceCulture</name></member>
+    <member refid="d7/de6/class_asistencias__wpf_1_1_properties_1_1_resources_1a86d17a0f8966f64f001f0edaf956dfc0" kind="property"><name>ResourceManager</name></member>
+    <member refid="d7/de6/class_asistencias__wpf_1_1_properties_1_1_resources_1a4f2fb192b65717cb577760722969d43a" kind="property"><name>Culture</name></member>
+    <member refid="d7/de6/class_asistencias__wpf_1_1_properties_1_1_resources_1a28ff40a842cd924d742699097c17971e" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="d4/dfa/class_asistencias_1_1_properties_1_1_resources" kind="class"><name>Asistencias::Properties::Resources</name>
+    <member refid="d4/dfa/class_asistencias_1_1_properties_1_1_resources_1a365a3dbd6022fa25d3acd62dce067cd4" kind="variable"><name>resourceMan</name></member>
+    <member refid="d4/dfa/class_asistencias_1_1_properties_1_1_resources_1a7a03e09e50212d5a8a00524a6b95b5f0" kind="variable"><name>resourceCulture</name></member>
+    <member refid="d4/dfa/class_asistencias_1_1_properties_1_1_resources_1a26dd1c170bed2b6e8577ff64c8e8fd9f" kind="property"><name>ResourceManager</name></member>
+    <member refid="d4/dfa/class_asistencias_1_1_properties_1_1_resources_1a1bc74ad8c5a5653ef56301173549a692" kind="property"><name>Culture</name></member>
+    <member refid="d4/dfa/class_asistencias_1_1_properties_1_1_resources_1ab75c96bb7d0bdf7b0c5ab1011b7fd6ac" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="de/da1/class_importar_cuentas__wpf_1_1_properties_1_1_resources" kind="class"><name>ImportarCuentas_wpf::Properties::Resources</name>
+    <member refid="de/da1/class_importar_cuentas__wpf_1_1_properties_1_1_resources_1a7258a600d86d3acde950551ce6041889" kind="variable"><name>resourceMan</name></member>
+    <member refid="de/da1/class_importar_cuentas__wpf_1_1_properties_1_1_resources_1a117dfc658b85434ab46d186b5bdd82aa" kind="variable"><name>resourceCulture</name></member>
+    <member refid="de/da1/class_importar_cuentas__wpf_1_1_properties_1_1_resources_1af2bc57c7d40375209d08b86c66f7e929" kind="property"><name>ResourceManager</name></member>
+    <member refid="de/da1/class_importar_cuentas__wpf_1_1_properties_1_1_resources_1a1f348c62caade2382f98b7a5977fc1f8" kind="property"><name>Culture</name></member>
+    <member refid="de/da1/class_importar_cuentas__wpf_1_1_properties_1_1_resources_1a69c7f631e2ad183458132c5682ac8540" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="d3/d56/class_asistencias__wpf_1_1_seleccion" kind="class"><name>Asistencias_wpf::Seleccion</name>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1adac0d1aa55be26c4cff9a610ee20b9c5" kind="variable"><name>cmbClub</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a24db3199864aca68b55959ae7477bb3b" kind="variable"><name>cmbParcial</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a7c5e0a561a721c40c2173b532d0995cf" kind="variable"><name>btnEntrar</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a6ae4d9df3b32fa06ca84cb541dc05e7b" kind="variable"><name>_contentLoaded</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1abc8dc6733d50dc047da06e22ec543633" kind="variable"><name>conn</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a3b40e4f06a7c3351ed5f1e8d30cd6ae8" kind="variable"><name>Clubes</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a62d8d645f31e081d2ed47c3e7032d62d" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a62d8d645f31e081d2ed47c3e7032d62d" kind="function"><name>InitializeComponent</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a3886470baefe83a5d79efa21fb6fb998" kind="function"><name>Seleccion</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1ae40bbc95f8da07c171f7020538b02fb7" kind="function"><name>Refresh</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a99b62e3ca34abcb65cd30635e90462f8" kind="function"><name>enableEntrar</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a41988115d1df1455f23592e43778f392" kind="function"><name>Connect</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a41988115d1df1455f23592e43778f392" kind="function"><name>Connect</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a849c0611846aae842c51b04d41226dad" kind="function"><name>DespuesDeCargar</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1af3f1fb5d6a19a54b3f9af080a5415bf8" kind="function"><name>AlIniciar</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a202ae9606e4234345de3f89402572d0b" kind="function"><name>llenarParcial</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a7033e092b4bf1872958ed29087a33b63" kind="function"><name>guardarParcial</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1ab8e85da35b7eb9e11d124c20d1ca63d0" kind="function"><name>clickEntrar</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1aba5ac4fad507a4b3a9279b081d20601b" kind="function"><name>clickClubes</name></member>
+    <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a965e20ba0b78a34e30ea161446864cf2" kind="function"><name>clickEdit</name></member>
+  </compound>
+  <compound refid="dd/dde/class_asistencias_1_1_properties_1_1_settings" kind="class"><name>Asistencias::Properties::Settings</name>
+    <member refid="dd/dde/class_asistencias_1_1_properties_1_1_settings_1a541faf49d98f3ced3a7892c27109780b" kind="variable"><name>defaultInstance</name></member>
+    <member refid="dd/dde/class_asistencias_1_1_properties_1_1_settings_1ae0b0610cb4d0649f9574754f47dfe4b0" kind="property"><name>Default</name></member>
+    <member refid="dd/dde/class_asistencias_1_1_properties_1_1_settings_1aade5c3d45e89053882a73b3d940ec9dd" kind="property"><name>Setting</name></member>
+  </compound>
+  <compound refid="d0/dee/class_importar_cuentas__wpf_1_1_properties_1_1_settings" kind="class"><name>ImportarCuentas_wpf::Properties::Settings</name>
+    <member refid="d0/dee/class_importar_cuentas__wpf_1_1_properties_1_1_settings_1acf093934d400c122671c08677ca0943c" kind="variable"><name>defaultInstance</name></member>
+    <member refid="d0/dee/class_importar_cuentas__wpf_1_1_properties_1_1_settings_1aa8fd5eae41c6562c29fbf61aca776b32" kind="property"><name>Default</name></member>
+  </compound>
+  <compound refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings" kind="class"><name>Asistencias_wpf::Properties::Settings</name>
+    <member refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1aa4bd314d77e181189954ca60be029aff" kind="variable"><name>defaultInstance</name></member>
+    <member refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1adda8dc133197e0813e029711e37bb30f" kind="property"><name>Default</name></member>
+    <member refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1a91e7c9a0cab95ea486d06d98a5152432" kind="property"><name>AlumnosConnectionString</name></member>
+    <member refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings_1a836e31c2aacc9782289d0594f392267a" kind="property"><name>UltimaParcial</name></member>
+  </compound>
+  <compound refid="de/d7f/namespace_asistencias" kind="namespace"><name>Asistencias</name>
+  </compound>
+  <compound refid="df/d6f/namespace_asistencias_1_1_properties" kind="namespace"><name>Asistencias::Properties</name>
+  </compound>
+  <compound refid="d5/d4a/namespace_asistencias__wpf" kind="namespace"><name>Asistencias_wpf</name>
+  </compound>
+  <compound refid="da/dbb/namespace_asistencias__wpf_1_1_properties" kind="namespace"><name>Asistencias_wpf::Properties</name>
+  </compound>
+  <compound refid="d0/d5d/namespace_general__cuentas" kind="namespace"><name>General_cuentas</name>
+  </compound>
+  <compound refid="de/d54/namespace_importar_cuentas" kind="namespace"><name>ImportarCuentas</name>
+  </compound>
+  <compound refid="d9/dc6/namespace_importar_cuentas__wpf" kind="namespace"><name>ImportarCuentas_wpf</name>
+  </compound>
+  <compound refid="d9/db0/namespace_importar_cuentas__wpf_1_1_properties" kind="namespace"><name>ImportarCuentas_wpf::Properties</name>
+  </compound>
+  <compound refid="d0/de4/namespacematrix" kind="namespace"><name>matrix</name>
+  </compound>
+  <compound refid="d8/dd0/namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="d9/d1b/namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="d1/d58/namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="d5/d42/namespace_system_1_1_configuration" kind="namespace"><name>System::Configuration</name>
+  </compound>
+  <compound refid="df/d9f/namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="d5/d6b/namespace_system_1_1_data_1_1_sql_server_ce" kind="namespace"><name>System::Data::SqlServerCe</name>
+  </compound>
+  <compound refid="d3/d7c/namespace_system_1_1_diagnostics" kind="namespace"><name>System::Diagnostics</name>
+  </compound>
+  <compound refid="dc/d6c/namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="dc/d30/namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="d5/de4/namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="d0/d9d/namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="d1/d9e/namespace_system_1_1_resources" kind="namespace"><name>System::Resources</name>
+  </compound>
+  <compound refid="da/d54/namespace_system_1_1_runtime_1_1_compiler_services" kind="namespace"><name>System::Runtime::CompilerServices</name>
+  </compound>
+  <compound refid="d1/dee/namespace_system_1_1_runtime_1_1_interop_services" kind="namespace"><name>System::Runtime::InteropServices</name>
+  </compound>
+  <compound refid="d8/d71/namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="d7/d66/namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="d7/d10/namespace_system_1_1_windows" kind="namespace"><name>System::Windows</name>
+  </compound>
+  <compound refid="db/db9/namespace_system_1_1_windows_1_1_automation" kind="namespace"><name>System::Windows::Automation</name>
+  </compound>
+  <compound refid="de/da8/namespace_system_1_1_windows_1_1_controls" kind="namespace"><name>System::Windows::Controls</name>
+  </compound>
+  <compound refid="d4/ddf/namespace_system_1_1_windows_1_1_controls_1_1_primitives" kind="namespace"><name>System::Windows::Controls::Primitives</name>
+  </compound>
+  <compound refid="d6/dfa/namespace_system_1_1_windows_1_1_data" kind="namespace"><name>System::Windows::Data</name>
+  </compound>
+  <compound refid="da/ddf/namespace_system_1_1_windows_1_1_documents" kind="namespace"><name>System::Windows::Documents</name>
+  </compound>
+  <compound refid="de/de6/namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="d8/d66/namespace_system_1_1_windows_1_1_ink" kind="namespace"><name>System::Windows::Ink</name>
+  </compound>
+  <compound refid="d7/da9/namespace_system_1_1_windows_1_1_input" kind="namespace"><name>System::Windows::Input</name>
+  </compound>
+  <compound refid="d8/d35/namespace_system_1_1_windows_1_1_markup" kind="namespace"><name>System::Windows::Markup</name>
+  </compound>
+  <compound refid="db/d3d/namespace_system_1_1_windows_1_1_media" kind="namespace"><name>System::Windows::Media</name>
+  </compound>
+  <compound refid="db/d70/namespace_system_1_1_windows_1_1_media_1_1_animation" kind="namespace"><name>System::Windows::Media::Animation</name>
+  </compound>
+  <compound refid="db/d08/namespace_system_1_1_windows_1_1_media_1_1_effects" kind="namespace"><name>System::Windows::Media::Effects</name>
+  </compound>
+  <compound refid="d4/d2e/namespace_system_1_1_windows_1_1_media_1_1_imaging" kind="namespace"><name>System::Windows::Media::Imaging</name>
+  </compound>
+  <compound refid="d8/db9/namespace_system_1_1_windows_1_1_media_1_1_media3_d" kind="namespace"><name>System::Windows::Media::Media3D</name>
+  </compound>
+  <compound refid="d7/d15/namespace_system_1_1_windows_1_1_media_1_1_text_formatting" kind="namespace"><name>System::Windows::Media::TextFormatting</name>
+  </compound>
+  <compound refid="d6/da6/namespace_system_1_1_windows_1_1_navigation" kind="namespace"><name>System::Windows::Navigation</name>
+  </compound>
+  <compound refid="dc/d6e/namespace_system_1_1_windows_1_1_shapes" kind="namespace"><name>System::Windows::Shapes</name>
+  </compound>
+  <compound refid="dc/dab/namespace_system_1_1_windows_1_1_shell" kind="namespace"><name>System::Windows::Shell</name>
+  </compound>
+  <compound refid="dd/d87/_form1_8cs" kind="file"><name>Form1.cs</name>
+  </compound>
+  <compound refid="d3/d24/_form1_8_designer_8cs" kind="file"><name>Form1.Designer.cs</name>
+  </compound>
+  <compound refid="d1/d0f/_asistencias_2obj_2_debug_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="d5/dcd/_asistencias_2obj_2_release_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="db/d41/_asistencias__wpf_2obj_2_debug_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="df/d2e/_asistencias__wpf_2obj_2_release_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="d3/d5b/_general_01cuentas_2obj_2_debug_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="d3/d4e/_general_01cuentas_2obj_2_release_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="df/d12/matrix_2obj_2_debug_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="d8/d97/matrix_2obj_2_release_2_temporary_generated_file__036_c0_b5_b-1481-4323-8_d20-8_f5_a_d_c_b23_d92_8cs" kind="file"><name>TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs</name>
+  </compound>
+  <compound refid="d2/d27/_asistencias_2obj_2_debug_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="dd/dd2/_asistencias_2obj_2_release_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="d9/daa/_asistencias__wpf_2obj_2_debug_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="d5/de7/_asistencias__wpf_2obj_2_release_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="df/d26/_general_01cuentas_2obj_2_debug_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="dd/de2/_general_01cuentas_2obj_2_release_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="d2/d64/matrix_2obj_2_debug_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="df/d5e/matrix_2obj_2_release_2_temporary_generated_file__5937a670-0e60-4077-877b-f7221da3dda1_8cs" kind="file"><name>TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs</name>
+  </compound>
+  <compound refid="de/d31/_asistencias_2obj_2_debug_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="d0/dd5/_asistencias_2obj_2_release_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="d7/d38/_asistencias__wpf_2obj_2_debug_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="d5/d6a/_asistencias__wpf_2obj_2_release_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="de/dc3/_general_01cuentas_2obj_2_debug_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="d4/d6b/_general_01cuentas_2obj_2_release_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="df/de5/matrix_2obj_2_debug_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="da/d57/matrix_2obj_2_release_2_temporary_generated_file___e7_a71_f73-0_f8_d-4_b9_b-_b56_e-8_e70_b10_b_c5_d3_8cs" kind="file"><name>TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs</name>
+  </compound>
+  <compound refid="d5/d83/_asistencias_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="d8/db1/_general_01cuentas_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="d7/d81/_importar_cuentas_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="d1/d30/matrix_2_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="d3/d0e/_asistencias_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="de/dfa/_asistencias__wpf_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="d2/d4a/_general_01cuentas_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="dd/dd7/_importar_cuentas_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="dc/d37/_importar_cuentas__wpf_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="d2/d2d/matrix_2_properties_2_assembly_info_8cs" kind="file"><name>AssemblyInfo.cs</name>
+  </compound>
+  <compound refid="da/d91/_asistencias_2_properties_2_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="df/d3c/_asistencias__wpf_2_properties_2_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="db/db2/_importar_cuentas__wpf_2_properties_2_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="d4/d00/_asistencias_2_properties_2_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="dd/d5c/_asistencias__wpf_2_properties_2_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="db/dfb/_importar_cuentas__wpf_2_properties_2_settings_8_designer_8cs" kind="file"><name>Settings.Designer.cs</name>
+  </compound>
+  <compound refid="d9/d9d/_alumnos_data_set_8_designer_8cs" kind="file"><name>AlumnosDataSet.Designer.cs</name>
+  </compound>
+  <compound refid="db/ddf/_asistencias__wpf_2_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="d5/dfb/_importar_cuentas__wpf_2_app_8xaml_8cs" kind="file"><name>App.xaml.cs</name>
+  </compound>
+  <compound refid="db/db3/_asistencia_8cs" kind="file"><name>Asistencia.cs</name>
+  </compound>
+  <compound refid="dd/d9d/_asistente_8cs" kind="file"><name>Asistente.cs</name>
+  </compound>
+  <compound refid="d9/d3a/_asistente_d_b_manager_8cs" kind="file"><name>AsistenteDBManager.cs</name>
+  </compound>
+  <compound refid="d5/d82/_asistentes_populator_8cs" kind="file"><name>AsistentesPopulator.cs</name>
+  </compound>
+  <compound refid="db/d97/_club_8cs" kind="file"><name>Club.cs</name>
+  </compound>
+  <compound refid="d0/d77/_club_d_b_manager_8cs" kind="file"><name>ClubDBManager.cs</name>
+  </compound>
+  <compound refid="db/d9d/_asistencias__wpf_2_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="d5/d1b/_importar_cuentas__wpf_2_main_window_8xaml_8cs" kind="file"><name>MainWindow.xaml.cs</name>
+  </compound>
+  <compound refid="d5/dce/_main_window_view_model_8cs" kind="file"><name>MainWindowViewModel.cs</name>
+  </compound>
+  <compound refid="d6/d90/_modificar_club_8xaml_8cs" kind="file"><name>ModificarClub.xaml.cs</name>
+  </compound>
+  <compound refid="d0/d9b/_asistencias__wpf_2obj_2_debug_2_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="d7/d56/_asistencias__wpf_2obj_2_release_2_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="d3/d86/_importar_cuentas__wpf_2obj_2_release_2_app_8g_8cs" kind="file"><name>App.g.cs</name>
+  </compound>
+  <compound refid="d2/d67/_asistencias__wpf_2obj_2_debug_2_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="dc/da4/_asistencias__wpf_2obj_2_release_2_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="db/d31/_importar_cuentas__wpf_2obj_2_release_2_app_8g_8i_8cs" kind="file"><name>App.g.i.cs</name>
+  </compound>
+  <compound refid="da/dde/_debug_2_asistencias__wpf___content_8g_8i_8cs" kind="file"><name>Asistencias_wpf_Content.g.i.cs</name>
+  </compound>
+  <compound refid="d1/d55/_release_2_asistencias__wpf___content_8g_8i_8cs" kind="file"><name>Asistencias_wpf_Content.g.i.cs</name>
+  </compound>
+  <compound refid="d5/d37/_asistencias__wpf_2obj_2_debug_2_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="d1/d2a/_asistencias__wpf_2obj_2_release_2_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="db/dc5/_importar_cuentas__wpf_2obj_2_release_2_main_window_8g_8cs" kind="file"><name>MainWindow.g.cs</name>
+  </compound>
+  <compound refid="d0/d16/_asistencias__wpf_2obj_2_debug_2_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="d9/d01/_asistencias__wpf_2obj_2_release_2_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="de/d2f/_importar_cuentas__wpf_2obj_2_release_2_main_window_8g_8i_8cs" kind="file"><name>MainWindow.g.i.cs</name>
+  </compound>
+  <compound refid="d1/d1b/_asistencias__wpf___content_8g_8cs" kind="file"><name>Asistencias_wpf_Content.g.cs</name>
+  </compound>
+  <compound refid="d6/d25/_modificar_club_8g_8cs" kind="file"><name>ModificarClub.g.cs</name>
+  </compound>
+  <compound refid="dc/dc8/_modificar_club_8g_8i_8cs" kind="file"><name>ModificarClub.g.i.cs</name>
+  </compound>
+  <compound refid="d0/d10/_registro_club_8g_8cs" kind="file"><name>RegistroClub.g.cs</name>
+  </compound>
+  <compound refid="d1/dab/_registro_club_8g_8i_8cs" kind="file"><name>RegistroClub.g.i.cs</name>
+  </compound>
+  <compound refid="d1/d0f/_seleccion_8g_8cs" kind="file"><name>Seleccion.g.cs</name>
+  </compound>
+  <compound refid="dc/d8f/_seleccion_8g_8i_8cs" kind="file"><name>Seleccion.g.i.cs</name>
+  </compound>
+  <compound refid="d3/dbe/_registro_club_8xaml_8cs" kind="file"><name>RegistroClub.xaml.cs</name>
+  </compound>
+  <compound refid="d2/d94/_seleccion_8xaml_8cs" kind="file"><name>Seleccion.xaml.cs</name>
+  </compound>
+  <compound refid="dir_7c7164137246b948eb82d461bcdc1810" kind="dir"><name>Asistencias</name>
+  </compound>
+  <compound refid="dir_27471f88bebbf6c0172f46da3a121664" kind="dir"><name>Asistencias_wpf</name>
+  </compound>
+  <compound refid="dir_ff5034cb094363ff45bd5671188276a7" kind="dir"><name>matrix/obj/Debug</name>
+  </compound>
+  <compound refid="dir_22648e650681dad6f90660658607d08e" kind="dir"><name>General cuentas/obj/Debug</name>
+  </compound>
+  <compound refid="dir_72fc90951456f71ead8f501a73261362" kind="dir"><name>Asistencias_wpf/obj/Debug</name>
+  </compound>
+  <compound refid="dir_8236f0940939ccf53263b68f587599c9" kind="dir"><name>Asistencias/obj/Debug</name>
+  </compound>
+  <compound refid="dir_ccefe3bb87f9f9292f883b25e8cce4a2" kind="dir"><name>General cuentas</name>
+  </compound>
+  <compound refid="dir_776076b75ff0d52fe36e8ab92249e14f" kind="dir"><name>ImportarCuentas</name>
+  </compound>
+  <compound refid="dir_af11797d2927386e911c3fec111baf79" kind="dir"><name>ImportarCuentas_wpf</name>
+  </compound>
+  <compound refid="dir_109f68d84cef4a133396a0be144fa9b1" kind="dir"><name>matrix</name>
+  </compound>
+  <compound refid="dir_1013023b6de90eed7ced9a67c358a5fb" kind="dir"><name>ImportarCuentas_wpf/obj</name>
+  </compound>
+  <compound refid="dir_d8991ee71dd2cc25b6f3dcca4d70dd43" kind="dir"><name>matrix/obj</name>
+  </compound>
+  <compound refid="dir_34e62b96482cf2b5b7d293edf168bd18" kind="dir"><name>General cuentas/obj</name>
+  </compound>
+  <compound refid="dir_9c464575e662058b5ef9fa505ba04364" kind="dir"><name>Asistencias_wpf/obj</name>
+  </compound>
+  <compound refid="dir_5e6f41396588ee52f569b1097c914b25" kind="dir"><name>Asistencias/obj</name>
+  </compound>
+  <compound refid="dir_26f56494b0e89bd24373cff4f99315e1" kind="dir"><name>matrix/Properties</name>
+  </compound>
+  <compound refid="dir_086392376f18ce0d13a9f3cfb332a18d" kind="dir"><name>ImportarCuentas_wpf/Properties</name>
+  </compound>
+  <compound refid="dir_8b0ab6c1d4e539a7ca333a6fe70f2a08" kind="dir"><name>ImportarCuentas/Properties</name>
+  </compound>
+  <compound refid="dir_8f6d44e6e51db389111ff656b1fb7064" kind="dir"><name>General cuentas/Properties</name>
+  </compound>
+  <compound refid="dir_8d0671f83e1a7241a7750efe726e6a22" kind="dir"><name>Asistencias_wpf/Properties</name>
+  </compound>
+  <compound refid="dir_f2bd1d08f947910968248928f1be6655" kind="dir"><name>Asistencias/Properties</name>
+  </compound>
+  <compound refid="dir_1de0acb3c16eb1f18529d3dfe335857c" kind="dir"><name>ImportarCuentas_wpf/obj/Release</name>
+  </compound>
+  <compound refid="dir_941e8e527214d6ddaa1d8b80b7ce57c3" kind="dir"><name>matrix/obj/Release</name>
+  </compound>
+  <compound refid="dir_674e2cb3c8cd6db26dbae89a993d0dd1" kind="dir"><name>General cuentas/obj/Release</name>
+  </compound>
+  <compound refid="dir_cd8bc5ba588722c3d3b320d6e35c7ed0" kind="dir"><name>Asistencias_wpf/obj/Release</name>
+  </compound>
+  <compound refid="dir_3a5ce2594051912bc0846a67efc24adb" kind="dir"><name>Asistencias/obj/Release</name>
+  </compound>
+</doxygenindex>

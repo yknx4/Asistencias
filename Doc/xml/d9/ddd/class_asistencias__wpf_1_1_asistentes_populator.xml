@@ -1,0 +1,254 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator" kind="class" prot="package">
+    <compoundname>Asistencias_wpf::AsistentesPopulator</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1acb5b7e513ea3e1df015d7fedaa5c2624" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="d8/dfa/class_asistencias__wpf_1_1_asistente" kindref="compound">Asistente</ref> &gt;</type>
+        <definition>List&lt;Asistente&gt; Asistencias_wpf.AsistentesPopulator._acreditados</definition>
+        <argsstring></argsstring>
+        <name>_acreditados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="11" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="11" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a84a4c12da1ef4556f1cfefbea12902b8" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="d8/dfa/class_asistencias__wpf_1_1_asistente" kindref="compound">Asistente</ref> &gt;</type>
+        <definition>List&lt;Asistente&gt; Asistencias_wpf.AsistentesPopulator._asistentes</definition>
+        <argsstring></argsstring>
+        <name>_asistentes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="12" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a5be02a2b0beb32f0c8b2aef488303359" prot="private" static="no" mutable="no">
+        <type>DataTable</type>
+        <definition>DataTable Asistencias_wpf.AsistentesPopulator.Alumnos</definition>
+        <argsstring></argsstring>
+        <name>Alumnos</name>
+        <initializer>= new DataTable()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="13" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a33a9f65088b3243c8473180e80e322d9" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d3b/class_asistencias__wpf_1_1_club" kindref="compound">Club</ref></type>
+        <definition>Club Asistencias_wpf.AsistentesPopulator.clubSeleccionado</definition>
+        <argsstring></argsstring>
+        <name>clubSeleccionado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="14" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1aea7e955756112dc99c093514621320c7" prot="private" static="no" mutable="no">
+        <type>SqlCeConnection</type>
+        <definition>SqlCeConnection Asistencias_wpf.AsistentesPopulator.conn</definition>
+        <argsstring></argsstring>
+        <name>conn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="15" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1ab64596c710fa43f2a8391a4a3f662031" prot="private" static="no" mutable="no">
+        <type><ref refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager" kindref="compound">AsistenteDBManager</ref></type>
+        <definition>AsistenteDBManager Asistencias_wpf.AsistentesPopulator.asistenteDB</definition>
+        <argsstring></argsstring>
+        <name>asistenteDB</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="16" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1abe2a5ad9e46aa901e8c8e9bbf03ef653" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Asistencias_wpf.AsistentesPopulator.parcial</definition>
+        <argsstring></argsstring>
+        <name>parcial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="17" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1aabced42abbc527d1a0426c3772546eca" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="d8/dfa/class_asistencias__wpf_1_1_asistente" kindref="compound">Asistente</ref> &gt;</type>
+        <definition>List&lt;Asistente&gt; Asistencias_wpf.AsistentesPopulator.Asistentes</definition>
+        <argsstring></argsstring>
+        <name>Asistentes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="34" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="35" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a5db01c3b8b78cd44c75180c2450db2c5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>List&lt; <ref refid="d8/dfa/class_asistencias__wpf_1_1_asistente" kindref="compound">Asistente</ref> &gt;</type>
+        <definition>List&lt;Asistente&gt; Asistencias_wpf.AsistentesPopulator.Acreditados</definition>
+        <argsstring></argsstring>
+        <name>Acreditados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="40" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1ae0fd583251f55be398fff227885728e2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.AsistentesPopulator.cuentaModificada</definition>
+        <argsstring>(object sender, PropertyChangedEventArgs e)</argsstring>
+        <name>cuentaModificada</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>PropertyChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="19" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="19" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a1171590ee1726952f8a8336bcfe7d8d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Asistencias_wpf.AsistentesPopulator.AsistentesPopulator</definition>
+        <argsstring>(SqlCeConnection conn, int parcial, Club seleccionado)</argsstring>
+        <name>AsistentesPopulator</name>
+        <param>
+          <type>SqlCeConnection</type>
+          <declname>conn</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parcial</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d3b/class_asistencias__wpf_1_1_club" kindref="compound">Club</ref></type>
+          <declname>seleccionado</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="24" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="24" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1aadfe2dae3e3628d7d14dd3613ae5039b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.AsistentesPopulator.generarAcreditados</definition>
+        <argsstring>()</argsstring>
+        <name>generarAcreditados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="46" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="46" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a93286c806b0d3ebe3ea65ec5c4b5fd8b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.AsistentesPopulator.generarLista</definition>
+        <argsstring>()</argsstring>
+        <name>generarLista</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="55" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="55" bodyend="102"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="32">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="31">
+        <label>Asistencias_wpf.Asistente</label>
+        <link refid="d8/dfa/class_asistencias__wpf_1_1_asistente"/>
+        <childnode refid="32" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="28">
+        <label>Asistencias_wpf.AsistentesPopulator</label>
+        <link refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator"/>
+        <childnode refid="29" relation="usage">
+          <edgelabel>clubSeleccionado</edgelabel>
+        </childnode>
+        <childnode refid="30" relation="usage">
+          <edgelabel>asistenteDB</edgelabel>
+        </childnode>
+      </node>
+      <node id="30">
+        <label>Asistencias_wpf.AsistenteDBManager</label>
+        <link refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager"/>
+        <childnode refid="31" relation="usage">
+          <edgelabel>Holder</edgelabel>
+        </childnode>
+      </node>
+      <node id="29">
+        <label>Asistencias_wpf.Club</label>
+        <link refid="d1/d3b/class_asistencias__wpf_1_1_club"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" line="10" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AsistentesPopulator.cs" bodystart="9" bodyend="103"/>
+    <listofallmembers>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1acb5b7e513ea3e1df015d7fedaa5c2624" prot="private" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>_acreditados</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a84a4c12da1ef4556f1cfefbea12902b8" prot="private" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>_asistentes</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a5db01c3b8b78cd44c75180c2450db2c5" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>Acreditados</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a5be02a2b0beb32f0c8b2aef488303359" prot="private" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>Alumnos</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1ab64596c710fa43f2a8391a4a3f662031" prot="private" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>asistenteDB</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1aabced42abbc527d1a0426c3772546eca" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>Asistentes</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a1171590ee1726952f8a8336bcfe7d8d3" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>AsistentesPopulator</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a33a9f65088b3243c8473180e80e322d9" prot="private" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>clubSeleccionado</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1aea7e955756112dc99c093514621320c7" prot="private" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>conn</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1ae0fd583251f55be398fff227885728e2" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>cuentaModificada</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1aadfe2dae3e3628d7d14dd3613ae5039b" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>generarAcreditados</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1a93286c806b0d3ebe3ea65ec5c4b5fd8b" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>generarLista</name></member>
+      <member refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator_1abe2a5ad9e46aa901e8c8e9bbf03ef653" prot="private" virt="non-virtual"><scope>Asistencias_wpf::AsistentesPopulator</scope><name>parcial</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

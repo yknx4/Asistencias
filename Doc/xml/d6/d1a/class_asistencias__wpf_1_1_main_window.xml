@@ -1,0 +1,1115 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d6/d1a/class_asistencias__wpf_1_1_main_window" kind="class" prot="public">
+    <compoundname>Asistencias_wpf::MainWindow</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ade98915e9943a63d9b723da6e1f50ec7" prot="private" static="yes" mutable="no">
+        <type>bool</type>
+        <definition>bool Asistencias_wpf.MainWindow.cellHasBeenSelected</definition>
+        <argsstring></argsstring>
+        <name>cellHasBeenSelected</name>
+        <initializer>= false</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="16" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a475e7650f0bbc7b9b2851de2ccdb1af1" prot="private" static="yes" mutable="no">
+        <type>SqlCeConnection</type>
+        <definition>SqlCeConnection Asistencias_wpf.MainWindow.conn</definition>
+        <argsstring></argsstring>
+        <name>conn</name>
+        <initializer>= new SqlCeConnection(@&quot;Data Source=|DataDirectory|\Alumnos.sdf&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="17" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6bee34bf669bcc522d01affb6bfe1bae" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="d8/dfa/class_asistencias__wpf_1_1_asistente" kindref="compound">Asistente</ref> &gt;</type>
+        <definition>List&lt;Asistente&gt; Asistencias_wpf.MainWindow.acreditados</definition>
+        <argsstring></argsstring>
+        <name>acreditados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="18" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ac267271cbb547ec9c8b72482ff481894" prot="private" static="no" mutable="no">
+        <type>DataTable</type>
+        <definition>DataTable Asistencias_wpf.MainWindow.Alumnos</definition>
+        <argsstring></argsstring>
+        <name>Alumnos</name>
+        <initializer>= new DataTable()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="19" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a0b088adb7d4ae4110408a09fbdbfaa18" prot="private" static="no" mutable="no">
+        <type><ref refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager" kindref="compound">AsistenteDBManager</ref></type>
+        <definition>AsistenteDBManager Asistencias_wpf.MainWindow.asistenteManager</definition>
+        <argsstring></argsstring>
+        <name>asistenteManager</name>
+        <initializer>= new <ref refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager" kindref="compound">AsistenteDBManager</ref>(<ref refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a475e7650f0bbc7b9b2851de2ccdb1af1" kindref="member">conn</ref>)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="20" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a9460d841a29658f63dd55788a1f3e3dd" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="d8/dfa/class_asistencias__wpf_1_1_asistente" kindref="compound">Asistente</ref> &gt;</type>
+        <definition>List&lt;Asistente&gt; Asistencias_wpf.MainWindow.asistentes</definition>
+        <argsstring></argsstring>
+        <name>asistentes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="21" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae8ae45fcbef622a8a77ff2a2839850d8" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d3b/class_asistencias__wpf_1_1_club" kindref="compound">Club</ref></type>
+        <definition>Club Asistencias_wpf.MainWindow.clubSeleccionado</definition>
+        <argsstring></argsstring>
+        <name>clubSeleccionado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="24" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ac8fa133c53bfc0374475a1efb34409c9" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Asistencias_wpf.MainWindow.parcial</definition>
+        <argsstring></argsstring>
+        <name>parcial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="27" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a89b2a643d361e6926255fc1a1906b022" prot="private" static="no" mutable="no">
+        <type><ref refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator" kindref="compound">AsistentesPopulator</ref></type>
+        <definition>AsistentesPopulator Asistencias_wpf.MainWindow.populator</definition>
+        <argsstring></argsstring>
+        <name>populator</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="29" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a4e35f0ebc45164d603bcc80544bc2bc1" prot="private" static="no" mutable="no">
+        <type>Window</type>
+        <definition>Window Asistencias_wpf.MainWindow.Sender</definition>
+        <argsstring></argsstring>
+        <name>Sender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="30" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae44c6b71b9c471b3dc9ab07e778e5781" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Asistencias_wpf.MainWindow::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" line="98" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a65c34d321ad5d831ae14e80205d153b8" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button Asistencias_wpf.MainWindow::btnAsist</definition>
+        <argsstring></argsstring>
+        <name>btnAsist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" line="45" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a52e76fc15be974c00138b13ab7e19b44" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox Asistencias_wpf.MainWindow::txtCuenta</definition>
+        <argsstring></argsstring>
+        <name>txtCuenta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" line="53" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1acd918b065d257146f683ff317be832a6" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox Asistencias_wpf.MainWindow::txtNombre</definition>
+        <argsstring></argsstring>
+        <name>txtNombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" line="61" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a4ce5343faaf6dc02bc33f5da846cd4db" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox Asistencias_wpf.MainWindow::txtCuentaR</definition>
+        <argsstring></argsstring>
+        <name>txtCuentaR</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" line="69" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a20520a2029311127a68cc320e5a1aed4" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox Asistencias_wpf.MainWindow::txtPlantel</definition>
+        <argsstring></argsstring>
+        <name>txtPlantel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" line="77" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a37ce519d4dc242993a180c9ec48581f6" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button Asistencias_wpf.MainWindow::btnRegistrar</definition>
+        <argsstring></argsstring>
+        <name>btnRegistrar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" line="85" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a225a06fc8dd74f56e03caad3b7eaf6ab" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label Asistencias_wpf.MainWindow::lblEstado</definition>
+        <argsstring></argsstring>
+        <name>lblEstado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" line="93" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a06d0d015783f1332649608fd2a84d459" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button Asistencias_wpf.MainWindow::btnLookup</definition>
+        <argsstring></argsstring>
+        <name>btnLookup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" line="62" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a926b718586c2787f19ddaa4001911d1b" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button Asistencias_wpf.MainWindow::btnAcreditados</definition>
+        <argsstring></argsstring>
+        <name>btnAcreditados</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" line="102" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1adcd4add51c03081da4c3c0cc80125b45" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.CheckBox</type>
+        <definition>System Windows Controls CheckBox Asistencias_wpf.MainWindow::chkTodos</definition>
+        <argsstring></argsstring>
+        <name>chkTodos</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" line="110" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" bodystart="110" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a813953ed3cd32fbaea64c551ae2728c9" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.DataGrid</type>
+        <definition>System Windows Controls DataGrid Asistencias_wpf.MainWindow::gdAsistencias</definition>
+        <argsstring></argsstring>
+        <name>gdAsistencias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" line="118" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" bodystart="118" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ab76400422a21298f8055dd60e6d922c7" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Primitives.Popup</type>
+        <definition>System Windows Controls Primitives Popup Asistencias_wpf.MainWindow::PopupLookup</definition>
+        <argsstring></argsstring>
+        <name>PopupLookup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" line="134" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae0a45b8720275659efc30b621e482e40" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.DataGrid</type>
+        <definition>System Windows Controls DataGrid Asistencias_wpf.MainWindow::gdAsistenciasPorAlumno</definition>
+        <argsstring></argsstring>
+        <name>gdAsistenciasPorAlumno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" line="142" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a773508c45ca6432097868c52f9cc53a4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Asistencias_wpf.MainWindow.MainWindow</definition>
+        <argsstring>(Club seleccionado, int parcial, Window Sender)</argsstring>
+        <name>MainWindow</name>
+        <param>
+          <type><ref refid="d1/d3b/class_asistencias__wpf_1_1_club" kindref="compound">Club</ref></type>
+          <declname>seleccionado</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>parcial</declname>
+        </param>
+        <param>
+          <type>Window</type>
+          <declname>Sender</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="32" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="32" bodyend="43"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" line="105" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" bodystart="105" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.i.cs" line="105" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.i.cs" bodystart="105" bodyend="117"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" line="154" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" bodystart="154" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.i.cs" line="154" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.i.cs" bodystart="154" bodyend="166"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a5ef0449f967aa4a8f873a0be96d81e16" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.acreditadosClk</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>acreditadosClk</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="45" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="45" bodyend="62"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ab5f019117c860bd68f349a2d33313962" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.alCerrar</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>alCerrar</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="64" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="64" bodyend="67"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a2b8b0e43fb4aebf353e6aa490115924e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.anadirAsistencia</definition>
+        <argsstring>()</argsstring>
+        <name>anadirAsistencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="69" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="69" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae82807e4848c98f05418df82f3da7159" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.btnAnadirAsis</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btnAnadirAsis</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="103" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a0e869f220f887ff19bf34d09aee597c1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.btnLookupClick</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>btnLookupClick</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="108" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="108" bodyend="112"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1af6dad6f9bfb02c1d33e0e3d73d142894" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d8/dfa/class_asistencias__wpf_1_1_asistente" kindref="compound">Asistente</ref></type>
+        <definition>Asistente Asistencias_wpf.MainWindow.buscarAsistente</definition>
+        <argsstring>(int NumeroCuenta)</argsstring>
+        <name>buscarAsistente</name>
+        <param>
+          <type>int</type>
+          <declname>NumeroCuenta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="114" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="114" bodyend="122"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a734f2fd5e3c402074d663248ebba510c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="d8/dfa/class_asistencias__wpf_1_1_asistente" kindref="compound">Asistente</ref></type>
+        <definition>Asistente Asistencias_wpf.MainWindow.buscarAsistente</definition>
+        <argsstring>(string NumeroCuenta)</argsstring>
+        <name>buscarAsistente</name>
+        <param>
+          <type>string</type>
+          <declname>NumeroCuenta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="124" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="124" bodyend="142"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a2a8d8e5780af57c07558431272ee4988" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.generatingColumn</definition>
+        <argsstring>(object sender, DataGridAutoGeneratingColumnEventArgs e)</argsstring>
+        <name>generatingColumn</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DataGridAutoGeneratingColumnEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="144" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="144" bodyend="172"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae1c324b160c3fabd96c9a98b3b1dfa5e" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.lostFocusInRow</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>lostFocusInRow</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="174" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="174" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1af5e3f09d78ecb240a880e737454e1246" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.onEnter</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>onEnter</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="179" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="179" bodyend="186"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a021f286d29f89afb7e646c8a02fdcb4b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.onEnterR</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>onEnterR</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="188" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="188" bodyend="195"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1acb5ec5ec33907eb146447f12fcd18d94" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.onFocus</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>onFocus</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="197" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="197" bodyend="204"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a954a70b05258236009e15040f31dda99" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.PopupAsistenciasPersonal</definition>
+        <argsstring>(string noCuenta)</argsstring>
+        <name>PopupAsistenciasPersonal</name>
+        <param>
+          <type>string</type>
+          <declname>noCuenta</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="206" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="206" bodyend="226"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1aa9cd4d1d96ff7ee36e352a6e2f307d44" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.PopupLostFocus</definition>
+        <argsstring>(object sender, MouseEventArgs e)</argsstring>
+        <name>PopupLostFocus</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="228" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="228" bodyend="231"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae4a25f0239f778a1a8ace8d4535c42e5" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.Registrar_Click</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Registrar_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="233" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="233" bodyend="236"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a4b76113e8d64c467e17d08c1bac15914" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.registrarAsistente</definition>
+        <argsstring>()</argsstring>
+        <name>registrarAsistente</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="238" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="238" bodyend="281"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae6a7656d280061fc7434874730ee8f34" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.selectedCellsChange</definition>
+        <argsstring>(object sender, SelectedCellsChangedEventArgs e)</argsstring>
+        <name>selectedCellsChange</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectedCellsChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="283" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="283" bodyend="298"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a34ecfd31ba03c828ca880d850c91d2ab" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Boolean</type>
+        <definition>Boolean Asistencias_wpf.MainWindow.TextBoxTextAllowed</definition>
+        <argsstring>(String Text2)</argsstring>
+        <name>TextBoxTextAllowed</name>
+        <param>
+          <type>String</type>
+          <declname>Text2</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="300" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="300" bodyend="305"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a80a6d326d7e11f707d02225a6efc21d6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.textBoxValue_Pasting</definition>
+        <argsstring>(object sender, DataObjectPastingEventArgs e)</argsstring>
+        <name>textBoxValue_Pasting</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DataObjectPastingEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="307" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="307" bodyend="317"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a952d704cbea0440a9215abf74fe0ab17" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.textBoxValue_PreviewTextInput</definition>
+        <argsstring>(object sender, TextCompositionEventArgs e)</argsstring>
+        <name>textBoxValue_PreviewTextInput</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>TextCompositionEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="319" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="319" bodyend="322"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1af16b10485e73a8cc0c7cef9d26983798" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.txtCuenta_TextChanged</definition>
+        <argsstring>(object sender, TextChangedEventArgs e)</argsstring>
+        <name>txtCuenta_TextChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>TextChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="324" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="324" bodyend="341"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1aebfda635006d9b11238405a7db87048b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.MainWindow.Window_Loaded_1</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>Window_Loaded_1</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="343" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="343" bodyend="348"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Asistencias_wpf.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" line="125" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.cs" bodystart="125" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Asistencias_wpf.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.i.cs" line="125" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Debug/MainWindow.g.i.cs" bodystart="125" bodyend="211"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Asistencias_wpf.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" line="174" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.cs" bodystart="174" bodyend="328"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Asistencias_wpf.MainWindow.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.i.cs" line="174" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/MainWindow.g.i.cs" bodystart="174" bodyend="328"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for MainWindow.xaml </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="d6/d1a/class_asistencias__wpf_1_1_main_window" kindref="compound">MainWindow</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="52">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="54">
+        <label>Window</label>
+      </node>
+      <node id="51">
+        <label>Asistencias_wpf.MainWindow</label>
+        <link refid="d6/d1a/class_asistencias__wpf_1_1_main_window"/>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="52" relation="public-inheritance">
+        </childnode>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+        <childnode refid="54" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="53">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="56">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="58">
+        <label>Window</label>
+      </node>
+      <node id="55">
+        <label>Asistencias_wpf.MainWindow</label>
+        <link refid="d6/d1a/class_asistencias__wpf_1_1_main_window"/>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="56" relation="public-inheritance">
+        </childnode>
+        <childnode refid="57" relation="public-inheritance">
+        </childnode>
+        <childnode refid="58" relation="public-inheritance">
+        </childnode>
+        <childnode refid="59" relation="usage">
+          <edgelabel>clubSeleccionado</edgelabel>
+        </childnode>
+        <childnode refid="60" relation="usage">
+          <edgelabel>populator</edgelabel>
+        </childnode>
+        <childnode refid="64" relation="usage">
+          <edgelabel>gdAsistenciasPorAlumno</edgelabel>
+          <edgelabel>PopupLookup</edgelabel>
+          <edgelabel>lblEstado</edgelabel>
+          <edgelabel>btnAcreditados</edgelabel>
+          <edgelabel>chkTodos</edgelabel>
+          <edgelabel>btnLookup</edgelabel>
+          <edgelabel>txtNombre</edgelabel>
+          <edgelabel>txtCuenta</edgelabel>
+          <edgelabel>txtPlantel</edgelabel>
+          <edgelabel>txtCuentaR</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>asistenteManager</edgelabel>
+        </childnode>
+      </node>
+      <node id="63">
+        <label>INotifyPropertyChanged</label>
+      </node>
+      <node id="62">
+        <label>Asistencias_wpf.Asistente</label>
+        <link refid="d8/dfa/class_asistencias__wpf_1_1_asistente"/>
+        <childnode refid="63" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="60">
+        <label>Asistencias_wpf.AsistentesPopulator</label>
+        <link refid="d9/ddd/class_asistencias__wpf_1_1_asistentes_populator"/>
+        <childnode refid="59" relation="usage">
+          <edgelabel>clubSeleccionado</edgelabel>
+        </childnode>
+        <childnode refid="61" relation="usage">
+          <edgelabel>asistenteDB</edgelabel>
+        </childnode>
+      </node>
+      <node id="64">
+        <label>System</label>
+      </node>
+      <node id="61">
+        <label>Asistencias_wpf.AsistenteDBManager</label>
+        <link refid="d7/dc1/class_asistencias__wpf_1_1_asistente_d_b_manager"/>
+        <childnode refid="62" relation="usage">
+          <edgelabel>Holder</edgelabel>
+        </childnode>
+      </node>
+      <node id="59">
+        <label>Asistencias_wpf.Club</label>
+        <link refid="d1/d3b/class_asistencias__wpf_1_1_club"/>
+      </node>
+      <node id="57">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" line="15" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/MainWindow.xaml.cs" bodystart="14" bodyend="349"/>
+    <listofallmembers>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae44c6b71b9c471b3dc9ab07e778e5781" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>_contentLoaded</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6bee34bf669bcc522d01affb6bfe1bae" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>acreditados</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a5ef0449f967aa4a8f873a0be96d81e16" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>acreditadosClk</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ab5f019117c860bd68f349a2d33313962" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>alCerrar</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ac267271cbb547ec9c8b72482ff481894" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>Alumnos</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a2b8b0e43fb4aebf353e6aa490115924e" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>anadirAsistencia</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a0b088adb7d4ae4110408a09fbdbfaa18" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>asistenteManager</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a9460d841a29658f63dd55788a1f3e3dd" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>asistentes</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a926b718586c2787f19ddaa4001911d1b" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>btnAcreditados</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae82807e4848c98f05418df82f3da7159" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>btnAnadirAsis</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a65c34d321ad5d831ae14e80205d153b8" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>btnAsist</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a06d0d015783f1332649608fd2a84d459" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>btnLookup</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a0e869f220f887ff19bf34d09aee597c1" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>btnLookupClick</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a37ce519d4dc242993a180c9ec48581f6" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>btnRegistrar</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af6dad6f9bfb02c1d33e0e3d73d142894" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>buscarAsistente</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a734f2fd5e3c402074d663248ebba510c" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>buscarAsistente</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ade98915e9943a63d9b723da6e1f50ec7" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>cellHasBeenSelected</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1adcd4add51c03081da4c3c0cc80125b45" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>chkTodos</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae8ae45fcbef622a8a77ff2a2839850d8" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>clubSeleccionado</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a475e7650f0bbc7b9b2851de2ccdb1af1" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>conn</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>Connect</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>Connect</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>Connect</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a6e541c49de4f0b4a32425f277e2f10c9" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>Connect</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a813953ed3cd32fbaea64c551ae2728c9" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>gdAsistencias</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae0a45b8720275659efc30b621e482e40" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>gdAsistenciasPorAlumno</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a2a8d8e5780af57c07558431272ee4988" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>generatingColumn</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" prot="public" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" prot="public" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" prot="public" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af25d88d6be17f127720a8e9d0459a4a8" prot="public" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>InitializeComponent</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a225a06fc8dd74f56e03caad3b7eaf6ab" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>lblEstado</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae1c324b160c3fabd96c9a98b3b1dfa5e" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>lostFocusInRow</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a773508c45ca6432097868c52f9cc53a4" prot="public" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>MainWindow</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af5e3f09d78ecb240a880e737454e1246" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>onEnter</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a021f286d29f89afb7e646c8a02fdcb4b" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>onEnterR</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1acb5ec5ec33907eb146447f12fcd18d94" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>onFocus</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ac8fa133c53bfc0374475a1efb34409c9" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>parcial</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a89b2a643d361e6926255fc1a1906b022" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>populator</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a954a70b05258236009e15040f31dda99" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>PopupAsistenciasPersonal</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ab76400422a21298f8055dd60e6d922c7" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>PopupLookup</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1aa9cd4d1d96ff7ee36e352a6e2f307d44" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>PopupLostFocus</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae4a25f0239f778a1a8ace8d4535c42e5" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>Registrar_Click</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a4b76113e8d64c467e17d08c1bac15914" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>registrarAsistente</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1ae6a7656d280061fc7434874730ee8f34" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>selectedCellsChange</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a4e35f0ebc45164d603bcc80544bc2bc1" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>Sender</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a34ecfd31ba03c828ca880d850c91d2ab" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>TextBoxTextAllowed</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a80a6d326d7e11f707d02225a6efc21d6" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>textBoxValue_Pasting</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a952d704cbea0440a9215abf74fe0ab17" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>textBoxValue_PreviewTextInput</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a52e76fc15be974c00138b13ab7e19b44" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>txtCuenta</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1af16b10485e73a8cc0c7cef9d26983798" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>txtCuenta_TextChanged</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a4ce5343faaf6dc02bc33f5da846cd4db" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>txtCuentaR</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1acd918b065d257146f683ff317be832a6" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>txtNombre</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1a20520a2029311127a68cc320e5a1aed4" prot="package" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>txtPlantel</name></member>
+      <member refid="d6/d1a/class_asistencias__wpf_1_1_main_window_1aebfda635006d9b11238405a7db87048b" prot="private" virt="non-virtual"><scope>Asistencias_wpf::MainWindow</scope><name>Window_Loaded_1</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

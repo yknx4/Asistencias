@@ -1,0 +1,311 @@
+\hypertarget{classmatrix_1_1_program}{\section{matrix.\-Program Class Reference}
+\label{classmatrix_1_1_program}\index{matrix.\-Program@{matrix.\-Program}}
+}
+\subsection*{Static Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classmatrix_1_1_program_ae800bb3943994a4c6d5595fcb01370c5}{in\-Screen\-Y\-Position} (int y\-Position, int height)
+\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+static char \hyperlink{classmatrix_1_1_program_ae4f0df2b9f302e657820ea236f831664}{Ascii\-Character}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\end{DoxyCompactItemize}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{classmatrix_1_1_program_aa45e7cdc65635c198fc584aa87c8475b}{Main} ()
+\item 
+static void \hyperlink{classmatrix_1_1_program_a01bf0ffc74243e0f4379994d5105093a}{Update\-All\-Columns} (int width, int height, int\mbox{[}$\,$\mbox{]} y)
+\item 
+static void \hyperlink{classmatrix_1_1_program_a69074a2933e93bcd5bec11255ad05cfe}{Initialize} (out int width, out int height, out int\mbox{[}$\,$\mbox{]} y)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static int \hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter}
+\item 
+static Random \hyperlink{classmatrix_1_1_program_a0920a8f72e5a9fcf1cc1bfcab61a2c31}{rand} = new Random()
+\item 
+static int \hyperlink{classmatrix_1_1_program_a6c872786668501a3f17cddb985c7ade0}{Interval} = 100
+\item 
+static int \hyperlink{classmatrix_1_1_program_a33abdd7b74a13e027d920fddb65cce35}{Full\-Flow} = \hyperlink{classmatrix_1_1_program_a6c872786668501a3f17cddb985c7ade0}{Interval} + 30
+\item 
+static int \hyperlink{classmatrix_1_1_program_a48b4255583a63007038c6c61bd50672b}{Blacking} = \hyperlink{classmatrix_1_1_program_a33abdd7b74a13e027d920fddb65cce35}{Full\-Flow} + 50
+\item 
+static Console\-Color \hyperlink{classmatrix_1_1_program_ab208e57b1469c5728605ac04b0eae86c}{Normal\-Color} = Console\-Color.\-Dark\-Green
+\item 
+static Console\-Color \hyperlink{classmatrix_1_1_program_ae5ddcc0d3f98613073560fa4e3d66f5b}{Glow\-Color} = Console\-Color.\-Green
+\item 
+static Console\-Color \hyperlink{classmatrix_1_1_program_a20f58f721e0c5cdf3b4f519bb7ef872a}{Fancy\-Color} = Console\-Color.\-White
+\item 
+static String \hyperlink{classmatrix_1_1_program_a4261f7dfcf193d03c22afd544ac71010}{Text\-Input} = \char`\"{}Matrix\char`\"{}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 7 of file Program.\-cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{classmatrix_1_1_program_a69074a2933e93bcd5bec11255ad05cfe}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Initialize@{Initialize}}
+\index{Initialize@{Initialize}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Initialize}]{\setlength{\rightskip}{0pt plus 5cm}static void matrix.\-Program.\-Initialize (
+\begin{DoxyParamCaption}
+\item[{out int}]{width, }
+\item[{out int}]{height, }
+\item[{out int\mbox{[}$\,$\mbox{]}}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_a69074a2933e93bcd5bec11255ad05cfe}
+
+
+Definition at line 141 of file Program.\-cs.
+
+
+\begin{DoxyCode}
+142         \{
+143             height = Console.WindowHeight;
+144             width = Console.WindowWidth - 1;
+145             y = \textcolor{keyword}{new} \textcolor{keywordtype}{int}[width];
+146             Console.Clear();
+147 
+148             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} x = 0; x < width; ++x)\textcolor{comment}{//Setting the cursor at random at program startup}
+149             \{
+150                 y[x] = \hyperlink{classmatrix_1_1_program_a0920a8f72e5a9fcf1cc1bfcab61a2c31}{rand}.Next(height);
+151             \}
+152         \}
+\end{DoxyCode}
+\hypertarget{classmatrix_1_1_program_ae800bb3943994a4c6d5595fcb01370c5}{\index{matrix\-::\-Program@{matrix\-::\-Program}!in\-Screen\-Y\-Position@{in\-Screen\-Y\-Position}}
+\index{in\-Screen\-Y\-Position@{in\-Screen\-Y\-Position}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{in\-Screen\-Y\-Position}]{\setlength{\rightskip}{0pt plus 5cm}static int matrix.\-Program.\-in\-Screen\-Y\-Position (
+\begin{DoxyParamCaption}
+\item[{int}]{y\-Position, }
+\item[{int}]{height}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}}\label{classmatrix_1_1_program_ae800bb3943994a4c6d5595fcb01370c5}
+
+
+Definition at line 131 of file Program.\-cs.
+
+
+\begin{DoxyCode}
+132         \{
+133             \textcolor{keywordflow}{if} (yPosition < 0)\textcolor{comment}{//When there is negative value}
+134                 \textcolor{keywordflow}{return} yPosition + height;
+135             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (yPosition < height)\textcolor{comment}{//Normal }
+136                 \textcolor{keywordflow}{return} yPosition;
+137             \textcolor{keywordflow}{else}\textcolor{comment}{// When y goes out of screen when autoincremented by 1}
+138                 \textcolor{keywordflow}{return} 0;
+139 
+140         \}
+\end{DoxyCode}
+\hypertarget{classmatrix_1_1_program_aa45e7cdc65635c198fc584aa87c8475b}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Main@{Main}}
+\index{Main@{Main}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Main}]{\setlength{\rightskip}{0pt plus 5cm}static void matrix.\-Program.\-Main (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_aa45e7cdc65635c198fc584aa87c8475b}
+
+
+Definition at line 36 of file Program.\-cs.
+
+
+\begin{DoxyCode}
+37         \{
+38 
+39             Console.ForegroundColor = \hyperlink{classmatrix_1_1_program_ab208e57b1469c5728605ac04b0eae86c}{NormalColor};
+40             Console.WindowLeft = Console.WindowTop = 0;
+41             Console.WindowHeight = Console.BufferHeight = Console.LargestWindowHeight;
+42             Console.WindowWidth = Console.BufferWidth = Console.LargestWindowWidth;
+43             Console.SetWindowPosition(0, 0);
+44             Console.CursorVisible = \textcolor{keyword}{false};
+45 
+46             \textcolor{keywordtype}{int} width, height;
+47             \textcolor{keywordtype}{int}[] y;
+48             \hyperlink{classmatrix_1_1_program_a69074a2933e93bcd5bec11255ad05cfe}{Initialize}(out width, out height, out y);\textcolor{comment}{//Setting the Starting Point}
+49 
+50             \textcolor{keywordflow}{while} (\textcolor{keyword}{true})
+51             \{
+52                 \hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter} = \hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter} + 1;
+53                 \hyperlink{classmatrix_1_1_program_a01bf0ffc74243e0f4379994d5105093a}{UpdateAllColumns}(width, height, y);
+54                 \textcolor{keywordflow}{if} (\hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter} > (3 * \hyperlink{classmatrix_1_1_program_a6c872786668501a3f17cddb985c7ade0}{Interval}))
+55                     \hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter} = 0;
+56 
+57             \}
+58         \}
+\end{DoxyCode}
+\hypertarget{classmatrix_1_1_program_a01bf0ffc74243e0f4379994d5105093a}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Update\-All\-Columns@{Update\-All\-Columns}}
+\index{Update\-All\-Columns@{Update\-All\-Columns}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Update\-All\-Columns}]{\setlength{\rightskip}{0pt plus 5cm}static void matrix.\-Program.\-Update\-All\-Columns (
+\begin{DoxyParamCaption}
+\item[{int}]{width, }
+\item[{int}]{height, }
+\item[{int\mbox{[}$\,$\mbox{]}}]{y}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_a01bf0ffc74243e0f4379994d5105093a}
+
+
+Definition at line 59 of file Program.\-cs.
+
+
+\begin{DoxyCode}
+60         \{
+61             \textcolor{keywordtype}{int} x;
+62             \textcolor{keywordflow}{if} (\hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter} < \hyperlink{classmatrix_1_1_program_a6c872786668501a3f17cddb985c7ade0}{Interval})
+63             \{
+64                 \textcolor{keywordflow}{for} (x = 0; x < width; ++x)
+65                 \{
+66                     \textcolor{keywordflow}{if} (x % 10 == 1)\textcolor{comment}{//Randomly setting up the White Position}
+67                         Console.ForegroundColor = \hyperlink{classmatrix_1_1_program_a20f58f721e0c5cdf3b4f519bb7ef872a}{FancyColor};
+68                     \textcolor{keywordflow}{else}
+69                         Console.ForegroundColor = \hyperlink{classmatrix_1_1_program_ae5ddcc0d3f98613073560fa4e3d66f5b}{GlowColor};
+70                     Console.SetCursorPosition(x, y[x]);
+71                     Console.Write(\hyperlink{classmatrix_1_1_program_ae4f0df2b9f302e657820ea236f831664}{AsciiCharacter});
+72 
+73                     \textcolor{keywordflow}{if} (x % 10 == 9)
+74                         Console.ForegroundColor = \hyperlink{classmatrix_1_1_program_a20f58f721e0c5cdf3b4f519bb7ef872a}{FancyColor};
+75                     \textcolor{keywordflow}{else}
+76                         Console.ForegroundColor = \hyperlink{classmatrix_1_1_program_ab208e57b1469c5728605ac04b0eae86c}{NormalColor};
+77                     \textcolor{keywordtype}{int} temp = y[x] - 2;
+78                     Console.SetCursorPosition(x, \hyperlink{classmatrix_1_1_program_ae800bb3943994a4c6d5595fcb01370c5}{inScreenYPosition}(temp, height));
+79                     Console.Write(\hyperlink{classmatrix_1_1_program_ae4f0df2b9f302e657820ea236f831664}{AsciiCharacter});
+80 
+81                     \textcolor{keywordtype}{int} temp1 = y[x] - 20;
+82                     Console.SetCursorPosition(x, \hyperlink{classmatrix_1_1_program_ae800bb3943994a4c6d5595fcb01370c5}{inScreenYPosition}(temp1, height));
+83                     Console.Write(\textcolor{charliteral}{' '});
+84                     y[x] = \hyperlink{classmatrix_1_1_program_ae800bb3943994a4c6d5595fcb01370c5}{inScreenYPosition}(y[x] + 1, height);
+85 
+86                 \}
+87             \}
+88             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter} > \hyperlink{classmatrix_1_1_program_a6c872786668501a3f17cddb985c7ade0}{Interval} && \hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter} < 
+      \hyperlink{classmatrix_1_1_program_a33abdd7b74a13e027d920fddb65cce35}{FullFlow})
+89             \{
+90                 \textcolor{keywordflow}{for} (x = 0; x < width; ++x)
+91                 \{
+92 
+93                     Console.SetCursorPosition(x, y[x]);
+94                     \textcolor{keywordflow}{if} (x % 10 == 9)
+95                         Console.ForegroundColor = \hyperlink{classmatrix_1_1_program_a20f58f721e0c5cdf3b4f519bb7ef872a}{FancyColor};
+96                     \textcolor{keywordflow}{else}
+97                         Console.ForegroundColor = \hyperlink{classmatrix_1_1_program_ab208e57b1469c5728605ac04b0eae86c}{NormalColor};
+98 
+99                     Console.Write(\hyperlink{classmatrix_1_1_program_ae4f0df2b9f302e657820ea236f831664}{AsciiCharacter});\textcolor{comment}{//Printing the Character Always at Fixed
+       position}
+100 
+101                     y[x] = \hyperlink{classmatrix_1_1_program_ae800bb3943994a4c6d5595fcb01370c5}{inScreenYPosition}(y[x] + 1, height);
+102                 \}
+103             \}
+104             \textcolor{keywordflow}{else} \textcolor{keywordflow}{if} (\hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter} > \hyperlink{classmatrix_1_1_program_a33abdd7b74a13e027d920fddb65cce35}{FullFlow})
+105             \{
+106                 \textcolor{keywordflow}{for} (x = 0; x < width; ++x)
+107                 \{
+108                     Console.SetCursorPosition(x, y[x]);
+109                     Console.Write(\textcolor{charliteral}{' '});\textcolor{comment}{//Slowly blacking out the Screen}
+110                     \textcolor{keywordtype}{int} temp1 = y[x] - 20;
+111                     Console.SetCursorPosition(x, \hyperlink{classmatrix_1_1_program_ae800bb3943994a4c6d5595fcb01370c5}{inScreenYPosition}(temp1, height));
+112                     Console.Write(\textcolor{charliteral}{' '});
+113                     \textcolor{keywordflow}{if} (\hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter} > \hyperlink{classmatrix_1_1_program_a33abdd7b74a13e027d920fddb65cce35}{FullFlow} && \hyperlink{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{Counter} < 
+      \hyperlink{classmatrix_1_1_program_a48b4255583a63007038c6c61bd50672b}{Blacking})\textcolor{comment}{// Clearing the Entire screen to get the Darkness}
+114                     \{
+115                         \textcolor{keywordflow}{if} (x % 10 == 9)
+116                             Console.ForegroundColor = \hyperlink{classmatrix_1_1_program_a20f58f721e0c5cdf3b4f519bb7ef872a}{FancyColor};
+117                         \textcolor{keywordflow}{else}
+118                             Console.ForegroundColor = \hyperlink{classmatrix_1_1_program_ab208e57b1469c5728605ac04b0eae86c}{NormalColor};
+119                         \textcolor{keywordtype}{int} temp = y[x] - 2;
+120                         Console.SetCursorPosition(x, \hyperlink{classmatrix_1_1_program_ae800bb3943994a4c6d5595fcb01370c5}{inScreenYPosition}(temp, height));
+121                         Console.Write(\hyperlink{classmatrix_1_1_program_ae4f0df2b9f302e657820ea236f831664}{AsciiCharacter});\textcolor{comment}{//The Text is printed Always}
+122 
+123                     \}
+124                     Console.SetCursorPosition(width / 2, height / 2);
+125                     Console.Write(\hyperlink{classmatrix_1_1_program_a4261f7dfcf193d03c22afd544ac71010}{TextInput});
+126                     y[x] = \hyperlink{classmatrix_1_1_program_ae800bb3943994a4c6d5595fcb01370c5}{inScreenYPosition}(y[x] + 1, height);
+127                 \}
+128 
+129             \}
+130         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{classmatrix_1_1_program_a48b4255583a63007038c6c61bd50672b}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Blacking@{Blacking}}
+\index{Blacking@{Blacking}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Blacking}]{\setlength{\rightskip}{0pt plus 5cm}int matrix.\-Program.\-Blacking = {\bf Full\-Flow} + 50\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_a48b4255583a63007038c6c61bd50672b}
+
+
+Definition at line 14 of file Program.\-cs.
+
+\hypertarget{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Counter@{Counter}}
+\index{Counter@{Counter}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Counter}]{\setlength{\rightskip}{0pt plus 5cm}int matrix.\-Program.\-Counter\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_a7ebfe2b7ace6afb02108a7d38abb6f1b}
+
+
+Definition at line 9 of file Program.\-cs.
+
+\hypertarget{classmatrix_1_1_program_a20f58f721e0c5cdf3b4f519bb7ef872a}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Fancy\-Color@{Fancy\-Color}}
+\index{Fancy\-Color@{Fancy\-Color}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Fancy\-Color}]{\setlength{\rightskip}{0pt plus 5cm}Console\-Color matrix.\-Program.\-Fancy\-Color = Console\-Color.\-White\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_a20f58f721e0c5cdf3b4f519bb7ef872a}
+
+
+Definition at line 18 of file Program.\-cs.
+
+\hypertarget{classmatrix_1_1_program_a33abdd7b74a13e027d920fddb65cce35}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Full\-Flow@{Full\-Flow}}
+\index{Full\-Flow@{Full\-Flow}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Full\-Flow}]{\setlength{\rightskip}{0pt plus 5cm}int matrix.\-Program.\-Full\-Flow = {\bf Interval} + 30\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_a33abdd7b74a13e027d920fddb65cce35}
+
+
+Definition at line 13 of file Program.\-cs.
+
+\hypertarget{classmatrix_1_1_program_ae5ddcc0d3f98613073560fa4e3d66f5b}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Glow\-Color@{Glow\-Color}}
+\index{Glow\-Color@{Glow\-Color}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Glow\-Color}]{\setlength{\rightskip}{0pt plus 5cm}Console\-Color matrix.\-Program.\-Glow\-Color = Console\-Color.\-Green\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_ae5ddcc0d3f98613073560fa4e3d66f5b}
+
+
+Definition at line 17 of file Program.\-cs.
+
+\hypertarget{classmatrix_1_1_program_a6c872786668501a3f17cddb985c7ade0}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Interval@{Interval}}
+\index{Interval@{Interval}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Interval}]{\setlength{\rightskip}{0pt plus 5cm}int matrix.\-Program.\-Interval = 100\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_a6c872786668501a3f17cddb985c7ade0}
+
+
+Definition at line 12 of file Program.\-cs.
+
+\hypertarget{classmatrix_1_1_program_ab208e57b1469c5728605ac04b0eae86c}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Normal\-Color@{Normal\-Color}}
+\index{Normal\-Color@{Normal\-Color}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Normal\-Color}]{\setlength{\rightskip}{0pt plus 5cm}Console\-Color matrix.\-Program.\-Normal\-Color = Console\-Color.\-Dark\-Green\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_ab208e57b1469c5728605ac04b0eae86c}
+
+
+Definition at line 16 of file Program.\-cs.
+
+\hypertarget{classmatrix_1_1_program_a0920a8f72e5a9fcf1cc1bfcab61a2c31}{\index{matrix\-::\-Program@{matrix\-::\-Program}!rand@{rand}}
+\index{rand@{rand}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{rand}]{\setlength{\rightskip}{0pt plus 5cm}Random matrix.\-Program.\-rand = new Random()\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_a0920a8f72e5a9fcf1cc1bfcab61a2c31}
+
+
+Definition at line 10 of file Program.\-cs.
+
+\hypertarget{classmatrix_1_1_program_a4261f7dfcf193d03c22afd544ac71010}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Text\-Input@{Text\-Input}}
+\index{Text\-Input@{Text\-Input}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Text\-Input}]{\setlength{\rightskip}{0pt plus 5cm}String matrix.\-Program.\-Text\-Input = \char`\"{}Matrix\char`\"{}\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_a4261f7dfcf193d03c22afd544ac71010}
+
+
+Definition at line 19 of file Program.\-cs.
+
+
+
+\subsection{Property Documentation}
+\hypertarget{classmatrix_1_1_program_ae4f0df2b9f302e657820ea236f831664}{\index{matrix\-::\-Program@{matrix\-::\-Program}!Ascii\-Character@{Ascii\-Character}}
+\index{Ascii\-Character@{Ascii\-Character}!matrix::Program@{matrix\-::\-Program}}
+\subsubsection[{Ascii\-Character}]{\setlength{\rightskip}{0pt plus 5cm}char matrix.\-Program.\-Ascii\-Character\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}, {\ttfamily [private]}}}\label{classmatrix_1_1_program_ae4f0df2b9f302e657820ea236f831664}
+
+
+Definition at line 22 of file Program.\-cs.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+matrix/\hyperlink{matrix_2_program_8cs}{Program.\-cs}\end{DoxyCompactItemize}

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_7c7164137246b948eb82d461bcdc1810" kind="dir">
+    <compoundname>Asistencias</compoundname>
+    <innerdir refid="dir_5e6f41396588ee52f569b1097c914b25">Asistencias/obj</innerdir>
+    <innerdir refid="dir_f2bd1d08f947910968248928f1be6655">Asistencias/Properties</innerdir>
+    <innerfile refid="dd/d87/_form1_8cs">Form1.cs</innerfile>
+    <innerfile refid="d3/d24/_form1_8_designer_8cs">Form1.Designer.cs</innerfile>
+    <innerfile refid="d5/d83/_asistencias_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_ccefe3bb87f9f9292f883b25e8cce4a2" kind="dir">
+    <compoundname>General cuentas</compoundname>
+    <innerdir refid="dir_34e62b96482cf2b5b7d293edf168bd18">General cuentas/obj</innerdir>
+    <innerdir refid="dir_8f6d44e6e51db389111ff656b1fb7064">General cuentas/Properties</innerdir>
+    <innerfile refid="d8/db1/_general_01cuentas_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/General cuentas/"/>
+  </compounddef>
+</doxygen>

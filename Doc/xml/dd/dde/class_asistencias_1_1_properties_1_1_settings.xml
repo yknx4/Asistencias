@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dd/dde/class_asistencias_1_1_properties_1_1_settings" kind="class" prot="package">
+    <compoundname>Asistencias::Properties::Settings</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ApplicationSettingsBase</basecompoundref>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="dd/dde/class_asistencias_1_1_properties_1_1_settings_1a541faf49d98f3ced3a7892c27109780b" prot="private" static="yes" mutable="no">
+        <type><ref refid="dd/dde/class_asistencias_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Asistencias.Properties.Settings.defaultInstance</definition>
+        <argsstring></argsstring>
+        <name>defaultInstance</name>
+        <initializer>= ((<ref refid="dd/dde/class_asistencias_1_1_properties_1_1_settings" kindref="compound">Settings</ref>)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new <ref refid="dd/dde/class_asistencias_1_1_properties_1_1_settings" kindref="compound">Settings</ref>())))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Properties/Settings.Designer.cs" line="18" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Properties/Settings.Designer.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="dd/dde/class_asistencias_1_1_properties_1_1_settings_1ae0b0610cb4d0649f9574754f47dfe4b0" prot="public" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type><ref refid="dd/dde/class_asistencias_1_1_properties_1_1_settings" kindref="compound">Settings</ref></type>
+        <definition>Settings Asistencias.Properties.Settings.Default</definition>
+        <argsstring></argsstring>
+        <name>Default</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Properties/Settings.Designer.cs" line="20" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Properties/Settings.Designer.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="dd/dde/class_asistencias_1_1_properties_1_1_settings_1aade5c3d45e89053882a73b3d940ec9dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string Asistencias.Properties.Settings.Setting</definition>
+        <argsstring></argsstring>
+        <name>Setting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Properties/Settings.Designer.cs" line="29" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Properties/Settings.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="115">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="114">
+        <label>Asistencias.Properties.Settings</label>
+        <link refid="dd/dde/class_asistencias_1_1_properties_1_1_settings"/>
+        <childnode refid="115" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="117">
+        <label>global::SystemConfiguration::ApplicationSettingsBase</label>
+      </node>
+      <node id="116">
+        <label>Asistencias.Properties.Settings</label>
+        <link refid="dd/dde/class_asistencias_1_1_properties_1_1_settings"/>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+        <childnode refid="116" relation="usage">
+          <edgelabel>defaultInstance</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Properties/Settings.Designer.cs" line="16" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Properties/Settings.Designer.cs" bodystart="16" bodyend="34"/>
+    <listofallmembers>
+      <member refid="dd/dde/class_asistencias_1_1_properties_1_1_settings_1ae0b0610cb4d0649f9574754f47dfe4b0" prot="public" virt="non-virtual"><scope>Asistencias::Properties::Settings</scope><name>Default</name></member>
+      <member refid="dd/dde/class_asistencias_1_1_properties_1_1_settings_1a541faf49d98f3ced3a7892c27109780b" prot="private" virt="non-virtual"><scope>Asistencias::Properties::Settings</scope><name>defaultInstance</name></member>
+      <member refid="dd/dde/class_asistencias_1_1_properties_1_1_settings_1aade5c3d45e89053882a73b3d940ec9dd" prot="public" virt="non-virtual"><scope>Asistencias::Properties::Settings</scope><name>Setting</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

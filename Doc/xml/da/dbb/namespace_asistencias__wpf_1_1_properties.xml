@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="da/dbb/namespace_asistencias__wpf_1_1_properties" kind="namespace">
+    <compoundname>Asistencias_wpf::Properties</compoundname>
+    <innerclass refid="d7/de6/class_asistencias__wpf_1_1_properties_1_1_resources" prot="package">Asistencias_wpf::Properties::Resources</innerclass>
+    <innerclass refid="de/d6d/class_asistencias__wpf_1_1_properties_1_1_settings" prot="package">Asistencias_wpf::Properties::Settings</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Properties/Resources.Designer.cs" line="12" column="1"/>
+  </compounddef>
+</doxygen>

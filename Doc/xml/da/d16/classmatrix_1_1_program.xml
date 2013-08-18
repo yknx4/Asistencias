@@ -1,0 +1,257 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="da/d16/classmatrix_1_1_program" kind="class" prot="public">
+    <compoundname>matrix::Program</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="da/d16/classmatrix_1_1_program_1a7ebfe2b7ace6afb02108a7d38abb6f1b" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int matrix.Program.Counter</definition>
+        <argsstring></argsstring>
+        <name>Counter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="9" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d16/classmatrix_1_1_program_1a0920a8f72e5a9fcf1cc1bfcab61a2c31" prot="private" static="yes" mutable="no">
+        <type>Random</type>
+        <definition>Random matrix.Program.rand</definition>
+        <argsstring></argsstring>
+        <name>rand</name>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="10" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d16/classmatrix_1_1_program_1a6c872786668501a3f17cddb985c7ade0" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int matrix.Program.Interval</definition>
+        <argsstring></argsstring>
+        <name>Interval</name>
+        <initializer>= 100</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="12" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="12" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d16/classmatrix_1_1_program_1a33abdd7b74a13e027d920fddb65cce35" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int matrix.Program.FullFlow</definition>
+        <argsstring></argsstring>
+        <name>FullFlow</name>
+        <initializer>= <ref refid="da/d16/classmatrix_1_1_program_1a6c872786668501a3f17cddb985c7ade0" kindref="member">Interval</ref> + 30</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="13" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d16/classmatrix_1_1_program_1a48b4255583a63007038c6c61bd50672b" prot="private" static="yes" mutable="no">
+        <type>int</type>
+        <definition>int matrix.Program.Blacking</definition>
+        <argsstring></argsstring>
+        <name>Blacking</name>
+        <initializer>= <ref refid="da/d16/classmatrix_1_1_program_1a33abdd7b74a13e027d920fddb65cce35" kindref="member">FullFlow</ref> + 50</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="14" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d16/classmatrix_1_1_program_1ab208e57b1469c5728605ac04b0eae86c" prot="private" static="yes" mutable="no">
+        <type>ConsoleColor</type>
+        <definition>ConsoleColor matrix.Program.NormalColor</definition>
+        <argsstring></argsstring>
+        <name>NormalColor</name>
+        <initializer>= ConsoleColor.DarkGreen</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="16" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d16/classmatrix_1_1_program_1ae5ddcc0d3f98613073560fa4e3d66f5b" prot="private" static="yes" mutable="no">
+        <type>ConsoleColor</type>
+        <definition>ConsoleColor matrix.Program.GlowColor</definition>
+        <argsstring></argsstring>
+        <name>GlowColor</name>
+        <initializer>= ConsoleColor.Green</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="17" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d16/classmatrix_1_1_program_1a20f58f721e0c5cdf3b4f519bb7ef872a" prot="private" static="yes" mutable="no">
+        <type>ConsoleColor</type>
+        <definition>ConsoleColor matrix.Program.FancyColor</definition>
+        <argsstring></argsstring>
+        <name>FancyColor</name>
+        <initializer>= ConsoleColor.White</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="18" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="18" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="da/d16/classmatrix_1_1_program_1a4261f7dfcf193d03c22afd544ac71010" prot="private" static="yes" mutable="no">
+        <type>String</type>
+        <definition>String matrix.Program.TextInput</definition>
+        <argsstring></argsstring>
+        <name>TextInput</name>
+        <initializer>= &quot;Matrix&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="19" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="da/d16/classmatrix_1_1_program_1ae4f0df2b9f302e657820ea236f831664" prot="private" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>char</type>
+        <definition>char matrix.Program.AsciiCharacter</definition>
+        <argsstring></argsstring>
+        <name>AsciiCharacter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="21" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="da/d16/classmatrix_1_1_program_1aa45e7cdc65635c198fc584aa87c8475b" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void matrix.Program.Main</definition>
+        <argsstring>()</argsstring>
+        <name>Main</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="36" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="36" bodyend="58"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d16/classmatrix_1_1_program_1a01bf0ffc74243e0f4379994d5105093a" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void matrix.Program.UpdateAllColumns</definition>
+        <argsstring>(int width, int height, int[] y)</argsstring>
+        <name>UpdateAllColumns</name>
+        <param>
+          <type>int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>int[]</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="59" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="59" bodyend="130"/>
+      </memberdef>
+      <memberdef kind="function" id="da/d16/classmatrix_1_1_program_1a69074a2933e93bcd5bec11255ad05cfe" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void matrix.Program.Initialize</definition>
+        <argsstring>(out int width, out int height, out int[] y)</argsstring>
+        <name>Initialize</name>
+        <param>
+          <type>out int</type>
+          <declname>width</declname>
+        </param>
+        <param>
+          <type>out int</type>
+          <declname>height</declname>
+        </param>
+        <param>
+          <type>out int[]</type>
+          <declname>y</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="141" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="141" bodyend="152"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="da/d16/classmatrix_1_1_program_1ae800bb3943994a4c6d5595fcb01370c5" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>static int matrix.Program.inScreenYPosition</definition>
+        <argsstring>(int yPosition, int height)</argsstring>
+        <name>inScreenYPosition</name>
+        <param>
+          <type>int</type>
+          <declname>yPosition</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>height</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="131" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="131" bodyend="140"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" line="8" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/matrix/Program.cs" bodystart="7" bodyend="153"/>
+    <listofallmembers>
+      <member refid="da/d16/classmatrix_1_1_program_1ae4f0df2b9f302e657820ea236f831664" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>AsciiCharacter</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1a48b4255583a63007038c6c61bd50672b" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>Blacking</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1a7ebfe2b7ace6afb02108a7d38abb6f1b" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>Counter</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1a20f58f721e0c5cdf3b4f519bb7ef872a" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>FancyColor</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1a33abdd7b74a13e027d920fddb65cce35" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>FullFlow</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1ae5ddcc0d3f98613073560fa4e3d66f5b" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>GlowColor</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1a69074a2933e93bcd5bec11255ad05cfe" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>Initialize</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1ae800bb3943994a4c6d5595fcb01370c5" prot="public" virt="non-virtual"><scope>matrix::Program</scope><name>inScreenYPosition</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1a6c872786668501a3f17cddb985c7ade0" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>Interval</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1aa45e7cdc65635c198fc584aa87c8475b" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>Main</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1ab208e57b1469c5728605ac04b0eae86c" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>NormalColor</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1a0920a8f72e5a9fcf1cc1bfcab61a2c31" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>rand</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1a4261f7dfcf193d03c22afd544ac71010" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>TextInput</name></member>
+      <member refid="da/d16/classmatrix_1_1_program_1a01bf0ffc74243e0f4379994d5105093a" prot="private" virt="non-virtual"><scope>matrix::Program</scope><name>UpdateAllColumns</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

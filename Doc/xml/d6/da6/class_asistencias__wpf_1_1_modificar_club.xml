@@ -1,0 +1,463 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d6/da6/class_asistencias__wpf_1_1_modificar_club" kind="class" prot="public">
+    <compoundname>Asistencias_wpf::ModificarClub</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a17c1749aa4cdc0bc9697d3a9ebc14b1a" prot="private" static="no" mutable="no">
+        <type><ref refid="d3/d56/class_asistencias__wpf_1_1_seleccion" kindref="compound">Seleccion</ref></type>
+        <definition>Seleccion Asistencias_wpf.ModificarClub.Sender</definition>
+        <argsstring></argsstring>
+        <name>Sender</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" line="13" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ad6c958505273f46077a11519363ddbe4" prot="private" static="no" mutable="no">
+        <type>SqlCeConnection</type>
+        <definition>SqlCeConnection Asistencias_wpf.ModificarClub.conn</definition>
+        <argsstring></argsstring>
+        <name>conn</name>
+        <initializer>= new SqlCeConnection(@&quot;Data Source=|DataDirectory|\Alumnos.sdf&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" line="14" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a23406da77e2686429033309d5f2432c7" prot="private" static="no" mutable="no">
+        <type><ref refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager" kindref="compound">ClubDBManager</ref></type>
+        <definition>ClubDBManager Asistencias_wpf.ModificarClub.clubManager</definition>
+        <argsstring></argsstring>
+        <name>clubManager</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" line="15" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ad8a6d484077e99675c010a8d3a98de61" prot="private" static="no" mutable="no">
+        <type><ref refid="d1/d3b/class_asistencias__wpf_1_1_club" kindref="compound">Club</ref></type>
+        <definition>Club Asistencias_wpf.ModificarClub.selected</definition>
+        <argsstring></argsstring>
+        <name>selected</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" line="16" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a1a23f498d37b0f95f283e2b650e396ba" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Asistencias_wpf.ModificarClub::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" line="90" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1aefec4cf6adde6b83050acc590661f212" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.TextBox</type>
+        <definition>System Windows Controls TextBox Asistencias_wpf.ModificarClub::txtNombre</definition>
+        <argsstring></argsstring>
+        <name>txtNombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" line="45" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a10b87622ef3fad840bb25827b45b6fc6" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Slider</type>
+        <definition>System Windows Controls Slider Asistencias_wpf.ModificarClub::sldAssist</definition>
+        <argsstring></argsstring>
+        <name>sldAssist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" line="53" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a8333d2f10cd950124c2de671a73fd288" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Slider</type>
+        <definition>System Windows Controls Slider Asistencias_wpf.ModificarClub::sldParciales</definition>
+        <argsstring></argsstring>
+        <name>sldParciales</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" line="61" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a2b2c3976252b8870397a47d96673c856" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label Asistencias_wpf.ModificarClub::placeholder</definition>
+        <argsstring></argsstring>
+        <name>placeholder</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" line="69" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ac5bdd9fd539f35d3f2e5fbd928913db5" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label Asistencias_wpf.ModificarClub::lblAsist</definition>
+        <argsstring></argsstring>
+        <name>lblAsist</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" line="77" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a898ac5359d41d715dbfb86b46a84a39f" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Label</type>
+        <definition>System Windows Controls Label Asistencias_wpf.ModificarClub::lblParciales</definition>
+        <argsstring></argsstring>
+        <name>lblParciales</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" line="85" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" bodystart="85" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a3b773638e7caf4f49a50abc6d9464020" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Asistencias_wpf.ModificarClub.ModificarClub</definition>
+        <argsstring>(Seleccion Sender, Club selected)</argsstring>
+        <name>ModificarClub</name>
+        <param>
+          <type><ref refid="d3/d56/class_asistencias__wpf_1_1_seleccion" kindref="compound">Seleccion</ref></type>
+          <declname>Sender</declname>
+        </param>
+        <param>
+          <type><ref refid="d1/d3b/class_asistencias__wpf_1_1_club" kindref="compound">Club</ref></type>
+          <declname>selected</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" line="18" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" bodystart="18" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a50a572eb21cc3d7cf74116bb3ac1535a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.ModificarClub.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" line="97" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" bodystart="97" bodyend="109"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a50a572eb21cc3d7cf74116bb3ac1535a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.ModificarClub.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.i.cs" line="97" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.i.cs" bodystart="97" bodyend="109"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a62e46dfa2c839600b567b62bd582dca2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.ModificarClub.alCerrar</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>alCerrar</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" line="34" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a16e4ed6700460777f30a494ee9eb0680" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.ModificarClub.sliderChange</definition>
+        <argsstring>(object sender, RoutedPropertyChangedEventArgs&lt; double &gt; e)</argsstring>
+        <name>sliderChange</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedPropertyChangedEventArgs&lt; double &gt;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" line="39" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" bodystart="39" bodyend="54"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a6dfe0e9c1334d6b3b0a885ff2138119a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.ModificarClub.clickEdit</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>clickEdit</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" line="56" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" bodystart="56" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ac2e5f560752b2b1a6dc4e75cfecc5c04" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.ModificarClub.clickEliminar</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>clickEliminar</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" line="71" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" bodystart="71" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1aad81df21e8ab11bf3c3f588d9913076a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Asistencias_wpf.ModificarClub.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" line="117" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.cs" bodystart="117" bodyend="176"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/da6/class_asistencias__wpf_1_1_modificar_club_1aad81df21e8ab11bf3c3f588d9913076a" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Asistencias_wpf.ModificarClub.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.i.cs" line="117" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/ModificarClub.g.i.cs" bodystart="117" bodyend="176"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for ModificarClub.xaml </para>    </briefdescription>
+    <detaileddescription>
+<para><ref refid="d6/da6/class_asistencias__wpf_1_1_modificar_club" kindref="compound">ModificarClub</ref> </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="68">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="70">
+        <label>Window</label>
+      </node>
+      <node id="67">
+        <label>Asistencias_wpf.ModificarClub</label>
+        <link refid="d6/da6/class_asistencias__wpf_1_1_modificar_club"/>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+        <childnode refid="68" relation="public-inheritance">
+        </childnode>
+        <childnode refid="69" relation="public-inheritance">
+        </childnode>
+        <childnode refid="70" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="69">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="72">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="74">
+        <label>Window</label>
+      </node>
+      <node id="76">
+        <label>Asistencias_wpf.ClubDBManager</label>
+        <link refid="d2/dc6/class_asistencias__wpf_1_1_club_d_b_manager"/>
+        <childnode refid="75" relation="usage">
+          <edgelabel>Holder</edgelabel>
+        </childnode>
+      </node>
+      <node id="71">
+        <label>Asistencias_wpf.ModificarClub</label>
+        <link refid="d6/da6/class_asistencias__wpf_1_1_modificar_club"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+        <childnode refid="75" relation="usage">
+          <edgelabel>selected</edgelabel>
+        </childnode>
+        <childnode refid="76" relation="usage">
+          <edgelabel>clubManager</edgelabel>
+        </childnode>
+        <childnode refid="77" relation="usage">
+          <edgelabel>sldAssist</edgelabel>
+          <edgelabel>lblParciales</edgelabel>
+          <edgelabel>txtNombre</edgelabel>
+          <edgelabel>lblAsist</edgelabel>
+          <edgelabel>sldParciales</edgelabel>
+          <edgelabel>placeholder</edgelabel>
+        </childnode>
+        <childnode refid="78" relation="usage">
+          <edgelabel>Sender</edgelabel>
+        </childnode>
+      </node>
+      <node id="78">
+        <label>Asistencias_wpf.Seleccion</label>
+        <link refid="d3/d56/class_asistencias__wpf_1_1_seleccion"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+        <childnode refid="73" relation="public-inheritance">
+        </childnode>
+        <childnode refid="77" relation="usage">
+          <edgelabel>cmbClub</edgelabel>
+          <edgelabel>btnEntrar</edgelabel>
+          <edgelabel>cmbParcial</edgelabel>
+        </childnode>
+      </node>
+      <node id="77">
+        <label>System</label>
+      </node>
+      <node id="75">
+        <label>Asistencias_wpf.Club</label>
+        <link refid="d1/d3b/class_asistencias__wpf_1_1_club"/>
+      </node>
+      <node id="73">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" line="12" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/ModificarClub.xaml.cs" bodystart="11" bodyend="91"/>
+    <listofallmembers>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a1a23f498d37b0f95f283e2b650e396ba" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>_contentLoaded</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a62e46dfa2c839600b567b62bd582dca2" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>alCerrar</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a6dfe0e9c1334d6b3b0a885ff2138119a" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>clickEdit</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ac2e5f560752b2b1a6dc4e75cfecc5c04" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>clickEliminar</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a23406da77e2686429033309d5f2432c7" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>clubManager</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ad6c958505273f46077a11519363ddbe4" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>conn</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1aad81df21e8ab11bf3c3f588d9913076a" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>Connect</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1aad81df21e8ab11bf3c3f588d9913076a" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>Connect</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a50a572eb21cc3d7cf74116bb3ac1535a" prot="public" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>InitializeComponent</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a50a572eb21cc3d7cf74116bb3ac1535a" prot="public" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>InitializeComponent</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ac5bdd9fd539f35d3f2e5fbd928913db5" prot="package" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>lblAsist</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a898ac5359d41d715dbfb86b46a84a39f" prot="package" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>lblParciales</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a3b773638e7caf4f49a50abc6d9464020" prot="public" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>ModificarClub</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a2b2c3976252b8870397a47d96673c856" prot="package" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>placeholder</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1ad8a6d484077e99675c010a8d3a98de61" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>selected</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a17c1749aa4cdc0bc9697d3a9ebc14b1a" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>Sender</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a10b87622ef3fad840bb25827b45b6fc6" prot="package" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>sldAssist</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a8333d2f10cd950124c2de671a73fd288" prot="package" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>sldParciales</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1a16e4ed6700460777f30a494ee9eb0680" prot="private" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>sliderChange</name></member>
+      <member refid="d6/da6/class_asistencias__wpf_1_1_modificar_club_1aefec4cf6adde6b83050acc590661f212" prot="package" virt="non-virtual"><scope>Asistencias_wpf::ModificarClub</scope><name>txtNombre</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

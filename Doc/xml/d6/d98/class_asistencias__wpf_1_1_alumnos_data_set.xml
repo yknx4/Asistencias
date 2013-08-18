@@ -1,0 +1,323 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set" kind="class" prot="public">
+    <compoundname>Asistencias_wpf::AlumnosDataSet</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">DataSet</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4e2747d090ad9f5a7cb90cc711d427eb" prot="private" static="no" mutable="no">
+        <type>global::System.Data.SchemaSerializationMode</type>
+        <definition>global::System.Data.SchemaSerializationMode Asistencias_wpf.AlumnosDataSet._schemaSerializationMode</definition>
+        <argsstring></argsstring>
+        <name>_schemaSerializationMode</name>
+        <initializer>= global::System.Data.SchemaSerializationMode.IncludeSchema</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="27" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1ac9d0957f5b0991168a77c1f48fb92941" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>override global::System.Data.SchemaSerializationMode</type>
+        <definition>override global::System.Data.SchemaSerializationMode Asistencias_wpf.AlumnosDataSet.SchemaSerializationMode</definition>
+        <argsstring></argsstring>
+        <name>SchemaSerializationMode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="77" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="77" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1aa4ac49198eb7a8cd5730501fd92eaa0c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>new global::System.Data.DataTableCollection</type>
+        <definition>new global::System.Data.DataTableCollection Asistencias_wpf.AlumnosDataSet.Tables</definition>
+        <argsstring></argsstring>
+        <name>Tables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="89" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a0d4c947f0546161fe211244d255abcf8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>new global::System.Data.DataRelationCollection</type>
+        <definition>new global::System.Data.DataRelationCollection Asistencias_wpf.AlumnosDataSet.Relations</definition>
+        <argsstring></argsstring>
+        <name>Relations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="98" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="98" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a2d47f7c2a65b0ef4a5f1d70feb28751c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Asistencias_wpf.AlumnosDataSet.AlumnosDataSet</definition>
+        <argsstring>()</argsstring>
+        <name>AlumnosDataSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="31" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a8e965005fd3afa7c757feee5bce7361b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Data.DataSet</type>
+        <definition>override global::System.Data.DataSet Asistencias_wpf.AlumnosDataSet.Clone</definition>
+        <argsstring>()</argsstring>
+        <name>Clone</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="114" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="114" bodyend="119"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a8bb8ae3fc931cfd440b5829936be96da" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Asistencias_wpf.AlumnosDataSet.AlumnosDataSet</definition>
+        <argsstring>(global::System.Runtime.Serialization.SerializationInfo info, global::System.Runtime.Serialization.StreamingContext context)</argsstring>
+        <name>AlumnosDataSet</name>
+        <param>
+          <type>global::System.Runtime.Serialization.SerializationInfo</type>
+          <declname>info</declname>
+        </param>
+        <param>
+          <type>global::System.Runtime.Serialization.StreamingContext</type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="42" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="42" bodyend="71"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1aa54e430ba6cc29d1987e2aa2af9ae492" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Asistencias_wpf.AlumnosDataSet.InitializeDerivedDataSet</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeDerivedDataSet</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="106" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="106" bodyend="110"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a7148e32c99b4bfa5fda209817ea3d5bc" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Asistencias_wpf.AlumnosDataSet.ShouldSerializeTables</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializeTables</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="123" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="123" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a75d5276738807f69e3147ba9abbce54d" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool Asistencias_wpf.AlumnosDataSet.ShouldSerializeRelations</definition>
+        <argsstring>()</argsstring>
+        <name>ShouldSerializeRelations</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="129" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="129" bodyend="131"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4dc0ff2efb9ba6bd71bd254fcd1e7ce9" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Asistencias_wpf.AlumnosDataSet.ReadXmlSerializable</definition>
+        <argsstring>(global::System.Xml.XmlReader reader)</argsstring>
+        <name>ReadXmlSerializable</name>
+        <param>
+          <type>global::System.Xml.XmlReader</type>
+          <declname>reader</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="135" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="135" bodyend="153"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1adf60c84a546a7842987434eecdda8607" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override global::System.Xml.Schema.XmlSchema</type>
+        <definition>override global::System.Xml.Schema.XmlSchema Asistencias_wpf.AlumnosDataSet.GetSchemaSerializable</definition>
+        <argsstring>()</argsstring>
+        <name>GetSchemaSerializable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="157" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="157" bodyend="162"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4cd12c7d20f4d68d13a2845029bb7831" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.AlumnosDataSet.InitVars</definition>
+        <argsstring>()</argsstring>
+        <name>InitVars</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="166" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="166" bodyend="168"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4cefcbf11867b322bfa98ed9deddb8da" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.AlumnosDataSet.InitVars</definition>
+        <argsstring>(bool initTable)</argsstring>
+        <name>InitVars</name>
+        <param>
+          <type>bool</type>
+          <declname>initTable</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="172" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="172" bodyend="173"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a5b202656a9682929a0e3fe9bda2b6901" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.AlumnosDataSet.InitClass</definition>
+        <argsstring>()</argsstring>
+        <name>InitClass</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="177" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="177" bodyend="183"/>
+      </memberdef>
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a9d5e54c2f591f426d9cef8f1b11dbfdb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.AlumnosDataSet.SchemaChanged</definition>
+        <argsstring>(object sender, global::System.ComponentModel.CollectionChangeEventArgs e)</argsstring>
+        <name>SchemaChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>global::System.ComponentModel.CollectionChangeEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="187" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="187" bodyend="191"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a11d8464b2c094ddc6d16345c8b38f1dd" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>global::System.Xml.Schema.XmlSchemaComplexType</type>
+        <definition>static global::System.Xml.Schema.XmlSchemaComplexType Asistencias_wpf.AlumnosDataSet.GetTypedDataSetSchema</definition>
+        <argsstring>(global::System.Xml.Schema.XmlSchemaSet xs)</argsstring>
+        <name>GetTypedDataSetSchema</name>
+        <param>
+          <type>global::System.Xml.Schema.XmlSchemaSet</type>
+          <declname>xs</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="195" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="195" bodyend="238"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Represents a strongly typed in-memory cache of data. /summary&gt; </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="0">
+        <label>Asistencias_wpf.AlumnosDataSet</label>
+        <link refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set"/>
+        <childnode refid="1" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1">
+        <label>global::SystemData::DataSet</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="2">
+        <label>Asistencias_wpf.AlumnosDataSet</label>
+        <link refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set"/>
+        <childnode refid="3" relation="public-inheritance">
+        </childnode>
+        <childnode refid="4" relation="usage">
+          <edgelabel>_schemaSerializationMode</edgelabel>
+        </childnode>
+      </node>
+      <node id="4">
+        <label>Data</label>
+      </node>
+      <node id="3">
+        <label>global::SystemData::DataSet</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" line="25" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/AlumnosDataSet.Designer.cs" bodystart="25" bodyend="239"/>
+    <listofallmembers>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4e2747d090ad9f5a7cb90cc711d427eb" prot="private" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>_schemaSerializationMode</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a2d47f7c2a65b0ef4a5f1d70feb28751c" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>AlumnosDataSet</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a8bb8ae3fc931cfd440b5829936be96da" prot="protected" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>AlumnosDataSet</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a8e965005fd3afa7c757feee5bce7361b" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>Clone</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1adf60c84a546a7842987434eecdda8607" prot="protected" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>GetSchemaSerializable</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a11d8464b2c094ddc6d16345c8b38f1dd" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>GetTypedDataSetSchema</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a5b202656a9682929a0e3fe9bda2b6901" prot="private" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>InitClass</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1aa54e430ba6cc29d1987e2aa2af9ae492" prot="protected" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>InitializeDerivedDataSet</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4cd12c7d20f4d68d13a2845029bb7831" prot="package" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>InitVars</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4cefcbf11867b322bfa98ed9deddb8da" prot="package" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>InitVars</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a4dc0ff2efb9ba6bd71bd254fcd1e7ce9" prot="protected" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>ReadXmlSerializable</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a0d4c947f0546161fe211244d255abcf8" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>Relations</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a9d5e54c2f591f426d9cef8f1b11dbfdb" prot="private" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>SchemaChanged</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1ac9d0957f5b0991168a77c1f48fb92941" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>SchemaSerializationMode</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a75d5276738807f69e3147ba9abbce54d" prot="protected" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>ShouldSerializeRelations</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1a7148e32c99b4bfa5fda209817ea3d5bc" prot="protected" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>ShouldSerializeTables</name></member>
+      <member refid="d6/d98/class_asistencias__wpf_1_1_alumnos_data_set_1aa4ac49198eb7a8cd5730501fd92eaa0c" prot="public" virt="non-virtual"><scope>Asistencias_wpf::AlumnosDataSet</scope><name>Tables</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

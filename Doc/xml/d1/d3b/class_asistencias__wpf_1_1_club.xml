@@ -1,0 +1,181 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d1/d3b/class_asistencias__wpf_1_1_club" kind="class" prot="public">
+    <compoundname>Asistencias_wpf::Club</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d1/d3b/class_asistencias__wpf_1_1_club_1a12f1784ec3bc13922c64b7d19f894fbc" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string Asistencias_wpf.Club._nombre</definition>
+        <argsstring></argsstring>
+        <name>_nombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="7" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="7" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3b/class_asistencias__wpf_1_1_club_1a7a5d6696bfce9d5eabd77f0f8df0e0a1" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Club._id</definition>
+        <argsstring></argsstring>
+        <name>_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="8" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3b/class_asistencias__wpf_1_1_club_1a4dbf43c3426cad21933fe32bb3bb4945" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Club._asistencias</definition>
+        <argsstring></argsstring>
+        <name>_asistencias</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="9" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="9" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d1/d3b/class_asistencias__wpf_1_1_club_1a10d18182664961ad5d6c63fe363abe07" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Club._parciales</definition>
+        <argsstring></argsstring>
+        <name>_parciales</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="10" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="d1/d3b/class_asistencias__wpf_1_1_club_1a0da21bbffe8ac3d877a51c03899bf8c2" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string Asistencias_wpf.Club.Nombre</definition>
+        <argsstring></argsstring>
+        <name>Nombre</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="12" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="13" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d3b/class_asistencias__wpf_1_1_club_1a25ec9c585f6874004dc690ea2641ab0d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Club.Id</definition>
+        <argsstring></argsstring>
+        <name>Id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="22" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d3b/class_asistencias__wpf_1_1_club_1a1855a7a63b6465ef490871f93d385a69" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Club.AsistenciasParaParcial</definition>
+        <argsstring></argsstring>
+        <name>AsistenciasParaParcial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="28" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="d1/d3b/class_asistencias__wpf_1_1_club_1a9f825c0495aa564e915d0f1a9e082186" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int Asistencias_wpf.Club.Parciales</definition>
+        <argsstring></argsstring>
+        <name>Parciales</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="38" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="d1/d3b/class_asistencias__wpf_1_1_club_1a1980fc9a90add0431cbf22f8a000cbf9" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>PropertyChangedEventHandler</type>
+        <definition>PropertyChangedEventHandler Asistencias_wpf.Club.PropertyChanged</definition>
+        <argsstring></argsstring>
+        <name>PropertyChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="55" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d1/d3b/class_asistencias__wpf_1_1_club_1aa94008b53cde5a248b0149566e527ac0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override string</type>
+        <definition>override string Asistencias_wpf.Club.ToString</definition>
+        <argsstring>()</argsstring>
+        <name>ToString</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="48" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="48" bodyend="51"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d1/d3b/class_asistencias__wpf_1_1_club_1ada28fd62b53b97acbe638c27f1a87f38" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Club.NotifyPropertyChanged</definition>
+        <argsstring>(string propertyName)</argsstring>
+        <name>NotifyPropertyChanged</name>
+        <param>
+          <type>string</type>
+          <declname>propertyName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="61" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="61" bodyend="67"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" line="6" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Club.cs" bodystart="5" bodyend="70"/>
+    <listofallmembers>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a4dbf43c3426cad21933fe32bb3bb4945" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>_asistencias</name></member>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a7a5d6696bfce9d5eabd77f0f8df0e0a1" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>_id</name></member>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a12f1784ec3bc13922c64b7d19f894fbc" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>_nombre</name></member>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a10d18182664961ad5d6c63fe363abe07" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>_parciales</name></member>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a1855a7a63b6465ef490871f93d385a69" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>AsistenciasParaParcial</name></member>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a25ec9c585f6874004dc690ea2641ab0d" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>Id</name></member>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a0da21bbffe8ac3d877a51c03899bf8c2" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>Nombre</name></member>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1ada28fd62b53b97acbe638c27f1a87f38" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>NotifyPropertyChanged</name></member>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a9f825c0495aa564e915d0f1a9e082186" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>Parciales</name></member>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1a1980fc9a90add0431cbf22f8a000cbf9" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>PropertyChanged</name></member>
+      <member refid="d1/d3b/class_asistencias__wpf_1_1_club_1aa94008b53cde5a248b0149566e527ac0" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Club</scope><name>ToString</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

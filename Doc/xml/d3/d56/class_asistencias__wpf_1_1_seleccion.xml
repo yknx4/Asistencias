@@ -1,0 +1,422 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d3/d56/class_asistencias__wpf_1_1_seleccion" kind="class" prot="public">
+    <compoundname>Asistencias_wpf::Seleccion</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IComponentConnector</basecompoundref>
+      <sectiondef kind="package-attrib">
+      <memberdef kind="variable" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1adac0d1aa55be26c4cff9a610ee20b9c5" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox Asistencias_wpf.Seleccion::cmbClub</definition>
+        <argsstring></argsstring>
+        <name>cmbClub</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" line="45" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a24db3199864aca68b55959ae7477bb3b" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.ComboBox</type>
+        <definition>System Windows Controls ComboBox Asistencias_wpf.Seleccion::cmbParcial</definition>
+        <argsstring></argsstring>
+        <name>cmbParcial</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" line="53" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a7c5e0a561a721c40c2173b532d0995cf" prot="package" static="no" mutable="no">
+        <type>System.Windows.Controls.Button</type>
+        <definition>System Windows Controls Button Asistencias_wpf.Seleccion::btnEntrar</definition>
+        <argsstring></argsstring>
+        <name>btnEntrar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" line="61" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a6ae4d9df3b32fa06ca84cb541dc05e7b" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool Asistencias_wpf.Seleccion::_contentLoaded</definition>
+        <argsstring></argsstring>
+        <name>_contentLoaded</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" line="66" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1abc8dc6733d50dc047da06e22ec543633" prot="private" static="no" mutable="no">
+        <type>SqlCeConnection</type>
+        <definition>SqlCeConnection Asistencias_wpf.Seleccion.conn</definition>
+        <argsstring></argsstring>
+        <name>conn</name>
+        <initializer>= new SqlCeConnection(@&quot;Data Source=|DataDirectory|\Alumnos.sdf&quot;)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="14" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="14" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a3b40e4f06a7c3351ed5f1e8d30cd6ae8" prot="private" static="no" mutable="no">
+        <type>DataTable</type>
+        <definition>DataTable Asistencias_wpf.Seleccion.Clubes</definition>
+        <argsstring></argsstring>
+        <name>Clubes</name>
+        <initializer>= new DataTable()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="15" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a62d8d645f31e081d2ed47c3e7032d62d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" line="73" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" bodystart="73" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a62d8d645f31e081d2ed47c3e7032d62d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>InitializeComponent </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.i.cs" line="73" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.i.cs" bodystart="73" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a3886470baefe83a5d79efa21fb6fb998" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Asistencias_wpf.Seleccion.Seleccion</definition>
+        <argsstring>()</argsstring>
+        <name>Seleccion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="19" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="19" bodyend="24"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1ae40bbc95f8da07c171f7020538b02fb7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.Refresh</definition>
+        <argsstring>()</argsstring>
+        <name>Refresh</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="26" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="26" bodyend="31"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a99b62e3ca34abcb65cd30635e90462f8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.enableEntrar</definition>
+        <argsstring>()</argsstring>
+        <name>enableEntrar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="103" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a41988115d1df1455f23592e43778f392" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Asistencias_wpf.Seleccion.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" line="93" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" bodystart="93" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a41988115d1df1455f23592e43778f392" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void System.Windows.Markup.IComponentConnector.</type>
+        <definition>void System.Windows.Markup.IComponentConnector. Asistencias_wpf.Seleccion.Connect</definition>
+        <argsstring>(int connectionId, object target)</argsstring>
+        <name>Connect</name>
+        <param>
+          <type>int</type>
+          <declname>connectionId</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>target</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.i.cs" line="93" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.i.cs" bodystart="93" bodyend="143"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a849c0611846aae842c51b04d41226dad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.DespuesDeCargar</definition>
+        <argsstring>()</argsstring>
+        <name>DespuesDeCargar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="33" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="33" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1af3f1fb5d6a19a54b3f9af080a5415bf8" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.AlIniciar</definition>
+        <argsstring>()</argsstring>
+        <name>AlIniciar</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="57" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a202ae9606e4234345de3f89402572d0b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.llenarParcial</definition>
+        <argsstring>(object sender, SelectionChangedEventArgs e)</argsstring>
+        <name>llenarParcial</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>SelectionChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="66" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="66" bodyend="79"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a7033e092b4bf1872958ed29087a33b63" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.guardarParcial</definition>
+        <argsstring>(object sender, System.ComponentModel.CancelEventArgs e)</argsstring>
+        <name>guardarParcial</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>System.ComponentModel.CancelEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="81" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="81" bodyend="85"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1ab8e85da35b7eb9e11d124c20d1ca63d0" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.clickEntrar</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>clickEntrar</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="87" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="87" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1aba5ac4fad507a4b3a9279b081d20601b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.clickClubes</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>clickClubes</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="108" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="108" bodyend="113"/>
+      </memberdef>
+      <memberdef kind="function" id="d3/d56/class_asistencias__wpf_1_1_seleccion_1a965e20ba0b78a34e30ea161446864cf2" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias_wpf.Seleccion.clickEdit</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>clickEdit</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" line="115" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/Seleccion.xaml.cs" bodystart="115" bodyend="120"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para><ref refid="d3/d56/class_asistencias__wpf_1_1_seleccion" kindref="compound">Seleccion</ref> </para>    </briefdescription>
+    <detaileddescription>
+<para>Interaction logic for Seleccion.xaml </para>    </detaileddescription>
+    <inheritancegraph>
+      <node id="107">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="106">
+        <label>Window</label>
+      </node>
+      <node id="105">
+        <label>Asistencias_wpf.Seleccion</label>
+        <link refid="d3/d56/class_asistencias__wpf_1_1_seleccion"/>
+        <childnode refid="106" relation="public-inheritance">
+        </childnode>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+        <childnode refid="107" relation="public-inheritance">
+        </childnode>
+        <childnode refid="108" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="108">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="111">
+        <label>System::Windows::Window</label>
+      </node>
+      <node id="110">
+        <label>Window</label>
+      </node>
+      <node id="109">
+        <label>Asistencias_wpf.Seleccion</label>
+        <link refid="d3/d56/class_asistencias__wpf_1_1_seleccion"/>
+        <childnode refid="110" relation="public-inheritance">
+        </childnode>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+        <childnode refid="111" relation="public-inheritance">
+        </childnode>
+        <childnode refid="112" relation="public-inheritance">
+        </childnode>
+        <childnode refid="113" relation="usage">
+          <edgelabel>cmbClub</edgelabel>
+          <edgelabel>btnEntrar</edgelabel>
+          <edgelabel>cmbParcial</edgelabel>
+        </childnode>
+      </node>
+      <node id="113">
+        <label>System</label>
+      </node>
+      <node id="112">
+        <label>System::Windows::Markup::IComponentConnector</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" line="40" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias_wpf/obj/Release/Seleccion.g.cs" bodystart="40" bodyend="144"/>
+    <listofallmembers>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a6ae4d9df3b32fa06ca84cb541dc05e7b" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>_contentLoaded</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1af3f1fb5d6a19a54b3f9af080a5415bf8" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>AlIniciar</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a7c5e0a561a721c40c2173b532d0995cf" prot="package" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>btnEntrar</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1aba5ac4fad507a4b3a9279b081d20601b" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>clickClubes</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a965e20ba0b78a34e30ea161446864cf2" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>clickEdit</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1ab8e85da35b7eb9e11d124c20d1ca63d0" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>clickEntrar</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a3b40e4f06a7c3351ed5f1e8d30cd6ae8" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>Clubes</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1adac0d1aa55be26c4cff9a610ee20b9c5" prot="package" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>cmbClub</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a24db3199864aca68b55959ae7477bb3b" prot="package" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>cmbParcial</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1abc8dc6733d50dc047da06e22ec543633" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>conn</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a41988115d1df1455f23592e43778f392" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>Connect</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a41988115d1df1455f23592e43778f392" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>Connect</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a849c0611846aae842c51b04d41226dad" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>DespuesDeCargar</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a99b62e3ca34abcb65cd30635e90462f8" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>enableEntrar</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a7033e092b4bf1872958ed29087a33b63" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>guardarParcial</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a62d8d645f31e081d2ed47c3e7032d62d" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>InitializeComponent</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a62d8d645f31e081d2ed47c3e7032d62d" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>InitializeComponent</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a202ae9606e4234345de3f89402572d0b" prot="private" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>llenarParcial</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1ae40bbc95f8da07c171f7020538b02fb7" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>Refresh</name></member>
+      <member refid="d3/d56/class_asistencias__wpf_1_1_seleccion_1a3886470baefe83a5d79efa21fb6fb998" prot="public" virt="non-virtual"><scope>Asistencias_wpf::Seleccion</scope><name>Seleccion</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

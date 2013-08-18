@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="de/d54/namespace_importar_cuentas" kind="namespace">
+    <compoundname>ImportarCuentas</compoundname>
+    <innerclass refid="d9/d22/class_importar_cuentas_1_1_program" prot="public">ImportarCuentas::Program</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas/Program.cs" line="7" column="1"/>
+  </compounddef>
+</doxygen>

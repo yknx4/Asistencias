@@ -1,0 +1,538 @@
+\hypertarget{class_asistencias__wpf_1_1_modificar_club}{\section{Asistencias\-\_\-wpf.\-Modificar\-Club Class Reference}
+\label{class_asistencias__wpf_1_1_modificar_club}\index{Asistencias\-\_\-wpf.\-Modificar\-Club@{Asistencias\-\_\-wpf.\-Modificar\-Club}}
+}
+
+
+Interaction logic for Modificar\-Club.\-xaml  
+
+
+Inheritance diagram for Asistencias\-\_\-wpf.\-Modificar\-Club\-:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=1.148718cm]{d6/da6/class_asistencias__wpf_1_1_modificar_club}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_asistencias__wpf_1_1_modificar_club_a3b773638e7caf4f49a50abc6d9464020}{Modificar\-Club} (\hyperlink{class_asistencias__wpf_1_1_seleccion}{Seleccion} \hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender}, \hyperlink{class_asistencias__wpf_1_1_club}{Club} \hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected})
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_modificar_club_a50a572eb21cc3d7cf74116bb3ac1535a}{Initialize\-Component} ()
+\begin{DoxyCompactList}\small\item\em Initialize\-Component \end{DoxyCompactList}\item 
+void \hyperlink{class_asistencias__wpf_1_1_modificar_club_a50a572eb21cc3d7cf74116bb3ac1535a}{Initialize\-Component} ()
+\begin{DoxyCompactList}\small\item\em Initialize\-Component \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Package Attributes}
+\begin{DoxyCompactItemize}
+\item 
+System.\-Windows.\-Controls.\-Text\-Box \hyperlink{class_asistencias__wpf_1_1_modificar_club_aefec4cf6adde6b83050acc590661f212}{txt\-Nombre}
+\item 
+System.\-Windows.\-Controls.\-Slider \hyperlink{class_asistencias__wpf_1_1_modificar_club_a10b87622ef3fad840bb25827b45b6fc6}{sld\-Assist}
+\item 
+System.\-Windows.\-Controls.\-Slider \hyperlink{class_asistencias__wpf_1_1_modificar_club_a8333d2f10cd950124c2de671a73fd288}{sld\-Parciales}
+\item 
+System.\-Windows.\-Controls.\-Label \hyperlink{class_asistencias__wpf_1_1_modificar_club_a2b2c3976252b8870397a47d96673c856}{placeholder}
+\item 
+System.\-Windows.\-Controls.\-Label \hyperlink{class_asistencias__wpf_1_1_modificar_club_ac5bdd9fd539f35d3f2e5fbd928913db5}{lbl\-Asist}
+\item 
+System.\-Windows.\-Controls.\-Label \hyperlink{class_asistencias__wpf_1_1_modificar_club_a898ac5359d41d715dbfb86b46a84a39f}{lbl\-Parciales}
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_modificar_club_a62e46dfa2c839600b567b62bd582dca2}{al\-Cerrar} (object sender, Event\-Args e)
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_modificar_club_a16e4ed6700460777f30a494ee9eb0680}{slider\-Change} (object sender, Routed\-Property\-Changed\-Event\-Args$<$ double $>$ e)
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_modificar_club_a6dfe0e9c1334d6b3b0a885ff2138119a}{click\-Edit} (object sender, Routed\-Event\-Args e)
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_modificar_club_ac2e5f560752b2b1a6dc4e75cfecc5c04}{click\-Eliminar} (object sender, Routed\-Event\-Args e)
+\item 
+void \\*
+System.\-Windows.\-Markup.\-I\-Component\-Connector. \hyperlink{class_asistencias__wpf_1_1_modificar_club_aad81df21e8ab11bf3c3f588d9913076a}{Connect} (int connection\-Id, object target)
+\item 
+void \\*
+System.\-Windows.\-Markup.\-I\-Component\-Connector. \hyperlink{class_asistencias__wpf_1_1_modificar_club_aad81df21e8ab11bf3c3f588d9913076a}{Connect} (int connection\-Id, object target)
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_asistencias__wpf_1_1_seleccion}{Seleccion} \hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender}
+\item 
+Sql\-Ce\-Connection \hyperlink{class_asistencias__wpf_1_1_modificar_club_ad6c958505273f46077a11519363ddbe4}{conn} = new Sql\-Ce\-Connection(@\char`\"{}Data Source=$|$Data\-Directory$|$\textbackslash{}Alumnos.\-sdf\char`\"{})
+\item 
+\hyperlink{class_asistencias__wpf_1_1_club_d_b_manager}{Club\-D\-B\-Manager} \hyperlink{class_asistencias__wpf_1_1_modificar_club_a23406da77e2686429033309d5f2432c7}{club\-Manager}
+\item 
+\hyperlink{class_asistencias__wpf_1_1_club}{Club} \hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}
+\item 
+bool \hyperlink{class_asistencias__wpf_1_1_modificar_club_a1a23f498d37b0f95f283e2b650e396ba}{\-\_\-content\-Loaded}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Interaction logic for Modificar\-Club.\-xaml 
+
+\hyperlink{class_asistencias__wpf_1_1_modificar_club}{Modificar\-Club} 
+
+Definition at line 11 of file Modificar\-Club.\-xaml.\-cs.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a3b773638e7caf4f49a50abc6d9464020}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!Modificar\-Club@{Modificar\-Club}}
+\index{Modificar\-Club@{Modificar\-Club}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{Modificar\-Club}]{\setlength{\rightskip}{0pt plus 5cm}Asistencias\-\_\-wpf.\-Modificar\-Club.\-Modificar\-Club (
+\begin{DoxyParamCaption}
+\item[{{\bf Seleccion}}]{Sender, }
+\item[{{\bf Club}}]{selected}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_modificar_club_a3b773638e7caf4f49a50abc6d9464020}
+
+
+Definition at line 18 of file Modificar\-Club.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+19         \{
+20             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender} = \hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender};
+21             \hyperlink{class_asistencias__wpf_1_1_modificar_club_a23406da77e2686429033309d5f2432c7}{clubManager} = \textcolor{keyword}{new} ClubDBManager(\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad6c958505273f46077a11519363ddbe4}{conn});
+22             \hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a1980fc9a90add0431cbf22f8a000cbf9}{PropertyChanged} += \hyperlink{class_asistencias__wpf_1_1_modificar_club_a23406da77e2686429033309d5f2432c7}{clubManager}.
+      \hyperlink{class_asistencias__wpf_1_1_club_d_b_manager_aca2513219d61f9701e1ac3aedf57c131}{clubModificado};
+23             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected} = \hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected};
+24             \hyperlink{class_asistencias__wpf_1_1_modificar_club_a23406da77e2686429033309d5f2432c7}{clubManager}.\hyperlink{class_asistencias__wpf_1_1_club_d_b_manager_ad8f732dac6e7e24f8aca1db7ba30f889}{setClub}(this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected});
+25             \hyperlink{class_asistencias__wpf_1_1_modificar_club_a50a572eb21cc3d7cf74116bb3ac1535a}{InitializeComponent}();
+26             \hyperlink{class_asistencias__wpf_1_1_modificar_club_a10b87622ef3fad840bb25827b45b6fc6}{sldAssist}.Value = this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.
+      \hyperlink{class_asistencias__wpf_1_1_club_a1855a7a63b6465ef490871f93d385a69}{AsistenciasParaParcial};
+27             \hyperlink{class_asistencias__wpf_1_1_modificar_club_a8333d2f10cd950124c2de671a73fd288}{sldParciales}.Value = this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a9f825c0495aa564e915d0f1a9e082186}{Parciales};
+28             \hyperlink{class_asistencias__wpf_1_1_modificar_club_aefec4cf6adde6b83050acc590661f212}{txtNombre}.Text = this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a0da21bbffe8ac3d877a51c03899bf8c2}{Nombre};
+29             this.Title = \textcolor{stringliteral}{"Modificar club: "} + this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a0da21bbffe8ac3d877a51c03899bf8c2}{Nombre};
+30 
+31             \textcolor{comment}{// MessageBox.Show(selected.Equals(this.selected).ToString());}
+32         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a62e46dfa2c839600b567b62bd582dca2}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!al\-Cerrar@{al\-Cerrar}}
+\index{al\-Cerrar@{al\-Cerrar}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{al\-Cerrar}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Modificar\-Club.\-al\-Cerrar (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_a62e46dfa2c839600b567b62bd582dca2}
+
+
+Definition at line 34 of file Modificar\-Club.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+35         \{
+36             \hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender}.Show();
+37         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a6dfe0e9c1334d6b3b0a885ff2138119a}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!click\-Edit@{click\-Edit}}
+\index{click\-Edit@{click\-Edit}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{click\-Edit}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Modificar\-Club.\-click\-Edit (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Routed\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_a6dfe0e9c1334d6b3b0a885ff2138119a}
+
+
+Definition at line 56 of file Modificar\-Club.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+57         \{
+58             \textcolor{keywordflow}{if} (\hyperlink{class_asistencias__wpf_1_1_modificar_club_aefec4cf6adde6b83050acc590661f212}{txtNombre}.Text == \textcolor{stringliteral}{""})
+59             \{
+60                 \hyperlink{class_asistencias__wpf_1_1_modificar_club_aefec4cf6adde6b83050acc590661f212}{txtNombre}.Focus();
+61                 \textcolor{keywordflow}{return};
+62             \}
+63             \textcolor{keywordflow}{if} (!\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a0da21bbffe8ac3d877a51c03899bf8c2}{Nombre}.Equals(\hyperlink{class_asistencias__wpf_1_1_modificar_club_aefec4cf6adde6b83050acc590661f212}{txtNombre}.Text)) 
+      \hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a0da21bbffe8ac3d877a51c03899bf8c2}{Nombre} = \hyperlink{class_asistencias__wpf_1_1_modificar_club_aefec4cf6adde6b83050acc590661f212}{txtNombre}.Text;
+64             if (\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a9f825c0495aa564e915d0f1a9e082186}{Parciales} != (\textcolor{keywordtype}{int})\hyperlink{class_asistencias__wpf_1_1_modificar_club_a8333d2f10cd950124c2de671a73fd288}{sldParciales}.Value) 
+      \hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a9f825c0495aa564e915d0f1a9e082186}{Parciales} = (\textcolor{keywordtype}{int})\hyperlink{class_asistencias__wpf_1_1_modificar_club_a8333d2f10cd950124c2de671a73fd288}{sldParciales}.Value;
+65             \textcolor{keywordflow}{if} (\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a1855a7a63b6465ef490871f93d385a69}{AsistenciasParaParcial} != (\textcolor{keywordtype}{int})
+      \hyperlink{class_asistencias__wpf_1_1_modificar_club_a10b87622ef3fad840bb25827b45b6fc6}{sldAssist}.Value) \hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a1855a7a63b6465ef490871f93d385a69}{AsistenciasParaParcial} = (\textcolor{keywordtype}{int})
+      \hyperlink{class_asistencias__wpf_1_1_modificar_club_a10b87622ef3fad840bb25827b45b6fc6}{sldAssist}.Value;
+66             \hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender}.Show();
+67             \hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender}.\hyperlink{class_asistencias__wpf_1_1_seleccion_ae40bbc95f8da07c171f7020538b02fb7}{Refresh}();
+68             this.Close();
+69         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_ac2e5f560752b2b1a6dc4e75cfecc5c04}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!click\-Eliminar@{click\-Eliminar}}
+\index{click\-Eliminar@{click\-Eliminar}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{click\-Eliminar}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Modificar\-Club.\-click\-Eliminar (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Routed\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_ac2e5f560752b2b1a6dc4e75cfecc5c04}
+
+
+Definition at line 71 of file Modificar\-Club.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+72         \{
+73             MessageBoxResult result = MessageBox.Show(\textcolor{stringliteral}{"Estas seguro que deseas eliminar el club +"} + 
+      \hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected}.\hyperlink{class_asistencias__wpf_1_1_club_a0da21bbffe8ac3d877a51c03899bf8c2}{Nombre} + \textcolor{stringliteral}{"?"}, \textcolor{stringliteral}{"Confirmacion"}, MessageBoxButton.YesNo, MessageBoxImage.Question);
+74             \textcolor{keywordflow}{if} (result == MessageBoxResult.Yes)
+75             \{
+76                 \textcolor{comment}{//MessageBox.Show("SI");}
+77                 \textcolor{keywordflow}{if} (\hyperlink{class_asistencias__wpf_1_1_modificar_club_a23406da77e2686429033309d5f2432c7}{clubManager}.\hyperlink{class_asistencias__wpf_1_1_club_d_b_manager_a43bdb85e75c657608eb07d815cfb7c5e}{RemoveFromDB}())
+78                 \{
+79                     \hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender}.\hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.SelectedIndex = 0;
+80                     \hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender}.\hyperlink{class_asistencias__wpf_1_1_seleccion_adac0d1aa55be26c4cff9a610ee20b9c5}{cmbClub}.Items.Remove(\hyperlink{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{selected});
+81                     \hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender}.Show();
+82                     \hyperlink{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{Sender}.\hyperlink{class_asistencias__wpf_1_1_seleccion_ae40bbc95f8da07c171f7020538b02fb7}{Refresh}();
+83                     this.Close();
+84                 \}
+85                 \textcolor{keywordflow}{else}
+86                 \{
+87                     \textcolor{keywordflow}{throw} \textcolor{keyword}{new} Exception(\textcolor{stringliteral}{"WTF!!"});
+88                 \}
+89             \}
+90         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_aad81df21e8ab11bf3c3f588d9913076a}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!Connect@{Connect}}
+\index{Connect@{Connect}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{Connect}]{\setlength{\rightskip}{0pt plus 5cm}void System.\-Windows.\-Markup.\-I\-Component\-Connector. Asistencias\-\_\-wpf.\-Modificar\-Club.\-Connect (
+\begin{DoxyParamCaption}
+\item[{int}]{connection\-Id, }
+\item[{object}]{target}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_aad81df21e8ab11bf3c3f588d9913076a}
+
+
+Definition at line 117 of file Modificar\-Club.\-g.\-i.\-cs.
+
+
+\begin{DoxyCode}
+117                                                                                                 \{
+118             \textcolor{keywordflow}{switch} (connectionId)
+119             \{
+120             \textcolor{keywordflow}{case} 1:
+121             
+122 \textcolor{preprocessor}{            #line 4 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+123 \textcolor{preprocessor}{}            ((Asistencias\_wpf.ModificarClub)(target)).Closed += \textcolor{keyword}{new} System.EventHandler(\textcolor{keyword}{this}.alCerrar);
+124             
+125 \textcolor{preprocessor}{            #line default}
+126 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+127 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+128             \textcolor{keywordflow}{case} 2:
+129             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_aefec4cf6adde6b83050acc590661f212}{txtNombre} = ((System.Windows.Controls.TextBox)(target));
+130             \textcolor{keywordflow}{return};
+131             \textcolor{keywordflow}{case} 3:
+132             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a10b87622ef3fad840bb25827b45b6fc6}{sldAssist} = ((System.Windows.Controls.Slider)(target));
+133             
+134 \textcolor{preprocessor}{            #line 23 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+135 \textcolor{preprocessor}{}            this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a10b87622ef3fad840bb25827b45b6fc6}{sldAssist}.ValueChanged += \textcolor{keyword}{new} System.Windows.RoutedPropertyChangedEventHandler<\textcolor{keywordtype}{
+      double}>(this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a16e4ed6700460777f30a494ee9eb0680}{sliderChange});
+136             
+137 \textcolor{preprocessor}{            #line default}
+138 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+139 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+140             \textcolor{keywordflow}{case} 4:
+141             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a8333d2f10cd950124c2de671a73fd288}{sldParciales} = ((System.Windows.Controls.Slider)(target));
+142             
+143 \textcolor{preprocessor}{            #line 24 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+144 \textcolor{preprocessor}{}            this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a8333d2f10cd950124c2de671a73fd288}{sldParciales}.ValueChanged += \textcolor{keyword}{new} System.Windows.
+      RoutedPropertyChangedEventHandler<\textcolor{keywordtype}{double}>(this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a16e4ed6700460777f30a494ee9eb0680}{sliderChange});
+145             
+146 \textcolor{preprocessor}{            #line default}
+147 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+148 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+149             \textcolor{keywordflow}{case} 5:
+150             
+151 \textcolor{preprocessor}{            #line 26 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+152 \textcolor{preprocessor}{}            ((System.Windows.Controls.Button)(target)).Click += \textcolor{keyword}{new} System.Windows.RoutedEventHandler(\textcolor{keyword}{this}.
+      clickEdit);
+153             
+154 \textcolor{preprocessor}{            #line default}
+155 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+156 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+157             \textcolor{keywordflow}{case} 6:
+158             
+159 \textcolor{preprocessor}{            #line 27 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+160 \textcolor{preprocessor}{}            ((System.Windows.Controls.Button)(target)).Click += \textcolor{keyword}{new} System.Windows.RoutedEventHandler(\textcolor{keyword}{this}.
+      clickEliminar);
+161             
+162 \textcolor{preprocessor}{            #line default}
+163 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+164 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+165             \textcolor{keywordflow}{case} 7:
+166             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a2b2c3976252b8870397a47d96673c856}{placeholder} = ((System.Windows.Controls.Label)(target));
+167             \textcolor{keywordflow}{return};
+168             \textcolor{keywordflow}{case} 8:
+169             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_ac5bdd9fd539f35d3f2e5fbd928913db5}{lblAsist} = ((System.Windows.Controls.Label)(target));
+170             \textcolor{keywordflow}{return};
+171             \textcolor{keywordflow}{case} 9:
+172             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a898ac5359d41d715dbfb86b46a84a39f}{lblParciales} = ((System.Windows.Controls.Label)(target));
+173             \textcolor{keywordflow}{return};
+174             \}
+175             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a1a23f498d37b0f95f283e2b650e396ba}{\_contentLoaded} = \textcolor{keyword}{true};
+176         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_aad81df21e8ab11bf3c3f588d9913076a}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!Connect@{Connect}}
+\index{Connect@{Connect}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{Connect}]{\setlength{\rightskip}{0pt plus 5cm}void System.\-Windows.\-Markup.\-I\-Component\-Connector. Asistencias\-\_\-wpf.\-Modificar\-Club.\-Connect (
+\begin{DoxyParamCaption}
+\item[{int}]{connection\-Id, }
+\item[{object}]{target}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_aad81df21e8ab11bf3c3f588d9913076a}
+
+
+Definition at line 117 of file Modificar\-Club.\-g.\-cs.
+
+
+\begin{DoxyCode}
+117                                                                                                 \{
+118             \textcolor{keywordflow}{switch} (connectionId)
+119             \{
+120             \textcolor{keywordflow}{case} 1:
+121             
+122 \textcolor{preprocessor}{            #line 4 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+123 \textcolor{preprocessor}{}            ((Asistencias\_wpf.ModificarClub)(target)).Closed += \textcolor{keyword}{new} System.EventHandler(\textcolor{keyword}{this}.alCerrar);
+124             
+125 \textcolor{preprocessor}{            #line default}
+126 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+127 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+128             \textcolor{keywordflow}{case} 2:
+129             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_aefec4cf6adde6b83050acc590661f212}{txtNombre} = ((System.Windows.Controls.TextBox)(target));
+130             \textcolor{keywordflow}{return};
+131             \textcolor{keywordflow}{case} 3:
+132             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a10b87622ef3fad840bb25827b45b6fc6}{sldAssist} = ((System.Windows.Controls.Slider)(target));
+133             
+134 \textcolor{preprocessor}{            #line 23 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+135 \textcolor{preprocessor}{}            this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a10b87622ef3fad840bb25827b45b6fc6}{sldAssist}.ValueChanged += \textcolor{keyword}{new} System.Windows.RoutedPropertyChangedEventHandler<\textcolor{keywordtype}{
+      double}>(this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a16e4ed6700460777f30a494ee9eb0680}{sliderChange});
+136             
+137 \textcolor{preprocessor}{            #line default}
+138 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+139 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+140             \textcolor{keywordflow}{case} 4:
+141             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a8333d2f10cd950124c2de671a73fd288}{sldParciales} = ((System.Windows.Controls.Slider)(target));
+142             
+143 \textcolor{preprocessor}{            #line 24 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+144 \textcolor{preprocessor}{}            this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a8333d2f10cd950124c2de671a73fd288}{sldParciales}.ValueChanged += \textcolor{keyword}{new} System.Windows.
+      RoutedPropertyChangedEventHandler<\textcolor{keywordtype}{double}>(this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a16e4ed6700460777f30a494ee9eb0680}{sliderChange});
+145             
+146 \textcolor{preprocessor}{            #line default}
+147 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+148 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+149             \textcolor{keywordflow}{case} 5:
+150             
+151 \textcolor{preprocessor}{            #line 26 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+152 \textcolor{preprocessor}{}            ((System.Windows.Controls.Button)(target)).Click += \textcolor{keyword}{new} System.Windows.RoutedEventHandler(\textcolor{keyword}{this}.
+      clickEdit);
+153             
+154 \textcolor{preprocessor}{            #line default}
+155 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+156 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+157             \textcolor{keywordflow}{case} 6:
+158             
+159 \textcolor{preprocessor}{            #line 27 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+160 \textcolor{preprocessor}{}            ((System.Windows.Controls.Button)(target)).Click += \textcolor{keyword}{new} System.Windows.RoutedEventHandler(\textcolor{keyword}{this}.
+      clickEliminar);
+161             
+162 \textcolor{preprocessor}{            #line default}
+163 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+164 \textcolor{preprocessor}{}            \textcolor{keywordflow}{return};
+165             \textcolor{keywordflow}{case} 7:
+166             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a2b2c3976252b8870397a47d96673c856}{placeholder} = ((System.Windows.Controls.Label)(target));
+167             \textcolor{keywordflow}{return};
+168             \textcolor{keywordflow}{case} 8:
+169             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_ac5bdd9fd539f35d3f2e5fbd928913db5}{lblAsist} = ((System.Windows.Controls.Label)(target));
+170             \textcolor{keywordflow}{return};
+171             \textcolor{keywordflow}{case} 9:
+172             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a898ac5359d41d715dbfb86b46a84a39f}{lblParciales} = ((System.Windows.Controls.Label)(target));
+173             \textcolor{keywordflow}{return};
+174             \}
+175             this.\hyperlink{class_asistencias__wpf_1_1_modificar_club_a1a23f498d37b0f95f283e2b650e396ba}{\_contentLoaded} = \textcolor{keyword}{true};
+176         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a50a572eb21cc3d7cf74116bb3ac1535a}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!Initialize\-Component@{Initialize\-Component}}
+\index{Initialize\-Component@{Initialize\-Component}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{Initialize\-Component}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Modificar\-Club.\-Initialize\-Component (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_modificar_club_a50a572eb21cc3d7cf74116bb3ac1535a}
+
+
+Initialize\-Component 
+
+
+
+Definition at line 97 of file Modificar\-Club.\-g.\-i.\-cs.
+
+
+\begin{DoxyCode}
+97                                           \{
+98             \textcolor{keywordflow}{if} (\hyperlink{class_asistencias__wpf_1_1_modificar_club_a1a23f498d37b0f95f283e2b650e396ba}{\_contentLoaded}) \{
+99                 \textcolor{keywordflow}{return};
+100             \}
+101             \hyperlink{class_asistencias__wpf_1_1_modificar_club_a1a23f498d37b0f95f283e2b650e396ba}{\_contentLoaded} = \textcolor{keyword}{true};
+102             System.Uri resourceLocater = \textcolor{keyword}{new} System.Uri(\textcolor{stringliteral}{"/Asistencias\_wpf;component/modificarclub.xaml"}, 
+      System.UriKind.Relative);
+103             
+104 \textcolor{preprocessor}{            #line 1 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+105 \textcolor{preprocessor}{}            System.Windows.Application.LoadComponent(\textcolor{keyword}{this}, resourceLocater);
+106             
+107 \textcolor{preprocessor}{            #line default}
+108 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+109 \textcolor{preprocessor}{}        \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a50a572eb21cc3d7cf74116bb3ac1535a}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!Initialize\-Component@{Initialize\-Component}}
+\index{Initialize\-Component@{Initialize\-Component}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{Initialize\-Component}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Modificar\-Club.\-Initialize\-Component (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_modificar_club_a50a572eb21cc3d7cf74116bb3ac1535a}
+
+
+Initialize\-Component 
+
+
+
+Definition at line 97 of file Modificar\-Club.\-g.\-cs.
+
+
+\begin{DoxyCode}
+97                                           \{
+98             \textcolor{keywordflow}{if} (\hyperlink{class_asistencias__wpf_1_1_modificar_club_a1a23f498d37b0f95f283e2b650e396ba}{\_contentLoaded}) \{
+99                 \textcolor{keywordflow}{return};
+100             \}
+101             \hyperlink{class_asistencias__wpf_1_1_modificar_club_a1a23f498d37b0f95f283e2b650e396ba}{\_contentLoaded} = \textcolor{keyword}{true};
+102             System.Uri resourceLocater = \textcolor{keyword}{new} System.Uri(\textcolor{stringliteral}{"/Asistencias\_wpf;component/modificarclub.xaml"}, 
+      System.UriKind.Relative);
+103             
+104 \textcolor{preprocessor}{            #line 1 "..\(\backslash\)..\(\backslash\)ModificarClub.xaml"}
+105 \textcolor{preprocessor}{}            System.Windows.Application.LoadComponent(\textcolor{keyword}{this}, resourceLocater);
+106             
+107 \textcolor{preprocessor}{            #line default}
+108 \textcolor{preprocessor}{}\textcolor{preprocessor}{            #line hidden}
+109 \textcolor{preprocessor}{}        \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a16e4ed6700460777f30a494ee9eb0680}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!slider\-Change@{slider\-Change}}
+\index{slider\-Change@{slider\-Change}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{slider\-Change}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Modificar\-Club.\-slider\-Change (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Routed\-Property\-Changed\-Event\-Args$<$ double $>$}]{e}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_a16e4ed6700460777f30a494ee9eb0680}
+
+
+Definition at line 39 of file Modificar\-Club.\-xaml.\-cs.
+
+
+\begin{DoxyCode}
+40         \{
+41             \textcolor{keywordtype}{string} source = ((Slider)sender).Name;
+42             Label targetLabel = null;
+43             \textcolor{keywordflow}{switch} (source)
+44             \{
+45                 \textcolor{keywordflow}{case} \textcolor{stringliteral}{"sldParciales"}:
+46                     targetLabel = \hyperlink{class_asistencias__wpf_1_1_modificar_club_a898ac5359d41d715dbfb86b46a84a39f}{lblParciales};
+47                     \textcolor{keywordflow}{break};
+48 
+49                 \textcolor{keywordflow}{case} \textcolor{stringliteral}{"sldAssist"}:
+50                     targetLabel = \hyperlink{class_asistencias__wpf_1_1_modificar_club_ac5bdd9fd539f35d3f2e5fbd928913db5}{lblAsist};
+51                     \textcolor{keywordflow}{break};
+52             \}
+53             \textcolor{keywordflow}{if} (targetLabel != null) targetLabel.Content = e.NewValue;
+54         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a1a23f498d37b0f95f283e2b650e396ba}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!\-\_\-content\-Loaded@{\-\_\-content\-Loaded}}
+\index{\-\_\-content\-Loaded@{\-\_\-content\-Loaded}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{\-\_\-content\-Loaded}]{\setlength{\rightskip}{0pt plus 5cm}bool Asistencias\-\_\-wpf.\-Modificar\-Club.\-\_\-content\-Loaded\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_a1a23f498d37b0f95f283e2b650e396ba}
+
+
+Definition at line 90 of file Modificar\-Club.\-g.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a23406da77e2686429033309d5f2432c7}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!club\-Manager@{club\-Manager}}
+\index{club\-Manager@{club\-Manager}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{club\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Club\-D\-B\-Manager} Asistencias\-\_\-wpf.\-Modificar\-Club.\-club\-Manager\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_a23406da77e2686429033309d5f2432c7}
+
+
+Definition at line 15 of file Modificar\-Club.\-xaml.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_ad6c958505273f46077a11519363ddbe4}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!conn@{conn}}
+\index{conn@{conn}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{conn}]{\setlength{\rightskip}{0pt plus 5cm}Sql\-Ce\-Connection Asistencias\-\_\-wpf.\-Modificar\-Club.\-conn = new Sql\-Ce\-Connection(@\char`\"{}Data Source=$|$Data\-Directory$|$\textbackslash{}Alumnos.\-sdf\char`\"{})\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_ad6c958505273f46077a11519363ddbe4}
+
+
+Definition at line 14 of file Modificar\-Club.\-xaml.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_ac5bdd9fd539f35d3f2e5fbd928913db5}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!lbl\-Asist@{lbl\-Asist}}
+\index{lbl\-Asist@{lbl\-Asist}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{lbl\-Asist}]{\setlength{\rightskip}{0pt plus 5cm}System Windows Controls Label Asistencias\-\_\-wpf.\-Modificar\-Club.\-lbl\-Asist\hspace{0.3cm}{\ttfamily [package]}}}\label{class_asistencias__wpf_1_1_modificar_club_ac5bdd9fd539f35d3f2e5fbd928913db5}
+
+
+Definition at line 77 of file Modificar\-Club.\-g.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a898ac5359d41d715dbfb86b46a84a39f}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!lbl\-Parciales@{lbl\-Parciales}}
+\index{lbl\-Parciales@{lbl\-Parciales}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{lbl\-Parciales}]{\setlength{\rightskip}{0pt plus 5cm}System Windows Controls Label Asistencias\-\_\-wpf.\-Modificar\-Club.\-lbl\-Parciales\hspace{0.3cm}{\ttfamily [package]}}}\label{class_asistencias__wpf_1_1_modificar_club_a898ac5359d41d715dbfb86b46a84a39f}
+
+
+Definition at line 85 of file Modificar\-Club.\-g.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a2b2c3976252b8870397a47d96673c856}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!placeholder@{placeholder}}
+\index{placeholder@{placeholder}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{placeholder}]{\setlength{\rightskip}{0pt plus 5cm}System Windows Controls Label Asistencias\-\_\-wpf.\-Modificar\-Club.\-placeholder\hspace{0.3cm}{\ttfamily [package]}}}\label{class_asistencias__wpf_1_1_modificar_club_a2b2c3976252b8870397a47d96673c856}
+
+
+Definition at line 69 of file Modificar\-Club.\-g.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!selected@{selected}}
+\index{selected@{selected}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{selected}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Club} Asistencias\-\_\-wpf.\-Modificar\-Club.\-selected\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_ad8a6d484077e99675c010a8d3a98de61}
+
+
+Definition at line 16 of file Modificar\-Club.\-xaml.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!Sender@{Sender}}
+\index{Sender@{Sender}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{Sender}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Seleccion} Asistencias\-\_\-wpf.\-Modificar\-Club.\-Sender\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_modificar_club_a17c1749aa4cdc0bc9697d3a9ebc14b1a}
+
+
+Definition at line 13 of file Modificar\-Club.\-xaml.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a10b87622ef3fad840bb25827b45b6fc6}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!sld\-Assist@{sld\-Assist}}
+\index{sld\-Assist@{sld\-Assist}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{sld\-Assist}]{\setlength{\rightskip}{0pt plus 5cm}System Windows Controls Slider Asistencias\-\_\-wpf.\-Modificar\-Club.\-sld\-Assist\hspace{0.3cm}{\ttfamily [package]}}}\label{class_asistencias__wpf_1_1_modificar_club_a10b87622ef3fad840bb25827b45b6fc6}
+
+
+Definition at line 53 of file Modificar\-Club.\-g.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_a8333d2f10cd950124c2de671a73fd288}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!sld\-Parciales@{sld\-Parciales}}
+\index{sld\-Parciales@{sld\-Parciales}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{sld\-Parciales}]{\setlength{\rightskip}{0pt plus 5cm}System Windows Controls Slider Asistencias\-\_\-wpf.\-Modificar\-Club.\-sld\-Parciales\hspace{0.3cm}{\ttfamily [package]}}}\label{class_asistencias__wpf_1_1_modificar_club_a8333d2f10cd950124c2de671a73fd288}
+
+
+Definition at line 61 of file Modificar\-Club.\-g.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_modificar_club_aefec4cf6adde6b83050acc590661f212}{\index{Asistencias\-\_\-wpf\-::\-Modificar\-Club@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}!txt\-Nombre@{txt\-Nombre}}
+\index{txt\-Nombre@{txt\-Nombre}!Asistencias_wpf::ModificarClub@{Asistencias\-\_\-wpf\-::\-Modificar\-Club}}
+\subsubsection[{txt\-Nombre}]{\setlength{\rightskip}{0pt plus 5cm}System Windows Controls Text\-Box Asistencias\-\_\-wpf.\-Modificar\-Club.\-txt\-Nombre\hspace{0.3cm}{\ttfamily [package]}}}\label{class_asistencias__wpf_1_1_modificar_club_aefec4cf6adde6b83050acc590661f212}
+
+
+Definition at line 45 of file Modificar\-Club.\-g.\-cs.
+
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+Asistencias\-\_\-wpf/\hyperlink{_modificar_club_8xaml_8cs}{Modificar\-Club.\-xaml.\-cs}\item 
+Asistencias\-\_\-wpf/obj/\-Release/\hyperlink{_modificar_club_8g_8cs}{Modificar\-Club.\-g.\-cs}\item 
+Asistencias\-\_\-wpf/obj/\-Release/\hyperlink{_modificar_club_8g_8i_8cs}{Modificar\-Club.\-g.\-i.\-cs}\end{DoxyCompactItemize}

@@ -1,0 +1,117 @@
+\hypertarget{class_general__cuentas_1_1_program}{\section{General\-\_\-cuentas.\-Program Class Reference}
+\label{class_general__cuentas_1_1_program}\index{General\-\_\-cuentas.\-Program@{General\-\_\-cuentas.\-Program}}
+}
+\subsection*{Static Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+static void \hyperlink{class_general__cuentas_1_1_program_a65de6462670c43847c79d750fe64b817}{Main} (string\mbox{[}$\,$\mbox{]} args)
+\item 
+static string \hyperlink{class_general__cuentas_1_1_program_a1ca37b8c6158c753bb77f8ecfa694c00}{Generate} (string nombre, string numero\-Cuenta, string plantel)
+\end{DoxyCompactItemize}
+\subsection*{Static Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+static Stream\-Reader \hyperlink{class_general__cuentas_1_1_program_a0af8127c156f60c5b3dcaf870b8a3e95}{stream\-Reader1} = new Stream\-Reader(@\char`\"{}D\-:\textbackslash{}\-Sources\textbackslash{}\-Generador\-Cuentas\textbackslash{}nombres.\-txt\char`\"{})
+\item 
+static Stream\-Reader \hyperlink{class_general__cuentas_1_1_program_ae5b014ec3c416ce64f622ba554226c7d}{stream\-Reader2} = new Stream\-Reader(@\char`\"{}D\-:\textbackslash{}\-Sources\textbackslash{}\-Generador\-Cuentas\textbackslash{}numeros\-Cuenta.\-txt\char`\"{})
+\item 
+static Stream\-Reader \hyperlink{class_general__cuentas_1_1_program_a558196b9a618e6a6fb5ac25915910e96}{stream\-Reader3} = new Stream\-Reader(@\char`\"{}D\-:\textbackslash{}\-Sources\textbackslash{}\-Generador\-Cuentas\textbackslash{}planteles.\-txt\char`\"{})
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 10 of file Program.\-cs.
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_general__cuentas_1_1_program_a1ca37b8c6158c753bb77f8ecfa694c00}{\index{General\-\_\-cuentas\-::\-Program@{General\-\_\-cuentas\-::\-Program}!Generate@{Generate}}
+\index{Generate@{Generate}!General_cuentas::Program@{General\-\_\-cuentas\-::\-Program}}
+\subsubsection[{Generate}]{\setlength{\rightskip}{0pt plus 5cm}static string General\-\_\-cuentas.\-Program.\-Generate (
+\begin{DoxyParamCaption}
+\item[{string}]{nombre, }
+\item[{string}]{numero\-Cuenta, }
+\item[{string}]{plantel}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{class_general__cuentas_1_1_program_a1ca37b8c6158c753bb77f8ecfa694c00}
+
+
+Definition at line 37 of file Program.\-cs.
+
+
+\begin{DoxyCode}
+38         \{
+39             nombre = nombre.Substring(0, nombre.Length - 1);
+40             numeroCuenta = numeroCuenta.Substring(0, numeroCuenta.Length - 1);
+41             plantel = plantel.Substring(0, plantel.Length - 1);
+42             \textcolor{keywordtype}{string} res = \textcolor{stringliteral}{"<?xml version=\(\backslash\)"1.0\(\backslash\)" encoding=\(\backslash\)"utf-8\(\backslash\)" ?>\(\backslash\)n<configuration>\(\backslash\)n<appSettings>\(\backslash\)n<add
+       key=\(\backslash\)"nombre\(\backslash\)" value=\(\backslash\)""} + nombre + \textcolor{stringliteral}{"\(\backslash\)"/>\(\backslash\)n<add key=\(\backslash\)"plantel\(\backslash\)" value=\(\backslash\)""} + plantel + \textcolor{stringliteral}{"\(\backslash\)"/>\(\backslash\)n<add key=\(\backslash\)"
+      \_1Parcial\(\backslash\)" value=\(\backslash\)"0\(\backslash\)"/>\(\backslash\)n<add key=\(\backslash\)"\_2Parcial\(\backslash\)" value=\(\backslash\)"0\(\backslash\)"/>\(\backslash\)n<add key=\(\backslash\)"\_3Parcial\(\backslash\)" value=\(\backslash\)"0\(\backslash\)"/>\(\backslash\)n
+      </appSettings>\(\backslash\)n</configuration>"};
+43             System.IO.File.WriteAllText(\textcolor{stringliteral}{@"D:\(\backslash\)Sources\(\backslash\)GeneradorCuentas\(\backslash\)"}+numeroCuenta+\textcolor{stringliteral}{".config"}, res);
+44 
+45             \textcolor{keywordflow}{return} res;
+46         \}
+\end{DoxyCode}
+\hypertarget{class_general__cuentas_1_1_program_a65de6462670c43847c79d750fe64b817}{\index{General\-\_\-cuentas\-::\-Program@{General\-\_\-cuentas\-::\-Program}!Main@{Main}}
+\index{Main@{Main}!General_cuentas::Program@{General\-\_\-cuentas\-::\-Program}}
+\subsubsection[{Main}]{\setlength{\rightskip}{0pt plus 5cm}static void General\-\_\-cuentas.\-Program.\-Main (
+\begin{DoxyParamCaption}
+\item[{string\mbox{[}$\,$\mbox{]}}]{args}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{class_general__cuentas_1_1_program_a65de6462670c43847c79d750fe64b817}
+
+
+Definition at line 19 of file Program.\-cs.
+
+
+\begin{DoxyCode}
+20         \{
+21             \textcolor{keywordtype}{string} nombres = \hyperlink{class_general__cuentas_1_1_program_a0af8127c156f60c5b3dcaf870b8a3e95}{streamReader1}.ReadToEnd();
+22             \textcolor{keywordtype}{string} numerosCuenta = \hyperlink{class_general__cuentas_1_1_program_ae5b014ec3c416ce64f622ba554226c7d}{streamReader2}.ReadToEnd();
+23             \textcolor{keywordtype}{string} Planteles = \hyperlink{class_general__cuentas_1_1_program_a558196b9a618e6a6fb5ac25915910e96}{streamReader3}.ReadToEnd();
+24             \hyperlink{class_general__cuentas_1_1_program_a0af8127c156f60c5b3dcaf870b8a3e95}{streamReader1}.Close();
+25             \hyperlink{class_general__cuentas_1_1_program_ae5b014ec3c416ce64f622ba554226c7d}{streamReader2}.Close();
+26             \hyperlink{class_general__cuentas_1_1_program_a558196b9a618e6a6fb5ac25915910e96}{streamReader3}.Close();
+27             \textcolor{keywordtype}{string}[] nombresA = nombres.Split(\textcolor{charliteral}{'\(\backslash\)n'});
+28             \textcolor{keywordtype}{string}[] numerosA = numerosCuenta.Split(\textcolor{charliteral}{'\(\backslash\)n'});
+29             \textcolor{keywordtype}{string}[] plantelesA = Planteles.Split(\textcolor{charliteral}{'\(\backslash\)n'});
+30             \textcolor{keywordflow}{for} (\textcolor{keywordtype}{int} i = 0; i < nombresA.Length-1;i++ )
+31             \{
+32                \textcolor{comment}{// Console.WriteLine(numerosA[i]);}
+33                 Console.WriteLine(\hyperlink{class_general__cuentas_1_1_program_a1ca37b8c6158c753bb77f8ecfa694c00}{Generate}(nombresA[i],numerosA[i],plantelesA[i]));
+34             \}
+35             Console.ReadLine();
+36         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_general__cuentas_1_1_program_a0af8127c156f60c5b3dcaf870b8a3e95}{\index{General\-\_\-cuentas\-::\-Program@{General\-\_\-cuentas\-::\-Program}!stream\-Reader1@{stream\-Reader1}}
+\index{stream\-Reader1@{stream\-Reader1}!General_cuentas::Program@{General\-\_\-cuentas\-::\-Program}}
+\subsubsection[{stream\-Reader1}]{\setlength{\rightskip}{0pt plus 5cm}Stream\-Reader General\-\_\-cuentas.\-Program.\-stream\-Reader1 = new Stream\-Reader(@\char`\"{}D\-:\textbackslash{}\-Sources\textbackslash{}\-Generador\-Cuentas\textbackslash{}nombres.\-txt\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{class_general__cuentas_1_1_program_a0af8127c156f60c5b3dcaf870b8a3e95}
+
+
+Definition at line 15 of file Program.\-cs.
+
+\hypertarget{class_general__cuentas_1_1_program_ae5b014ec3c416ce64f622ba554226c7d}{\index{General\-\_\-cuentas\-::\-Program@{General\-\_\-cuentas\-::\-Program}!stream\-Reader2@{stream\-Reader2}}
+\index{stream\-Reader2@{stream\-Reader2}!General_cuentas::Program@{General\-\_\-cuentas\-::\-Program}}
+\subsubsection[{stream\-Reader2}]{\setlength{\rightskip}{0pt plus 5cm}Stream\-Reader General\-\_\-cuentas.\-Program.\-stream\-Reader2 = new Stream\-Reader(@\char`\"{}D\-:\textbackslash{}\-Sources\textbackslash{}\-Generador\-Cuentas\textbackslash{}numeros\-Cuenta.\-txt\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{class_general__cuentas_1_1_program_ae5b014ec3c416ce64f622ba554226c7d}
+
+
+Definition at line 16 of file Program.\-cs.
+
+\hypertarget{class_general__cuentas_1_1_program_a558196b9a618e6a6fb5ac25915910e96}{\index{General\-\_\-cuentas\-::\-Program@{General\-\_\-cuentas\-::\-Program}!stream\-Reader3@{stream\-Reader3}}
+\index{stream\-Reader3@{stream\-Reader3}!General_cuentas::Program@{General\-\_\-cuentas\-::\-Program}}
+\subsubsection[{stream\-Reader3}]{\setlength{\rightskip}{0pt plus 5cm}Stream\-Reader General\-\_\-cuentas.\-Program.\-stream\-Reader3 = new Stream\-Reader(@\char`\"{}D\-:\textbackslash{}\-Sources\textbackslash{}\-Generador\-Cuentas\textbackslash{}planteles.\-txt\char`\"{})\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [private]}}}\label{class_general__cuentas_1_1_program_a558196b9a618e6a6fb5ac25915910e96}
+
+
+Definition at line 17 of file Program.\-cs.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+General cuentas/\hyperlink{_general_01cuentas_2_program_8cs}{Program.\-cs}\end{DoxyCompactItemize}

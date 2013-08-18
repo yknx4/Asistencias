@@ -1,0 +1,268 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="d4/d09/class_asistencias_1_1_form1" kind="class" prot="public">
+    <compoundname>Asistencias::Form1</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="d4/d09/class_asistencias_1_1_form1_1a75926fd98b2db879031455a6b37b99b0" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer Asistencias.Form1.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" line="8" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" bodystart="8" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d09/class_asistencias_1_1_form1_1aa2b7468a7886a62abbe1c4212612ce62" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabControl</type>
+        <definition>System.Windows.Forms.TabControl Asistencias.Form1.tabControl1</definition>
+        <argsstring></argsstring>
+        <name>tabControl1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" line="129" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" bodystart="129" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d09/class_asistencias_1_1_form1_1aa913fe8ba5b1cbb7255a471048604b41" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage Asistencias.Form1.tabAsistencia</definition>
+        <argsstring></argsstring>
+        <name>tabAsistencia</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" line="130" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" bodystart="130" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d09/class_asistencias_1_1_form1_1a4bfe2b423d729b373421b11381d9b716" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Asistencias.Form1.lblEstado</definition>
+        <argsstring></argsstring>
+        <name>lblEstado</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" line="131" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d09/class_asistencias_1_1_form1_1aa7f1dcbcd72919dd060d78f59b5e45be" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button Asistencias.Form1.button1</definition>
+        <argsstring></argsstring>
+        <name>button1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" line="132" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d09/class_asistencias_1_1_form1_1a9fda919b5655da27bd4911945292e3a9" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label Asistencias.Form1.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" line="133" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d09/class_asistencias_1_1_form1_1ab4dccefe2780aacefa91410f1c99e97a" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TextBox</type>
+        <definition>System.Windows.Forms.TextBox Asistencias.Form1.txtCuenta</definition>
+        <argsstring></argsstring>
+        <name>txtCuenta</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" line="134" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="d4/d09/class_asistencias_1_1_form1_1a66b088d224d89e584af2d7109e749aab" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.TabPage</type>
+        <definition>System.Windows.Forms.TabPage Asistencias.Form1.tabRegistro</definition>
+        <argsstring></argsstring>
+        <name>tabRegistro</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" line="135" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="d4/d09/class_asistencias_1_1_form1_1a395d9c6aed727e23e05060f436961e07" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>Asistencias.Form1.Form1</definition>
+        <argsstring>()</argsstring>
+        <name>Form1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.cs" line="18" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.cs" bodystart="18" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="d4/d09/class_asistencias_1_1_form1_1af10b95ddc92aac894e00c5b5889a0296" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias.Form1.textBox1_TextChanged</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>textBox1_TextChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.cs" line="23" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.cs" bodystart="23" bodyend="26"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d09/class_asistencias_1_1_form1_1a07d3c806a872b060ee9262a361029085" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias.Form1.button1_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>button1_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.cs" line="28" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.cs" bodystart="28" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="function" id="d4/d09/class_asistencias_1_1_form1_1a0789ba8c94bdbf7bebe8d5ac7021bffb" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void Asistencias.Form1.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" line="29" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" bodystart="29" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="d4/d09/class_asistencias_1_1_form1_1a9971aacdba72bfabb56ad897f7647234" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void Asistencias.Form1.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" line="14" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.Designer.cs" bodystart="14" bodyend="21"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="39">
+        <label>Form</label>
+      </node>
+      <node id="38">
+        <label>Asistencias.Form1</label>
+        <link refid="d4/d09/class_asistencias_1_1_form1"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="41">
+        <label>Form</label>
+      </node>
+      <node id="40">
+        <label>Asistencias.Form1</label>
+        <link refid="d4/d09/class_asistencias_1_1_form1"/>
+        <childnode refid="41" relation="public-inheritance">
+        </childnode>
+        <childnode refid="42" relation="usage">
+          <edgelabel>label1</edgelabel>
+          <edgelabel>lblEstado</edgelabel>
+          <edgelabel>tabAsistencia</edgelabel>
+          <edgelabel>tabControl1</edgelabel>
+          <edgelabel>txtCuenta</edgelabel>
+          <edgelabel>tabRegistro</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>button1</edgelabel>
+        </childnode>
+      </node>
+      <node id="42">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.cs" line="16" column="1" bodyfile="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/Asistencias/Form1.cs" bodystart="15" bodyend="40"/>
+    <listofallmembers>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1aa7f1dcbcd72919dd060d78f59b5e45be" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>button1</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1a07d3c806a872b060ee9262a361029085" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>button1_Click</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1a75926fd98b2db879031455a6b37b99b0" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>components</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1a9971aacdba72bfabb56ad897f7647234" prot="protected" virt="non-virtual"><scope>Asistencias::Form1</scope><name>Dispose</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1a395d9c6aed727e23e05060f436961e07" prot="public" virt="non-virtual"><scope>Asistencias::Form1</scope><name>Form1</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1a0789ba8c94bdbf7bebe8d5ac7021bffb" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>InitializeComponent</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1a9fda919b5655da27bd4911945292e3a9" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>label1</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1a4bfe2b423d729b373421b11381d9b716" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>lblEstado</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1aa913fe8ba5b1cbb7255a471048604b41" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>tabAsistencia</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1aa2b7468a7886a62abbe1c4212612ce62" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>tabControl1</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1a66b088d224d89e584af2d7109e749aab" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>tabRegistro</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1af10b95ddc92aac894e00c5b5889a0296" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>textBox1_TextChanged</name></member>
+      <member refid="d4/d09/class_asistencias_1_1_form1_1ab4dccefe2780aacefa91410f1c99e97a" prot="private" virt="non-virtual"><scope>Asistencias::Form1</scope><name>txtCuenta</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

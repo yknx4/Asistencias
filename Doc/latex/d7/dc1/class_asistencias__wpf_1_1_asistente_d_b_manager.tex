@@ -1,0 +1,368 @@
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager}{\section{Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager Class Reference}
+\label{class_asistencias__wpf_1_1_asistente_d_b_manager}\index{Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager}}
+}
+\subsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0}{Valores\-Modificables} \{ \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a4777bbaaa0aebe104606b77947d0e22d}{Valores\-Modificables.\-Nombre}, 
+\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a7f670e8edeb7d1abac3f5695d74bb804}{Valores\-Modificables.\-Numero\-Cuenta}, 
+\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a6e2cce6dad590a2367ae0285df2141a5}{Valores\-Modificables.\-Plantel}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_ac124c7e7f72b7eddbd4054da0d9169ad}{Asistente\-D\-B\-Manager} (Sql\-Ce\-Connection \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion})
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a695b53193eabec4814e2a09a4811dba9}{set\-Asistente} (\hyperlink{class_asistencias__wpf_1_1_asistente}{Asistente} Input)
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a1dc90dc3e9b1f2b0d5ac6997b23006d6}{Clear} ()
+\item 
+bool \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a77d4dfd2794fde1c3ddc45e80ebf9a82}{anadir\-Asistencia} (int club, int parcial)
+\item 
+bool \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a94c6e11567ec422e62c275ed6d2cacab}{modificar\-Dato} (\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0}{Valores\-Modificables} modificar)
+\item 
+bool \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a10556de1877fa8a45228425bd35ff83c}{Add\-To\-D\-B} ()
+\item 
+void \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aaa8e1dc62ddda84ff70cc4477feef0c6}{cuenta\-Modificada} (object sender, Property\-Changed\-Event\-Args e)
+\end{DoxyCompactItemize}
+\subsection*{Private Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_ae48d582f5f9db4788e0f5f7c1bfe9b6e}{Active} ()
+\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Sql\-Ce\-Connection \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}
+\item 
+\hyperlink{class_asistencias__wpf_1_1_asistente}{Asistente} \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 8 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+
+\subsection{Member Enumeration Documentation}
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!Valores\-Modificables@{Valores\-Modificables}}
+\index{Valores\-Modificables@{Valores\-Modificables}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{Valores\-Modificables}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-Valores\-Modificables}}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Nombre@{Nombre}!Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!Nombre@{Nombre}}\item[{\em 
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a4777bbaaa0aebe104606b77947d0e22d}{Nombre}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a4777bbaaa0aebe104606b77947d0e22d}
+}]\index{Numero\-Cuenta@{Numero\-Cuenta}!Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!Numero\-Cuenta@{Numero\-Cuenta}}\item[{\em 
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a7f670e8edeb7d1abac3f5695d74bb804}{Numero\-Cuenta}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a7f670e8edeb7d1abac3f5695d74bb804}
+}]\index{Plantel@{Plantel}!Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!Plantel@{Plantel}}\item[{\em 
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a6e2cce6dad590a2367ae0285df2141a5}{Plantel}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a6e2cce6dad590a2367ae0285df2141a5}
+}]\end{description}
+\end{Desc}
+
+
+Definition at line 10 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+\begin{DoxyCode}
+11         \{
+12             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a4777bbaaa0aebe104606b77947d0e22d}{Nombre}, \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a7f670e8edeb7d1abac3f5695d74bb804}{NumeroCuenta}, \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0a6e2cce6dad590a2367ae0285df2141a5}{Plantel}
+13         \}
+\end{DoxyCode}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_ac124c7e7f72b7eddbd4054da0d9169ad}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!Asistente\-D\-B\-Manager@{Asistente\-D\-B\-Manager}}
+\index{Asistente\-D\-B\-Manager@{Asistente\-D\-B\-Manager}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{Asistente\-D\-B\-Manager}]{\setlength{\rightskip}{0pt plus 5cm}Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-Asistente\-D\-B\-Manager (
+\begin{DoxyParamCaption}
+\item[{Sql\-Ce\-Connection}]{conexion}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_ac124c7e7f72b7eddbd4054da0d9169ad}
+
+
+Definition at line 15 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+\begin{DoxyCode}
+16         \{
+17             this.\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion} = \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion};
+18         \}
+\end{DoxyCode}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_ae48d582f5f9db4788e0f5f7c1bfe9b6e}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!Active@{Active}}
+\index{Active@{Active}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{Active}]{\setlength{\rightskip}{0pt plus 5cm}bool Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-Active (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_ae48d582f5f9db4788e0f5f7c1bfe9b6e}
+
+
+Definition at line 33 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+\begin{DoxyCode}
+34         \{
+35             \textcolor{keywordflow}{if} (\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder} == null) \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+36             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+37         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_a10556de1877fa8a45228425bd35ff83c}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!Add\-To\-D\-B@{Add\-To\-D\-B}}
+\index{Add\-To\-D\-B@{Add\-To\-D\-B}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{Add\-To\-D\-B}]{\setlength{\rightskip}{0pt plus 5cm}bool Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-Add\-To\-D\-B (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_a10556de1877fa8a45228425bd35ff83c}
+
+
+Definition at line 132 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+\begin{DoxyCode}
+133         \{
+134             \textcolor{keywordflow}{if} (!\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_ae48d582f5f9db4788e0f5f7c1bfe9b6e}{Active}()) \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+135             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Open();
+136             SqlCeCommand cmd = \textcolor{keyword}{new} SqlCeCommand(\textcolor{stringliteral}{"INSERT INTO Alumnos(NumeroCuenta, Nombre,
+       Plantel)VALUES(@cuenta, @nombre, @plantel)"}, \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion});
+137             cmd.Parameters.AddWithValue(\textcolor{stringliteral}{"@cuenta"}, \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a6d2aa009497445d62699e3c9d402ca78}{numeroCuenta});
+138             cmd.Parameters.AddWithValue(\textcolor{stringliteral}{"@nombre"}, \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a321714ee92e497c61236fedca32912cb}{Nombre});
+139             cmd.Parameters.AddWithValue(\textcolor{stringliteral}{"@plantel"}, \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a4346dd7e16f0e8ef5de301d5e2b0439b}{plantel});
+140             \textcolor{keywordflow}{try}
+141             \{
+142                 cmd.ExecuteNonQuery();
+143             \}
+144             \textcolor{keywordflow}{catch} (System.InvalidOperationException ex)
+145             \{
+146                 MessageBoxResult mes = MessageBox.Show(ex.ToString());
+147                 \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Close();
+148                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+149             \}
+150             \textcolor{keywordflow}{catch} (SqlCeException ex)
+151             \{
+152                 MessageBoxResult mes = MessageBox.Show(ex.ToString());
+153                 \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Close();
+154                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+155             \}
+156             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Close();
+157             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+158         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_a77d4dfd2794fde1c3ddc45e80ebf9a82}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!anadir\-Asistencia@{anadir\-Asistencia}}
+\index{anadir\-Asistencia@{anadir\-Asistencia}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{anadir\-Asistencia}]{\setlength{\rightskip}{0pt plus 5cm}bool Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-anadir\-Asistencia (
+\begin{DoxyParamCaption}
+\item[{int}]{club, }
+\item[{int}]{parcial}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_a77d4dfd2794fde1c3ddc45e80ebf9a82}
+
+
+Definition at line 39 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+\begin{DoxyCode}
+40         \{
+41             \textcolor{keywordflow}{if} (!\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_ae48d582f5f9db4788e0f5f7c1bfe9b6e}{Active}()) \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+42             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Open();
+43             SqlCeCommand cmd = \textcolor{keyword}{new} SqlCeCommand(\textcolor{stringliteral}{"INSERT INTO Asistencias(idClub, idAlumno, parcial,
+       date)VALUES(@club, @cuenta, @parcial, @date)"}, \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion});
+44             cmd.Parameters.AddWithValue(\textcolor{stringliteral}{"@club"}, club);
+45             cmd.Parameters.AddWithValue(\textcolor{stringliteral}{"@cuenta"}, \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a6d2aa009497445d62699e3c9d402ca78}{numeroCuenta});
+46             cmd.Parameters.AddWithValue(\textcolor{stringliteral}{"@parcial"}, parcial);
+47             cmd.Parameters.AddWithValue(\textcolor{stringliteral}{"@date"}, DateTime.Now);
+48 
+49             \textcolor{comment}{//MessageBox.Show(DateTime.Now.Ticks);}
+50             \textcolor{keywordflow}{try}
+51             \{
+52                 cmd.ExecuteNonQuery();
+53             \}
+54             \textcolor{keywordflow}{catch} (System.InvalidOperationException ex)
+55             \{
+56                 MessageBoxResult mes = MessageBox.Show(ex.ToString());
+57                 \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Close();
+58                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+59             \}
+60             \textcolor{keywordflow}{catch} (SqlCeException ex)
+61             \{
+62                 MessageBoxResult mes = MessageBox.Show(ex.ToString());
+63                 \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Close();
+64                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+65             \}
+66             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Close();
+67 
+68             \textcolor{comment}{//Holder.asistencias++;}
+69             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a7f5283d025ade6827ef7504f111bc1c7}{Asistencias}.Add(\textcolor{keyword}{new} Asistencia()
+70             \{
+71                 Date = DateTime.Now,
+72                 Parcial = parcial,
+73             \});
+74             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+75         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_a1dc90dc3e9b1f2b0d5ac6997b23006d6}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!Clear@{Clear}}
+\index{Clear@{Clear}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{Clear}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-Clear (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_a1dc90dc3e9b1f2b0d5ac6997b23006d6}
+
+
+Definition at line 28 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+\begin{DoxyCode}
+29         \{
+30             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder} = null;
+31         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_aaa8e1dc62ddda84ff70cc4477feef0c6}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!cuenta\-Modificada@{cuenta\-Modificada}}
+\index{cuenta\-Modificada@{cuenta\-Modificada}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{cuenta\-Modificada}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-cuenta\-Modificada (
+\begin{DoxyParamCaption}
+\item[{object}]{sender, }
+\item[{Property\-Changed\-Event\-Args}]{e}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_aaa8e1dc62ddda84ff70cc4477feef0c6}
+
+
+Definition at line 160 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+\begin{DoxyCode}
+161         \{
+162             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder} = (Asistente)sender;
+163             \textcolor{keywordflow}{switch} (e.PropertyName)
+164             \{
+165                 \textcolor{keywordflow}{case} \textcolor{stringliteral}{"Nombre"}:
+166                     \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a94c6e11567ec422e62c275ed6d2cacab}{modificarDato}(\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0}{ValoresModificables}.Nombre);
+167                     \textcolor{keywordflow}{break};
+168 
+169                 \textcolor{keywordflow}{case} \textcolor{stringliteral}{"Cuenta"}:
+170                     \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a94c6e11567ec422e62c275ed6d2cacab}{modificarDato}(\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0}{ValoresModificables}.NumeroCuenta);
+171                     \textcolor{keywordflow}{break};
+172 
+173                 \textcolor{keywordflow}{case} \textcolor{stringliteral}{"Plantel"}:
+174                     \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a94c6e11567ec422e62c275ed6d2cacab}{modificarDato}(\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0}{ValoresModificables}.Plantel);
+175                     \textcolor{keywordflow}{break};
+176             \}
+177             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a1dc90dc3e9b1f2b0d5ac6997b23006d6}{Clear}();
+178         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_a94c6e11567ec422e62c275ed6d2cacab}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!modificar\-Dato@{modificar\-Dato}}
+\index{modificar\-Dato@{modificar\-Dato}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{modificar\-Dato}]{\setlength{\rightskip}{0pt plus 5cm}bool Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-modificar\-Dato (
+\begin{DoxyParamCaption}
+\item[{{\bf Valores\-Modificables}}]{modificar}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_a94c6e11567ec422e62c275ed6d2cacab}
+
+
+Definition at line 77 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+\begin{DoxyCode}
+78         \{
+79             \textcolor{comment}{//UPDATE Alumnos SET Nombre = N'Jorge Figueroa Perez' WHERE (Alumnos.NumeroCuenta = 20094894)//}
+80             \textcolor{keywordflow}{if} (!\hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_ae48d582f5f9db4788e0f5f7c1bfe9b6e}{Active}()) \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+81             \textcolor{keywordtype}{int} numeroCuentaQuery = 0;
+82             \textcolor{keywordtype}{string} valorAModificarQuery = \textcolor{stringliteral}{""};
+83             \textcolor{keywordtype}{string} valorNuevoQuery = \textcolor{stringliteral}{""};
+84             \textcolor{keywordflow}{switch} (modificar)
+85             \{
+86                 \textcolor{keywordflow}{case} \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0}{ValoresModificables}.Nombre:
+87                     numeroCuentaQuery = \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a6d2aa009497445d62699e3c9d402ca78}{numeroCuenta};
+88                     valorAModificarQuery = \textcolor{stringliteral}{"Nombre"};
+89                     valorNuevoQuery = \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a321714ee92e497c61236fedca32912cb}{Nombre};
+90                     \textcolor{keywordflow}{break};
+91 
+92                 \textcolor{keywordflow}{case} \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0}{ValoresModificables}.NumeroCuenta:
+93                     numeroCuentaQuery = \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a0b2aea45dc518be02f9f506176993342}{CuentaOriginal}();
+94                     valorAModificarQuery = \textcolor{stringliteral}{"NumeroCuenta"};
+95                     valorNuevoQuery = \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a6d2aa009497445d62699e3c9d402ca78}{numeroCuenta}.ToString();
+96                     \textcolor{keywordflow}{break};
+97 
+98                 \textcolor{keywordflow}{case} \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_aeae46a91b8b2adb28f456244aacfb8f0}{ValoresModificables}.Plantel:
+99                     numeroCuentaQuery = \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a6d2aa009497445d62699e3c9d402ca78}{numeroCuenta};
+100                     valorAModificarQuery = \textcolor{stringliteral}{"Plantel"};
+101                     valorNuevoQuery = \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder}.\hyperlink{class_asistencias__wpf_1_1_asistente_a4346dd7e16f0e8ef5de301d5e2b0439b}{plantel};
+102                     \textcolor{keywordflow}{break};
+103 
+104                 \textcolor{keywordflow}{default}:
+105                     \textcolor{keywordflow}{throw} \textcolor{keyword}{new} NotImplementedException();
+106             \}
+107             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Open();
+108 
+109             SqlCeCommand cmd = \textcolor{keyword}{new} SqlCeCommand(\textcolor{stringliteral}{"UPDATE Alumnos SET "} + valorAModificarQuery + \textcolor{stringliteral}{" = N'"} + 
+      valorNuevoQuery + \textcolor{stringliteral}{"' WHERE (Alumnos.NumeroCuenta = "} + numeroCuentaQuery.ToString() + \textcolor{stringliteral}{")"}, 
+      \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion});
+110 
+111             \textcolor{keywordflow}{try}
+112             \{
+113                 cmd.ExecuteNonQuery();
+114                 MessageBox.Show(modificar.ToString() + \textcolor{stringliteral}{" modificado por "} + valorNuevoQuery + \textcolor{stringliteral}{"."});
+115             \}
+116             \textcolor{keywordflow}{catch} (System.InvalidOperationException ex)
+117             \{
+118                 MessageBoxResult mes = MessageBox.Show(\textcolor{stringliteral}{"Query: "} + cmd.CommandText + \textcolor{stringliteral}{" - "} + ex.ToString())
+      ;
+119                 \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Close();
+120                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+121             \}
+122             \textcolor{keywordflow}{catch} (SqlCeException ex)
+123             \{
+124                 MessageBoxResult mes = MessageBox.Show(\textcolor{stringliteral}{"Query: "} + cmd.CommandText + \textcolor{stringliteral}{" - "} + ex.ToString())
+      ;
+125                 \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Close();
+126                 \textcolor{keywordflow}{return} \textcolor{keyword}{false};
+127             \}
+128             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{conexion}.Close();
+129             \textcolor{keywordflow}{return} \textcolor{keyword}{true};
+130         \}
+\end{DoxyCode}
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_a695b53193eabec4814e2a09a4811dba9}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!set\-Asistente@{set\-Asistente}}
+\index{set\-Asistente@{set\-Asistente}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{set\-Asistente}]{\setlength{\rightskip}{0pt plus 5cm}void Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-set\-Asistente (
+\begin{DoxyParamCaption}
+\item[{{\bf Asistente}}]{Input}
+\end{DoxyParamCaption}
+)}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_a695b53193eabec4814e2a09a4811dba9}
+
+
+Definition at line 23 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+\begin{DoxyCode}
+24         \{
+25             \hyperlink{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{Holder} = Input;
+26         \}
+\end{DoxyCode}
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!conexion@{conexion}}
+\index{conexion@{conexion}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{conexion}]{\setlength{\rightskip}{0pt plus 5cm}Sql\-Ce\-Connection Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-conexion\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_a4ed268d53c358adfb5ca0185439bd6cf}
+
+
+Definition at line 20 of file Asistente\-D\-B\-Manager.\-cs.
+
+\hypertarget{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}{\index{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}!Holder@{Holder}}
+\index{Holder@{Holder}!Asistencias_wpf::AsistenteDBManager@{Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}}
+\subsubsection[{Holder}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Asistente} Asistencias\-\_\-wpf.\-Asistente\-D\-B\-Manager.\-Holder\hspace{0.3cm}{\ttfamily [private]}}}\label{class_asistencias__wpf_1_1_asistente_d_b_manager_a4f73db2d92f913ccc8862126717968cd}
+
+
+Definition at line 21 of file Asistente\-D\-B\-Manager.\-cs.
+
+
+
+The documentation for this class was generated from the following file\-:\begin{DoxyCompactItemize}
+\item 
+Asistencias\-\_\-wpf/\hyperlink{_asistente_d_b_manager_8cs}{Asistente\-D\-B\-Manager.\-cs}\end{DoxyCompactItemize}

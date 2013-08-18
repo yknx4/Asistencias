@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.4">
+  <compounddef id="dir_776076b75ff0d52fe36e8ab92249e14f" kind="dir">
+    <compoundname>ImportarCuentas</compoundname>
+    <innerdir refid="dir_8b0ab6c1d4e539a7ca333a6fe70f2a08">ImportarCuentas/Properties</innerdir>
+    <innerfile refid="d7/d81/_importar_cuentas_2_program_8cs">Program.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Yknx4/Documents/Visual Studio 2012/Projects/Asistencias/ImportarCuentas/"/>
+  </compounddef>
+</doxygen>

@@ -4,6 +4,9 @@ using System.ComponentModel;
 
 namespace Asistencias_wpf
 {
+    /// <summary>
+    /// Class about an attendant
+    /// </summary>
     public class Asistente : INotifyPropertyChanged
     {
         private int _cuentaAnterior;
@@ -17,6 +20,12 @@ namespace Asistencias_wpf
             return _cuentaAnterior;
         }
 
+        /// <summary>
+        /// Gets or sets the attendances of the attendant.
+        /// </summary>
+        /// <value>
+        /// The asistencias.
+        /// </value>
         public List<Asistencia> Asistencias
         {
             get
@@ -29,7 +38,13 @@ namespace Asistencias_wpf
             }
         }
 
-        public string nombre
+        /// <summary>
+        /// Gets or sets the Name.
+        /// </summary>
+        /// <value>
+        /// The Name.
+        /// </value>
+        public string Nombre
         {
             get { return _nombre; }
             set
@@ -39,6 +54,12 @@ namespace Asistencias_wpf
             }
         }
 
+        /// <summary>
+        /// Gets or sets the ID.
+        /// </summary>
+        /// <value>
+        /// The ID.
+        /// </value>
         public int numeroCuenta
         {
             get { return _numeroCuenta; }
@@ -50,6 +71,12 @@ namespace Asistencias_wpf
             }
         }
 
+        /// <summary>
+        /// Gets or sets the campus.
+        /// </summary>
+        /// <value>
+        /// The campus.
+        /// </value>
         public string plantel
         {
             get { return _plantel; }
@@ -60,6 +87,13 @@ namespace Asistencias_wpf
             }
         }
 
+        /// <summary>
+        /// Gets or sets the number of attendances.
+        /// </summary>
+        /// <value>
+        /// The Attendances list count.
+        /// </value>
+        /// <exception cref="System.NotImplementedException">When trying to set attendance number</exception>
         public int asistencias
         {
             get { return _asistencias.Count; }
@@ -71,12 +105,19 @@ namespace Asistencias_wpf
 
         #region INotifyPropertyChanged Members
 
+        /// <summary>
+        /// Occurs when a property value changes.
+        /// </summary>
         public event PropertyChangedEventHandler PropertyChanged;
 
         #endregion INotifyPropertyChanged Members
 
         #region Private Helpers
 
+        /// <summary>
+        /// Notifies the property changed.
+        /// </summary>
+        /// <param name="propertyName">Name of the property.</param>
         private void NotifyPropertyChanged(string propertyName)
         {
             if (PropertyChanged != null)
