@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Data.SqlServerCe;
-using System.Windows;
 
 namespace Asistencias_wpf
 {
@@ -16,6 +15,7 @@ namespace Asistencias_wpf
         private SqlCeConnection conn;
         private AsistenteDBManager asistenteDB;
         private int parcial;
+
         public void cuentaModificada(object sender, PropertyChangedEventArgs e)
         {
             asistenteDB.cuentaModificada(sender, e);
@@ -100,7 +100,5 @@ namespace Asistencias_wpf
                 _asistentes.Add(actual);
             }
         }
-
-       
     }
 }

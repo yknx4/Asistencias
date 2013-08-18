@@ -22,10 +22,12 @@ namespace Asistencias_wpf
             AlIniciar();
             DespuesDeCargar();
         }
-        public void Refresh() {
+
+        public void Refresh()
+        {
             AlIniciar();
             DespuesDeCargar();
-            llenarParcial(cmbClub,null);
+            llenarParcial(cmbClub, null);
         }
 
         private void DespuesDeCargar()
@@ -44,7 +46,7 @@ namespace Asistencias_wpf
                     Nombre = nombre,
                     AsistenciasParaParcial = asistencias,
                     Parciales = parciales
-                };              
+                };
                 cmbClub.Items.Add(tmp);
             }
             cmbClub.SelectedIndex = 0;
@@ -56,13 +58,13 @@ namespace Asistencias_wpf
         {
             SqlCeDataAdapter adap = new SqlCeDataAdapter("SELECT Clubes.* FROM Clubes", conn);
             Clubes.Clear();
+
             //the adapter will open and close the connection for you.
             adap.Fill(Clubes);
         }
 
         private void llenarParcial(object sender, SelectionChangedEventArgs e)
         {
-            
             cmbParcial.SelectedIndex = 0;
             cmbParcial.Items.Clear();
             ComboBox comboClub = (ComboBox)sender;
@@ -84,12 +86,12 @@ namespace Asistencias_wpf
 
         private void clickEntrar(object sender, RoutedEventArgs e)
         {
-            if (cmbClub.Items.Count==0)
+            if (cmbClub.Items.Count == 0)
             {
                 ((Button)sender).IsEnabled = false;
                 return;
             }
-            if (cmbParcial.SelectedIndex<=-1)
+            if (cmbParcial.SelectedIndex <= -1)
             {
                 cmbParcial.SelectedIndex = 0;
             }
@@ -97,10 +99,12 @@ namespace Asistencias_wpf
             main.Show();
             this.Hide();
         }
+
         public void enableEntrar()
         {
             btnEntrar.IsEnabled = true;
         }
+
         private void clickClubes(object sender, RoutedEventArgs e)
         {
             RegistroClub ventanaRegistro = new RegistroClub(this);

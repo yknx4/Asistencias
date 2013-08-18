@@ -36,38 +36,40 @@ namespace Asistencias_wpf
             return true;
         }
 
-
         public bool modificarDato(ValoresModificables modificar)
         {
             //UPDATE Alumnos SET Nombre = N'Jorge Figueroa Perez' WHERE (Alumnos.NumeroCuenta = 20094894)//
             if (!Active()) return false;
-            int clubIDQuery = Holder.Id ;
-            string valorAModificarQuery="";
+            int clubIDQuery = Holder.Id;
+            string valorAModificarQuery = "";
             string valorNuevoQuery = "";
             switch (modificar)
             {
                 case ValoresModificables.Nombre:
-                    
-                    valorAModificarQuery="nombre";
+
+                    valorAModificarQuery = "nombre";
                     valorNuevoQuery = Holder.Nombre;
                     break;
+
                 case ValoresModificables.AsistenciasParaAcreditar:
-                   
-                    valorAModificarQuery="asisForAssist";
+
+                    valorAModificarQuery = "asisForAssist";
                     valorNuevoQuery = Holder.AsistenciasParaParcial.ToString();
                     break;
+
                 case ValoresModificables.Parciales:
-                   
-                    valorAModificarQuery="parciales";
+
+                    valorAModificarQuery = "parciales";
                     valorNuevoQuery = Holder.Parciales.ToString();
                     break;
+
                 default:
                     throw new NotImplementedException();
             }
             conexion.Open();
 
-            SqlCeCommand cmd = new SqlCeCommand("UPDATE Clubes SET "+valorAModificarQuery+" = N'"+valorNuevoQuery+"' WHERE (Clubes.id = "+clubIDQuery.ToString()+")", conexion);
-          
+            SqlCeCommand cmd = new SqlCeCommand("UPDATE Clubes SET " + valorAModificarQuery + " = N'" + valorNuevoQuery + "' WHERE (Clubes.id = " + clubIDQuery.ToString() + ")", conexion);
+
             try
             {
                 cmd.ExecuteNonQuery();
@@ -75,7 +77,7 @@ namespace Asistencias_wpf
             }
             catch (System.InvalidOperationException ex)
             {
-                MessageBoxResult mes = MessageBox.Show("Query: "+cmd.CommandText+" - "+ex.ToString());
+                MessageBoxResult mes = MessageBox.Show("Query: " + cmd.CommandText + " - " + ex.ToString());
                 conexion.Close();
                 return false;
             }
@@ -88,7 +90,6 @@ namespace Asistencias_wpf
             conexion.Close();
             return true;
         }
-        
 
         public bool AddToDB()
         {
@@ -101,7 +102,6 @@ namespace Asistencias_wpf
             try
             {
                 cmd.ExecuteNonQuery();
-                
             }
             catch (System.InvalidOperationException ex)
             {
@@ -118,6 +118,7 @@ namespace Asistencias_wpf
             conexion.Close();
             return true;
         }
+
         public bool RemoveFromDB()
         {
             if (!Active()) return false;
@@ -129,8 +130,8 @@ namespace Asistencias_wpf
             try
             {
                 deleteClub.ExecuteNonQuery();
-                int asistenciasEliminadas=deleteAssist.ExecuteNonQuery();
-                MessageBox.Show(Holder.Nombre + " eliminado.\nEliminadas "+asistenciasEliminadas.ToString()+" asistencias.");
+                int asistenciasEliminadas = deleteAssist.ExecuteNonQuery();
+                MessageBox.Show(Holder.Nombre + " eliminado.\nEliminadas " + asistenciasEliminadas.ToString() + " asistencias.");
             }
             catch (System.InvalidOperationException ex)
             {
@@ -147,13 +148,14 @@ namespace Asistencias_wpf
             conexion.Close();
             return true;
         }
+
         public void clubModificado(object sender, PropertyChangedEventArgs e)
         {
             Holder = (Club)sender;
             switch (e.PropertyName)
-                {
+            {
                 case "Nombre":
-                        modificarDato(ValoresModificables.Nombre);
+                    modificarDato(ValoresModificables.Nombre);
                     break;
 
                 case "Asistencias Necesarias":
@@ -163,7 +165,7 @@ namespace Asistencias_wpf
                 case "Parciales":
                     modificarDato(ValoresModificables.Parciales);
                     break;
-                }
+            }
             Clear();
         }
     }

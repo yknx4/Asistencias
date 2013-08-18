@@ -78,33 +78,36 @@ namespace Asistencias_wpf
         {
             //UPDATE Alumnos SET Nombre = N'Jorge Figueroa Perez' WHERE (Alumnos.NumeroCuenta = 20094894)//
             if (!Active()) return false;
-            int numeroCuentaQuery=0;
-            string valorAModificarQuery="";
+            int numeroCuentaQuery = 0;
+            string valorAModificarQuery = "";
             string valorNuevoQuery = "";
             switch (modificar)
             {
                 case ValoresModificables.Nombre:
                     numeroCuentaQuery = Holder.numeroCuenta;
-                    valorAModificarQuery="Nombre";
+                    valorAModificarQuery = "Nombre";
                     valorNuevoQuery = Holder.nombre;
                     break;
+
                 case ValoresModificables.NumeroCuenta:
                     numeroCuentaQuery = Holder.CuentaOriginal();
-                    valorAModificarQuery="NumeroCuenta";
+                    valorAModificarQuery = "NumeroCuenta";
                     valorNuevoQuery = Holder.numeroCuenta.ToString();
                     break;
+
                 case ValoresModificables.Plantel:
                     numeroCuentaQuery = Holder.numeroCuenta;
-                    valorAModificarQuery="Plantel";
+                    valorAModificarQuery = "Plantel";
                     valorNuevoQuery = Holder.plantel;
                     break;
+
                 default:
                     throw new NotImplementedException();
             }
             conexion.Open();
 
-            SqlCeCommand cmd = new SqlCeCommand("UPDATE Alumnos SET "+valorAModificarQuery+" = N'"+valorNuevoQuery+"' WHERE (Alumnos.NumeroCuenta = "+numeroCuentaQuery.ToString()+")", conexion);
-          
+            SqlCeCommand cmd = new SqlCeCommand("UPDATE Alumnos SET " + valorAModificarQuery + " = N'" + valorNuevoQuery + "' WHERE (Alumnos.NumeroCuenta = " + numeroCuentaQuery.ToString() + ")", conexion);
+
             try
             {
                 cmd.ExecuteNonQuery();
@@ -112,7 +115,7 @@ namespace Asistencias_wpf
             }
             catch (System.InvalidOperationException ex)
             {
-                MessageBoxResult mes = MessageBox.Show("Query: "+cmd.CommandText+" - "+ex.ToString());
+                MessageBoxResult mes = MessageBox.Show("Query: " + cmd.CommandText + " - " + ex.ToString());
                 conexion.Close();
                 return false;
             }
@@ -125,7 +128,6 @@ namespace Asistencias_wpf
             conexion.Close();
             return true;
         }
-        
 
         public bool AddToDB()
         {
@@ -154,13 +156,14 @@ namespace Asistencias_wpf
             conexion.Close();
             return true;
         }
+
         public void cuentaModificada(object sender, PropertyChangedEventArgs e)
         {
             Holder = (Asistente)sender;
             switch (e.PropertyName)
-                {
+            {
                 case "Nombre":
-                        modificarDato(ValoresModificables.Nombre);
+                    modificarDato(ValoresModificables.Nombre);
                     break;
 
                 case "Cuenta":
@@ -170,7 +173,7 @@ namespace Asistencias_wpf
                 case "Plantel":
                     modificarDato(ValoresModificables.Plantel);
                     break;
-                }
+            }
             Clear();
         }
     }

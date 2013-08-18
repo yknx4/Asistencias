@@ -19,6 +19,7 @@ namespace Asistencias_wpf
         private DataTable Alumnos = new DataTable();
         private AsistenteDBManager asistenteManager = new AsistenteDBManager(conn);
         private List<Asistente> asistentes;
+
         // private Asistente ResultHolder;
         private Club clubSeleccionado;
 
@@ -27,6 +28,7 @@ namespace Asistencias_wpf
 
         private AsistentesPopulator populator;
         private Window Sender;
+
         public MainWindow(Club seleccionado, int parcial, Window Sender)
         {
             this.Sender = Sender;
@@ -84,7 +86,6 @@ namespace Asistencias_wpf
                 {
                     lblEstado.Content = ResultHolder.nombre + " tiene " + ResultHolder.asistencias + " asistencias.";
                     txtCuenta.Text = "";
-                    
                 }
                 else
                 {
@@ -97,7 +98,6 @@ namespace Asistencias_wpf
             {
                 lblEstado.Content = "Esa cuenta no existe.";
             }
-            
         }
 
         private void btnAnadirAsis(object sender, RoutedEventArgs e)
@@ -140,6 +140,7 @@ namespace Asistencias_wpf
             });
             return _result;
         }
+
         private void generatingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
         {
             switch (e.PropertyName)
@@ -260,7 +261,6 @@ namespace Asistencias_wpf
                 nombre = txtNombre.Text,
                 numeroCuenta = Convert.ToInt32(txtCuentaR.Text),
                 plantel = txtPlantel.Text,
-                
             };
             actual.PropertyChanged += populator.cuentaModificada;
             asistenteManager.setAsistente(actual);
@@ -279,6 +279,7 @@ namespace Asistencias_wpf
             }
             asistenteManager.Clear();
         }
+
         private void selectedCellsChange(object sender, SelectedCellsChangedEventArgs e)
         {
             PopupLookup.IsOpen = false;

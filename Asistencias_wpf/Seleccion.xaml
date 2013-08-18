@@ -18,19 +18,17 @@
                 <ColumnDefinition MinWidth="200"></ColumnDefinition>
             </Grid.ColumnDefinitions>
             <Label Content="Club:" Grid.Row="0" Grid.Column="0"></Label>
-            <Label Content="Parcial:" Grid.Row="1" Grid.Column="0"></Label>          
+            <Label Content="Parcial:" Grid.Row="1" Grid.Column="0"></Label>
             <ComboBox x:Name="cmbClub"  SelectionChanged="llenarParcial" SelectedIndex="0" Grid.Row="0" Grid.Column="1"></ComboBox>
-            
-            
+
             <ComboBox x:Name="cmbParcial" Grid.Row="1" Grid.Column="1" SelectedIndex="0" ></ComboBox>
         </Grid>
         <StackPanel Margin="5,5,5,5" Grid.Row="1">
-        <Button x:Name="btnEntrar"  Content="Entrar"  Click="clickEntrar"></Button>
+            <Button x:Name="btnEntrar"  Content="Entrar"  Click="clickEntrar"></Button>
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
                 <Button  Content="Clubes" FontSize="9" Click="clickClubes" Width="80" Margin="0,5,0,0"></Button>
                 <Button Content="Editar" FontSize="9" Width="40" Margin="5,5,0,0" Click="clickEdit"></Button>
             </StackPanel>
-        
         </StackPanel>
     </Grid>
 </Window>

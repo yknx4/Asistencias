@@ -13,23 +13,21 @@
             <ColumnDefinition Width="auto"></ColumnDefinition>
             <ColumnDefinition Width="auto"></ColumnDefinition>
         </Grid.ColumnDefinitions>
-        <StackPanel Orientation="Vertical" Grid.Column="0" >
+        <StackPanel Orientation="Vertical" Grid.Column="0">
             <Label Content="Nombre:"></Label>
             <Label Content="Asistencias Necesarias:"></Label>
             <Label Content="Parciales:"></Label>
-            
         </StackPanel>
         <StackPanel Orientation="Vertical" Grid.Column="1">
             <TextBox x:Name="txtNombre" MinWidth="200" HorizontalAlignment="Right" Margin="4,4,4,4"></TextBox>
-            <Slider x:Name="sldAssist" Width="200" Maximum="6" Minimum="1" SmallChange="0" Value="1" Margin="2,2,2,2" TickPlacement="TopLeft" IsSnapToTickEnabled="True" ValueChanged="sliderChange"/>
-            <Slider x:Name="sldParciales" Width="200" Maximum="6" Minimum="1" SmallChange="0" Value="1" Margin="2,2,2,2" TickPlacement="TopLeft" IsSnapToTickEnabled="True" ValueChanged="sliderChange"/>
+            <Slider x:Name="sldAssist" Width="200" Maximum="6" Minimum="1" SmallChange="0" Value="1" Margin="2,2,2,2" TickPlacement="TopLeft" IsSnapToTickEnabled="True" ValueChanged="sliderChange" />
+            <Slider x:Name="sldParciales" Width="200" Maximum="6" Minimum="1" SmallChange="0" Value="1" Margin="2,2,2,2" TickPlacement="TopLeft" IsSnapToTickEnabled="True" ValueChanged="sliderChange" />
             <Button Content="Registrar" Click="clickRegistro"></Button>
         </StackPanel>
         <StackPanel Orientation="Vertical" Grid.Column="2">
             <Label x:Name="placeholder" Content=" "></Label>
             <Label x:Name="lblAsist" Content="1"></Label>
             <Label x:Name="lblParciales" Content="1"></Label>
-            
         </StackPanel>
     </Grid>
 </Window>

@@ -1,6 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
+﻿using System.ComponentModel;
+
 namespace Asistencias_wpf
 {
     public class Club
@@ -15,7 +14,6 @@ namespace Asistencias_wpf
             get { return _nombre; }
             set
             {
-                
                 _nombre = value;
                 NotifyPropertyChanged("Nombre");
             }
@@ -51,6 +49,7 @@ namespace Asistencias_wpf
         {
             return Nombre;
         }
+
         #region INotifyPropertyChanged Members
 
         public event PropertyChangedEventHandler PropertyChanged;
