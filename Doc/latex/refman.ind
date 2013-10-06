@@ -1,0 +1,1310 @@
+\begin{theindex}
+
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}acreditados}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{32}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}asistencias}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{25}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{34}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}asistentes}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{32}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{62}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{70}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{81}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{92}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{45}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}cuenta\discretionary {-}{}{}Anterior}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{25}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}id}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{34}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}nombre}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{25}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{34}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}numero\discretionary {-}{}{}Cuenta}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{25}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}parciales}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{34}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}plantel}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{25}
+  \item {\discretionary {-}{}{}\_\discretionary {-}{}{}schema\discretionary {-}{}{}Serialization\discretionary {-}{}{}Mode}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{18}
+
+  \indexspace
+
+  \item {Acreditados}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{33}
+  \item {acreditados}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{62}
+  \item {acreditados\discretionary {-}{}{}Clk}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{49}
+  \item {Active}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{27}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{36}
+  \item {Add\discretionary {-}{}{}To\discretionary {-}{}{}D\discretionary {-}{}{}B}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{27}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{36}
+  \item {al\discretionary {-}{}{}Cerrar}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{49}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{67}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{78}
+  \item {Al\discretionary {-}{}{}Iniciar}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{88}
+  \item {al\discretionary {-}{}{}Salir}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}App}, 
+		\hyperpage{21}
+  \item {Alumnos}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{32}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{62}
+  \item {Alumnos\discretionary {-}{}{}Connection\discretionary {-}{}{}String}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}, 
+		\hyperpage{95}
+  \item {Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{14}
+  \item {anadir\discretionary {-}{}{}Asistencia}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{28}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{49}
+  \item {Ascii\discretionary {-}{}{}Character}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{74}
+  \item {Asistencias}, \hyperpage{9}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{25}
+  \item {asistencias}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{25}
+  \item {Asistencias.\discretionary {-}{}{}Form1}, \hyperpage{39}
+  \item {Asistencias.\discretionary {-}{}{}Program}, \hyperpage{76}
+  \item {Asistencias.\discretionary {-}{}{}Properties}, \hyperpage{9}
+  \item {Asistencias.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Resources}, 
+		\hyperpage{84}
+  \item {Asistencias.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Settings}, 
+		\hyperpage{93}
+  \item {Asistencias/\discretionary {-}{}{}Form1.\discretionary {-}{}{}cs}, 
+		\hyperpage{97}
+  \item {Asistencias/\discretionary {-}{}{}Form1.\discretionary {-}{}{}Designer.\discretionary {-}{}{}cs}, 
+		\hyperpage{97}
+  \item {Asistencias/\discretionary {-}{}{}Program.\discretionary {-}{}{}cs}, 
+		\hyperpage{99}
+  \item {Asistencias/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.\discretionary {-}{}{}cs}, 
+		\hyperpage{100}
+  \item {Asistencias/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Resources.\discretionary {-}{}{}Designer.\discretionary {-}{}{}cs}, 
+		\hyperpage{101}
+  \item {Asistencias/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Settings.\discretionary {-}{}{}Designer.\discretionary {-}{}{}cs}, 
+		\hyperpage{102}
+  \item {Asistencias/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.\discretionary {-}{}{}cs}, 
+		\hyperpage{97}
+  \item {Asistencias/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {Asistencias/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.\discretionary {-}{}{}cs}, 
+		\hyperpage{97}
+  \item {Asistencias/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}
+    \subitem {Nombre}, \hyperpage{27}
+    \subitem {Numero\-Cuenta}, \hyperpage{27}
+    \subitem {Plantel}, \hyperpage{27}
+  \item {Asistencias\-\_\-wpf\-::\-Club\-D\-B\-Manager}
+    \subitem {Asistencias\-Para\-Acreditar}, \hyperpage{35}
+    \subitem {Nombre}, \hyperpage{35}
+    \subitem {Parciales}, \hyperpage{36}
+  \item {Asistencias\-Para\-Acreditar}
+    \subitem {Asistencias\-\_\-wpf\-::\-Club\-D\-B\-Manager}, 
+		\hyperpage{35}
+  \item {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}
+    \subitem {button1}, \hyperpage{42}
+    \subitem {button1\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Click}, 
+		\hyperpage{40}
+    \subitem {components}, \hyperpage{42}
+    \subitem {Dispose}, \hyperpage{40}
+    \subitem {Form1}, \hyperpage{40}
+    \subitem {Initialize\discretionary {-}{}{}Component}, 
+		\hyperpage{40}
+    \subitem {label1}, \hyperpage{42}
+    \subitem {lbl\discretionary {-}{}{}Estado}, \hyperpage{42}
+    \subitem {tab\discretionary {-}{}{}Asistencia}, \hyperpage{42}
+    \subitem {tab\discretionary {-}{}{}Control1}, \hyperpage{42}
+    \subitem {tab\discretionary {-}{}{}Registro}, \hyperpage{42}
+    \subitem {text\discretionary {-}{}{}Box1\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Text\discretionary {-}{}{}Changed}, 
+		\hyperpage{41}
+    \subitem {txt\discretionary {-}{}{}Cuenta}, \hyperpage{42}
+  \item {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Program}
+    \subitem {Main}, \hyperpage{76}
+  \item {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}
+    \subitem {Culture}, \hyperpage{85}
+    \subitem {resource\discretionary {-}{}{}Culture}, \hyperpage{85}
+    \subitem {resource\discretionary {-}{}{}Man}, \hyperpage{85}
+    \subitem {Resource\discretionary {-}{}{}Manager}, \hyperpage{85}
+    \subitem {Resources}, \hyperpage{84}
+  \item {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}
+    \subitem {Default}, \hyperpage{93}
+    \subitem {default\discretionary {-}{}{}Instance}, \hyperpage{93}
+    \subitem {Setting}, \hyperpage{93}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf}, 
+		\hyperpage{9}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{13}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}App}, 
+		\hyperpage{20}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Asistencia}, 
+		\hyperpage{23}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Asistente}, 
+		\hyperpage{24}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{26}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{30}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Club}, 
+		\hyperpage{33}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{35}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{46}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Main\discretionary {-}{}{}Window\discretionary {-}{}{}View\discretionary {-}{}{}Model}, 
+		\hyperpage{65}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{65}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties}, 
+		\hyperpage{10}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Resources}, 
+		\hyperpage{82}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Settings}, 
+		\hyperpage{94}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{77}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{87}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set.\discretionary {-}{}{}Designer.\discretionary {-}{}{}cs}, 
+		\hyperpage{103}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}App.\discretionary {-}{}{}xaml.\discretionary {-}{}{}cs}, 
+		\hyperpage{103}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Asistencia.\discretionary {-}{}{}cs}, 
+		\hyperpage{104}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Asistente.\discretionary {-}{}{}cs}, 
+		\hyperpage{104}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
+		\hyperpage{104}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator.\discretionary {-}{}{}cs}, 
+		\hyperpage{105}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Club.\discretionary {-}{}{}cs}, 
+		\hyperpage{105}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager.\discretionary {-}{}{}cs}, 
+		\hyperpage{105}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.\discretionary {-}{}{}xaml.\discretionary {-}{}{}cs}, 
+		\hyperpage{105}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Main\discretionary {-}{}{}Window\discretionary {-}{}{}View\discretionary {-}{}{}Model.\discretionary {-}{}{}cs}, 
+		\hyperpage{106}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club.\discretionary {-}{}{}xaml.\discretionary {-}{}{}cs}, 
+		\hyperpage{106}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.\discretionary {-}{}{}cs}, 
+		\hyperpage{100}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Resources.\discretionary {-}{}{}Designer.\discretionary {-}{}{}cs}, 
+		\hyperpage{101}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Settings.\discretionary {-}{}{}Designer.\discretionary {-}{}{}cs}, 
+		\hyperpage{102}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Registro\discretionary {-}{}{}Club.\discretionary {-}{}{}xaml.\discretionary {-}{}{}cs}, 
+		\hyperpage{113}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Seleccion.\discretionary {-}{}{}xaml.\discretionary {-}{}{}cs}, 
+		\hyperpage{113}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}App.\discretionary {-}{}{}g.\discretionary {-}{}{}cs}, 
+		\hyperpage{107}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}App.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{108}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Content.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{109}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.\discretionary {-}{}{}g.\discretionary {-}{}{}cs}, 
+		\hyperpage{109}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{110}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}App.\discretionary {-}{}{}g.\discretionary {-}{}{}cs}, 
+		\hyperpage{107}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}App.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{108}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Content.\discretionary {-}{}{}g.\discretionary {-}{}{}cs}, 
+		\hyperpage{111}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Content.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{109}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.\discretionary {-}{}{}g.\discretionary {-}{}{}cs}, 
+		\hyperpage{109}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{110}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club.\discretionary {-}{}{}g.\discretionary {-}{}{}cs}, 
+		\hyperpage{111}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{111}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Registro\discretionary {-}{}{}Club.\discretionary {-}{}{}g.\discretionary {-}{}{}cs}, 
+		\hyperpage{111}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Registro\discretionary {-}{}{}Club.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{112}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Seleccion.\discretionary {-}{}{}g.\discretionary {-}{}{}cs}, 
+		\hyperpage{112}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Seleccion.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{112}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}schema\discretionary {-}{}{}Serialization\discretionary {-}{}{}Mode}, 
+		\hyperpage{18}
+    \subitem {Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{14}
+    \subitem {Clone}, \hyperpage{15}
+    \subitem {Get\discretionary {-}{}{}Schema\discretionary {-}{}{}Serializable}, 
+		\hyperpage{15}
+    \subitem {Get\discretionary {-}{}{}Typed\discretionary {-}{}{}Data\discretionary {-}{}{}Set\discretionary {-}{}{}Schema}, 
+		\hyperpage{15}
+    \subitem {Init\discretionary {-}{}{}Class}, \hyperpage{16}
+    \subitem {Init\discretionary {-}{}{}Vars}, \hyperpage{16}
+    \subitem {Initialize\discretionary {-}{}{}Derived\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{16}
+    \subitem {Read\discretionary {-}{}{}Xml\discretionary {-}{}{}Serializable}, 
+		\hyperpage{17}
+    \subitem {Relations}, \hyperpage{18}
+    \subitem {Schema\discretionary {-}{}{}Changed}, \hyperpage{17}
+    \subitem {Schema\discretionary {-}{}{}Serialization\discretionary {-}{}{}Mode}, 
+		\hyperpage{18}
+    \subitem {Should\discretionary {-}{}{}Serialize\discretionary {-}{}{}Relations}, 
+		\hyperpage{17}
+    \subitem {Should\discretionary {-}{}{}Serialize\discretionary {-}{}{}Tables}, 
+		\hyperpage{17}
+    \subitem {Tables}, \hyperpage{18}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}App}
+    \subitem {al\discretionary {-}{}{}Salir}, \hyperpage{21}
+    \subitem {Initialize\discretionary {-}{}{}Component}, 
+		\hyperpage{21}
+    \subitem {Main}, \hyperpage{22}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistencia}
+    \subitem {Date}, \hyperpage{23}
+    \subitem {Parcial}, \hyperpage{23}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}asistencias}, 
+		\hyperpage{25}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}cuenta\discretionary {-}{}{}Anterior}, 
+		\hyperpage{25}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}nombre}, 
+		\hyperpage{25}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}numero\discretionary {-}{}{}Cuenta}, 
+		\hyperpage{25}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}plantel}, 
+		\hyperpage{25}
+    \subitem {Asistencias}, \hyperpage{25}
+    \subitem {asistencias}, \hyperpage{25}
+    \subitem {Cuenta\discretionary {-}{}{}Original}, \hyperpage{25}
+    \subitem {Nombre}, \hyperpage{26}
+    \subitem {Notify\discretionary {-}{}{}Property\discretionary {-}{}{}Changed}, 
+		\hyperpage{25}
+    \subitem {numero\discretionary {-}{}{}Cuenta}, \hyperpage{26}
+    \subitem {plantel}, \hyperpage{26}
+    \subitem {Property\discretionary {-}{}{}Changed}, \hyperpage{26}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}
+    \subitem {Active}, \hyperpage{27}
+    \subitem {Add\discretionary {-}{}{}To\discretionary {-}{}{}D\discretionary {-}{}{}B}, 
+		\hyperpage{27}
+    \subitem {anadir\discretionary {-}{}{}Asistencia}, \hyperpage{28}
+    \subitem {Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{27}
+    \subitem {Clear}, \hyperpage{28}
+    \subitem {conexion}, \hyperpage{30}
+    \subitem {cuenta\discretionary {-}{}{}Modificada}, \hyperpage{29}
+    \subitem {Holder}, \hyperpage{30}
+    \subitem {modificar\discretionary {-}{}{}Dato}, \hyperpage{29}
+    \subitem {set\discretionary {-}{}{}Asistente}, \hyperpage{30}
+    \subitem {Valores\discretionary {-}{}{}Modificables}, 
+		\hyperpage{27}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}acreditados}, 
+		\hyperpage{32}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}asistentes}, 
+		\hyperpage{32}
+    \subitem {Acreditados}, \hyperpage{33}
+    \subitem {Alumnos}, \hyperpage{32}
+    \subitem {asistente\discretionary {-}{}{}D\discretionary {-}{}{}B}, 
+		\hyperpage{32}
+    \subitem {Asistentes}, \hyperpage{33}
+    \subitem {Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{31}
+    \subitem {club\discretionary {-}{}{}Seleccionado}, \hyperpage{32}
+    \subitem {conn}, \hyperpage{32}
+    \subitem {cuenta\discretionary {-}{}{}Modificada}, \hyperpage{31}
+    \subitem {generar\discretionary {-}{}{}Acreditados}, \hyperpage{31}
+    \subitem {generar\discretionary {-}{}{}Lista}, \hyperpage{31}
+    \subitem {parcial}, \hyperpage{32}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}asistencias}, 
+		\hyperpage{34}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}id}, 
+		\hyperpage{34}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}nombre}, 
+		\hyperpage{34}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}parciales}, 
+		\hyperpage{34}
+    \subitem {Asistencias\discretionary {-}{}{}Para\discretionary {-}{}{}Parcial}, 
+		\hyperpage{34}
+    \subitem {Id}, \hyperpage{34}
+    \subitem {Nombre}, \hyperpage{34}
+    \subitem {Notify\discretionary {-}{}{}Property\discretionary {-}{}{}Changed}, 
+		\hyperpage{34}
+    \subitem {Parciales}, \hyperpage{34}
+    \subitem {Property\discretionary {-}{}{}Changed}, \hyperpage{35}
+    \subitem {To\discretionary {-}{}{}String}, \hyperpage{34}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}
+    \subitem {Active}, \hyperpage{36}
+    \subitem {Add\discretionary {-}{}{}To\discretionary {-}{}{}D\discretionary {-}{}{}B}, 
+		\hyperpage{36}
+    \subitem {Clear}, \hyperpage{36}
+    \subitem {Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{36}
+    \subitem {club\discretionary {-}{}{}Modificado}, \hyperpage{37}
+    \subitem {conexion}, \hyperpage{38}
+    \subitem {Holder}, \hyperpage{38}
+    \subitem {modificar\discretionary {-}{}{}Dato}, \hyperpage{37}
+    \subitem {Remove\discretionary {-}{}{}From\discretionary {-}{}{}D\discretionary {-}{}{}B}, 
+		\hyperpage{38}
+    \subitem {set\discretionary {-}{}{}Club}, \hyperpage{38}
+    \subitem {Valores\discretionary {-}{}{}Modificables}, 
+		\hyperpage{35}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}, 
+		\hyperpage{62}
+    \subitem {acreditados}, \hyperpage{62}
+    \subitem {acreditados\discretionary {-}{}{}Clk}, \hyperpage{49}
+    \subitem {al\discretionary {-}{}{}Cerrar}, \hyperpage{49}
+    \subitem {Alumnos}, \hyperpage{62}
+    \subitem {anadir\discretionary {-}{}{}Asistencia}, \hyperpage{49}
+    \subitem {asistente\discretionary {-}{}{}Manager}, \hyperpage{63}
+    \subitem {asistentes}, \hyperpage{63}
+    \subitem {btn\discretionary {-}{}{}Acreditados}, \hyperpage{63}
+    \subitem {btn\discretionary {-}{}{}Anadir\discretionary {-}{}{}Asis}, 
+		\hyperpage{50}
+    \subitem {btn\discretionary {-}{}{}Asist}, \hyperpage{63}
+    \subitem {btn\discretionary {-}{}{}Lookup}, \hyperpage{63}
+    \subitem {btn\discretionary {-}{}{}Lookup\discretionary {-}{}{}Click}, 
+		\hyperpage{50}
+    \subitem {btn\discretionary {-}{}{}Registrar}, \hyperpage{63}
+    \subitem {buscar\discretionary {-}{}{}Asistente}, \hyperpage{50}
+    \subitem {cell\discretionary {-}{}{}Has\discretionary {-}{}{}Been\discretionary {-}{}{}Selected}, 
+		\hyperpage{63}
+    \subitem {chk\discretionary {-}{}{}Todos}, \hyperpage{63}
+    \subitem {club\discretionary {-}{}{}Seleccionado}, \hyperpage{63}
+    \subitem {conn}, \hyperpage{63}
+    \subitem {Connect}, \hyperpage{51--53}, \hyperpage{55}
+    \subitem {gd\discretionary {-}{}{}Asistencias}, \hyperpage{63}
+    \subitem {gd\discretionary {-}{}{}Asistencias\discretionary {-}{}{}Por\discretionary {-}{}{}Alumno}, 
+		\hyperpage{63}
+    \subitem {generating\discretionary {-}{}{}Column}, \hyperpage{57}
+    \subitem {Initialize\discretionary {-}{}{}Component}, 
+		\hyperpage{58, 59}
+    \subitem {lbl\discretionary {-}{}{}Estado}, \hyperpage{64}
+    \subitem {lost\discretionary {-}{}{}Focus\discretionary {-}{}{}In\discretionary {-}{}{}Row}, 
+		\hyperpage{59}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{49}
+    \subitem {on\discretionary {-}{}{}Enter}, \hyperpage{59}
+    \subitem {on\discretionary {-}{}{}Enter\discretionary {-}{}{}R}, 
+		\hyperpage{59}
+    \subitem {on\discretionary {-}{}{}Focus}, \hyperpage{59}
+    \subitem {parcial}, \hyperpage{64}
+    \subitem {populator}, \hyperpage{64}
+    \subitem {Popup\discretionary {-}{}{}Asistencias\discretionary {-}{}{}Personal}, 
+		\hyperpage{60}
+    \subitem {Popup\discretionary {-}{}{}Lookup}, \hyperpage{64}
+    \subitem {Popup\discretionary {-}{}{}Lost\discretionary {-}{}{}Focus}, 
+		\hyperpage{60}
+    \subitem {Registrar\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Click}, 
+		\hyperpage{60}
+    \subitem {registrar\discretionary {-}{}{}Asistente}, \hyperpage{60}
+    \subitem {selected\discretionary {-}{}{}Cells\discretionary {-}{}{}Change}, 
+		\hyperpage{61}
+    \subitem {Sender}, \hyperpage{64}
+    \subitem {Text\discretionary {-}{}{}Box\discretionary {-}{}{}Text\discretionary {-}{}{}Allowed}, 
+		\hyperpage{61}
+    \subitem {text\discretionary {-}{}{}Box\discretionary {-}{}{}Value\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Pasting}, 
+		\hyperpage{61}
+    \subitem {text\discretionary {-}{}{}Box\discretionary {-}{}{}Value\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Preview\discretionary {-}{}{}Text\discretionary {-}{}{}Input}, 
+		\hyperpage{62}
+    \subitem {txt\discretionary {-}{}{}Cuenta}, \hyperpage{64}
+    \subitem {txt\discretionary {-}{}{}Cuenta\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Text\discretionary {-}{}{}Changed}, 
+		\hyperpage{62}
+    \subitem {txt\discretionary {-}{}{}Cuenta\discretionary {-}{}{}R}, 
+		\hyperpage{64}
+    \subitem {txt\discretionary {-}{}{}Nombre}, \hyperpage{64}
+    \subitem {txt\discretionary {-}{}{}Plantel}, \hyperpage{64}
+    \subitem {Window\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Loaded\discretionary {-}{}{}\_\discretionary {-}{}{}1}, 
+		\hyperpage{62}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window\discretionary {-}{}{}View\discretionary {-}{}{}Model}
+    \subitem {Asistentes}, \hyperpage{65}
+    \subitem {Main\discretionary {-}{}{}Window\discretionary {-}{}{}View\discretionary {-}{}{}Model}, 
+		\hyperpage{65}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}, 
+		\hyperpage{70}
+    \subitem {al\discretionary {-}{}{}Cerrar}, \hyperpage{67}
+    \subitem {click\discretionary {-}{}{}Edit}, \hyperpage{67}
+    \subitem {click\discretionary {-}{}{}Eliminar}, \hyperpage{67}
+    \subitem {club\discretionary {-}{}{}Manager}, \hyperpage{70}
+    \subitem {conn}, \hyperpage{70}
+    \subitem {Connect}, \hyperpage{67, 68}
+    \subitem {Initialize\discretionary {-}{}{}Component}, 
+		\hyperpage{69}
+    \subitem {lbl\discretionary {-}{}{}Asist}, \hyperpage{70}
+    \subitem {lbl\discretionary {-}{}{}Parciales}, \hyperpage{70}
+    \subitem {Modificar\discretionary {-}{}{}Club}, \hyperpage{66}
+    \subitem {placeholder}, \hyperpage{70}
+    \subitem {selected}, \hyperpage{70}
+    \subitem {Sender}, \hyperpage{71}
+    \subitem {sld\discretionary {-}{}{}Assist}, \hyperpage{71}
+    \subitem {sld\discretionary {-}{}{}Parciales}, \hyperpage{71}
+    \subitem {slider\discretionary {-}{}{}Change}, \hyperpage{70}
+    \subitem {txt\discretionary {-}{}{}Nombre}, \hyperpage{71}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}
+    \subitem {Culture}, \hyperpage{83}
+    \subitem {resource\discretionary {-}{}{}Culture}, \hyperpage{83}
+    \subitem {resource\discretionary {-}{}{}Man}, \hyperpage{83}
+    \subitem {Resource\discretionary {-}{}{}Manager}, \hyperpage{83}
+    \subitem {Resources}, \hyperpage{83}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}
+    \subitem {Alumnos\discretionary {-}{}{}Connection\discretionary {-}{}{}String}, 
+		\hyperpage{95}
+    \subitem {Default}, \hyperpage{95}
+    \subitem {default\discretionary {-}{}{}Instance}, \hyperpage{95}
+    \subitem {Ultima\discretionary {-}{}{}Parcial}, \hyperpage{95}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}, 
+		\hyperpage{81}
+    \subitem {al\discretionary {-}{}{}Cerrar}, \hyperpage{78}
+    \subitem {click\discretionary {-}{}{}Registro}, \hyperpage{78}
+    \subitem {club\discretionary {-}{}{}Manager}, \hyperpage{81}
+    \subitem {conn}, \hyperpage{82}
+    \subitem {Connect}, \hyperpage{79}
+    \subitem {Initialize\discretionary {-}{}{}Component}, 
+		\hyperpage{80}
+    \subitem {lbl\discretionary {-}{}{}Asist}, \hyperpage{82}
+    \subitem {lbl\discretionary {-}{}{}Parciales}, \hyperpage{82}
+    \subitem {placeholder}, \hyperpage{82}
+    \subitem {registrar\discretionary {-}{}{}Club}, \hyperpage{81}
+    \subitem {Registro\discretionary {-}{}{}Club}, \hyperpage{78}
+    \subitem {Sender}, \hyperpage{82}
+    \subitem {sld\discretionary {-}{}{}Assist}, \hyperpage{82}
+    \subitem {sld\discretionary {-}{}{}Parciales}, \hyperpage{82}
+    \subitem {slider\discretionary {-}{}{}Change}, \hyperpage{81}
+    \subitem {txt\discretionary {-}{}{}Nombre}, \hyperpage{82}
+  \item {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}, 
+		\hyperpage{92}
+    \subitem {Al\discretionary {-}{}{}Iniciar}, \hyperpage{88}
+    \subitem {btn\discretionary {-}{}{}Entrar}, \hyperpage{92}
+    \subitem {click\discretionary {-}{}{}Clubes}, \hyperpage{88}
+    \subitem {click\discretionary {-}{}{}Edit}, \hyperpage{88}
+    \subitem {click\discretionary {-}{}{}Entrar}, \hyperpage{88}
+    \subitem {Clubes}, \hyperpage{92}
+    \subitem {cmb\discretionary {-}{}{}Club}, \hyperpage{92}
+    \subitem {cmb\discretionary {-}{}{}Parcial}, \hyperpage{92}
+    \subitem {conn}, \hyperpage{92}
+    \subitem {Connect}, \hyperpage{88, 89}
+    \subitem {Despues\discretionary {-}{}{}De\discretionary {-}{}{}Cargar}, 
+		\hyperpage{90}
+    \subitem {enable\discretionary {-}{}{}Entrar}, \hyperpage{90}
+    \subitem {guardar\discretionary {-}{}{}Parcial}, \hyperpage{91}
+    \subitem {Initialize\discretionary {-}{}{}Component}, 
+		\hyperpage{91}
+    \subitem {llenar\discretionary {-}{}{}Parcial}, \hyperpage{91}
+    \subitem {Refresh}, \hyperpage{92}
+    \subitem {Seleccion}, \hyperpage{88}
+  \item {Asistencias\discretionary {-}{}{}Para\discretionary {-}{}{}Parcial}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{34}
+  \item {asistente\discretionary {-}{}{}D\discretionary {-}{}{}B}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{32}
+  \item {Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{27}
+  \item {asistente\discretionary {-}{}{}Manager}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {Asistentes}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{33}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window\discretionary {-}{}{}View\discretionary {-}{}{}Model}, 
+		\hyperpage{65}
+  \item {asistentes}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {Asistentes\discretionary {-}{}{}Populator}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{31}
+
+  \indexspace
+
+  \item {Blacking}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{73}
+  \item {btn\discretionary {-}{}{}Acreditados}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {btn\discretionary {-}{}{}Anadir\discretionary {-}{}{}Asis}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{50}
+  \item {btn\discretionary {-}{}{}Asist}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {btn\discretionary {-}{}{}Entrar}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{92}
+  \item {btn\discretionary {-}{}{}Lookup}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {btn\discretionary {-}{}{}Lookup\discretionary {-}{}{}Click}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{50}
+  \item {btn\discretionary {-}{}{}Registrar}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {buscar\discretionary {-}{}{}Asistente}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{50}
+  \item {button1}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{42}
+  \item {button1\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Click}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{40}
+
+  \indexspace
+
+  \item {cell\discretionary {-}{}{}Has\discretionary {-}{}{}Been\discretionary {-}{}{}Selected}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {chk\discretionary {-}{}{}Todos}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {Clear}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{28}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{36}
+  \item {click\discretionary {-}{}{}Clubes}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{88}
+  \item {click\discretionary {-}{}{}Edit}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{67}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{88}
+  \item {click\discretionary {-}{}{}Eliminar}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{67}
+  \item {click\discretionary {-}{}{}Entrar}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{88}
+  \item {click\discretionary {-}{}{}Registro}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{78}
+  \item {Clone}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{15}
+  \item {Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{36}
+  \item {club\discretionary {-}{}{}Manager}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{70}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{81}
+  \item {club\discretionary {-}{}{}Modificado}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{37}
+  \item {club\discretionary {-}{}{}Seleccionado}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{32}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {Clubes}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{92}
+  \item {cmb\discretionary {-}{}{}Club}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{92}
+  \item {cmb\discretionary {-}{}{}Parcial}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{92}
+  \item {components}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{42}
+  \item {conexion}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{30}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{38}
+  \item {conn}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{32}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{70}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{82}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{92}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{46}
+  \item {Connect}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{51--53}, \hyperpage{55}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{67, 68}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{79}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{88, 89}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{44}
+  \item {Counter}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{74}
+  \item {cuenta\discretionary {-}{}{}Modificada}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{29}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{31}
+  \item {Cuenta\discretionary {-}{}{}Original}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{25}
+  \item {Cuentas}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{46}
+  \item {cuentas}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{46}
+  \item {Culture}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{85}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{83}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{86}
+
+  \indexspace
+
+  \item {Date}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistencia}, 
+		\hyperpage{23}
+  \item {Default}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}, 
+		\hyperpage{93}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}, 
+		\hyperpage{95}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}, 
+		\hyperpage{94}
+  \item {default\discretionary {-}{}{}Instance}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}, 
+		\hyperpage{93}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}, 
+		\hyperpage{95}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}, 
+		\hyperpage{94}
+  \item {Despues\discretionary {-}{}{}De\discretionary {-}{}{}Cargar}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{90}
+  \item {dialog}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{46}
+  \item {Dispose}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{40}
+
+  \indexspace
+
+  \item {enable\discretionary {-}{}{}Entrar}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{90}
+
+  \indexspace
+
+  \item {Fancy\discretionary {-}{}{}Color}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{74}
+  \item {Form1}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{40}
+  \item {Full\discretionary {-}{}{}Flow}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{74}
+
+  \indexspace
+
+  \item {gd\discretionary {-}{}{}Asistencias}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {gd\discretionary {-}{}{}Asistencias\discretionary {-}{}{}Por\discretionary {-}{}{}Alumno}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{63}
+  \item {General cuentas/\discretionary {-}{}{}Program.\discretionary {-}{}{}cs}, 
+		\hyperpage{99}
+  \item {General cuentas/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.\discretionary {-}{}{}cs}, 
+		\hyperpage{100}
+  \item {General cuentas/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {General cuentas/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {General cuentas/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {General cuentas/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {General\discretionary {-}{}{}\_\discretionary {-}{}{}cuentas}, 
+		\hyperpage{10}
+  \item {General\discretionary {-}{}{}\_\discretionary {-}{}{}cuentas.\discretionary {-}{}{}Program}, 
+		\hyperpage{75}
+  \item {General\discretionary {-}{}{}\_\discretionary {-}{}{}cuentas\discretionary {-}{}{}::\discretionary {-}{}{}Program}
+    \subitem {Generate}, \hyperpage{75}
+    \subitem {Main}, \hyperpage{75}
+    \subitem {stream\discretionary {-}{}{}Reader1}, \hyperpage{76}
+    \subitem {stream\discretionary {-}{}{}Reader2}, \hyperpage{76}
+    \subitem {stream\discretionary {-}{}{}Reader3}, \hyperpage{76}
+  \item {generar\discretionary {-}{}{}Acreditados}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{31}
+  \item {generar\discretionary {-}{}{}Lista}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{31}
+  \item {Generate}
+    \subitem {General\discretionary {-}{}{}\_\discretionary {-}{}{}cuentas\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{75}
+  \item {generating\discretionary {-}{}{}Column}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{57}
+  \item {Get\discretionary {-}{}{}Schema\discretionary {-}{}{}Serializable}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{15}
+  \item {Get\discretionary {-}{}{}Typed\discretionary {-}{}{}Data\discretionary {-}{}{}Set\discretionary {-}{}{}Schema}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{15}
+  \item {Glow\discretionary {-}{}{}Color}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{74}
+  \item {guardar\discretionary {-}{}{}Parcial}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{91}
+
+  \indexspace
+
+  \item {Holder}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{30}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{38}
+
+  \indexspace
+
+  \item {Id}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{34}
+  \item {Importar\discretionary {-}{}{}Cuentas}, \hyperpage{10}
+  \item {Importar\discretionary {-}{}{}Cuentas.\discretionary {-}{}{}Program}, 
+		\hyperpage{76}
+  \item {Importar\discretionary {-}{}{}Cuentas/\discretionary {-}{}{}Program.\discretionary {-}{}{}cs}, 
+		\hyperpage{100}
+  \item {Importar\discretionary {-}{}{}Cuentas/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.\discretionary {-}{}{}cs}, 
+		\hyperpage{101}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}::\discretionary {-}{}{}Program}
+    \subitem {Main}, \hyperpage{77}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf}, 
+		\hyperpage{10}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}App}, 
+		\hyperpage{18}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{43}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties}, 
+		\hyperpage{11}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Resources}, 
+		\hyperpage{85}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Settings}, 
+		\hyperpage{93}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}App.\discretionary {-}{}{}xaml.\discretionary {-}{}{}cs}, 
+		\hyperpage{103}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.\discretionary {-}{}{}xaml.\discretionary {-}{}{}cs}, 
+		\hyperpage{106}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.\discretionary {-}{}{}cs}, 
+		\hyperpage{101}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Resources.\discretionary {-}{}{}Designer.\discretionary {-}{}{}cs}, 
+		\hyperpage{101}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Settings.\discretionary {-}{}{}Designer.\discretionary {-}{}{}cs}, 
+		\hyperpage{102}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}App.\discretionary {-}{}{}g.\discretionary {-}{}{}cs}, 
+		\hyperpage{107}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}App.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{108}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.\discretionary {-}{}{}g.\discretionary {-}{}{}cs}, 
+		\hyperpage{109}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.\discretionary {-}{}{}g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs}, 
+		\hyperpage{110}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}App}
+    \subitem {Initialize\discretionary {-}{}{}Component}, 
+		\hyperpage{19}
+    \subitem {Main}, \hyperpage{19}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}
+    \subitem {\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}, 
+		\hyperpage{45}
+    \subitem {conn}, \hyperpage{46}
+    \subitem {Connect}, \hyperpage{44}
+    \subitem {Cuentas}, \hyperpage{46}
+    \subitem {cuentas}, \hyperpage{46}
+    \subitem {dialog}, \hyperpage{46}
+    \subitem {Initialize\discretionary {-}{}{}Component}, 
+		\hyperpage{44}
+    \subitem {Main\discretionary {-}{}{}Window}, \hyperpage{43}
+    \subitem {seleccionar\discretionary {-}{}{}Archivos}, 
+		\hyperpage{45}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}
+    \subitem {Culture}, \hyperpage{86}
+    \subitem {resource\discretionary {-}{}{}Culture}, \hyperpage{86}
+    \subitem {resource\discretionary {-}{}{}Man}, \hyperpage{86}
+    \subitem {Resource\discretionary {-}{}{}Manager}, \hyperpage{86}
+    \subitem {Resources}, \hyperpage{86}
+  \item {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}
+    \subitem {Default}, \hyperpage{94}
+    \subitem {default\discretionary {-}{}{}Instance}, \hyperpage{94}
+  \item {in\discretionary {-}{}{}Screen\discretionary {-}{}{}Y\discretionary {-}{}{}Position}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{72}
+  \item {Init\discretionary {-}{}{}Class}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{16}
+  \item {Init\discretionary {-}{}{}Vars}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{16}
+  \item {Initialize}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{72}
+  \item {Initialize\discretionary {-}{}{}Component}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{40}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}App}, 
+		\hyperpage{21}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{58, 59}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{69}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{80}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{91}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}App}, 
+		\hyperpage{19}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{44}
+  \item {Initialize\discretionary {-}{}{}Derived\discretionary {-}{}{}Data\discretionary {-}{}{}Set}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{16}
+  \item {Interval}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{74}
+
+  \indexspace
+
+  \item {label1}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{42}
+  \item {lbl\discretionary {-}{}{}Asist}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{70}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{82}
+  \item {lbl\discretionary {-}{}{}Estado}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{42}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{64}
+  \item {lbl\discretionary {-}{}{}Parciales}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{70}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{82}
+  \item {llenar\discretionary {-}{}{}Parcial}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{91}
+  \item {lost\discretionary {-}{}{}Focus\discretionary {-}{}{}In\discretionary {-}{}{}Row}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{59}
+
+  \indexspace
+
+  \item {Main}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{76}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}App}, 
+		\hyperpage{22}
+    \subitem {General\discretionary {-}{}{}\_\discretionary {-}{}{}cuentas\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{75}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{77}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}App}, 
+		\hyperpage{19}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{72}
+  \item {Main\discretionary {-}{}{}Window}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{49}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{43}
+  \item {Main\discretionary {-}{}{}Window\discretionary {-}{}{}View\discretionary {-}{}{}Model}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window\discretionary {-}{}{}View\discretionary {-}{}{}Model}, 
+		\hyperpage{65}
+  \item {matrix}, \hyperpage{11}
+  \item {matrix.\discretionary {-}{}{}Program}, \hyperpage{71}
+  \item {matrix/\discretionary {-}{}{}Program.\discretionary {-}{}{}cs}, 
+		\hyperpage{100}
+  \item {matrix/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.\discretionary {-}{}{}cs}, 
+		\hyperpage{101}
+  \item {matrix/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {matrix/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {matrix/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.\discretionary {-}{}{}cs}, 
+		\hyperpage{98}
+  \item {matrix/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.\discretionary {-}{}{}cs}, 
+		\hyperpage{99}
+  \item {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}
+    \subitem {Ascii\discretionary {-}{}{}Character}, \hyperpage{74}
+    \subitem {Blacking}, \hyperpage{73}
+    \subitem {Counter}, \hyperpage{74}
+    \subitem {Fancy\discretionary {-}{}{}Color}, \hyperpage{74}
+    \subitem {Full\discretionary {-}{}{}Flow}, \hyperpage{74}
+    \subitem {Glow\discretionary {-}{}{}Color}, \hyperpage{74}
+    \subitem {in\discretionary {-}{}{}Screen\discretionary {-}{}{}Y\discretionary {-}{}{}Position}, 
+		\hyperpage{72}
+    \subitem {Initialize}, \hyperpage{72}
+    \subitem {Interval}, \hyperpage{74}
+    \subitem {Main}, \hyperpage{72}
+    \subitem {Normal\discretionary {-}{}{}Color}, \hyperpage{74}
+    \subitem {rand}, \hyperpage{74}
+    \subitem {Text\discretionary {-}{}{}Input}, \hyperpage{74}
+    \subitem {Update\discretionary {-}{}{}All\discretionary {-}{}{}Columns}, 
+		\hyperpage{72}
+  \item {Modificar\discretionary {-}{}{}Club}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{66}
+  \item {modificar\discretionary {-}{}{}Dato}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{29}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{37}
+
+  \indexspace
+
+  \item {Nombre}
+    \subitem {Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}, 
+		\hyperpage{27}
+    \subitem {Asistencias\-\_\-wpf\-::\-Club\-D\-B\-Manager}, 
+		\hyperpage{35}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{26}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{34}
+  \item {Normal\discretionary {-}{}{}Color}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{74}
+  \item {Notify\discretionary {-}{}{}Property\discretionary {-}{}{}Changed}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{25}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{34}
+  \item {Numero\-Cuenta}
+    \subitem {Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}, 
+		\hyperpage{27}
+  \item {numero\discretionary {-}{}{}Cuenta}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{26}
+
+  \indexspace
+
+  \item {on\discretionary {-}{}{}Enter}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{59}
+  \item {on\discretionary {-}{}{}Enter\discretionary {-}{}{}R}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{59}
+  \item {on\discretionary {-}{}{}Focus}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{59}
+
+  \indexspace
+
+  \item {Parcial}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistencia}, 
+		\hyperpage{23}
+  \item {parcial}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator}, 
+		\hyperpage{32}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{64}
+  \item {Parciales}
+    \subitem {Asistencias\-\_\-wpf\-::\-Club\-D\-B\-Manager}, 
+		\hyperpage{36}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{34}
+  \item {placeholder}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{70}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{82}
+  \item {Plantel}
+    \subitem {Asistencias\-\_\-wpf\-::\-Asistente\-D\-B\-Manager}, 
+		\hyperpage{27}
+  \item {plantel}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{26}
+  \item {populator}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{64}
+  \item {Popup\discretionary {-}{}{}Asistencias\discretionary {-}{}{}Personal}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{60}
+  \item {Popup\discretionary {-}{}{}Lookup}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{64}
+  \item {Popup\discretionary {-}{}{}Lost\discretionary {-}{}{}Focus}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{60}
+  \item {Property\discretionary {-}{}{}Changed}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente}, 
+		\hyperpage{26}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{35}
+
+  \indexspace
+
+  \item {rand}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{74}
+  \item {Read\discretionary {-}{}{}Xml\discretionary {-}{}{}Serializable}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{17}
+  \item {Refresh}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{92}
+  \item {Registrar\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Click}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{60}
+  \item {registrar\discretionary {-}{}{}Asistente}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{60}
+  \item {registrar\discretionary {-}{}{}Club}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{81}
+  \item {Registro\discretionary {-}{}{}Club}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{78}
+  \item {Relations}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{18}
+  \item {Remove\discretionary {-}{}{}From\discretionary {-}{}{}D\discretionary {-}{}{}B}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{38}
+  \item {resource\discretionary {-}{}{}Culture}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{85}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{83}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{86}
+  \item {resource\discretionary {-}{}{}Man}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{85}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{83}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{86}
+  \item {Resource\discretionary {-}{}{}Manager}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{85}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{83}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{86}
+  \item {Resources}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{84}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{83}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Resources}, 
+		\hyperpage{86}
+
+  \indexspace
+
+  \item {Schema\discretionary {-}{}{}Changed}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{17}
+  \item {Schema\discretionary {-}{}{}Serialization\discretionary {-}{}{}Mode}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{18}
+  \item {Seleccion}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Seleccion}, 
+		\hyperpage{88}
+  \item {seleccionar\discretionary {-}{}{}Archivos}
+    \subitem {Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{45}
+  \item {selected}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{70}
+  \item {selected\discretionary {-}{}{}Cells\discretionary {-}{}{}Change}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{61}
+  \item {Sender}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{64}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{71}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{82}
+  \item {set\discretionary {-}{}{}Asistente}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{30}
+  \item {set\discretionary {-}{}{}Club}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{38}
+  \item {Setting}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}, 
+		\hyperpage{93}
+  \item {Should\discretionary {-}{}{}Serialize\discretionary {-}{}{}Relations}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{17}
+  \item {Should\discretionary {-}{}{}Serialize\discretionary {-}{}{}Tables}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{17}
+  \item {sld\discretionary {-}{}{}Assist}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{71}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{82}
+  \item {sld\discretionary {-}{}{}Parciales}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{71}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{82}
+  \item {slider\discretionary {-}{}{}Change}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{70}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{81}
+  \item {stream\discretionary {-}{}{}Reader1}
+    \subitem {General\discretionary {-}{}{}\_\discretionary {-}{}{}cuentas\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{76}
+  \item {stream\discretionary {-}{}{}Reader2}
+    \subitem {General\discretionary {-}{}{}\_\discretionary {-}{}{}cuentas\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{76}
+  \item {stream\discretionary {-}{}{}Reader3}
+    \subitem {General\discretionary {-}{}{}\_\discretionary {-}{}{}cuentas\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{76}
+
+  \indexspace
+
+  \item {tab\discretionary {-}{}{}Asistencia}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{42}
+  \item {tab\discretionary {-}{}{}Control1}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{42}
+  \item {tab\discretionary {-}{}{}Registro}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{42}
+  \item {Tables}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}, 
+		\hyperpage{18}
+  \item {text\discretionary {-}{}{}Box1\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Text\discretionary {-}{}{}Changed}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{41}
+  \item {Text\discretionary {-}{}{}Box\discretionary {-}{}{}Text\discretionary {-}{}{}Allowed}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{61}
+  \item {text\discretionary {-}{}{}Box\discretionary {-}{}{}Value\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Pasting}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{61}
+  \item {text\discretionary {-}{}{}Box\discretionary {-}{}{}Value\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Preview\discretionary {-}{}{}Text\discretionary {-}{}{}Input}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{62}
+  \item {Text\discretionary {-}{}{}Input}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{74}
+  \item {To\discretionary {-}{}{}String}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club}, 
+		\hyperpage{34}
+  \item {txt\discretionary {-}{}{}Cuenta}
+    \subitem {Asistencias\discretionary {-}{}{}::\discretionary {-}{}{}Form1}, 
+		\hyperpage{42}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{64}
+  \item {txt\discretionary {-}{}{}Cuenta\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Text\discretionary {-}{}{}Changed}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{62}
+  \item {txt\discretionary {-}{}{}Cuenta\discretionary {-}{}{}R}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{64}
+  \item {txt\discretionary {-}{}{}Nombre}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{64}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club}, 
+		\hyperpage{71}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Registro\discretionary {-}{}{}Club}, 
+		\hyperpage{82}
+  \item {txt\discretionary {-}{}{}Plantel}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{64}
+
+  \indexspace
+
+  \item {Ultima\discretionary {-}{}{}Parcial}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Properties\discretionary {-}{}{}::\discretionary {-}{}{}Settings}, 
+		\hyperpage{95}
+  \item {Update\discretionary {-}{}{}All\discretionary {-}{}{}Columns}
+    \subitem {matrix\discretionary {-}{}{}::\discretionary {-}{}{}Program}, 
+		\hyperpage{72}
+
+  \indexspace
+
+  \item {Valores\discretionary {-}{}{}Modificables}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{27}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}, 
+		\hyperpage{35}
+
+  \indexspace
+
+  \item {Window\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Loaded\discretionary {-}{}{}\_\discretionary {-}{}{}1}
+    \subitem {Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}::\discretionary {-}{}{}Main\discretionary {-}{}{}Window}, 
+		\hyperpage{62}
+
+\end{theindex}

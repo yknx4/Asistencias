@@ -51,7 +51,7 @@ namespace Asistencias_wpf
                 Parciales = (int)sldParciales.Value,
                 Nombre = txtNombre.Text
             };
-            clubManager.setClub(tmpClub);
+            clubManager.setItem(tmpClub);
             if (clubManager.AddToDB())
             {
                 MessageBox.Show(tmpClub.Nombre + " ha sido registrado.");

@@ -1,0 +1,496 @@
+\contentsline {chapter}{\numberline {1}Namespace Index}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Packages}{1}{section.1.1}
+\contentsline {chapter}{\numberline {2}Hierarchical Index}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Class Hierarchy}{3}{section.2.1}
+\contentsline {chapter}{\numberline {3}Class Index}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}Class List}{5}{section.3.1}
+\contentsline {chapter}{\numberline {4}File Index}{7}{chapter.4}
+\contentsline {section}{\numberline {4.1}File List}{7}{section.4.1}
+\contentsline {chapter}{\numberline {5}Namespace Documentation}{9}{chapter.5}
+\contentsline {section}{\numberline {5.1}Package Asistencias}{9}{section.5.1}
+\contentsline {section}{\numberline {5.2}Package Asistencias.\discretionary {-}{}{}Properties}{9}{section.5.2}
+\contentsline {section}{\numberline {5.3}Package Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf}{9}{section.5.3}
+\contentsline {section}{\numberline {5.4}Package Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties}{10}{section.5.4}
+\contentsline {section}{\numberline {5.5}Package General\discretionary {-}{}{}\_\discretionary {-}{}{}cuentas}{10}{section.5.5}
+\contentsline {section}{\numberline {5.6}Package Importar\discretionary {-}{}{}Cuentas}{10}{section.5.6}
+\contentsline {section}{\numberline {5.7}Package Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf}{10}{section.5.7}
+\contentsline {section}{\numberline {5.8}Package Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties}{11}{section.5.8}
+\contentsline {section}{\numberline {5.9}Package matrix}{11}{section.5.9}
+\contentsline {chapter}{\numberline {6}Class Documentation}{13}{chapter.6}
+\contentsline {section}{\numberline {6.1}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set Class Reference}{13}{section.6.1}
+\contentsline {subsection}{\numberline {6.1.1}Detailed Description}{14}{subsection.6.1.1}
+\contentsline {subsection}{\numberline {6.1.2}Constructor \& Destructor Documentation}{14}{subsection.6.1.2}
+\contentsline {subsubsection}{\numberline {6.1.2.1}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}{14}{subsubsection.6.1.2.1}
+\contentsline {subsubsection}{\numberline {6.1.2.2}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set}{14}{subsubsection.6.1.2.2}
+\contentsline {subsection}{\numberline {6.1.3}Member Function Documentation}{15}{subsection.6.1.3}
+\contentsline {subsubsection}{\numberline {6.1.3.1}Clone}{15}{subsubsection.6.1.3.1}
+\contentsline {subsubsection}{\numberline {6.1.3.2}Get\discretionary {-}{}{}Schema\discretionary {-}{}{}Serializable}{15}{subsubsection.6.1.3.2}
+\contentsline {subsubsection}{\numberline {6.1.3.3}Get\discretionary {-}{}{}Typed\discretionary {-}{}{}Data\discretionary {-}{}{}Set\discretionary {-}{}{}Schema}{15}{subsubsection.6.1.3.3}
+\contentsline {subsubsection}{\numberline {6.1.3.4}Init\discretionary {-}{}{}Class}{16}{subsubsection.6.1.3.4}
+\contentsline {subsubsection}{\numberline {6.1.3.5}Initialize\discretionary {-}{}{}Derived\discretionary {-}{}{}Data\discretionary {-}{}{}Set}{16}{subsubsection.6.1.3.5}
+\contentsline {subsubsection}{\numberline {6.1.3.6}Init\discretionary {-}{}{}Vars}{16}{subsubsection.6.1.3.6}
+\contentsline {subsubsection}{\numberline {6.1.3.7}Init\discretionary {-}{}{}Vars}{17}{subsubsection.6.1.3.7}
+\contentsline {subsubsection}{\numberline {6.1.3.8}Read\discretionary {-}{}{}Xml\discretionary {-}{}{}Serializable}{17}{subsubsection.6.1.3.8}
+\contentsline {subsubsection}{\numberline {6.1.3.9}Schema\discretionary {-}{}{}Changed}{17}{subsubsection.6.1.3.9}
+\contentsline {subsubsection}{\numberline {6.1.3.10}Should\discretionary {-}{}{}Serialize\discretionary {-}{}{}Relations}{17}{subsubsection.6.1.3.10}
+\contentsline {subsubsection}{\numberline {6.1.3.11}Should\discretionary {-}{}{}Serialize\discretionary {-}{}{}Tables}{17}{subsubsection.6.1.3.11}
+\contentsline {subsection}{\numberline {6.1.4}Member Data Documentation}{18}{subsection.6.1.4}
+\contentsline {subsubsection}{\numberline {6.1.4.1}\discretionary {-}{}{}\_\discretionary {-}{}{}schema\discretionary {-}{}{}Serialization\discretionary {-}{}{}Mode}{18}{subsubsection.6.1.4.1}
+\contentsline {subsection}{\numberline {6.1.5}Property Documentation}{18}{subsection.6.1.5}
+\contentsline {subsubsection}{\numberline {6.1.5.1}Relations}{18}{subsubsection.6.1.5.1}
+\contentsline {subsubsection}{\numberline {6.1.5.2}Schema\discretionary {-}{}{}Serialization\discretionary {-}{}{}Mode}{18}{subsubsection.6.1.5.2}
+\contentsline {subsubsection}{\numberline {6.1.5.3}Tables}{18}{subsubsection.6.1.5.3}
+\contentsline {section}{\numberline {6.2}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}App Class Reference}{18}{section.6.2}
+\contentsline {subsection}{\numberline {6.2.1}Detailed Description}{19}{subsection.6.2.1}
+\contentsline {subsection}{\numberline {6.2.2}Member Function Documentation}{19}{subsection.6.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.1}Initialize\discretionary {-}{}{}Component}{19}{subsubsection.6.2.2.1}
+\contentsline {subsubsection}{\numberline {6.2.2.2}Initialize\discretionary {-}{}{}Component}{19}{subsubsection.6.2.2.2}
+\contentsline {subsubsection}{\numberline {6.2.2.3}Main}{19}{subsubsection.6.2.2.3}
+\contentsline {subsubsection}{\numberline {6.2.2.4}Main}{19}{subsubsection.6.2.2.4}
+\contentsline {section}{\numberline {6.3}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}App Class Reference}{20}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Detailed Description}{20}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Member Function Documentation}{21}{subsection.6.3.2}
+\contentsline {subsubsection}{\numberline {6.3.2.1}al\discretionary {-}{}{}Salir}{21}{subsubsection.6.3.2.1}
+\contentsline {subsubsection}{\numberline {6.3.2.2}Initialize\discretionary {-}{}{}Component}{21}{subsubsection.6.3.2.2}
+\contentsline {subsubsection}{\numberline {6.3.2.3}Initialize\discretionary {-}{}{}Component}{21}{subsubsection.6.3.2.3}
+\contentsline {subsubsection}{\numberline {6.3.2.4}Initialize\discretionary {-}{}{}Component}{21}{subsubsection.6.3.2.4}
+\contentsline {subsubsection}{\numberline {6.3.2.5}Initialize\discretionary {-}{}{}Component}{22}{subsubsection.6.3.2.5}
+\contentsline {subsubsection}{\numberline {6.3.2.6}Main}{22}{subsubsection.6.3.2.6}
+\contentsline {subsubsection}{\numberline {6.3.2.7}Main}{22}{subsubsection.6.3.2.7}
+\contentsline {subsubsection}{\numberline {6.3.2.8}Main}{22}{subsubsection.6.3.2.8}
+\contentsline {subsubsection}{\numberline {6.3.2.9}Main}{22}{subsubsection.6.3.2.9}
+\contentsline {section}{\numberline {6.4}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Asistencia Class Reference}{23}{section.6.4}
+\contentsline {subsection}{\numberline {6.4.1}Detailed Description}{23}{subsection.6.4.1}
+\contentsline {subsection}{\numberline {6.4.2}Property Documentation}{23}{subsection.6.4.2}
+\contentsline {subsubsection}{\numberline {6.4.2.1}Date}{23}{subsubsection.6.4.2.1}
+\contentsline {subsubsection}{\numberline {6.4.2.2}Parcial}{23}{subsubsection.6.4.2.2}
+\contentsline {section}{\numberline {6.5}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Asistente Class Reference}{24}{section.6.5}
+\contentsline {subsection}{\numberline {6.5.1}Detailed Description}{24}{subsection.6.5.1}
+\contentsline {subsection}{\numberline {6.5.2}Member Function Documentation}{25}{subsection.6.5.2}
+\contentsline {subsubsection}{\numberline {6.5.2.1}Cuenta\discretionary {-}{}{}Original}{25}{subsubsection.6.5.2.1}
+\contentsline {subsubsection}{\numberline {6.5.2.2}Notify\discretionary {-}{}{}Property\discretionary {-}{}{}Changed}{25}{subsubsection.6.5.2.2}
+\contentsline {subsection}{\numberline {6.5.3}Member Data Documentation}{25}{subsection.6.5.3}
+\contentsline {subsubsection}{\numberline {6.5.3.1}\discretionary {-}{}{}\_\discretionary {-}{}{}asistencias}{25}{subsubsection.6.5.3.1}
+\contentsline {subsubsection}{\numberline {6.5.3.2}\discretionary {-}{}{}\_\discretionary {-}{}{}cuenta\discretionary {-}{}{}Anterior}{25}{subsubsection.6.5.3.2}
+\contentsline {subsubsection}{\numberline {6.5.3.3}\discretionary {-}{}{}\_\discretionary {-}{}{}nombre}{25}{subsubsection.6.5.3.3}
+\contentsline {subsubsection}{\numberline {6.5.3.4}\discretionary {-}{}{}\_\discretionary {-}{}{}numero\discretionary {-}{}{}Cuenta}{25}{subsubsection.6.5.3.4}
+\contentsline {subsubsection}{\numberline {6.5.3.5}\discretionary {-}{}{}\_\discretionary {-}{}{}plantel}{25}{subsubsection.6.5.3.5}
+\contentsline {subsection}{\numberline {6.5.4}Property Documentation}{25}{subsection.6.5.4}
+\contentsline {subsubsection}{\numberline {6.5.4.1}Asistencias}{25}{subsubsection.6.5.4.1}
+\contentsline {subsubsection}{\numberline {6.5.4.2}asistencias}{26}{subsubsection.6.5.4.2}
+\contentsline {subsubsection}{\numberline {6.5.4.3}Nombre}{26}{subsubsection.6.5.4.3}
+\contentsline {subsubsection}{\numberline {6.5.4.4}numero\discretionary {-}{}{}Cuenta}{26}{subsubsection.6.5.4.4}
+\contentsline {subsubsection}{\numberline {6.5.4.5}plantel}{26}{subsubsection.6.5.4.5}
+\contentsline {subsection}{\numberline {6.5.5}Event Documentation}{26}{subsection.6.5.5}
+\contentsline {subsubsection}{\numberline {6.5.5.1}Property\discretionary {-}{}{}Changed}{26}{subsubsection.6.5.5.1}
+\contentsline {section}{\numberline {6.6}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager Class Reference}{26}{section.6.6}
+\contentsline {subsection}{\numberline {6.6.1}Detailed Description}{27}{subsection.6.6.1}
+\contentsline {subsection}{\numberline {6.6.2}Member Enumeration Documentation}{27}{subsection.6.6.2}
+\contentsline {subsubsection}{\numberline {6.6.2.1}Valores\discretionary {-}{}{}Modificables}{27}{subsubsection.6.6.2.1}
+\contentsline {subsection}{\numberline {6.6.3}Constructor \& Destructor Documentation}{27}{subsection.6.6.3}
+\contentsline {subsubsection}{\numberline {6.6.3.1}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}{27}{subsubsection.6.6.3.1}
+\contentsline {subsection}{\numberline {6.6.4}Member Function Documentation}{27}{subsection.6.6.4}
+\contentsline {subsubsection}{\numberline {6.6.4.1}Active}{27}{subsubsection.6.6.4.1}
+\contentsline {subsubsection}{\numberline {6.6.4.2}Add\discretionary {-}{}{}To\discretionary {-}{}{}D\discretionary {-}{}{}B}{28}{subsubsection.6.6.4.2}
+\contentsline {subsubsection}{\numberline {6.6.4.3}anadir\discretionary {-}{}{}Asistencia}{28}{subsubsection.6.6.4.3}
+\contentsline {subsubsection}{\numberline {6.6.4.4}Clear}{28}{subsubsection.6.6.4.4}
+\contentsline {subsubsection}{\numberline {6.6.4.5}cuenta\discretionary {-}{}{}Modificada}{29}{subsubsection.6.6.4.5}
+\contentsline {subsubsection}{\numberline {6.6.4.6}modificar\discretionary {-}{}{}Dato}{29}{subsubsection.6.6.4.6}
+\contentsline {subsubsection}{\numberline {6.6.4.7}set\discretionary {-}{}{}Asistente}{30}{subsubsection.6.6.4.7}
+\contentsline {subsection}{\numberline {6.6.5}Member Data Documentation}{30}{subsection.6.6.5}
+\contentsline {subsubsection}{\numberline {6.6.5.1}conexion}{30}{subsubsection.6.6.5.1}
+\contentsline {subsubsection}{\numberline {6.6.5.2}Holder}{30}{subsubsection.6.6.5.2}
+\contentsline {section}{\numberline {6.7}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator Class Reference}{30}{section.6.7}
+\contentsline {subsection}{\numberline {6.7.1}Detailed Description}{31}{subsection.6.7.1}
+\contentsline {subsection}{\numberline {6.7.2}Constructor \& Destructor Documentation}{31}{subsection.6.7.2}
+\contentsline {subsubsection}{\numberline {6.7.2.1}Asistentes\discretionary {-}{}{}Populator}{31}{subsubsection.6.7.2.1}
+\contentsline {subsection}{\numberline {6.7.3}Member Function Documentation}{31}{subsection.6.7.3}
+\contentsline {subsubsection}{\numberline {6.7.3.1}cuenta\discretionary {-}{}{}Modificada}{31}{subsubsection.6.7.3.1}
+\contentsline {subsubsection}{\numberline {6.7.3.2}generar\discretionary {-}{}{}Acreditados}{31}{subsubsection.6.7.3.2}
+\contentsline {subsubsection}{\numberline {6.7.3.3}generar\discretionary {-}{}{}Lista}{31}{subsubsection.6.7.3.3}
+\contentsline {subsection}{\numberline {6.7.4}Member Data Documentation}{32}{subsection.6.7.4}
+\contentsline {subsubsection}{\numberline {6.7.4.1}\discretionary {-}{}{}\_\discretionary {-}{}{}acreditados}{32}{subsubsection.6.7.4.1}
+\contentsline {subsubsection}{\numberline {6.7.4.2}\discretionary {-}{}{}\_\discretionary {-}{}{}asistentes}{32}{subsubsection.6.7.4.2}
+\contentsline {subsubsection}{\numberline {6.7.4.3}Alumnos}{32}{subsubsection.6.7.4.3}
+\contentsline {subsubsection}{\numberline {6.7.4.4}asistente\discretionary {-}{}{}D\discretionary {-}{}{}B}{32}{subsubsection.6.7.4.4}
+\contentsline {subsubsection}{\numberline {6.7.4.5}club\discretionary {-}{}{}Seleccionado}{32}{subsubsection.6.7.4.5}
+\contentsline {subsubsection}{\numberline {6.7.4.6}conn}{32}{subsubsection.6.7.4.6}
+\contentsline {subsubsection}{\numberline {6.7.4.7}parcial}{32}{subsubsection.6.7.4.7}
+\contentsline {subsection}{\numberline {6.7.5}Property Documentation}{33}{subsection.6.7.5}
+\contentsline {subsubsection}{\numberline {6.7.5.1}Acreditados}{33}{subsubsection.6.7.5.1}
+\contentsline {subsubsection}{\numberline {6.7.5.2}Asistentes}{33}{subsubsection.6.7.5.2}
+\contentsline {section}{\numberline {6.8}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Club Class Reference}{33}{section.6.8}
+\contentsline {subsection}{\numberline {6.8.1}Detailed Description}{33}{subsection.6.8.1}
+\contentsline {subsection}{\numberline {6.8.2}Member Function Documentation}{34}{subsection.6.8.2}
+\contentsline {subsubsection}{\numberline {6.8.2.1}Notify\discretionary {-}{}{}Property\discretionary {-}{}{}Changed}{34}{subsubsection.6.8.2.1}
+\contentsline {subsubsection}{\numberline {6.8.2.2}To\discretionary {-}{}{}String}{34}{subsubsection.6.8.2.2}
+\contentsline {subsection}{\numberline {6.8.3}Member Data Documentation}{34}{subsection.6.8.3}
+\contentsline {subsubsection}{\numberline {6.8.3.1}\discretionary {-}{}{}\_\discretionary {-}{}{}asistencias}{34}{subsubsection.6.8.3.1}
+\contentsline {subsubsection}{\numberline {6.8.3.2}\discretionary {-}{}{}\_\discretionary {-}{}{}id}{34}{subsubsection.6.8.3.2}
+\contentsline {subsubsection}{\numberline {6.8.3.3}\discretionary {-}{}{}\_\discretionary {-}{}{}nombre}{34}{subsubsection.6.8.3.3}
+\contentsline {subsubsection}{\numberline {6.8.3.4}\discretionary {-}{}{}\_\discretionary {-}{}{}parciales}{34}{subsubsection.6.8.3.4}
+\contentsline {subsection}{\numberline {6.8.4}Property Documentation}{34}{subsection.6.8.4}
+\contentsline {subsubsection}{\numberline {6.8.4.1}Asistencias\discretionary {-}{}{}Para\discretionary {-}{}{}Parcial}{34}{subsubsection.6.8.4.1}
+\contentsline {subsubsection}{\numberline {6.8.4.2}Id}{34}{subsubsection.6.8.4.2}
+\contentsline {subsubsection}{\numberline {6.8.4.3}Nombre}{34}{subsubsection.6.8.4.3}
+\contentsline {subsubsection}{\numberline {6.8.4.4}Parciales}{35}{subsubsection.6.8.4.4}
+\contentsline {subsection}{\numberline {6.8.5}Event Documentation}{35}{subsection.6.8.5}
+\contentsline {subsubsection}{\numberline {6.8.5.1}Property\discretionary {-}{}{}Changed}{35}{subsubsection.6.8.5.1}
+\contentsline {section}{\numberline {6.9}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager Class Reference}{35}{section.6.9}
+\contentsline {subsection}{\numberline {6.9.1}Detailed Description}{35}{subsection.6.9.1}
+\contentsline {subsection}{\numberline {6.9.2}Member Enumeration Documentation}{35}{subsection.6.9.2}
+\contentsline {subsubsection}{\numberline {6.9.2.1}Valores\discretionary {-}{}{}Modificables}{35}{subsubsection.6.9.2.1}
+\contentsline {subsection}{\numberline {6.9.3}Constructor \& Destructor Documentation}{36}{subsection.6.9.3}
+\contentsline {subsubsection}{\numberline {6.9.3.1}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager}{36}{subsubsection.6.9.3.1}
+\contentsline {subsection}{\numberline {6.9.4}Member Function Documentation}{36}{subsection.6.9.4}
+\contentsline {subsubsection}{\numberline {6.9.4.1}Active}{36}{subsubsection.6.9.4.1}
+\contentsline {subsubsection}{\numberline {6.9.4.2}Add\discretionary {-}{}{}To\discretionary {-}{}{}D\discretionary {-}{}{}B}{36}{subsubsection.6.9.4.2}
+\contentsline {subsubsection}{\numberline {6.9.4.3}Clear}{37}{subsubsection.6.9.4.3}
+\contentsline {subsubsection}{\numberline {6.9.4.4}club\discretionary {-}{}{}Modificado}{37}{subsubsection.6.9.4.4}
+\contentsline {subsubsection}{\numberline {6.9.4.5}modificar\discretionary {-}{}{}Dato}{37}{subsubsection.6.9.4.5}
+\contentsline {subsubsection}{\numberline {6.9.4.6}Remove\discretionary {-}{}{}From\discretionary {-}{}{}D\discretionary {-}{}{}B}{38}{subsubsection.6.9.4.6}
+\contentsline {subsubsection}{\numberline {6.9.4.7}set\discretionary {-}{}{}Club}{38}{subsubsection.6.9.4.7}
+\contentsline {subsection}{\numberline {6.9.5}Member Data Documentation}{38}{subsection.6.9.5}
+\contentsline {subsubsection}{\numberline {6.9.5.1}conexion}{38}{subsubsection.6.9.5.1}
+\contentsline {subsubsection}{\numberline {6.9.5.2}Holder}{39}{subsubsection.6.9.5.2}
+\contentsline {section}{\numberline {6.10}Asistencias.\discretionary {-}{}{}Form1 Class Reference}{39}{section.6.10}
+\contentsline {subsection}{\numberline {6.10.1}Detailed Description}{39}{subsection.6.10.1}
+\contentsline {subsection}{\numberline {6.10.2}Constructor \& Destructor Documentation}{40}{subsection.6.10.2}
+\contentsline {subsubsection}{\numberline {6.10.2.1}Form1}{40}{subsubsection.6.10.2.1}
+\contentsline {subsection}{\numberline {6.10.3}Member Function Documentation}{40}{subsection.6.10.3}
+\contentsline {subsubsection}{\numberline {6.10.3.1}button1\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Click}{40}{subsubsection.6.10.3.1}
+\contentsline {subsubsection}{\numberline {6.10.3.2}Dispose}{40}{subsubsection.6.10.3.2}
+\contentsline {subsubsection}{\numberline {6.10.3.3}Initialize\discretionary {-}{}{}Component}{40}{subsubsection.6.10.3.3}
+\contentsline {subsubsection}{\numberline {6.10.3.4}text\discretionary {-}{}{}Box1\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Text\discretionary {-}{}{}Changed}{42}{subsubsection.6.10.3.4}
+\contentsline {subsection}{\numberline {6.10.4}Member Data Documentation}{42}{subsection.6.10.4}
+\contentsline {subsubsection}{\numberline {6.10.4.1}button1}{42}{subsubsection.6.10.4.1}
+\contentsline {subsubsection}{\numberline {6.10.4.2}components}{42}{subsubsection.6.10.4.2}
+\contentsline {subsubsection}{\numberline {6.10.4.3}label1}{42}{subsubsection.6.10.4.3}
+\contentsline {subsubsection}{\numberline {6.10.4.4}lbl\discretionary {-}{}{}Estado}{42}{subsubsection.6.10.4.4}
+\contentsline {subsubsection}{\numberline {6.10.4.5}tab\discretionary {-}{}{}Asistencia}{42}{subsubsection.6.10.4.5}
+\contentsline {subsubsection}{\numberline {6.10.4.6}tab\discretionary {-}{}{}Control1}{42}{subsubsection.6.10.4.6}
+\contentsline {subsubsection}{\numberline {6.10.4.7}tab\discretionary {-}{}{}Registro}{42}{subsubsection.6.10.4.7}
+\contentsline {subsubsection}{\numberline {6.10.4.8}txt\discretionary {-}{}{}Cuenta}{42}{subsubsection.6.10.4.8}
+\contentsline {section}{\numberline {6.11}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Main\discretionary {-}{}{}Window Class Reference}{43}{section.6.11}
+\contentsline {subsection}{\numberline {6.11.1}Detailed Description}{43}{subsection.6.11.1}
+\contentsline {subsection}{\numberline {6.11.2}Constructor \& Destructor Documentation}{43}{subsection.6.11.2}
+\contentsline {subsubsection}{\numberline {6.11.2.1}Main\discretionary {-}{}{}Window}{43}{subsubsection.6.11.2.1}
+\contentsline {subsection}{\numberline {6.11.3}Member Function Documentation}{44}{subsection.6.11.3}
+\contentsline {subsubsection}{\numberline {6.11.3.1}Connect}{44}{subsubsection.6.11.3.1}
+\contentsline {subsubsection}{\numberline {6.11.3.2}Connect}{44}{subsubsection.6.11.3.2}
+\contentsline {subsubsection}{\numberline {6.11.3.3}Initialize\discretionary {-}{}{}Component}{44}{subsubsection.6.11.3.3}
+\contentsline {subsubsection}{\numberline {6.11.3.4}Initialize\discretionary {-}{}{}Component}{44}{subsubsection.6.11.3.4}
+\contentsline {subsubsection}{\numberline {6.11.3.5}seleccionar\discretionary {-}{}{}Archivos}{45}{subsubsection.6.11.3.5}
+\contentsline {subsection}{\numberline {6.11.4}Member Data Documentation}{45}{subsection.6.11.4}
+\contentsline {subsubsection}{\numberline {6.11.4.1}\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}{46}{subsubsection.6.11.4.1}
+\contentsline {subsubsection}{\numberline {6.11.4.2}conn}{46}{subsubsection.6.11.4.2}
+\contentsline {subsubsection}{\numberline {6.11.4.3}cuentas}{46}{subsubsection.6.11.4.3}
+\contentsline {subsubsection}{\numberline {6.11.4.4}Cuentas}{46}{subsubsection.6.11.4.4}
+\contentsline {subsubsection}{\numberline {6.11.4.5}dialog}{46}{subsubsection.6.11.4.5}
+\contentsline {section}{\numberline {6.12}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Main\discretionary {-}{}{}Window Class Reference}{46}{section.6.12}
+\contentsline {subsection}{\numberline {6.12.1}Detailed Description}{49}{subsection.6.12.1}
+\contentsline {subsection}{\numberline {6.12.2}Constructor \& Destructor Documentation}{49}{subsection.6.12.2}
+\contentsline {subsubsection}{\numberline {6.12.2.1}Main\discretionary {-}{}{}Window}{49}{subsubsection.6.12.2.1}
+\contentsline {subsection}{\numberline {6.12.3}Member Function Documentation}{49}{subsection.6.12.3}
+\contentsline {subsubsection}{\numberline {6.12.3.1}acreditados\discretionary {-}{}{}Clk}{49}{subsubsection.6.12.3.1}
+\contentsline {subsubsection}{\numberline {6.12.3.2}al\discretionary {-}{}{}Cerrar}{49}{subsubsection.6.12.3.2}
+\contentsline {subsubsection}{\numberline {6.12.3.3}anadir\discretionary {-}{}{}Asistencia}{49}{subsubsection.6.12.3.3}
+\contentsline {subsubsection}{\numberline {6.12.3.4}btn\discretionary {-}{}{}Anadir\discretionary {-}{}{}Asis}{50}{subsubsection.6.12.3.4}
+\contentsline {subsubsection}{\numberline {6.12.3.5}btn\discretionary {-}{}{}Lookup\discretionary {-}{}{}Click}{50}{subsubsection.6.12.3.5}
+\contentsline {subsubsection}{\numberline {6.12.3.6}buscar\discretionary {-}{}{}Asistente}{50}{subsubsection.6.12.3.6}
+\contentsline {subsubsection}{\numberline {6.12.3.7}buscar\discretionary {-}{}{}Asistente}{50}{subsubsection.6.12.3.7}
+\contentsline {subsubsection}{\numberline {6.12.3.8}Connect}{51}{subsubsection.6.12.3.8}
+\contentsline {subsubsection}{\numberline {6.12.3.9}Connect}{52}{subsubsection.6.12.3.9}
+\contentsline {subsubsection}{\numberline {6.12.3.10}Connect}{53}{subsubsection.6.12.3.10}
+\contentsline {subsubsection}{\numberline {6.12.3.11}Connect}{55}{subsubsection.6.12.3.11}
+\contentsline {subsubsection}{\numberline {6.12.3.12}generating\discretionary {-}{}{}Column}{57}{subsubsection.6.12.3.12}
+\contentsline {subsubsection}{\numberline {6.12.3.13}Initialize\discretionary {-}{}{}Component}{58}{subsubsection.6.12.3.13}
+\contentsline {subsubsection}{\numberline {6.12.3.14}Initialize\discretionary {-}{}{}Component}{58}{subsubsection.6.12.3.14}
+\contentsline {subsubsection}{\numberline {6.12.3.15}Initialize\discretionary {-}{}{}Component}{58}{subsubsection.6.12.3.15}
+\contentsline {subsubsection}{\numberline {6.12.3.16}Initialize\discretionary {-}{}{}Component}{59}{subsubsection.6.12.3.16}
+\contentsline {subsubsection}{\numberline {6.12.3.17}lost\discretionary {-}{}{}Focus\discretionary {-}{}{}In\discretionary {-}{}{}Row}{59}{subsubsection.6.12.3.17}
+\contentsline {subsubsection}{\numberline {6.12.3.18}on\discretionary {-}{}{}Enter}{59}{subsubsection.6.12.3.18}
+\contentsline {subsubsection}{\numberline {6.12.3.19}on\discretionary {-}{}{}Enter\discretionary {-}{}{}R}{59}{subsubsection.6.12.3.19}
+\contentsline {subsubsection}{\numberline {6.12.3.20}on\discretionary {-}{}{}Focus}{60}{subsubsection.6.12.3.20}
+\contentsline {subsubsection}{\numberline {6.12.3.21}Popup\discretionary {-}{}{}Asistencias\discretionary {-}{}{}Personal}{60}{subsubsection.6.12.3.21}
+\contentsline {subsubsection}{\numberline {6.12.3.22}Popup\discretionary {-}{}{}Lost\discretionary {-}{}{}Focus}{60}{subsubsection.6.12.3.22}
+\contentsline {subsubsection}{\numberline {6.12.3.23}Registrar\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Click}{60}{subsubsection.6.12.3.23}
+\contentsline {subsubsection}{\numberline {6.12.3.24}registrar\discretionary {-}{}{}Asistente}{60}{subsubsection.6.12.3.24}
+\contentsline {subsubsection}{\numberline {6.12.3.25}selected\discretionary {-}{}{}Cells\discretionary {-}{}{}Change}{61}{subsubsection.6.12.3.25}
+\contentsline {subsubsection}{\numberline {6.12.3.26}Text\discretionary {-}{}{}Box\discretionary {-}{}{}Text\discretionary {-}{}{}Allowed}{61}{subsubsection.6.12.3.26}
+\contentsline {subsubsection}{\numberline {6.12.3.27}text\discretionary {-}{}{}Box\discretionary {-}{}{}Value\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Pasting}{61}{subsubsection.6.12.3.27}
+\contentsline {subsubsection}{\numberline {6.12.3.28}text\discretionary {-}{}{}Box\discretionary {-}{}{}Value\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Preview\discretionary {-}{}{}Text\discretionary {-}{}{}Input}{62}{subsubsection.6.12.3.28}
+\contentsline {subsubsection}{\numberline {6.12.3.29}txt\discretionary {-}{}{}Cuenta\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Text\discretionary {-}{}{}Changed}{62}{subsubsection.6.12.3.29}
+\contentsline {subsubsection}{\numberline {6.12.3.30}Window\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Loaded\discretionary {-}{}{}\_\discretionary {-}{}{}1}{62}{subsubsection.6.12.3.30}
+\contentsline {subsection}{\numberline {6.12.4}Member Data Documentation}{62}{subsection.6.12.4}
+\contentsline {subsubsection}{\numberline {6.12.4.1}\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}{62}{subsubsection.6.12.4.1}
+\contentsline {subsubsection}{\numberline {6.12.4.2}acreditados}{62}{subsubsection.6.12.4.2}
+\contentsline {subsubsection}{\numberline {6.12.4.3}Alumnos}{63}{subsubsection.6.12.4.3}
+\contentsline {subsubsection}{\numberline {6.12.4.4}asistente\discretionary {-}{}{}Manager}{63}{subsubsection.6.12.4.4}
+\contentsline {subsubsection}{\numberline {6.12.4.5}asistentes}{63}{subsubsection.6.12.4.5}
+\contentsline {subsubsection}{\numberline {6.12.4.6}btn\discretionary {-}{}{}Acreditados}{63}{subsubsection.6.12.4.6}
+\contentsline {subsubsection}{\numberline {6.12.4.7}btn\discretionary {-}{}{}Asist}{63}{subsubsection.6.12.4.7}
+\contentsline {subsubsection}{\numberline {6.12.4.8}btn\discretionary {-}{}{}Lookup}{63}{subsubsection.6.12.4.8}
+\contentsline {subsubsection}{\numberline {6.12.4.9}btn\discretionary {-}{}{}Registrar}{63}{subsubsection.6.12.4.9}
+\contentsline {subsubsection}{\numberline {6.12.4.10}cell\discretionary {-}{}{}Has\discretionary {-}{}{}Been\discretionary {-}{}{}Selected}{63}{subsubsection.6.12.4.10}
+\contentsline {subsubsection}{\numberline {6.12.4.11}chk\discretionary {-}{}{}Todos}{63}{subsubsection.6.12.4.11}
+\contentsline {subsubsection}{\numberline {6.12.4.12}club\discretionary {-}{}{}Seleccionado}{63}{subsubsection.6.12.4.12}
+\contentsline {subsubsection}{\numberline {6.12.4.13}conn}{63}{subsubsection.6.12.4.13}
+\contentsline {subsubsection}{\numberline {6.12.4.14}gd\discretionary {-}{}{}Asistencias}{63}{subsubsection.6.12.4.14}
+\contentsline {subsubsection}{\numberline {6.12.4.15}gd\discretionary {-}{}{}Asistencias\discretionary {-}{}{}Por\discretionary {-}{}{}Alumno}{64}{subsubsection.6.12.4.15}
+\contentsline {subsubsection}{\numberline {6.12.4.16}lbl\discretionary {-}{}{}Estado}{64}{subsubsection.6.12.4.16}
+\contentsline {subsubsection}{\numberline {6.12.4.17}parcial}{64}{subsubsection.6.12.4.17}
+\contentsline {subsubsection}{\numberline {6.12.4.18}populator}{64}{subsubsection.6.12.4.18}
+\contentsline {subsubsection}{\numberline {6.12.4.19}Popup\discretionary {-}{}{}Lookup}{64}{subsubsection.6.12.4.19}
+\contentsline {subsubsection}{\numberline {6.12.4.20}Sender}{64}{subsubsection.6.12.4.20}
+\contentsline {subsubsection}{\numberline {6.12.4.21}txt\discretionary {-}{}{}Cuenta}{64}{subsubsection.6.12.4.21}
+\contentsline {subsubsection}{\numberline {6.12.4.22}txt\discretionary {-}{}{}Cuenta\discretionary {-}{}{}R}{64}{subsubsection.6.12.4.22}
+\contentsline {subsubsection}{\numberline {6.12.4.23}txt\discretionary {-}{}{}Nombre}{64}{subsubsection.6.12.4.23}
+\contentsline {subsubsection}{\numberline {6.12.4.24}txt\discretionary {-}{}{}Plantel}{64}{subsubsection.6.12.4.24}
+\contentsline {section}{\numberline {6.13}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Main\discretionary {-}{}{}Window\discretionary {-}{}{}View\discretionary {-}{}{}Model Class Reference}{65}{section.6.13}
+\contentsline {subsection}{\numberline {6.13.1}Detailed Description}{65}{subsection.6.13.1}
+\contentsline {subsection}{\numberline {6.13.2}Constructor \& Destructor Documentation}{65}{subsection.6.13.2}
+\contentsline {subsubsection}{\numberline {6.13.2.1}Main\discretionary {-}{}{}Window\discretionary {-}{}{}View\discretionary {-}{}{}Model}{65}{subsubsection.6.13.2.1}
+\contentsline {subsection}{\numberline {6.13.3}Property Documentation}{65}{subsection.6.13.3}
+\contentsline {subsubsection}{\numberline {6.13.3.1}Asistentes}{65}{subsubsection.6.13.3.1}
+\contentsline {section}{\numberline {6.14}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club Class Reference}{65}{section.6.14}
+\contentsline {subsection}{\numberline {6.14.1}Detailed Description}{66}{subsection.6.14.1}
+\contentsline {subsection}{\numberline {6.14.2}Constructor \& Destructor Documentation}{66}{subsection.6.14.2}
+\contentsline {subsubsection}{\numberline {6.14.2.1}Modificar\discretionary {-}{}{}Club}{66}{subsubsection.6.14.2.1}
+\contentsline {subsection}{\numberline {6.14.3}Member Function Documentation}{67}{subsection.6.14.3}
+\contentsline {subsubsection}{\numberline {6.14.3.1}al\discretionary {-}{}{}Cerrar}{67}{subsubsection.6.14.3.1}
+\contentsline {subsubsection}{\numberline {6.14.3.2}click\discretionary {-}{}{}Edit}{67}{subsubsection.6.14.3.2}
+\contentsline {subsubsection}{\numberline {6.14.3.3}click\discretionary {-}{}{}Eliminar}{67}{subsubsection.6.14.3.3}
+\contentsline {subsubsection}{\numberline {6.14.3.4}Connect}{67}{subsubsection.6.14.3.4}
+\contentsline {subsubsection}{\numberline {6.14.3.5}Connect}{68}{subsubsection.6.14.3.5}
+\contentsline {subsubsection}{\numberline {6.14.3.6}Initialize\discretionary {-}{}{}Component}{69}{subsubsection.6.14.3.6}
+\contentsline {subsubsection}{\numberline {6.14.3.7}Initialize\discretionary {-}{}{}Component}{69}{subsubsection.6.14.3.7}
+\contentsline {subsubsection}{\numberline {6.14.3.8}slider\discretionary {-}{}{}Change}{70}{subsubsection.6.14.3.8}
+\contentsline {subsection}{\numberline {6.14.4}Member Data Documentation}{70}{subsection.6.14.4}
+\contentsline {subsubsection}{\numberline {6.14.4.1}\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}{70}{subsubsection.6.14.4.1}
+\contentsline {subsubsection}{\numberline {6.14.4.2}club\discretionary {-}{}{}Manager}{70}{subsubsection.6.14.4.2}
+\contentsline {subsubsection}{\numberline {6.14.4.3}conn}{70}{subsubsection.6.14.4.3}
+\contentsline {subsubsection}{\numberline {6.14.4.4}lbl\discretionary {-}{}{}Asist}{70}{subsubsection.6.14.4.4}
+\contentsline {subsubsection}{\numberline {6.14.4.5}lbl\discretionary {-}{}{}Parciales}{70}{subsubsection.6.14.4.5}
+\contentsline {subsubsection}{\numberline {6.14.4.6}placeholder}{70}{subsubsection.6.14.4.6}
+\contentsline {subsubsection}{\numberline {6.14.4.7}selected}{71}{subsubsection.6.14.4.7}
+\contentsline {subsubsection}{\numberline {6.14.4.8}Sender}{71}{subsubsection.6.14.4.8}
+\contentsline {subsubsection}{\numberline {6.14.4.9}sld\discretionary {-}{}{}Assist}{71}{subsubsection.6.14.4.9}
+\contentsline {subsubsection}{\numberline {6.14.4.10}sld\discretionary {-}{}{}Parciales}{71}{subsubsection.6.14.4.10}
+\contentsline {subsubsection}{\numberline {6.14.4.11}txt\discretionary {-}{}{}Nombre}{71}{subsubsection.6.14.4.11}
+\contentsline {section}{\numberline {6.15}matrix.\discretionary {-}{}{}Program Class Reference}{71}{section.6.15}
+\contentsline {subsection}{\numberline {6.15.1}Detailed Description}{72}{subsection.6.15.1}
+\contentsline {subsection}{\numberline {6.15.2}Member Function Documentation}{72}{subsection.6.15.2}
+\contentsline {subsubsection}{\numberline {6.15.2.1}Initialize}{72}{subsubsection.6.15.2.1}
+\contentsline {subsubsection}{\numberline {6.15.2.2}in\discretionary {-}{}{}Screen\discretionary {-}{}{}Y\discretionary {-}{}{}Position}{72}{subsubsection.6.15.2.2}
+\contentsline {subsubsection}{\numberline {6.15.2.3}Main}{72}{subsubsection.6.15.2.3}
+\contentsline {subsubsection}{\numberline {6.15.2.4}Update\discretionary {-}{}{}All\discretionary {-}{}{}Columns}{73}{subsubsection.6.15.2.4}
+\contentsline {subsection}{\numberline {6.15.3}Member Data Documentation}{73}{subsection.6.15.3}
+\contentsline {subsubsection}{\numberline {6.15.3.1}Blacking}{74}{subsubsection.6.15.3.1}
+\contentsline {subsubsection}{\numberline {6.15.3.2}Counter}{74}{subsubsection.6.15.3.2}
+\contentsline {subsubsection}{\numberline {6.15.3.3}Fancy\discretionary {-}{}{}Color}{74}{subsubsection.6.15.3.3}
+\contentsline {subsubsection}{\numberline {6.15.3.4}Full\discretionary {-}{}{}Flow}{74}{subsubsection.6.15.3.4}
+\contentsline {subsubsection}{\numberline {6.15.3.5}Glow\discretionary {-}{}{}Color}{74}{subsubsection.6.15.3.5}
+\contentsline {subsubsection}{\numberline {6.15.3.6}Interval}{74}{subsubsection.6.15.3.6}
+\contentsline {subsubsection}{\numberline {6.15.3.7}Normal\discretionary {-}{}{}Color}{74}{subsubsection.6.15.3.7}
+\contentsline {subsubsection}{\numberline {6.15.3.8}rand}{74}{subsubsection.6.15.3.8}
+\contentsline {subsubsection}{\numberline {6.15.3.9}Text\discretionary {-}{}{}Input}{74}{subsubsection.6.15.3.9}
+\contentsline {subsection}{\numberline {6.15.4}Property Documentation}{74}{subsection.6.15.4}
+\contentsline {subsubsection}{\numberline {6.15.4.1}Ascii\discretionary {-}{}{}Character}{74}{subsubsection.6.15.4.1}
+\contentsline {section}{\numberline {6.16}General\discretionary {-}{}{}\_\discretionary {-}{}{}cuentas.\discretionary {-}{}{}Program Class Reference}{75}{section.6.16}
+\contentsline {subsection}{\numberline {6.16.1}Detailed Description}{75}{subsection.6.16.1}
+\contentsline {subsection}{\numberline {6.16.2}Member Function Documentation}{75}{subsection.6.16.2}
+\contentsline {subsubsection}{\numberline {6.16.2.1}Generate}{75}{subsubsection.6.16.2.1}
+\contentsline {subsubsection}{\numberline {6.16.2.2}Main}{75}{subsubsection.6.16.2.2}
+\contentsline {subsection}{\numberline {6.16.3}Member Data Documentation}{76}{subsection.6.16.3}
+\contentsline {subsubsection}{\numberline {6.16.3.1}stream\discretionary {-}{}{}Reader1}{76}{subsubsection.6.16.3.1}
+\contentsline {subsubsection}{\numberline {6.16.3.2}stream\discretionary {-}{}{}Reader2}{76}{subsubsection.6.16.3.2}
+\contentsline {subsubsection}{\numberline {6.16.3.3}stream\discretionary {-}{}{}Reader3}{76}{subsubsection.6.16.3.3}
+\contentsline {section}{\numberline {6.17}Asistencias.\discretionary {-}{}{}Program Class Reference}{76}{section.6.17}
+\contentsline {subsection}{\numberline {6.17.1}Detailed Description}{76}{subsection.6.17.1}
+\contentsline {subsection}{\numberline {6.17.2}Member Function Documentation}{76}{subsection.6.17.2}
+\contentsline {subsubsection}{\numberline {6.17.2.1}Main}{76}{subsubsection.6.17.2.1}
+\contentsline {section}{\numberline {6.18}Importar\discretionary {-}{}{}Cuentas.\discretionary {-}{}{}Program Class Reference}{76}{section.6.18}
+\contentsline {subsection}{\numberline {6.18.1}Detailed Description}{77}{subsection.6.18.1}
+\contentsline {subsection}{\numberline {6.18.2}Member Function Documentation}{77}{subsection.6.18.2}
+\contentsline {subsubsection}{\numberline {6.18.2.1}Main}{77}{subsubsection.6.18.2.1}
+\contentsline {section}{\numberline {6.19}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Registro\discretionary {-}{}{}Club Class Reference}{77}{section.6.19}
+\contentsline {subsection}{\numberline {6.19.1}Detailed Description}{78}{subsection.6.19.1}
+\contentsline {subsection}{\numberline {6.19.2}Constructor \& Destructor Documentation}{78}{subsection.6.19.2}
+\contentsline {subsubsection}{\numberline {6.19.2.1}Registro\discretionary {-}{}{}Club}{78}{subsubsection.6.19.2.1}
+\contentsline {subsection}{\numberline {6.19.3}Member Function Documentation}{78}{subsection.6.19.3}
+\contentsline {subsubsection}{\numberline {6.19.3.1}al\discretionary {-}{}{}Cerrar}{78}{subsubsection.6.19.3.1}
+\contentsline {subsubsection}{\numberline {6.19.3.2}click\discretionary {-}{}{}Registro}{78}{subsubsection.6.19.3.2}
+\contentsline {subsubsection}{\numberline {6.19.3.3}Connect}{79}{subsubsection.6.19.3.3}
+\contentsline {subsubsection}{\numberline {6.19.3.4}Connect}{79}{subsubsection.6.19.3.4}
+\contentsline {subsubsection}{\numberline {6.19.3.5}Initialize\discretionary {-}{}{}Component}{80}{subsubsection.6.19.3.5}
+\contentsline {subsubsection}{\numberline {6.19.3.6}Initialize\discretionary {-}{}{}Component}{80}{subsubsection.6.19.3.6}
+\contentsline {subsubsection}{\numberline {6.19.3.7}registrar\discretionary {-}{}{}Club}{81}{subsubsection.6.19.3.7}
+\contentsline {subsubsection}{\numberline {6.19.3.8}slider\discretionary {-}{}{}Change}{81}{subsubsection.6.19.3.8}
+\contentsline {subsection}{\numberline {6.19.4}Member Data Documentation}{81}{subsection.6.19.4}
+\contentsline {subsubsection}{\numberline {6.19.4.1}\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}{81}{subsubsection.6.19.4.1}
+\contentsline {subsubsection}{\numberline {6.19.4.2}club\discretionary {-}{}{}Manager}{82}{subsubsection.6.19.4.2}
+\contentsline {subsubsection}{\numberline {6.19.4.3}conn}{82}{subsubsection.6.19.4.3}
+\contentsline {subsubsection}{\numberline {6.19.4.4}lbl\discretionary {-}{}{}Asist}{82}{subsubsection.6.19.4.4}
+\contentsline {subsubsection}{\numberline {6.19.4.5}lbl\discretionary {-}{}{}Parciales}{82}{subsubsection.6.19.4.5}
+\contentsline {subsubsection}{\numberline {6.19.4.6}placeholder}{82}{subsubsection.6.19.4.6}
+\contentsline {subsubsection}{\numberline {6.19.4.7}Sender}{82}{subsubsection.6.19.4.7}
+\contentsline {subsubsection}{\numberline {6.19.4.8}sld\discretionary {-}{}{}Assist}{82}{subsubsection.6.19.4.8}
+\contentsline {subsubsection}{\numberline {6.19.4.9}sld\discretionary {-}{}{}Parciales}{82}{subsubsection.6.19.4.9}
+\contentsline {subsubsection}{\numberline {6.19.4.10}txt\discretionary {-}{}{}Nombre}{82}{subsubsection.6.19.4.10}
+\contentsline {section}{\numberline {6.20}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Resources Class Reference}{82}{section.6.20}
+\contentsline {subsection}{\numberline {6.20.1}Detailed Description}{83}{subsection.6.20.1}
+\contentsline {subsection}{\numberline {6.20.2}Constructor \& Destructor Documentation}{83}{subsection.6.20.2}
+\contentsline {subsubsection}{\numberline {6.20.2.1}Resources}{83}{subsubsection.6.20.2.1}
+\contentsline {subsection}{\numberline {6.20.3}Member Data Documentation}{83}{subsection.6.20.3}
+\contentsline {subsubsection}{\numberline {6.20.3.1}resource\discretionary {-}{}{}Culture}{83}{subsubsection.6.20.3.1}
+\contentsline {subsubsection}{\numberline {6.20.3.2}resource\discretionary {-}{}{}Man}{83}{subsubsection.6.20.3.2}
+\contentsline {subsection}{\numberline {6.20.4}Property Documentation}{83}{subsection.6.20.4}
+\contentsline {subsubsection}{\numberline {6.20.4.1}Culture}{83}{subsubsection.6.20.4.1}
+\contentsline {subsubsection}{\numberline {6.20.4.2}Resource\discretionary {-}{}{}Manager}{84}{subsubsection.6.20.4.2}
+\contentsline {section}{\numberline {6.21}Asistencias.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Resources Class Reference}{84}{section.6.21}
+\contentsline {subsection}{\numberline {6.21.1}Detailed Description}{84}{subsection.6.21.1}
+\contentsline {subsection}{\numberline {6.21.2}Constructor \& Destructor Documentation}{84}{subsection.6.21.2}
+\contentsline {subsubsection}{\numberline {6.21.2.1}Resources}{84}{subsubsection.6.21.2.1}
+\contentsline {subsection}{\numberline {6.21.3}Member Data Documentation}{85}{subsection.6.21.3}
+\contentsline {subsubsection}{\numberline {6.21.3.1}resource\discretionary {-}{}{}Culture}{85}{subsubsection.6.21.3.1}
+\contentsline {subsubsection}{\numberline {6.21.3.2}resource\discretionary {-}{}{}Man}{85}{subsubsection.6.21.3.2}
+\contentsline {subsection}{\numberline {6.21.4}Property Documentation}{85}{subsection.6.21.4}
+\contentsline {subsubsection}{\numberline {6.21.4.1}Culture}{85}{subsubsection.6.21.4.1}
+\contentsline {subsubsection}{\numberline {6.21.4.2}Resource\discretionary {-}{}{}Manager}{85}{subsubsection.6.21.4.2}
+\contentsline {section}{\numberline {6.22}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Resources Class Reference}{85}{section.6.22}
+\contentsline {subsection}{\numberline {6.22.1}Detailed Description}{86}{subsection.6.22.1}
+\contentsline {subsection}{\numberline {6.22.2}Constructor \& Destructor Documentation}{86}{subsection.6.22.2}
+\contentsline {subsubsection}{\numberline {6.22.2.1}Resources}{86}{subsubsection.6.22.2.1}
+\contentsline {subsection}{\numberline {6.22.3}Member Data Documentation}{86}{subsection.6.22.3}
+\contentsline {subsubsection}{\numberline {6.22.3.1}resource\discretionary {-}{}{}Culture}{86}{subsubsection.6.22.3.1}
+\contentsline {subsubsection}{\numberline {6.22.3.2}resource\discretionary {-}{}{}Man}{86}{subsubsection.6.22.3.2}
+\contentsline {subsection}{\numberline {6.22.4}Property Documentation}{86}{subsection.6.22.4}
+\contentsline {subsubsection}{\numberline {6.22.4.1}Culture}{86}{subsubsection.6.22.4.1}
+\contentsline {subsubsection}{\numberline {6.22.4.2}Resource\discretionary {-}{}{}Manager}{86}{subsubsection.6.22.4.2}
+\contentsline {section}{\numberline {6.23}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Seleccion Class Reference}{87}{section.6.23}
+\contentsline {subsection}{\numberline {6.23.1}Detailed Description}{87}{subsection.6.23.1}
+\contentsline {subsection}{\numberline {6.23.2}Constructor \& Destructor Documentation}{88}{subsection.6.23.2}
+\contentsline {subsubsection}{\numberline {6.23.2.1}Seleccion}{88}{subsubsection.6.23.2.1}
+\contentsline {subsection}{\numberline {6.23.3}Member Function Documentation}{88}{subsection.6.23.3}
+\contentsline {subsubsection}{\numberline {6.23.3.1}Al\discretionary {-}{}{}Iniciar}{88}{subsubsection.6.23.3.1}
+\contentsline {subsubsection}{\numberline {6.23.3.2}click\discretionary {-}{}{}Clubes}{88}{subsubsection.6.23.3.2}
+\contentsline {subsubsection}{\numberline {6.23.3.3}click\discretionary {-}{}{}Edit}{88}{subsubsection.6.23.3.3}
+\contentsline {subsubsection}{\numberline {6.23.3.4}click\discretionary {-}{}{}Entrar}{88}{subsubsection.6.23.3.4}
+\contentsline {subsubsection}{\numberline {6.23.3.5}Connect}{89}{subsubsection.6.23.3.5}
+\contentsline {subsubsection}{\numberline {6.23.3.6}Connect}{89}{subsubsection.6.23.3.6}
+\contentsline {subsubsection}{\numberline {6.23.3.7}Despues\discretionary {-}{}{}De\discretionary {-}{}{}Cargar}{90}{subsubsection.6.23.3.7}
+\contentsline {subsubsection}{\numberline {6.23.3.8}enable\discretionary {-}{}{}Entrar}{90}{subsubsection.6.23.3.8}
+\contentsline {subsubsection}{\numberline {6.23.3.9}guardar\discretionary {-}{}{}Parcial}{91}{subsubsection.6.23.3.9}
+\contentsline {subsubsection}{\numberline {6.23.3.10}Initialize\discretionary {-}{}{}Component}{91}{subsubsection.6.23.3.10}
+\contentsline {subsubsection}{\numberline {6.23.3.11}Initialize\discretionary {-}{}{}Component}{91}{subsubsection.6.23.3.11}
+\contentsline {subsubsection}{\numberline {6.23.3.12}llenar\discretionary {-}{}{}Parcial}{91}{subsubsection.6.23.3.12}
+\contentsline {subsubsection}{\numberline {6.23.3.13}Refresh}{92}{subsubsection.6.23.3.13}
+\contentsline {subsection}{\numberline {6.23.4}Member Data Documentation}{92}{subsection.6.23.4}
+\contentsline {subsubsection}{\numberline {6.23.4.1}\discretionary {-}{}{}\_\discretionary {-}{}{}content\discretionary {-}{}{}Loaded}{92}{subsubsection.6.23.4.1}
+\contentsline {subsubsection}{\numberline {6.23.4.2}btn\discretionary {-}{}{}Entrar}{92}{subsubsection.6.23.4.2}
+\contentsline {subsubsection}{\numberline {6.23.4.3}Clubes}{92}{subsubsection.6.23.4.3}
+\contentsline {subsubsection}{\numberline {6.23.4.4}cmb\discretionary {-}{}{}Club}{92}{subsubsection.6.23.4.4}
+\contentsline {subsubsection}{\numberline {6.23.4.5}cmb\discretionary {-}{}{}Parcial}{92}{subsubsection.6.23.4.5}
+\contentsline {subsubsection}{\numberline {6.23.4.6}conn}{92}{subsubsection.6.23.4.6}
+\contentsline {section}{\numberline {6.24}Asistencias.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Settings Class Reference}{93}{section.6.24}
+\contentsline {subsection}{\numberline {6.24.1}Detailed Description}{93}{subsection.6.24.1}
+\contentsline {subsection}{\numberline {6.24.2}Member Data Documentation}{93}{subsection.6.24.2}
+\contentsline {subsubsection}{\numberline {6.24.2.1}default\discretionary {-}{}{}Instance}{93}{subsubsection.6.24.2.1}
+\contentsline {subsection}{\numberline {6.24.3}Property Documentation}{93}{subsection.6.24.3}
+\contentsline {subsubsection}{\numberline {6.24.3.1}Default}{93}{subsubsection.6.24.3.1}
+\contentsline {subsubsection}{\numberline {6.24.3.2}Setting}{93}{subsubsection.6.24.3.2}
+\contentsline {section}{\numberline {6.25}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Settings Class Reference}{93}{section.6.25}
+\contentsline {subsection}{\numberline {6.25.1}Detailed Description}{94}{subsection.6.25.1}
+\contentsline {subsection}{\numberline {6.25.2}Member Data Documentation}{94}{subsection.6.25.2}
+\contentsline {subsubsection}{\numberline {6.25.2.1}default\discretionary {-}{}{}Instance}{94}{subsubsection.6.25.2.1}
+\contentsline {subsection}{\numberline {6.25.3}Property Documentation}{94}{subsection.6.25.3}
+\contentsline {subsubsection}{\numberline {6.25.3.1}Default}{94}{subsubsection.6.25.3.1}
+\contentsline {section}{\numberline {6.26}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf.\discretionary {-}{}{}Properties.\discretionary {-}{}{}Settings Class Reference}{94}{section.6.26}
+\contentsline {subsection}{\numberline {6.26.1}Detailed Description}{95}{subsection.6.26.1}
+\contentsline {subsection}{\numberline {6.26.2}Member Data Documentation}{95}{subsection.6.26.2}
+\contentsline {subsubsection}{\numberline {6.26.2.1}default\discretionary {-}{}{}Instance}{95}{subsubsection.6.26.2.1}
+\contentsline {subsection}{\numberline {6.26.3}Property Documentation}{95}{subsection.6.26.3}
+\contentsline {subsubsection}{\numberline {6.26.3.1}Alumnos\discretionary {-}{}{}Connection\discretionary {-}{}{}String}{95}{subsubsection.6.26.3.1}
+\contentsline {subsubsection}{\numberline {6.26.3.2}Default}{95}{subsubsection.6.26.3.2}
+\contentsline {subsubsection}{\numberline {6.26.3.3}Ultima\discretionary {-}{}{}Parcial}{95}{subsubsection.6.26.3.3}
+\contentsline {chapter}{\numberline {7}File Documentation}{97}{chapter.7}
+\contentsline {section}{\numberline {7.1}Asistencias/\discretionary {-}{}{}Form1.cs File Reference}{97}{section.7.1}
+\contentsline {section}{\numberline {7.2}Asistencias/\discretionary {-}{}{}Form1.Designer.\discretionary {-}{}{}cs File Reference}{97}{section.7.2}
+\contentsline {section}{\numberline {7.3}Asistencias/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.cs File Reference}{97}{section.7.3}
+\contentsline {section}{\numberline {7.4}Asistencias/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.cs File Reference}{97}{section.7.4}
+\contentsline {section}{\numberline {7.5}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.cs File Reference}{98}{section.7.5}
+\contentsline {section}{\numberline {7.6}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.cs File Reference}{98}{section.7.6}
+\contentsline {section}{\numberline {7.7}General cuentas/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.cs File Reference}{98}{section.7.7}
+\contentsline {section}{\numberline {7.8}General cuentas/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.cs File Reference}{98}{section.7.8}
+\contentsline {section}{\numberline {7.9}matrix/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.cs File Reference}{98}{section.7.9}
+\contentsline {section}{\numberline {7.10}matrix/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}036\discretionary {-}{}{}C0\discretionary {-}{}{}B5\discretionary {-}{}{}B-\/1481-\/4323-\/8\discretionary {-}{}{}D20-\/8\discretionary {-}{}{}F5\discretionary {-}{}{}A\discretionary {-}{}{}D\discretionary {-}{}{}C\discretionary {-}{}{}B23\discretionary {-}{}{}D92.cs File Reference}{98}{section.7.10}
+\contentsline {section}{\numberline {7.11}Asistencias/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.cs File Reference}{98}{section.7.11}
+\contentsline {section}{\numberline {7.12}Asistencias/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.cs File Reference}{98}{section.7.12}
+\contentsline {section}{\numberline {7.13}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.cs File Reference}{98}{section.7.13}
+\contentsline {section}{\numberline {7.14}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.cs File Reference}{98}{section.7.14}
+\contentsline {section}{\numberline {7.15}General cuentas/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.cs File Reference}{98}{section.7.15}
+\contentsline {section}{\numberline {7.16}General cuentas/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.cs File Reference}{98}{section.7.16}
+\contentsline {section}{\numberline {7.17}matrix/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.cs File Reference}{98}{section.7.17}
+\contentsline {section}{\numberline {7.18}matrix/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}5937a670-\/0e60-\/4077-\/877b-\/f7221da3dda1.cs File Reference}{99}{section.7.18}
+\contentsline {section}{\numberline {7.19}Asistencias/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}E7\discretionary {-}{}{}A71\discretionary {-}{}{}F73-\/0\discretionary {-}{}{}F8\discretionary {-}{}{}D-\/4\discretionary {-}{}{}B9\discretionary {-}{}{}B-\/\discretionary {-}{}{}B56\discretionary {-}{}{}E-\/8\discretionary {-}{}{}E70\discretionary {-}{}{}B10\discretionary {-}{}{}B\discretionary {-}{}{}C5\discretionary {-}{}{}D3.cs File Reference}{99}{section.7.19}
+\contentsline {section}{\numberline {7.20}Asistencias/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}E7\discretionary {-}{}{}A71\discretionary {-}{}{}F73-\/0\discretionary {-}{}{}F8\discretionary {-}{}{}D-\/4\discretionary {-}{}{}B9\discretionary {-}{}{}B-\/\discretionary {-}{}{}B56\discretionary {-}{}{}E-\/8\discretionary {-}{}{}E70\discretionary {-}{}{}B10\discretionary {-}{}{}B\discretionary {-}{}{}C5\discretionary {-}{}{}D3.cs File Reference}{99}{section.7.20}
+\contentsline {section}{\numberline {7.21}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}E7\discretionary {-}{}{}A71\discretionary {-}{}{}F73-\/0\discretionary {-}{}{}F8\discretionary {-}{}{}D-\/4\discretionary {-}{}{}B9\discretionary {-}{}{}B-\/\discretionary {-}{}{}B56\discretionary {-}{}{}E-\/8\discretionary {-}{}{}E70\discretionary {-}{}{}B10\discretionary {-}{}{}B\discretionary {-}{}{}C5\discretionary {-}{}{}D3.cs File Reference}{99}{section.7.21}
+\contentsline {section}{\numberline {7.22}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}E7\discretionary {-}{}{}A71\discretionary {-}{}{}F73-\/0\discretionary {-}{}{}F8\discretionary {-}{}{}D-\/4\discretionary {-}{}{}B9\discretionary {-}{}{}B-\/\discretionary {-}{}{}B56\discretionary {-}{}{}E-\/8\discretionary {-}{}{}E70\discretionary {-}{}{}B10\discretionary {-}{}{}B\discretionary {-}{}{}C5\discretionary {-}{}{}D3.cs File Reference}{99}{section.7.22}
+\contentsline {section}{\numberline {7.23}General cuentas/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}E7\discretionary {-}{}{}A71\discretionary {-}{}{}F73-\/0\discretionary {-}{}{}F8\discretionary {-}{}{}D-\/4\discretionary {-}{}{}B9\discretionary {-}{}{}B-\/\discretionary {-}{}{}B56\discretionary {-}{}{}E-\/8\discretionary {-}{}{}E70\discretionary {-}{}{}B10\discretionary {-}{}{}B\discretionary {-}{}{}C5\discretionary {-}{}{}D3.cs File Reference}{99}{section.7.23}
+\contentsline {section}{\numberline {7.24}General cuentas/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}E7\discretionary {-}{}{}A71\discretionary {-}{}{}F73-\/0\discretionary {-}{}{}F8\discretionary {-}{}{}D-\/4\discretionary {-}{}{}B9\discretionary {-}{}{}B-\/\discretionary {-}{}{}B56\discretionary {-}{}{}E-\/8\discretionary {-}{}{}E70\discretionary {-}{}{}B10\discretionary {-}{}{}B\discretionary {-}{}{}C5\discretionary {-}{}{}D3.cs File Reference}{99}{section.7.24}
+\contentsline {section}{\numberline {7.25}matrix/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}E7\discretionary {-}{}{}A71\discretionary {-}{}{}F73-\/0\discretionary {-}{}{}F8\discretionary {-}{}{}D-\/4\discretionary {-}{}{}B9\discretionary {-}{}{}B-\/\discretionary {-}{}{}B56\discretionary {-}{}{}E-\/8\discretionary {-}{}{}E70\discretionary {-}{}{}B10\discretionary {-}{}{}B\discretionary {-}{}{}C5\discretionary {-}{}{}D3.cs File Reference}{99}{section.7.25}
+\contentsline {section}{\numberline {7.26}matrix/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Temporary\discretionary {-}{}{}Generated\discretionary {-}{}{}File\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}E7\discretionary {-}{}{}A71\discretionary {-}{}{}F73-\/0\discretionary {-}{}{}F8\discretionary {-}{}{}D-\/4\discretionary {-}{}{}B9\discretionary {-}{}{}B-\/\discretionary {-}{}{}B56\discretionary {-}{}{}E-\/8\discretionary {-}{}{}E70\discretionary {-}{}{}B10\discretionary {-}{}{}B\discretionary {-}{}{}C5\discretionary {-}{}{}D3.cs File Reference}{99}{section.7.26}
+\contentsline {section}{\numberline {7.27}Asistencias/\discretionary {-}{}{}Program.cs File Reference}{99}{section.7.27}
+\contentsline {section}{\numberline {7.28}General cuentas/\discretionary {-}{}{}Program.cs File Reference}{99}{section.7.28}
+\contentsline {section}{\numberline {7.29}Importar\discretionary {-}{}{}Cuentas/\discretionary {-}{}{}Program.cs File Reference}{100}{section.7.29}
+\contentsline {section}{\numberline {7.30}matrix/\discretionary {-}{}{}Program.cs File Reference}{100}{section.7.30}
+\contentsline {section}{\numberline {7.31}Asistencias/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.cs File Reference}{100}{section.7.31}
+\contentsline {section}{\numberline {7.32}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.cs File Reference}{100}{section.7.32}
+\contentsline {section}{\numberline {7.33}General cuentas/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.cs File Reference}{100}{section.7.33}
+\contentsline {section}{\numberline {7.34}Importar\discretionary {-}{}{}Cuentas/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.cs File Reference}{101}{section.7.34}
+\contentsline {section}{\numberline {7.35}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.cs File Reference}{101}{section.7.35}
+\contentsline {section}{\numberline {7.36}matrix/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Assembly\discretionary {-}{}{}Info.cs File Reference}{101}{section.7.36}
+\contentsline {section}{\numberline {7.37}Asistencias/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Resources.Designer.\discretionary {-}{}{}cs File Reference}{101}{section.7.37}
+\contentsline {section}{\numberline {7.38}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Resources.Designer.\discretionary {-}{}{}cs File Reference}{101}{section.7.38}
+\contentsline {section}{\numberline {7.39}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Resources.Designer.\discretionary {-}{}{}cs File Reference}{101}{section.7.39}
+\contentsline {section}{\numberline {7.40}Asistencias/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Settings.Designer.\discretionary {-}{}{}cs File Reference}{102}{section.7.40}
+\contentsline {section}{\numberline {7.41}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Settings.Designer.\discretionary {-}{}{}cs File Reference}{102}{section.7.41}
+\contentsline {section}{\numberline {7.42}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Properties/\discretionary {-}{}{}Settings.Designer.\discretionary {-}{}{}cs File Reference}{102}{section.7.42}
+\contentsline {section}{\numberline {7.43}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Alumnos\discretionary {-}{}{}Data\discretionary {-}{}{}Set.Designer.\discretionary {-}{}{}cs File Reference}{103}{section.7.43}
+\contentsline {section}{\numberline {7.44}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}App.xaml.\discretionary {-}{}{}cs File Reference}{103}{section.7.44}
+\contentsline {section}{\numberline {7.45}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}App.xaml.\discretionary {-}{}{}cs File Reference}{103}{section.7.45}
+\contentsline {section}{\numberline {7.46}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Asistencia.cs File Reference}{104}{section.7.46}
+\contentsline {section}{\numberline {7.47}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Asistente.cs File Reference}{104}{section.7.47}
+\contentsline {section}{\numberline {7.48}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Asistente\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager.cs File Reference}{104}{section.7.48}
+\contentsline {section}{\numberline {7.49}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Asistentes\discretionary {-}{}{}Populator.cs File Reference}{105}{section.7.49}
+\contentsline {section}{\numberline {7.50}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Club.cs File Reference}{105}{section.7.50}
+\contentsline {section}{\numberline {7.51}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Club\discretionary {-}{}{}D\discretionary {-}{}{}B\discretionary {-}{}{}Manager.cs File Reference}{105}{section.7.51}
+\contentsline {section}{\numberline {7.52}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.xaml.\discretionary {-}{}{}cs File Reference}{105}{section.7.52}
+\contentsline {section}{\numberline {7.53}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.xaml.\discretionary {-}{}{}cs File Reference}{106}{section.7.53}
+\contentsline {section}{\numberline {7.54}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Main\discretionary {-}{}{}Window\discretionary {-}{}{}View\discretionary {-}{}{}Model.cs File Reference}{106}{section.7.54}
+\contentsline {section}{\numberline {7.55}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club.xaml.\discretionary {-}{}{}cs File Reference}{106}{section.7.55}
+\contentsline {section}{\numberline {7.56}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}App.g.\discretionary {-}{}{}cs File Reference}{107}{section.7.56}
+\contentsline {section}{\numberline {7.57}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}App.g.\discretionary {-}{}{}cs File Reference}{107}{section.7.57}
+\contentsline {section}{\numberline {7.58}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}App.g.\discretionary {-}{}{}cs File Reference}{107}{section.7.58}
+\contentsline {section}{\numberline {7.59}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}App.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{108}{section.7.59}
+\contentsline {section}{\numberline {7.60}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}App.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{108}{section.7.60}
+\contentsline {section}{\numberline {7.61}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}App.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{108}{section.7.61}
+\contentsline {section}{\numberline {7.62}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Content.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{109}{section.7.62}
+\contentsline {section}{\numberline {7.63}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Content.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{109}{section.7.63}
+\contentsline {section}{\numberline {7.64}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.g.\discretionary {-}{}{}cs File Reference}{109}{section.7.64}
+\contentsline {section}{\numberline {7.65}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.g.\discretionary {-}{}{}cs File Reference}{109}{section.7.65}
+\contentsline {section}{\numberline {7.66}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.g.\discretionary {-}{}{}cs File Reference}{109}{section.7.66}
+\contentsline {section}{\numberline {7.67}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Debug/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{110}{section.7.67}
+\contentsline {section}{\numberline {7.68}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{110}{section.7.68}
+\contentsline {section}{\numberline {7.69}Importar\discretionary {-}{}{}Cuentas\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Main\discretionary {-}{}{}Window.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{110}{section.7.69}
+\contentsline {section}{\numberline {7.70}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf\discretionary {-}{}{}\_\discretionary {-}{}{}\discretionary {-}{}{}Content.g.\discretionary {-}{}{}cs File Reference}{111}{section.7.70}
+\contentsline {section}{\numberline {7.71}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club.g.\discretionary {-}{}{}cs File Reference}{111}{section.7.71}
+\contentsline {section}{\numberline {7.72}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Modificar\discretionary {-}{}{}Club.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{111}{section.7.72}
+\contentsline {section}{\numberline {7.73}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Registro\discretionary {-}{}{}Club.g.\discretionary {-}{}{}cs File Reference}{111}{section.7.73}
+\contentsline {section}{\numberline {7.74}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Registro\discretionary {-}{}{}Club.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{112}{section.7.74}
+\contentsline {section}{\numberline {7.75}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Seleccion.g.\discretionary {-}{}{}cs File Reference}{112}{section.7.75}
+\contentsline {section}{\numberline {7.76}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/obj/\discretionary {-}{}{}Release/\discretionary {-}{}{}Seleccion.g.\discretionary {-}{}{}i.\discretionary {-}{}{}cs File Reference}{112}{section.7.76}
+\contentsline {section}{\numberline {7.77}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Registro\discretionary {-}{}{}Club.xaml.\discretionary {-}{}{}cs File Reference}{113}{section.7.77}
+\contentsline {section}{\numberline {7.78}Asistencias\discretionary {-}{}{}\_\discretionary {-}{}{}wpf/\discretionary {-}{}{}Seleccion.xaml.\discretionary {-}{}{}cs File Reference}{113}{section.7.78}
+\contentsline {part}{Index}{114}{section*.232}

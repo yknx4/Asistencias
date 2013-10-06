@@ -18,7 +18,7 @@ namespace Asistencias_wpf
 
         public void cuentaModificada(object sender, PropertyChangedEventArgs e)
         {
-            asistenteDB.cuentaModificada(sender, e);
+            asistenteDB.itemModified(sender, e);
         }
 
         public AsistentesPopulator(SqlCeConnection conn, int parcial, Club seleccionado)

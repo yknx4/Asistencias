@@ -19,9 +19,9 @@ namespace Asistencias_wpf
         {
             this.Sender = Sender;
             clubManager = new ClubDBManager(conn);
-            selected.PropertyChanged += clubManager.clubModificado;
+            selected.PropertyChanged += clubManager.itemModified;
             this.selected = selected;
-            clubManager.setClub(this.selected);
+            clubManager.setItem(this.selected);
             InitializeComponent();
             sldAssist.Value = this.selected.AsistenciasParaParcial;
             sldParciales.Value = this.selected.Parciales;

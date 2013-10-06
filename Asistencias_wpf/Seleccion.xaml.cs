@@ -75,7 +75,8 @@ namespace Asistencias_wpf
             {
                 cmbParcial.Items.Add(i + 1);
             }
-            cmbParcial.SelectedIndex = Settings.Default.UltimaParcial;
+            if (Settings.Default.UltimaParcial <= seleccionado.Parciales) cmbParcial.SelectedIndex = Settings.Default.UltimaParcial;
+            else cmbParcial.SelectedIndex = 0;
         }
 
         private void guardarParcial(object sender, System.ComponentModel.CancelEventArgs e)

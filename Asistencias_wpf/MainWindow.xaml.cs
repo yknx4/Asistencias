@@ -5,13 +5,14 @@ using System.Data.SqlServerCe;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
+using MahApps.Metro.Controls;
 
 namespace Asistencias_wpf
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class MainWindow : MetroWindow
     {
         private static bool cellHasBeenSelected = false;
         private static SqlCeConnection conn = new SqlCeConnection(@"Data Source=|DataDirectory|\Alumnos.sdf");
@@ -81,7 +82,7 @@ namespace Asistencias_wpf
             ResultHolder = buscarAsistente(txtCuenta.Text);
             if (ResultHolder != null)
             {
-                asistenteManager.setAsistente(ResultHolder);
+                asistenteManager.setItem(ResultHolder);
                 if (asistenteManager.anadirAsistencia(clubSeleccionado.Id, parcial))
                 {
                     lblEstado.Content = ResultHolder.Nombre + " tiene " + ResultHolder.asistencias + " asistencias.";
@@ -263,7 +264,7 @@ namespace Asistencias_wpf
                 plantel = txtPlantel.Text,
             };
             actual.PropertyChanged += populator.cuentaModificada;
-            asistenteManager.setAsistente(actual);
+            asistenteManager.setItem(actual);
 
             if (asistenteManager.AddToDB())
             {

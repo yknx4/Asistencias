@@ -5,44 +5,27 @@ using System.Windows;
 
 namespace Asistencias_wpf
 {
-    internal class AsistenteDBManager
+    internal class AsistenteDBManager : DBManager<Asistente>
     {
-        public enum ValoresModificables
+       
+
+        public AsistenteDBManager(SqlCeConnection conexion):base(conexion)
         {
-            Nombre, NumeroCuenta, Plantel
+            
         }
 
-        public AsistenteDBManager(SqlCeConnection conexion)
-        {
-            this.conexion = conexion;
-        }
+        //private SqlCeConnection connection;
+       // private Asistente heldItem;
 
-        private SqlCeConnection conexion;
-        private Asistente Holder;
-
-        public void setAsistente(Asistente Input)
-        {
-            Holder = Input;
-        }
-
-        public void Clear()
-        {
-            Holder = null;
-        }
-
-        private bool Active()
-        {
-            if (Holder == null) return false;
-            return true;
-        }
+       
 
         public bool anadirAsistencia(int club, int parcial)
         {
             if (!Active()) return false;
-            conexion.Open();
-            SqlCeCommand cmd = new SqlCeCommand("INSERT INTO Asistencias(idClub, idAlumno, parcial, date)VALUES(@club, @cuenta, @parcial, @date)", conexion);
+            connection.Open();
+            SqlCeCommand cmd = new SqlCeCommand("INSERT INTO Asistencias(idClub, idAlumno, parcial, date)VALUES(@club, @cuenta, @parcial, @date)", connection);
             cmd.Parameters.AddWithValue("@club", club);
-            cmd.Parameters.AddWithValue("@cuenta", Holder.numeroCuenta);
+            cmd.Parameters.AddWithValue("@cuenta", heldItem.numeroCuenta);
             cmd.Parameters.AddWithValue("@parcial", parcial);
             cmd.Parameters.AddWithValue("@date", DateTime.Now);
 
@@ -54,19 +37,19 @@ namespace Asistencias_wpf
             catch (System.InvalidOperationException ex)
             {
                 MessageBoxResult mes = MessageBox.Show(ex.ToString());
-                conexion.Close();
+                connection.Close();
                 return false;
             }
             catch (SqlCeException ex)
             {
                 MessageBoxResult mes = MessageBox.Show(ex.ToString());
-                conexion.Close();
+                connection.Close();
                 return false;
             }
-            conexion.Close();
+            connection.Close();
 
             //Holder.asistencias++;
-            Holder.Asistencias.Add(new Asistencia()
+            heldItem.Asistencias.Add(new Asistencia()
             {
                 Date = DateTime.Now,
                 Parcial = parcial,
@@ -74,7 +57,7 @@ namespace Asistencias_wpf
             return true;
         }
 
-        public bool modificarDato(ValoresModificables modificar)
+        public override bool modificarDato(UInt32 modificar)
         {
             //UPDATE Alumnos SET Nombre = N'Jorge Figueroa Perez' WHERE (Alumnos.NumeroCuenta = 20094894)//
             if (!Active()) return false;
@@ -83,60 +66,60 @@ namespace Asistencias_wpf
             string valorNuevoQuery = "";
             switch (modificar)
             {
-                case ValoresModificables.Nombre:
-                    numeroCuentaQuery = Holder.numeroCuenta;
+                case ModifiableValues.Name:
+                    numeroCuentaQuery = heldItem.numeroCuenta;
                     valorAModificarQuery = "Nombre";
-                    valorNuevoQuery = Holder.Nombre;
+                    valorNuevoQuery = heldItem.Nombre;
                     break;
 
-                case ValoresModificables.NumeroCuenta:
-                    numeroCuentaQuery = Holder.CuentaOriginal();
+                case ModifiableValues.ID:
+                    numeroCuentaQuery = heldItem.CuentaOriginal();
                     valorAModificarQuery = "NumeroCuenta";
-                    valorNuevoQuery = Holder.numeroCuenta.ToString();
+                    valorNuevoQuery = heldItem.numeroCuenta.ToString();
                     break;
 
-                case ValoresModificables.Plantel:
-                    numeroCuentaQuery = Holder.numeroCuenta;
+                case ModifiableValues.Campus:
+                    numeroCuentaQuery = heldItem.numeroCuenta;
                     valorAModificarQuery = "Plantel";
-                    valorNuevoQuery = Holder.plantel;
+                    valorNuevoQuery = heldItem.plantel;
                     break;
 
                 default:
                     throw new NotImplementedException();
             }
-            conexion.Open();
+            connection.Open();
 
-            SqlCeCommand cmd = new SqlCeCommand("UPDATE Alumnos SET " + valorAModificarQuery + " = N'" + valorNuevoQuery + "' WHERE (Alumnos.NumeroCuenta = " + numeroCuentaQuery.ToString() + ")", conexion);
+            SqlCeCommand cmd = new SqlCeCommand("UPDATE Alumnos SET " + valorAModificarQuery + " = N'" + valorNuevoQuery + "' WHERE (Alumnos.NumeroCuenta = " + numeroCuentaQuery.ToString() + ")", connection);
 
             try
             {
                 cmd.ExecuteNonQuery();
-                MessageBox.Show(modificar.ToString() + " modificado por " + valorNuevoQuery + ".");
+                MessageBox.Show(ModifiableValues.Value[modificar] + " modificado por " + valorNuevoQuery + ".");
             }
             catch (System.InvalidOperationException ex)
             {
                 MessageBoxResult mes = MessageBox.Show("Query: " + cmd.CommandText + " - " + ex.ToString());
-                conexion.Close();
+                connection.Close();
                 return false;
             }
             catch (SqlCeException ex)
             {
                 MessageBoxResult mes = MessageBox.Show("Query: " + cmd.CommandText + " - " + ex.ToString());
-                conexion.Close();
+                connection.Close();
                 return false;
             }
-            conexion.Close();
+            connection.Close();
             return true;
         }
 
-        public bool AddToDB()
+        public override bool AddToDB()
         {
             if (!Active()) return false;
-            conexion.Open();
-            SqlCeCommand cmd = new SqlCeCommand("INSERT INTO Alumnos(NumeroCuenta, Nombre, Plantel)VALUES(@cuenta, @nombre, @plantel)", conexion);
-            cmd.Parameters.AddWithValue("@cuenta", Holder.numeroCuenta);
-            cmd.Parameters.AddWithValue("@nombre", Holder.Nombre);
-            cmd.Parameters.AddWithValue("@plantel", Holder.plantel);
+            connection.Open();
+            SqlCeCommand cmd = new SqlCeCommand("INSERT INTO Alumnos(NumeroCuenta, Nombre, Plantel)VALUES(@cuenta, @nombre, @plantel)", connection);
+            cmd.Parameters.AddWithValue("@cuenta", heldItem.numeroCuenta);
+            cmd.Parameters.AddWithValue("@nombre", heldItem.Nombre);
+            cmd.Parameters.AddWithValue("@plantel", heldItem.plantel);
             try
             {
                 cmd.ExecuteNonQuery();
@@ -144,35 +127,37 @@ namespace Asistencias_wpf
             catch (System.InvalidOperationException ex)
             {
                 MessageBoxResult mes = MessageBox.Show(ex.ToString());
-                conexion.Close();
+                connection.Close();
                 return false;
             }
             catch (SqlCeException ex)
             {
                 MessageBoxResult mes = MessageBox.Show(ex.ToString());
-                conexion.Close();
+                connection.Close();
                 return false;
             }
-            conexion.Close();
+            connection.Close();
             return true;
         }
 
-        public void cuentaModificada(object sender, PropertyChangedEventArgs e)
+        public override void itemModified(object sender, PropertyChangedEventArgs e)
         {
-            Holder = (Asistente)sender;
+            base.itemModified(sender, e);
             switch (e.PropertyName)
             {
                 case "Nombre":
-                    modificarDato(ValoresModificables.Nombre);
+                    modificarDato(ModifiableValues.Name);
                     break;
 
                 case "Cuenta":
-                    modificarDato(ValoresModificables.NumeroCuenta);
+                    modificarDato(ModifiableValues.ID);
                     break;
 
                 case "Plantel":
-                    modificarDato(ValoresModificables.Plantel);
+                    modificarDato(ModifiableValues.Campus);
                     break;
+                default:
+                    throw new NotImplementedException(e.PropertyName+" hasn't been implemented.");
             }
             Clear();
         }
