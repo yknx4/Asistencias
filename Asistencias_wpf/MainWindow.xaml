@@ -51,7 +51,7 @@
 
 
 
-            <TabControl HorizontalAlignment="Left" Height="Auto" Margin="0,0,0,0" VerticalAlignment="Top" Width="Auto" DockPanel.Dock="Top" >
+            <TabControl Height="Auto" Margin="0,0,0,0" Width="Auto" DockPanel.Dock="Top" >
                 <TabItem Header="Asistencia">
 
                     <Grid Background="#FFE5E5E5">
@@ -103,7 +103,7 @@
                 <TabItem Header="Lista">
                     <Grid Background="#FFE5E5E5"  DataContext="{StaticResource asistenteViewSource}">
                         <Grid.RowDefinitions>
-                            <RowDefinition Height="*" />
+                            <RowDefinition Height="auto" />
                             <RowDefinition Height="*" />
                             <!-- <RowDefinition Height="*"></RowDefinition>
                         <RowDefinition Height="*"></RowDefinition>-->
@@ -119,7 +119,11 @@
                             </StackPanel>
                         </Grid>
 
+<<<<<<< HEAD
                         <DataGrid x:Name="gdAsistencias" Grid.Row="1" Margin="0,0,0,0" Grid.RowSpan="2" CanUserReorderColumns="False" AutoGenerateColumns="True" ItemsSource="{Binding Asistentes}" Visibility="Hidden" AutoGeneratingColumn="generatingColumn" SelectedCellsChanged="selectedCellsChange" CanUserAddRows="False" CanUserDeleteRows="False" LostFocus="lostFocusInRow" />
+=======
+                        <DataGrid x:Name="gdAsistencias" Grid.Row="1" Margin="0,0,0,0" CanUserReorderColumns="False" AutoGenerateColumns="True" ItemsSource="{Binding Asistentes}" Visibility="Hidden" AutoGeneratingColumn="generatingColumn" SelectedCellsChanged="selectedCellsChange" CanUserAddRows="False" CanUserDeleteRows="False" LostFocus="lostFocusInRow" />
+>>>>>>> 74153cfb7a1ceb61fb8d24969b49285a6b26fcce
                     </Grid>
                 </TabItem>
             </TabControl>
