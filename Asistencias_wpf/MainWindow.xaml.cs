@@ -6,6 +6,9 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using MahApps.Metro.Controls;
+using Microsoft.Win32;
+using System.Text.RegularExpressions;
+
 
 namespace Asistencias_wpf
 {
@@ -66,20 +69,13 @@ namespace Asistencias_wpf
         {
             Sender.Show();
         }
-
-        private void anadirAsistencia()
+        private void anadirAsistencia(int numeroCuenta)
         {
             Asistente ResultHolder;
-
-            if (txtCuenta.Text == "")
-            {
-                txtCuenta.Focus();
-                return;
-            }
-
+            
             // int tmpCuenta;
 
-            ResultHolder = buscarAsistente(txtCuenta.Text);
+            ResultHolder = buscarAsistente(numeroCuenta);
             if (ResultHolder != null)
             {
                 asistenteManager.setItem(ResultHolder);
@@ -99,6 +95,30 @@ namespace Asistencias_wpf
             {
                 lblEstado.Content = "Esa cuenta no existe.";
             }
+
+        }
+        private void anadirAsistencia()
+        {
+            int noCuenta;
+            if (txtCuenta.Text == "" || int.TryParse(txtCuenta.Text,out noCuenta))
+            {
+                txtCuenta.Focus();
+                return;
+            }
+            anadirAsistencia(noCuenta);
+
+        }
+
+        private void anadirAsistencia(string cuenta)
+        {
+            int noCuenta;
+            if (!int.TryParse(cuenta, out noCuenta))
+            {
+                MessageBox.Show(cuenta + " no es un número válido.");    
+                return;
+            }
+            anadirAsistencia(noCuenta);
+            
         }
 
         private void btnAnadirAsis(object sender, RoutedEventArgs e)
@@ -135,11 +155,8 @@ namespace Asistencias_wpf
             {
                 return null;
             }
-            Asistente _result = asistentes.Find(delegate(Asistente bq)
-            {
-                return bq.numeroCuenta == noCuenta;
-            });
-            return _result;
+            
+            return buscarAsistente(noCuenta);
         }
 
         private void generatingColumn(object sender, DataGridAutoGeneratingColumnEventArgs e)
@@ -346,6 +363,53 @@ namespace Asistencias_wpf
             // System.Windows.Data.CollectionViewSource asistenteViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("asistenteViewSource")));
             // Load data by setting the CollectionViewSource.Source property:
             // asistenteViewSource.Source = [generic data source]
+        }
+
+        private void btnLoad_click(object sender, RoutedEventArgs e)
+        {
+            List<String> cuentas = new List<String>();
+            bool cargar;
+            char[] separadores = {'\t','\n',' ','\r' };
+            OpenFileDialog fileDialog = new OpenFileDialog();
+            fileDialog.Multiselect = false;
+            bool? userClickedOK = fileDialog.ShowDialog();
+
+            // Process input if the user clicked OK.
+            if (userClickedOK == true)
+            {
+                // Open the selected file to read.
+                System.IO.Stream fileStream = fileDialog.OpenFile();
+
+                using (System.IO.StreamReader reader = new System.IO.StreamReader(fileStream))
+                {
+                    // Read the first line from the file and write it the textbox.
+                    cuentas.AddRange(reader.ReadToEnd().Split(separadores));
+                }
+                for (int i = 0; i < cuentas.Count; i++)
+                {
+                    //return new string(input.Where(c => char.IsDigit(c)).ToArray());
+                    cuentas[i] = Regex.Replace(cuentas[i], "[^0-9]", "");
+                    if (cuentas[i].Trim().Trim(separadores).Length == 0)
+                    {
+                        cuentas.Remove(cuentas[i]);
+                    }
+                }
+                fileStream.Close();
+                BatchLoadForm load = new BatchLoadForm(cuentas.ToArray());
+                load.ShowDialog();
+                cargar = load.Ok;
+                load.Close();
+                if (cargar)
+                {
+                    foreach (string cuenta in cuentas)
+                    {
+                        anadirAsistencia(cuenta);
+                    }
+                }
+            }
+
+            
+            
         }
     }
 }

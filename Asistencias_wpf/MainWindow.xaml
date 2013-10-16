@@ -13,13 +13,34 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedTabControl.xaml"></ResourceDictionary>
+                <ResourceDictionary Source="/Resources/Icons.xaml" />
+
             </ResourceDictionary.MergedDictionaries>
             <CollectionViewSource x:Key="asistenteViewSource" d:DesignSource="{d:DesignInstance {x:Type local:Asistente}, CreateList=True}" />
         </ResourceDictionary>
         
     </Window.Resources>
+    <Controls:MetroWindow.WindowCommands>
+        <Controls:WindowCommands>
+            <Button Content="load file" Click="btnLoad_click" />
+            <!--<Button>
+                <StackPanel Orientation="Horizontal">
+                    <Rectangle Width="20" Height="20">
+                        <Rectangle.Resources>
+                            <SolidColorBrush x:Key="BlackBrush" Color="White" />
+                        </Rectangle.Resources>
+                        <Rectangle.Fill>
+                            <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_cupcake}" />
+                        </Rectangle.Fill>
+                    </Rectangle>
+                    <TextBlock Text="deploy cupcakes" />
+                </StackPanel>
+            </Button>-->
+        </Controls:WindowCommands>
+    </Controls:MetroWindow.WindowCommands>
 
     <Grid>
         <!--<Grid.RowDefinitions>
@@ -98,7 +119,7 @@
                             </StackPanel>
                         </Grid>
 
-                        <DataGrid x:Name="gdAsistencias" Grid.Row="1" HorizontalAlignment="Left" Margin="0,0,0,0" VerticalAlignment="Top" Grid.RowSpan="2" CanUserReorderColumns="False" AutoGenerateColumns="True" ItemsSource="{Binding Asistentes}" Visibility="Hidden" AutoGeneratingColumn="generatingColumn" SelectedCellsChanged="selectedCellsChange" CanUserAddRows="False" CanUserDeleteRows="False" LostFocus="lostFocusInRow" />
+                        <DataGrid x:Name="gdAsistencias" Grid.Row="1" Margin="0,0,0,0" Grid.RowSpan="2" CanUserReorderColumns="False" AutoGenerateColumns="True" ItemsSource="{Binding Asistentes}" Visibility="Hidden" AutoGeneratingColumn="generatingColumn" SelectedCellsChanged="selectedCellsChange" CanUserAddRows="False" CanUserDeleteRows="False" LostFocus="lostFocusInRow" />
                     </Grid>
                 </TabItem>
             </TabControl>
