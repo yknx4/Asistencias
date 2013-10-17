@@ -3,7 +3,7 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:local="clr-namespace:Asistencias_wpf" mc:Ignorable="d" x:Class="Asistencias_wpf.MainWindow"
         Title="Club"  Loaded="Window_Loaded_1" Closed="alCerrar" Icon="icon.ico"
-        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" Width="360" Height="240"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro" Width="360" Height="240" MinWidth="360" MinHeight="240"
 
     >
     <Window.Resources>
@@ -13,7 +13,7 @@
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Fonts.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/Blue.xaml" />
-                <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/FlatButton.xaml" />
+                
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Accents/BaseLight.xaml" />
                 <ResourceDictionary Source="pack://application:,,,/MahApps.Metro;component/Styles/Controls.AnimatedTabControl.xaml"></ResourceDictionary>
                 <ResourceDictionary Source="/Resources/Icons.xaml" />
@@ -25,20 +25,20 @@
     </Window.Resources>
     <Controls:MetroWindow.WindowCommands>
         <Controls:WindowCommands>
-            <Button Content="load file" Click="btnLoad_click" />
-            <!--<Button>
-                <StackPanel Orientation="Horizontal">
-                    <Rectangle Width="20" Height="20">
+
+            <Button Click="btnLoad_click" >
+                <StackPanel Orientation="Horizontal" Margin="2.5" >
+                    <Rectangle Width="15" Height="15">
                         <Rectangle.Resources>
                             <SolidColorBrush x:Key="BlackBrush" Color="White" />
                         </Rectangle.Resources>
                         <Rectangle.Fill>
-                            <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_cupcake}" />
+                            <VisualBrush Stretch="Fill" Visual="{StaticResource appbar_upload}" />
                         </Rectangle.Fill>
                     </Rectangle>
-                    <TextBlock Text="deploy cupcakes" />
                 </StackPanel>
-            </Button>-->
+            </Button>
+            <Button x:Name="btnSett" Content="configuración" Click="clickEdit"/>
         </Controls:WindowCommands>
     </Controls:MetroWindow.WindowCommands>
 
@@ -119,11 +119,9 @@
                             </StackPanel>
                         </Grid>
 
-<<<<<<< HEAD
+
                         <DataGrid x:Name="gdAsistencias" Grid.Row="1" Margin="0,0,0,0" Grid.RowSpan="2" CanUserReorderColumns="False" AutoGenerateColumns="True" ItemsSource="{Binding Asistentes}" Visibility="Hidden" AutoGeneratingColumn="generatingColumn" SelectedCellsChanged="selectedCellsChange" CanUserAddRows="False" CanUserDeleteRows="False" LostFocus="lostFocusInRow" />
-=======
-                        <DataGrid x:Name="gdAsistencias" Grid.Row="1" Margin="0,0,0,0" CanUserReorderColumns="False" AutoGenerateColumns="True" ItemsSource="{Binding Asistentes}" Visibility="Hidden" AutoGeneratingColumn="generatingColumn" SelectedCellsChanged="selectedCellsChange" CanUserAddRows="False" CanUserDeleteRows="False" LostFocus="lostFocusInRow" />
->>>>>>> 74153cfb7a1ceb61fb8d24969b49285a6b26fcce
+
                     </Grid>
                 </TabItem>
             </TabControl>

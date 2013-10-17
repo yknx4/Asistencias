@@ -39,15 +39,28 @@ namespace Asistencias_wpf
             this.parcial = parcial;
             this.clubSeleccionado = seleccionado;
             populator = new AsistentesPopulator(conn, parcial, seleccionado);
-            InitializeComponent();
+            try
+            {
+                InitializeComponent();
+            }
+            catch (System.Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
+                throw;
+            }
+            
             asistentes = populator.Asistentes;
             lblEstado.Content = "Cargados " + asistentes.Count + " alumnos.";
 
             this.Title = seleccionado.Nombre;
+            
         }
 
         private void acreditadosClk(object sender, RoutedEventArgs e)
         {
+            if (this.Width<1000) this.Width= 1000;
+            if (this.Height < 550) this.Height = 550;
+            
             populator.generarLista();
             populator.generarAcreditados();
             acreditados = populator.Acreditados;
@@ -100,7 +113,7 @@ namespace Asistencias_wpf
         private void anadirAsistencia()
         {
             int noCuenta;
-            if (txtCuenta.Text == "" || int.TryParse(txtCuenta.Text,out noCuenta))
+            if (txtCuenta.Text == "" || !int.TryParse(txtCuenta.Text,out noCuenta))
             {
                 txtCuenta.Focus();
                 return;
@@ -363,6 +376,14 @@ namespace Asistencias_wpf
             // System.Windows.Data.CollectionViewSource asistenteViewSource = ((System.Windows.Data.CollectionViewSource)(this.FindResource("asistenteViewSource")));
             // Load data by setting the CollectionViewSource.Source property:
             // asistenteViewSource.Source = [generic data source]
+            //MessageBox.Show(btnSett.ActualWidth.ToString() + " w  y h " + btnSett.ActualHeight.ToString());
+        }
+
+        private void clickEdit(object sender, RoutedEventArgs e)
+        {
+            ModificarClub ventanaModificar = new ModificarClub(this,clubSeleccionado);
+            ventanaModificar.ShowDialog();
+            
         }
 
         private void btnLoad_click(object sender, RoutedEventArgs e)

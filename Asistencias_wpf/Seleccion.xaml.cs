@@ -113,11 +113,11 @@ namespace Asistencias_wpf
             this.Hide();
         }
 
-        private void clickEdit(object sender, RoutedEventArgs e)
+        private void hideOrShows(object sender, DependencyPropertyChangedEventArgs e)
         {
-            ModificarClub ventanaModificar = new ModificarClub(this, (Club)cmbClub.SelectedItem);
-            ventanaModificar.Show();
-            this.Hide();
+            Refresh();
         }
+
+        
     }
 }

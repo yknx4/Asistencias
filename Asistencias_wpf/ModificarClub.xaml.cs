@@ -10,12 +10,12 @@ namespace Asistencias_wpf
     /// </summary>
     public partial class ModificarClub : Window
     {
-        private Seleccion Sender;
+        private Window Sender;
         private SqlCeConnection conn = new SqlCeConnection(@"Data Source=|DataDirectory|\Alumnos.sdf");
         private ClubDBManager clubManager;
         private Club selected;
 
-        public ModificarClub(Seleccion Sender, Club selected)
+        public ModificarClub(Window Sender, Club selected)
         {
             this.Sender = Sender;
             clubManager = new ClubDBManager(conn);
@@ -33,7 +33,7 @@ namespace Asistencias_wpf
 
         private void alCerrar(object sender, EventArgs e)
         {
-            Sender.Show();
+            
         }
 
         private void sliderChange(object sender, RoutedPropertyChangedEventArgs<double> e)
@@ -62,9 +62,7 @@ namespace Asistencias_wpf
             }
             if (!selected.Nombre.Equals(txtNombre.Text)) selected.Nombre = txtNombre.Text;
             if (selected.Parciales != (int)sldParciales.Value) selected.Parciales = (int)sldParciales.Value;
-            if (selected.AsistenciasParaParcial != (int)sldAssist.Value) selected.AsistenciasParaParcial = (int)sldAssist.Value;
-            Sender.Show();
-            Sender.Refresh();
+            if (selected.AsistenciasParaParcial != (int)sldAssist.Value) selected.AsistenciasParaParcial = (int)sldAssist.Value;           
             this.Close();
         }
 
@@ -76,10 +74,7 @@ namespace Asistencias_wpf
                 //MessageBox.Show("SI");
                 if (clubManager.RemoveFromDB())
                 {
-                    Sender.cmbClub.SelectedIndex = 0;
-                    Sender.cmbClub.Items.Remove(selected);
-                    Sender.Show();
-                    Sender.Refresh();
+                    Sender.Close();
                     this.Close();
                 }
                 else
