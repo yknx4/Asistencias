@@ -53,6 +53,7 @@ namespace Asistencias_wpf
             lblEstado.Content = "Cargados " + asistentes.Count + " alumnos.";
 
             this.Title = seleccionado.Nombre;
+            tbLog.Focus();
             
         }
 
@@ -431,6 +432,11 @@ namespace Asistencias_wpf
 
             
             
+        }
+
+        private void status_labelUptade(object sender, TextCompositionEventArgs e)
+        {
+            lstLog.Items.Add(e.Text);
         }
     }
 }
